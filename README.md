@@ -1,9 +1,10 @@
-AeiaOTS [![Build Status](https://travis-ci.org/dominique120/AeiaOTS.png?branch=master)](https://travis-ci.org/dominique120/AeiaOTS)
+AeiaOTS
 =======
 
 AeiaOTS
 
 Evo based server with staged exp
+First EVO to ever use protocol 10.x and TFS 1.0
 
 
 To find the config.lua, mods, and EXE files go to the bin/ folder.
