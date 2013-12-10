@@ -36,18 +36,18 @@
 		<voice sentence="Wanna buy roses??"/>
   </voices>
   <loot>
-    <item id="2148" countmax="9" chance1="30000" chancemax="0"/> --Gold
-    <item id="2666" countmax="3" chance1="19000"/> --Meat
-    <item id="2237" chance="27000"/> --Dirty Cape
-    <item id="2744" chance="11000"/> --Red Rose
-    <item id="2370" chance="8000"/> --Lute
+    <item id="2148" countmax="9" chance1="30000" chancemax="0"/> 
+    <item id="2666" countmax="3" chance1="19000"/> 
+    <item id="2237" chance="27000"/> 
+    <item id="2744" chance="11000"/> 
+    <item id="2370" chance="8000"/> 
     <item id="1987" chance="100000">
       <inside>
-	    <item id="2690" countmax="1" chance1="11290"/> --Roll
-        <item id="2567" chance="33000"/> --Wooden Spoon
-        <item id="1681" chance="5500"/> --Blue Pillow
-        <item id="2213" chance="1500"/> --Dwarven ring
-		<item id="9808" chance="3500"/> --Rusty Armor
+	    <item id="2690" countmax="1" chance1="11290"/> 
+        <item id="2567" chance="33000"/> 
+        <item id="1681" chance="5500"/> 
+        <item id="2213" chance="1500"/> 
+		<item id="9808" chance="3500"/> 
       </inside>
     </item>
   </loot>

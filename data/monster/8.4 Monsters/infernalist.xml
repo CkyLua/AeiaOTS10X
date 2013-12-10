@@ -67,25 +67,25 @@
 	<voice sentence="It's cooking time!"/>
   </voices>
   <loot>
-    <item id="2148" countmax="70" chance1="100000" chancemax="0"/> --Gold
-	<item id="2148" countmax="45" chance1="100000" chancemax="0"/> -- Gold
-    <item id="8840" countmax="5" chance1="8500" /> -- Raspberry
-    <item id="7590" chance="21000"/> --GMP
-    <item id="7591" chance="21000"/> --GHP
-	<item id="7891" chance="300"/> -- Magma boots
-	<item id="2436" chance="6400"/> --Skull Staff
-	<item id="5904" chance="500"/> --Magic sulphur
-    <item id="1987" chance="100000"> -- Bag
+    <item id="2148" countmax="70" chance1="100000" chancemax="0"/> 
+	<item id="2148" countmax="45" chance1="100000" chancemax="0"/> 
+    <item id="8840" countmax="5" chance1="8500" /> 
+    <item id="7590" chance="21000"/> 
+    <item id="7591" chance="21000"/> 
+	<item id="7891" chance="300"/> 
+	<item id="2436" chance="6400"/> 
+	<item id="5904" chance="500"/> 
+    <item id="1987" chance="100000"> 
       <inside>
-	  <item id="9969" chance="500"/> --Black Skull
-	  <item id="1986" chance="500"/> --Red Tome
-        <item id="7760" countmax="1" chance1="5600"/> -- Small enchanted ruby
-        <item id="9980" chance="300"/> --Crystal of power
-		<item id="2167" chance="1500"/> --Energy ring        
-        <item id="2114" chance="300"/> --Piggy bank
-		<item id="9958" chance="500"/> --Royal Tapestry
-        <item id="7410" chance="200"/> --Queens sceptre
-		<item id="8092" chance="500"/> --Spellbook of mind control
+	  <item id="9969" chance="500"/> 
+	  <item id="1986" chance="500"/> 
+        <item id="7760" countmax="1" chance1="5600"/> 
+        <item id="9980" chance="300"/> 
+		<item id="2167" chance="1500"/>        
+        <item id="2114" chance="300"/>
+		<item id="9958" chance="500"/> 
+        <item id="7410" chance="200"/> 
+		<item id="8092" chance="500"/> 
       </inside>
     </item>
   </loot>

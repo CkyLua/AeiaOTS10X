@@ -1,24 +1,33 @@
--- Advanced NPC System (Created by Jiddo),
--- Modified by Talaturen.
+-- Advanced NPC System by Jiddo
+
+shop_amount = {}
+shop_cost = {}
+shop_rlname = {}
+shop_itemid = {}
+shop_container = {}
+shop_npcuid = {}
+shop_eventtype = {}
+shop_subtype = {}
+shop_destination = {}
+shop_premium = {}
+
+npcs_loaded_shop = {}
+npcs_loaded_travel = {}
 
 if(NpcSystem == nil) then
 	-- Loads the underlying classes of the npcsystem.
-	dofile(getDataDir() .. 'npc/lib/npcsystem/keywordhandler.lua')
-	dofile(getDataDir() .. 'npc/lib/npcsystem/queue.lua')
-	dofile(getDataDir() .. 'npc/lib/npcsystem/npchandler.lua')
-	dofile(getDataDir() .. 'npc/lib/npcsystem/modules.lua')
+	dofile('data/npc/lib/npcsystem/keywordhandler.lua')
+	dofile('data/npc/lib/npcsystem/npchandler.lua')
+	dofile('data/npc/lib/npcsystem/modules.lua')
 
 	-- Global npc constants:
 
-	-- Keyword nestling behavior. For more information look at the top of keywordhandler.lua
-	KEYWORD_BEHAVIOR = BEHAVIOR_NORMAL_EXTENDED
-
 	-- Greeting and unGreeting keywords. For more information look at the top of modules.lua
-	FOCUS_GREETWORDS = {'hi', 'hello', 'hey'}
-	FOCUS_FAREWELLWORDS = {'bye', 'farewell', 'cya'}
+	FOCUS_GREETWORDS = {'hi', 'hello'}
+	FOCUS_FAREWELLWORDS = {'bye', 'farewell'}
 
 	-- The word for requesting trade window. For more information look at the top of modules.lua
-	SHOP_TRADEREQUEST = {'offer', 'trade'}
+	SHOP_TRADEREQUEST = {'trade'}
 
 	-- The word for accepting/declining an offer. CAN ONLY CONTAIN ONE FIELD! For more information look at the top of modules.lua
 	SHOP_YESWORD = {'yes'}
@@ -30,16 +39,12 @@ if(NpcSystem == nil) then
 	-- Talkdelay behavior. For more information, look at the top of npchandler.lua.
 	NPCHANDLER_TALKDELAY = TALKDELAY_ONTHINK
 
-	-- Conversation behavior. For more information, look at the top of npchandler.lua.
-	NPCHANDLER_CONVBEHAVIOR = CONVERSATION_PRIVATE
-
 	-- Constant strings defining the keywords to replace in the default messages.
 	--	For more information, look at the top of npchandler.lua...
 	TAG_PLAYERNAME = '|PLAYERNAME|'
 	TAG_ITEMCOUNT = '|ITEMCOUNT|'
 	TAG_TOTALCOST = '|TOTALCOST|'
 	TAG_ITEMNAME = '|ITEMNAME|'
-	TAG_QUEUESIZE = '|QUEUESIZE|'
 
 	NpcSystem = {}
 
@@ -131,10 +136,6 @@ if(NpcSystem == nil) then
 		if(ret ~= nil) then
 			npcHandler:setMessage(MESSAGE_ALREADYFOCUSED, ret)
 		end
-		local ret = NpcSystem.getParameter('message_placedinqueue')
-		if(ret ~= nil) then
-			npcHandler:setMessage(MESSAGE_PLACEDINQUEUE, ret)
-		end
 		local ret = NpcSystem.getParameter('message_buy')
 		if(ret ~= nil) then
 			npcHandler:setMessage(MESSAGE_BUY, ret)
@@ -151,14 +152,24 @@ if(NpcSystem == nil) then
 		if(ret ~= nil) then
 			npcHandler:setMessage(MESSAGE_SOLD, ret)
 		end
+		local ret = NpcSystem.getParameter('message_walkaway_male')
+		if(ret ~= nil) then
+			npcHandler:setMessage(MESSAGE_WALKAWAY_MALE, ret)
+		end
+		local ret = NpcSystem.getParameter('message_walkaway_female')
+		if(ret ~= nil) then
+			npcHandler:setMessage(MESSAGE_WALKAWAY_FEMALE, ret)
+		end
 
 		-- Parse modules.
 		for parameter, module in pairs(Modules.parseableModules) do
 			local ret = NpcSystem.getParameter(parameter)
 			if(ret ~= nil) then
 				local number = tonumber(ret)
-				if(number ~= nil and number ~= 0) then
-					npcHandler:addModule(module:new())
+				if(number ~= 0 and module.parseParameters ~= nil) then
+					local instance = module:new()
+					npcHandler:addModule(instance)
+					instance:parseParameters()
 				end
 			end
 		end

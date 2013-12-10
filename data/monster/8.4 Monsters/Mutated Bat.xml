@@ -40,18 +40,18 @@
 	<voices interval="2500" chance="10">
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance1="100000" chancemax="0"/> -- gps
-		<item id="2148" countmax="60" chance1="100000" chancemax="0"/> -- gps 
-		<item id="2800" chance="13000"/> --Star Herb
-		<item id="5894" countmax="2" chance1="5500"/> --Bat Wing
+		<item id="2148" countmax="50" chance1="100000" chancemax="0"/> 
+		<item id="2148" countmax="60" chance1="100000" chancemax="0"/>
+		<item id="2800" chance="13000"/> 
+		<item id="5894" countmax="2" chance1="5500"/>
 		<item id="1987" chance="100000">
 			<inside>
-				<item id="2513" chance="13500"/> - Battle Shield
-				<item id="2150" countmax="2" chance1="5800"/> --Small Amethyst
-				<item id="2144" countmax="3" chance1="8300"/> --Black Pearl
-				<item id="7386" chance="1300"/> -- Mercenary SWord
-				<item id="2165" chance="3250"/> -- stealth ring
-				<item id="10016" chance="950"/> -- Batwing hat 
+				<item id="2513" chance="13500"/> 
+				<item id="2150" countmax="2" chance1="5800"/> 
+				<item id="2144" countmax="3" chance1="8300"/> 
+				<item id="7386" chance="1300"/> 
+				<item id="2165" chance="3250"/>
+				<item id="10016" chance="950"/> 
 			</inside>
 		</item>
 	</loot>

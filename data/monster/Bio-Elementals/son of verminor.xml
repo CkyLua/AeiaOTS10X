@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="22" attack="120" poison="150"/>
+		<attack name="melee" interval="2000" skill="105" attack="80" poison="150"/>
 		<attack name="poisonfield" interval="1000" chance="17" range="7" radius="1" target="1">
 			<attribute key="shootEffect" value="poison"/>
 		</attack>
@@ -27,7 +27,14 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="20"/>
+	<elements>
+		<element energyPercent="20"/>
+		<element firePercent="10"/>
+	</elements>
 	<immunities>
-		<immunity poison="1"/>
+		<immunity earth="1"/>
 	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Blubb"/>
+	</voices>
 </monster>

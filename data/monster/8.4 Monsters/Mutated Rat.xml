@@ -51,20 +51,20 @@
 		<voice sentence="Fcccccchhhhhh"/>
 	</voices>
   <loot>
-    <item id="2148" countmax="90" chance1="70000" chancemax="0"/> -- Gold
-    <item id="2148" countmax="38" chance1="30000" chancemax="0"/> -- Gold
-    <item id="2320" chance="23500"/> --skull
-    <item id="2335" chance="10500"/> --moldy cheese
-    <item id="2799" chance="3000"/> --stone herb
-    <item id="2796" countmax="1" chance1="2500" /> -- green mushroom
-    <item id="7618" chance="500"/> --hp
-    <item id="1987" chance="100000"> -- Bag
+    <item id="2148" countmax="90" chance1="70000" chancemax="0"/> 
+    <item id="2148" countmax="38" chance1="30000" chancemax="0"/> 
+    <item id="2320" chance="23500"/> 
+    <item id="2335" chance="10500"/> 
+    <item id="2799" chance="3000"/> 
+    <item id="2796" countmax="1" chance1="2500" /> 
+    <item id="7618" chance="500"/> 
+    <item id="1987" chance="100000"> 
       <inside>
-        <item id="2510" countmax="1" chance1="4000"/> --plate shield
-        <item id="2381" chance="6000"/> --halberd
-	<item id="2165" chance="1000"/> --stealth ring        
-        <item id="8900" chance="500"/> --spellbook of enlightenment
-        <item id="2528" chance="500"/> --tower shield
+        <item id="2510" countmax="1" chance1="4000"/> 
+        <item id="2381" chance="6000"/> 
+	<item id="2165" chance="1000"/>      
+        <item id="8900" chance="500"/> 
+        <item id="2528" chance="500"/>  
       </inside>
     </item>
   </loot>

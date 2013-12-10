@@ -56,17 +56,17 @@
 	<summon name="ice golem" interval="2000" chance="25"/>
   </summons>
   <loot>
-    <item id="2148" countmax="80" chance1="100000" chancemax="0"/> --Gold Coins
-    <item id="7290" chance="100000"/> --Shard  
-	<item id="5912" chance="28000"/> -Blue piece of cloth
-	<item id="7387" chance="7777"/> --Diamond Sceptre
-    <item id="1987" chance="100000"> --Bag
+    <item id="2148" countmax="80" chance1="100000" chancemax="0"/> 
+    <item id="7290" chance="100000"/>  
+	<item id="5912" chance="28000"/> 
+	<item id="7387" chance="7777"/> 
+    <item id="1987" chance="100000">
       <inside>
-        <item id="7896" chance="25000"/> --Glacier Kilt
-		<item id="7897" chance="21000"/> --Glacier robe
-        <item id="2195" chance="13777"/> --Boots of haste
-        <item id="7459" chance="9090"/> --Ear Muffs 
-		<item id="7410" chance="7777"/> --Queen Sceptre
+        <item id="7896" chance="25000"/> 
+		<item id="7897" chance="21000"/> 
+        <item id="2195" chance="13777"/> 
+        <item id="7459" chance="9090"/> 
+		<item id="7410" chance="7777"/> 
       </inside>
     </item>
   </loot>

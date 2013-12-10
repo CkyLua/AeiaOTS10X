@@ -48,18 +48,18 @@
 		<voice sentence="CHHHHHHHHHHH"/>
 	</voices>
   <loot>
-    <item id="2148" countmax="96" chance1="100000" chancemax="0"/> -- Gold
-    <item id="2666" countmax="4" chance1="100000" chancemax="0"/> -- meat
-	<item id="2671" countmax="2" chance1="40000" chancemax="0"/> -- ham
-    <item id="7588" chance="1000"/> --shp
-    <item id="1987" chance="100000"> -- Bag
+    <item id="2148" countmax="96" chance1="100000" chancemax="0"/> 
+    <item id="2666" countmax="4" chance1="100000" chancemax="0"/> 
+	<item id="2671" countmax="2" chance1="40000" chancemax="0"/> 
+    <item id="7588" chance="1000"/>
+    <item id="1987" chance="100000"> 
       <inside>
-	  <item id="9959" chance="900"/> --silky tapestry
-        <item id="2509" countmax="1" chance1="5000"/> --steel shield
-        <item id="2515" chance="450"/> --guardian shield
-	<item id="2168" chance="2000"/> --life ring        
+	  <item id="9959" chance="900"/> 
+        <item id="2509" countmax="1" chance1="5000"/>
+        <item id="2515" chance="450"/> 
+	<item id="2168" chance="2000"/>         
    
-        <item id="7436" chance="200"/> --angelic axe
+        <item id="7436" chance="200"/> 
       </inside>
     </item>
   </loot>

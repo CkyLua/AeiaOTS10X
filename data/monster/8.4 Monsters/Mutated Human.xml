@@ -56,20 +56,20 @@
 		<voice sentence="Oh by the gods! What is this... aaaaaargh!"/>
 	</voices>
   <loot>
-    <item id="2148" countmax="46" chance1="40000" chancemax="0"/> -- Gold
-    <item id="3976" countmax="3" chance1="65500" /> -- worms
-    <item id="2696" chance="8000"/> --cheese
-    <item id="2226" chance="8500"/> --fishbone
-    <item id="2484" countmax="1" chance1="11000" /> -- studded armor
-    <item id="2801" chance="1000"/> --fern
-    <item id="1987" chance="100000"> -- Bag
+    <item id="2148" countmax="46" chance1="40000" chancemax="0"/>
+    <item id="3976" countmax="3" chance1="65500" />
+    <item id="2696" chance="8000"/>
+    <item id="2226" chance="8500"/> 
+    <item id="2484" countmax="1" chance1="11000" /> 
+    <item id="2801" chance="1000"/> 
+    <item id="1987" chance="100000"> 
       <inside>
-        <item id="2406" countmax="1" chance1="8000"/> -- Short sword
-        <item id="2376" chance="5000"/> --sword
-	<item id="2170" chance="300"/> --silver amulet        
-        <item id="2161" chance="9500"/> --strange talisman
-        <item id="9808" chance="1000"/> --rusty armor
-        <item id="7910" chance="500"/> --peanut
+        <item id="2406" countmax="1" chance1="8000"/> 
+        <item id="2376" chance="5000"/> 
+	<item id="2170" chance="300"/>         
+        <item id="2161" chance="9500"/> 
+        <item id="9808" chance="1000"/> 
+        <item id="7910" chance="500"/> 
       </inside>
     </item>
   </loot>
