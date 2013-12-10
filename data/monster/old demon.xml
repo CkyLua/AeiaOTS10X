@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Old Demon" nameDescription="an old demon" race="fire" experience="4000" speed="240" manacost="0">
+	<health now="3700" max="3700"/>
+	<look type="201" head="0" body="0" legs="0" feet="0" corpse="2916"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="70" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="2500"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="110"/>
+		<attack name="manadrain" interval="1000" chance="13" range="7" min="-200" max="-300"/>
+		<attack name="manadrain" interval="1000" chance="6" radius="5" target="0" min="-350" max="-350">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="strength" interval="1000" chance="6" radius="5" target="0">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="90" defense="111">
+		<defense name="healing" interval="1000" chance="9" min="200" max="600">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="17" min="220" max="460">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="5" speedchange="500" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element deathPercent="50"/>
+		<element icePercent="-20"/>
+		<element holyPercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="1">
+		<summon name="dragon lord" interval="1000" chance="10" max="4"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Silence! I'll kill you!" yell="1"/>
+		<voice sentence="Buhahah!" yell="1"/>
+		<voice sentence="I'm back!" yell="1"/>
+		<voice sentence="I like pancakes!"/>
+		<voice sentence="You are stupid!!" yell="1"/>
+	</voices>
+	<loot capacity="5000">
+		<item id="2148" countmax="100" chance="99900"/>
+		<item id="2148" countmax="100" chance="88800"/>
+		<item id="2148" countmax="100" chance="77700"/>
+		<item id="2148" countmax="100" chance="66600"/>
+		<item id="8974" countmax="1" chance="8000"/>
+	</loot>
+</monster>

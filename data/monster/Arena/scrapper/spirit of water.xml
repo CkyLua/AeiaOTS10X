@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spirit of Water" nameDescription="the spirit of water" race="undead" experience="850" speed="410" manacost="0">
+  <health now="1430" max="1430"/>
+  <look type="11" head="20" body="30" legs="40" feet="50" corpse="7349"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag staticattack="78"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-400"/>  
+	<attack name="poisonfield" interval="3000" chance="20" target="1">
+		<attribute key="shootEffect" value="poison"/>
+	</attack>
+	<attack name="physical" radius="2" target="1" interval="3000" change="15" min="-150" max="-300">
+		<attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+		<attack name="energy" target="1" interval="2000" change="10" min="-0" max="-174">
+		<attribute key="shootEffect" value="snowball"/>
+    </attack>
+		<attack name="earth" radius="5" target="0" interval="3000" change="12" min="-0" max="-100">
+		<attribute key="areaEffect" value="greenbubble"/>
+    </attack>
+
+
+ </attacks>
+ <defenses armor="22" defense="24">
+    <defense name="healing" interval="3000" chance="17" min="80" max="140">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+		<voice sentence="Blubb"/>
+	</voices>
+  <elements>
+  <element energyPercent="-10"/>  
+  </elements>
+  <immunities>
+    <immunity ice="0"/>
+    <immunity fire="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+</monster>

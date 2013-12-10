@@ -1,0 +1,50 @@
+
+[14/11/2013 02:11:34] [Error - Action Interface] 
+[14/11/2013 02:11:34] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:34] Description: 
+[14/11/2013 02:11:34] (luaDoCreateMonster) Cannot create monster: Diabolic Imp
+
+[14/11/2013 02:11:37] [Error - Action Interface] 
+[14/11/2013 02:11:37] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:37] Description: 
+[14/11/2013 02:11:37] (luaDoCreateMonster) Cannot create monster: Demon Skeleton
+
+[14/11/2013 02:11:37] [Error - Action Interface] 
+[14/11/2013 02:11:37] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:37] Description: 
+[14/11/2013 02:11:37] (luaDoCreateMonster) Cannot create monster: Bonebeast
+
+[14/11/2013 02:11:40] [Error - Action Interface] 
+[14/11/2013 02:11:40] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:40] Description: 
+[14/11/2013 02:11:40] (luaDoCreateMonster) Cannot create monster: Dark Torturer
+
+[14/11/2013 02:11:40] [Error - Action Interface] 
+[14/11/2013 02:11:40] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:40] Description: 
+[14/11/2013 02:11:40] (luaDoCreateMonster) Cannot create monster: Demon
+
+[14/11/2013 02:11:40] [Error - Action Interface] 
+[14/11/2013 02:11:40] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:40] Description: 
+[14/11/2013 02:11:40] (luaDoCreateMonster) Cannot create monster: Demon
+
+[14/11/2013 02:11:44] [Error - Action Interface] 
+[14/11/2013 02:11:44] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:44] Description: 
+[14/11/2013 02:11:44] (luaDoCreateMonster) Cannot create monster: Dark Torturer
+
+[14/11/2013 02:11:44] [Error - Action Interface] 
+[14/11/2013 02:11:44] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:44] Description: 
+[14/11/2013 02:11:44] (luaDoCreateMonster) Cannot create monster: Banshee
+
+[14/11/2013 02:11:44] [Error - Action Interface] 
+[14/11/2013 02:11:44] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:44] Description: 
+[14/11/2013 02:11:44] (luaDoCreateMonster) Cannot create monster: Betrayed Wraith
+
+[14/11/2013 02:11:44] [Error - Action Interface] 
+[14/11/2013 02:11:44] data/actions/scripts/quests/demonOak.lua:onUse
+[14/11/2013 02:11:44] Description: 
+[14/11/2013 02:11:44] (luaDoCreateMonster) Cannot create monster: Blightwalker

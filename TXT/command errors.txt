@@ -1,0 +1,17 @@
+/adddays
+[20/10/2013 23:20:47] [Error - TalkAction Interface] 
+[20/10/2013 23:20:47] data/talkactions/scripts/adddays.lua:onSay
+[20/10/2013 23:20:47] Description: 
+[20/10/2013 23:20:47] data/talkactions/scripts/adddays.lua:32: attempt to concatenate field '?' (a nil value)
+[20/10/2013 23:20:47] stack traceback:
+[20/10/2013 23:20:47] 	data/talkactions/scripts/adddays.lua:32: in function <data/talkactions/scripts/adddays.lua:2>
+
+
+
+/check
+[20/10/2013 23:16:33] [Error - TalkAction Interface] 
+[20/10/2013 23:16:33] data/talkactions/scripts/antibot.lua:onSay
+[20/10/2013 23:16:33] Description: 
+[20/10/2013 23:16:33] data/talkactions/scripts/antibot.lua:58: attempt to call global 'isNumber' (a nil value)
+[20/10/2013 23:16:33] stack traceback:
+[20/10/2013 23:16:33] 	data/talkactions/scripts/antibot.lua:58: in function <data/talkactions/scripts/antibot.lua:55>

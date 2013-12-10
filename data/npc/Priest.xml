@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Priest" script="wedding.lua" walkinterval="0" floorchange="0">
+	
+	<health now="100" max="100"/>
+	<look type="140" head="79" body="68" legs="29" feet="114" addons="2"/>
+	
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want get marriage today? just say {marry}."/>
+	</parameters>
+
+</npc>
+

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Agent" nameDescription="an Agent" race="UNDEAD" experience="37000" speed="760" manacost="0">
+  <health now="47000" max="47000"/>
+  <look type="48" head="20" body="30" legs="40" feet="50" corpse="5993"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="98"/>
+    <flag runonhealth="1000"/>
+  </flags>
+  <attacks>
+  
+    <attack name="death" interval="2000" chance="12" range="7" min="-1260" max="-3560">
+      <attribute key="shootEffect" value="suddendeath"/>
+	   <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+	
+		<attack name="physical" interval="1700" chance="20" length="8" spread="3" min="-1700" max="-3600">      
+			<attribute key="areaEffect" value="redspark"/>    
+		</attack> 	
+		
+	<attack name="fire" interval="2000" chance="17" range="7" radius="4" target="1" min="-1300" max="-3200">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  
+    <attack name="melee" interval="1200" min="-440" max="-2070"/>
+    <attack name="lifedrain" interval="1000" chance="15" target="1" range="1" min="-600" max="-1480"/>
+  </attacks>
+  
+  <defenses armor="100" defense="95">
+    <defense name="healing" interval="1200" chance="25" min="3400" max="4400">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  
+<elements>
+		<element earthPercent="10"/>
+		<element energyPercent="10"/>
+	    <element deathPercent="10"/>
+		<element holyPercent="10"/>
+		<element icePercent="10"/>
+		<element icePercent="10"/>
+		<element psychicalPercent="22"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2500" chance="10">
+    <voice sentence="DSAKHWIQWREQHL!"/>
+    <voice sentence="DKLXCOPVIFSSFSFASFD!!!!!!"/>
+    <voice sentence="SWFDZSDGKHND"/>
+  </voices>
+  <loot>
+    <item id="2642" chance="5000"/>
+    <item id="2654" chance="3000"/>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>	
+    <item id="6548" chance="600"/>
+<!--	<item id="11420" chance="600"/>-->
+	<item id="11301" chance="600"/>
+	<item id="8980" chance="600"/>
+	<item id="2155" chance="1000"/>
+	<item id="2158" chance="1000"/>
+	<item id="5801" chance="600"/>
+	<item id="2137" chance="1600"/>
+	<item id="2015" chance="2000"/>
+	<item id="8879" chance="1000"/>
+	<item id="2493" chance="2000"/>
+    <item id="2160" countmax="5" chance1="200" chancemax="0"/>
+    <item id="2152" countmax="25" chance1="4000" chancemax="0"/>
+    <item id="2157" countmax="4" chance1="800" chancemax="0"/>
+	
+	<item id="2004" chance="100000">
+		<inside>
+		    <item id="2152" countmax="10" chance1="10000" chancemax="0"/>
+			<item id="2438" chance="5000"/>
+			<item id="7392" chance="15000"/>
+			<item id="1962" chance="5000"/>
+			<item id="2572" chance="3000"/>
+			<item id="2575" chance="3000"/>
+			<item id="5801" chance="600"/>
+			<item id="2421" chance="400"/>
+			<item id="2112" chance="400"/>
+			<item id="2462" chance="4000"/>
+			<item id="7730" chance="3000"/>
+			<item id="2472" chance="2600"/>			
+			<item id="2527" chance="600"/>
+			<item id="5909" countmax="1" chance1="900" chancemax="0"/>
+			<item id="2532" chance="1200"/>
+			<item id="2165" chance="500"/>
+      </inside>
+	</item>
+  </loot>
+</monster>

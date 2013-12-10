@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Physical" nameDescription="a physical" race="BLOOD" experience="31000" speed="920" manacost="0">
+	<health now="42000" max="42000"/>
+	<look type="12" head="0" body="90" legs="0" feet="0" corpse="6068"/>
+	<targetchange interval="5500" chance="9"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="95"/>
+		<flag runonhealth="1000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-1777" max="-2721"/>
+		<attack name="outfit" interval="2100" chance="19" target="0" radius="5" monster="ghastly dragon" duration="10000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="drunk" interval="2500" chance="21" radius="5" target="0" duration="20000">
+			<attribute key="areaEffect" value="stun"/>
+			</attack>
+			<attack name="death" interval="1800" chance="19" length="7" spread="0" min="-2232" max="-2853">
+			<attribute key="areaEffect" value="mortarea"/>
+			</attack>
+		<attack name="speed" interval="2000" chance="20" range="7" target="1" speedchange="-420" duration="5000">
+			<attribute key="areaEffect" value="purplenote"/>
+			</attack>
+			<attack name="manadrain" interval="1900" chance="19" radius="5" target="1" min="-1427" max="-2936">
+			<attribute key="areaEffect" value="whitenote"/>
+			</attack>
+			<attack name="physical1" interval="2100" chance="30" min="-1243" max="-2131"/>
+			<attack name="physical" interval="2150" chance="24" radius="3" target="0" min="-913" max="-3095">
+			<attribute key="areaEffect" value="redspark"/>
+			</attack>
+			<attack name="death" interval="1000" chance="50" range="7" target="1" min="-1983" max="-2600">
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="shootEffect" value="suddendeath"/>
+			</attack>
+			<attack name="physical" interval="2300" chance="18" radius="7" target="0" min="-1261" max="-2764">
+			<attribute key="areaEffect" value="blackspark"/>
+			</attack>
+	</attacks>
+	<defenses armor="90" defense="115">
+			<defense name="speed" interval="2000" speedchange="100" duration="6000">
+			<attribute key="areaEffect" value="blackspark"/>
+		</defense>
+		<defense name="healing" interval="1600" chance="26" min="200" max="2000">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</defense>
+		<defense name="healing" interval="2500" chance="33" min="300" max="2300">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</defense>
+		</defenses>
+		<elements>
+<element physicalPercent="-10"/>
+<element holyPercent="-10"/>
+</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity fire="1"/>
+		<immunity death="1"/>
+		<immunity poison="1"/>
+		<immunity paralyze="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	  	<voices interval="3000" chance="10">
+		<voice sentence="I am going to play with yourself!" yell="1"/>
+		<voice sentence="Fell my wrath" yell="1"/>
+	</voices>
+	<summons maxSummons="3">
+    <summon name="Undead Dragon" interval="2000" chance="33" max="3"/>
+  </summons>
+<loot>
+ 	<item id="2148" countmax="100" chance="70000"/>
+ 	<item id="2148" countmax="100" chance="70000"/>
+	<item id="2148" countmax="70" chance="70000"/>
+ 	<item id="2150" countmax="75" chance="16060"/>
+ 	<item id="2146" countmax="92" chance="12050"/>
+<item id="2143" countmax="8" chance="70000"/>
+<item id="2151" chance="7000"/>
+<item id="2185" chance="7000"/>
+<item id="2167" chance="5000"/>
+<item id="2127" chance="4000"/>
+<item id="2466" chance="3000"/>
+<item id="2387" chance="3000"/>
+<item id="2195" chance="2000"/>
+<item id="2514" chance="800"/>
+<item id="2472" chance="1000"/>
+<item id="8903" chance="600"/>
+<item id="7896" chance="400"/>
+<item id="7427" chance="400"/>
+<item id="8869" chance="400"/>
+<item id="8885" chance="400"/>
+<item id="8918" chance="200"/>
+<item id="8924" chance="200"/>
+<item id="1986" chance="1000"/>
+<item id="7435" chance="200"/>
+<item id="7418" chance="700"/>
+<item id="7405" chance="400"/>
+<item id="7417" chance="200"/>
+<item id="5903" chance="100000"/>
+ 	<item id="1987" chance="100000">
+ 	  <inside>
+	  <item id="2520" chance="1000"/>
+	  <item id="7382" chance="900"/>
+	  <item id="8868" chance="100"/>
+	  <item id="2542" chance="400"/>
+	  <item id="2539" chance="400"/>
+	  <item id="2522" chance="200"/>
+	  <item id="7423" chance="200"/>
+	  <item id="8928" chance="200"/>
+	  <item id="7388" chance="400"/>
+	  <item id="7411" chance="600"/>
+	  <item id="7410" chance="600"/>
+	  <item id="7403" chance="400"/>
+	
+	  <item id="7885" chance="400"/>
+	  <item id="7895" chance="400"/>
+	  <item id="8904" chance="200"/>
+	  <item id="8902" chance="800"/>
+	  <item id="2421" chance="400"/>
+	  <item id="2112" chance="400"/>
+	  <item id="2462" chance="4000"/>
+	  <item id="2171" chance="4000"/>
+	  <item id="2470" chance="2000"/>
+	  <item id="2432" chance="5000"/>
+	  <item id="2124" chance="6000"/>
+	  <item id="2179" chance="6000"/>
+	  <item id="2182" chance="7000"/>
+	  <item id="9970" countmax="86" chance="10000"/>
+	  <item id="2145" countmax="90" chance="13000"/>
+		<item id="2147" countmax="49" chance="17000"/>
+		<item id="2178" chance="4000"/>
+		<item id="2170" chance="3000"/>
+		<item id="2377" chance="3000"/>
+		<item id="8930" chance="400"/>
+ 	  </inside>
+ 	</item>
+  </loot>
+</monster>

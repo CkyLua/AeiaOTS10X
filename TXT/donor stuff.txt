@@ -1,0 +1,68 @@
+REMEMBER TO CHANGE THE *DONOR TAG
+
+
+
+
+interesting SID number (unused and what not)
+
+12607 (Armor, torso)
+12442 (looks like some sort of hat, has to be made unstackable
+11422 (head, looks like worn armor, could be like "this has been through alot, but it is ready for more
+
+
+11395, *12649* (unused sword, could be interesting
+10318 (shield
+10166 (watch, could make a funny ncklace out of this
+10119 (hammer
+12426 (necklace
+12434 (awesome hood
+*12648* (wand
+
+12586,12583 (rune, sadface, gold thing-silver)will make it mana
+12588,12587 (rune, cross purple, gold-silver) health
+12594,12593 (rune, sstick?, red, gold-silver)fireballl or something like that, and very low exaust for the gold one
+12562 (purple arror, I want this to be the teleport rune)
+
+10141, 10138, 10136, 10133, 10134 (some amylt, or maybe a token
+
+
+
+
+
+just look for hells stuff aarround the late 12ks
+they appear to be from a previous server, i am going to modify those and add my own
+
+
+
+Remember that I want two sets, a purely donor set, and a set that appears in game byt can be gotten from donating
+
+
+STUFF I WILL USE:
+*9735*(head,knight paladin), 10046(head, for mages druids)
+12429(torso)
+*11703*(boots, knight paladin), *9931*
+
+
+12430(thow star)
+12419(wand)
+10119(hammer)
+11395(sword
+I need an axe and a sword
+
+11243(backpack), 11244(alternate backpack) *these have names but I dont know if they are obtainable in game
+
+*10219*(amulet)
+
+10133(Custom house token)
+10134(Complex name token{Ææò})
+10135(rare item token
+10136(token
+10137(token
+
+
+VIP days for points
+5 days for 5 points
+15 dats for 10 points
+30 for 15 points
+60 for 30
+120 for 60

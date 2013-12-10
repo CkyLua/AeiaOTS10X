@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tanathos" nameDescription="a Tanathos" race="undead" experience="30000" speed="345" manacost="0">
+	<health now="150000" max="150000"/>
+	<look type="12" head="114" body="0" legs="114" feet="114" corpse="6068"/>
+	<targetchange interval="10000" chance="20"/>
+	<strategy attack="90" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="98"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-700" max="-2000"/>
+
+		<attack name="fire" interval="2000" chance="35" range="4" radius="6" target="1" min="-1500" max="-2700">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+
+		<attack name="melee" interval="1800" chance="40" range="12" radius="5" target="0" min="-500" max="-1000">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+
+		<attack name="energy" interval="2000" chance="30" length="8" spread="0" min="-800" max="-1300">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+
+		<attack name="fire" interval="2000" chance="40" range="5" length="8" spread="3" min="-700" max="-1115">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+
+		<attack name="poison" interval="1000" chance="23" range="7" min="-950" max="-1250">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+
+		<attack name="physical" interval="1600" chance="15" range="7" radius="13" target="0" min="-550" max="-700">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+
+		<attack name="physical" interval="1600" chance="20" radius="8" target="0" min="-900" max="-1050">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+
+		<attack name="melee" interval="2000" chance="15" range="7" radius="3" target="0" min="-400" max="-700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="55" defense="65">
+		<defense name="healing" interval="3000" chance="35" min="300" max="800">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="4000" chance="80" speedchange="440" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element earthPercent="100"/>
+		<element energyPercent="100"/>
+		<element deathPercent="60"/>
+		<element physicalPercent="40"/>
+		<element icePercent="-25"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="6">
+		<summon name="Demon" interval="4000" chance="33"/>
+	</summons>
+	<voices interval="7000" chance="30">
+		<voice sentence="You won't kill me!" yell="1"/>
+		<voice sentence="Schhhh!" yell="1"/>
+		<voice sentence="Burn! Burn! Fire!" yell="1"/>
+		<voice sentence="Come on! Kill me!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="8304" chance="100000"/><!-- fire spirit -->
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2152" countmax="12" chance="50000"/><!-- gold coin -->
+		<item id="9970" countmax="5" chance="10000"/><!-- white pearl -->
+		<item id="8881" chance="19429"/><!-- ice rapier -->
+ 		<item id="11076" chance="1000"/> --MYSTIC SKULL
+	      <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
+		<item id="6391" chance="2222"/> -- dark shield czy cos
+		<item id="7416" chance="4444" /> -- Boh
+		<item id="2432" chance="5555"/> -- Fire Axe
+		<item id="2470" chance="6500"/> --Golden legs
+		<item id="2537" chance="9999"/> --Demon shield
+		<item id="2462" chance="20000"/><!-- devil helmet -->
+		<item id="2214" chance="16000"/><!-- ring of healing -->
+		<item id="11238" chance="100000"><!-- grey backpack -->
+			<inside>
+				<item id="2495" chance="6000"/><!-- demon legs -->
+				<item id="2393" chance="60000"/><!-- giant sword -->
+				<item id="2195" chance="16033"/><!-- boots of haste -->
+				<item id="2421" chance="7000"/><!-- thunder hammer -->
+				<item id="2522" chance="5600"/><!-- great shield -->
+				<item id="7891" chance="24000"/><!-- crystal ball -->
+			</inside>
+		</item>
+	</loot>
+</monster>

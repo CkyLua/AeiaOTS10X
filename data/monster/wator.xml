@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wator" nameDescription="a water king" race="fire" experience="30000" speed="440" manacost="0">
+	<health now="95000" max="95000"/>
+  <look type="12" head="0" body="105" legs="88" feet="123" corpse="6068"/>
+	<targetchange interval="5000" chance="15"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="120" attack="110"/>
+		<attack name="fire" interval="3000" chance="20" target="1" radius="4" min="-450" max="-1250">
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="death" interval="2000" chance="15" target="0" radius="4" min="-300" max="-750">
+			<attribute key="areaEffect" value="smallclouds"/>
+		</attack>
+		<attack name="manadrain" interval="1000" chance="13" radius="5" target="0" min="-200" max="-1030">
+			<attribute key="areaEffect" value="watersplash"/>
+		</attack>
+		<attack name="death" interval="2000" chance="15" length="7" spread="0" min="0" max="-1299">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="55">
+		<defense name="healing" interval="2000" chance="15" min="400" max="900">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="invisible" interval="1000" chance="5" duration="6000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="35"/>
+		<element energyPercent="-5"/>
+		<element earthPercent="-8"/>
+		<element firePercent="25"/>
+	</elements>
+	<immunities>
+		<immunity death="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<summons maxSummons="2">
+		<summon name="water dragon" interval="1000" chance="10" max="4"/>
+	</summons>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="You will die!!" yell="1"/>
+		<voice sentence="You will not leave here alive!"/>
+		<voice sentence="DIE!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="100" chance1="100000" chancemax="0"/>
+		<item id="2152" countmax="50" chance1="100000" chancemax="0"/>
+		<item id="6391" chance="2222"/> -- dark shield czy cos
+		<item id="7416" chance="4444" /> -- Boh
+		<item id="2393" chance="3000"/> -- Giant sword
+		<item id="2432" chance="5555"/> -- Fire Axe
+		<item id="2402" chance="10000"/> --Silver dagger
+		<item id="2477" chance="6666" /> --Knight legs
+		<item id="1997" chance="100000">
+		<inside>
+			<item id="2151" countmax="11" chance1="6000" chancemax="0"/>
+			<item id="2462" chance="9700"/>
+			<item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+			<item id="2171" chance="2333"/>
+			<item id="2138" chance="4444"/>
+			<item id="2470" chance="6500"/> --Golden legs
+			<item id="2537" chance="9999"/> --Demon shield
+		</inside>
+		</item>
+	</loot>
+</monster>

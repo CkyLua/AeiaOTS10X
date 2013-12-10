@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Smasher" nameDescription="a smasher" race="fire" experience="450000" speed="560" manacost="0">
+  <health now="720000" max="720000"/>
+  <look type="12" head="46" body="33" legs="114" feet="167" corpse="2346"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="98"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+  	<attack name="drunk" interval="1000" chance="15" range="6" target="1" min="-1200" max="-4000">
+        <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+	<attack name="melee" interval="2000" min="-1000" max="-3900"/>
+    <attack name="manadrain" interval="2000" chance="13" range="7" min="-2640" max="-4220"/>
+    <attack name="fire" interval="2000" chance="15" range="7" radius="7" target="1" min="-1500" max="-3750">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="lifedrain" interval="1000" chance="15" target="1" range="1" min="-1200" max="-4480"/>	
+    <attack name="sudden death" interval="2000" chance="100" min="-2319" max="-4166"/>
+  </attacks>
+  
+  <defenses armor="78" defense="79">
+    <defense name="healing" interval="2000" chance="15" min="4000" max="8000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+	<defense name="speed" interval="1000" chance="6" speedchange="360" duration="10000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+<elements>
+		<element physicalPercent="30"/>
+		<element energyPercent="50"/>
+		<element earthPercent="80"/>
+		<element icePercent="-20"/>
+		<element holyPercent="-15"/>
+		<element deathPercent="20"/>
+</elements>
+  <immunities>
+    <immunity drown="1"/>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+	<immunity lifedrain="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="wyslannik" interval="1000" chance="13"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="ADSJODFBLHDV!" yell="1"/>
+    <voice sentence="HLWRWFBVKWFWGG!"/>
+  </voices>
+</monster>

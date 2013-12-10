@@ -1,0 +1,16 @@
+yum install mysql++-devel lua-devel boost-devel gmp-devel lua-sql-mysql 
+
+lua-sql-sqlite libsqlite3x-devel zlib-devel libxml2-devel libxml++-devel kernel-devel
+
+mysql-connector-c++ mysql-connector-c++-devel 
+
+
+
+
+yum groupinstall "Development Tools"
+
+Yum install autoconf
+
+yum groupinstall "Development Libraries"
+
+yum install make automake gcc gcc-c++ kernel-devel

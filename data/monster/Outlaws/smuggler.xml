@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="smuggler" nameDescription="a smuggler" race="blood" experience="48" speed="210" manacost="390">
+  <health now="130" max="130"/>
+  <look type="134" head="95" body="0" legs="113" feet="115" corpse="6080"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="18"/>
+  </flags>
+  <attacks>
+		<attack name="melee" interval="2000" min="-0" max="-60"/>
+  </attacks>
+  <defenses armor="10" defense="13"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="I will silence you forever!"/>
+    <voice sentence="You saw something you shouldn't!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="10" chance1="71500" chancemax="0"/>
+    <item id="2461" chance="14500"/>
+    <item id="2649" chance="14500"/>
+    <item id="2666" countmax="1" chance1="49000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+	  	<item id="2050" chance="14000"/>
+		<item id="2050" chance="14500"/>
+		<item id="2376" chance="7000"/>
+		<item id="2404" chance="2500"/>
+		<item id="2403" chance="8000"/>
+		<item id="7397" chance="1000"/>
+		    <item id="2050" chance="14500"/>
+	      <item id="2671" countmax="1" chance1="6500" chancemax="0"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

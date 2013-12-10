@@ -1,0 +1,44 @@
+ALTER TABLE `guilds` ADD `checkdata` INT NOT NULL AFTER `creationdata`;
+
+
+ALTER TABLE `players` ADD `event` INT(11) NOT NULL DEFAULT 0;
+
+
+ALTER TABLE `players` ADD `marrystatus` INT UNSIGNED NOT NULL DEFAULT '0' AFTER `marriage` ; 
+
+
+ALTER TABLE `accounts` ADD
+`vipdays` int(11) NOT NULL DEFAULT 0;
+
+
+
+CREATE TABLE IF NOT EXISTS `z_ots_comunication` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `login` varchar(255) NOT NULL,
+  `type` varchar(255) NOT NULL,
+  `action` varchar(255) NOT NULL,
+  `param1` varchar(255) NOT NULL,
+  `param2` varchar(255) NOT NULL,
+  `param3` varchar(255) NOT NULL,
+  `param4` varchar(255) NOT NULL,
+  `param5` varchar(255) NOT NULL,
+  `param6` varchar(255) NOT NULL,
+  `param7` varchar(255) NOT NULL,
+  `delete_it` int(2) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=230 ;
+
+
+
+CREATE TABLE `lottery` (
+   `id` int(11) NOT NULL auto_increment,
+   `name` varchar(255) NOT NULL,
+   `item` varchar(255) NOT NULL,
+   `world_id` tinyint(2) unsigned NOT NULL default '0',
+   PRIMARY KEY  (`id`)
+ ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+INSERT INTO `lottery` (`id`, `name`, `item`, `world_id`) VALUES
+(NULL, 'Nobody', 'nothing', 0);

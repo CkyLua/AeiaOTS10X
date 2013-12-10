@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hafaros" nameDescription="a Hafaros" race="undead" experience="15000" speed="300" manacost="0">
+	<health now="220000" max="220000"/>
+	<look type="231" corpse="6306"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="120" attack="130"/>
+		<attack name="melee" interval="2000" chance="20" range="7" radius="4" target="1" min="-900" max="-1395">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="poison" interval="1000" chance="33" range="7" min="-1000" max="-1900">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="20" range="7" radius="4" target="1" min="-500" max="-1000">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="1000" chance="23" range="7" min="-1300" max="-2900">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="20" length="8" spread="3" min="-800" max="-685">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="lifedrain" interval="3000" chance="20" length="8" spread="3" min="-800" max="-900">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</attack>
+		<attack name="drowncondition" interval="1000" chance="20" length="8" spread="3">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="physical" interval="3000" chance="17" length="8" spread="3" min="-1250" max="-2050">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		<attack name="poison" interval="2000" chance="20" length="8" spread="3" min="-800" max="-1200">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="5" defense="35"/>
+	<elements>
+		<element deathPercent="100"/>
+		<element earthPercent="100"/>
+		<element firePercent="100"/>
+		<element physicalPercent="20"/>
+		<element icePercent="20"/>
+		<element holyPercent="20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<summons maxSummons="3">
+		<summon name="Serpent Spawn" interval="3000" chance="33"/>
+	</summons>
+
+	<voices interval="3000" chance="10">
+		<voice sentence="Fffach!" yell="1"/>
+		<voice sentence="I'm drinking Actimel!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="8298" chance="100000"/><!-- fire spirit -->
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2152" countmax="3" chance="25000"/><!-- platinum coin -->
+		<item id="7416" chance="4444" /> -- Boh
+		<item id="2432" chance="5555"/> -- Fire Axe
+		<item id="2470" chance="6500"/> --Golden legs
+		<item id="2469" chance="3000"/><!-- golden armor -->
+		<item id="2492" chance="2000"/><!-- knight armor -->
+		<item id="10519" chance="100000"><!-- bag -->
+			<inside>
+				<item id="6500" countmax="1" chance="1818"/><!-- demonic essence -->
+				<item id="7382" chance="3000"/><!-- golden armor -->
+				<item id="2672" countmax="15" chance="2000"/><!-- power bolt -->
+				<item id="2413" chance="4000"/><!-- hardened bone -->
+				<item id="6529" countmax="15" chance="4000"/><!-- power bolt -->
+			</inside>
+		</item>
+	</loot>
+</monster>

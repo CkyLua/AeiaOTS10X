@@ -1,0 +1,106 @@
+<monster name="Castiel" nameDescription="Castiel" race="blood" experience="450000" speed="1200" manacost="0">
+        <health now="120000" max="120000"/>
+        <look type="12" head="24" body="52" legs="69" feet="69" corpse="5527" addons="3"/>
+        <targetchange interval="2000" chance="50"/>
+        <strategy attack="90" defense="10"/>
+<flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag runonhealth="3000"/>
+        <flag skull="4"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-800" max="-1620"/>
+    <attack name="manadrain" interval="2000" chance="23" range="2" min="-300" max="-830"/>
+    <attack name="holy" interval="2000" chance="15" range="7" radius="7" target="1" min="-1200" max="-2450">
+         <attribute key="shootEffect" value="holy"/>
+         <attribute key="areaEffect" value="holyarea"/>
+    </attack>
+    <attack name="melee" interval="2000" skill="93" attack="93"/>
+    <attack name="manadrain" interval="2000" chance="22" range="7" min="-250" max="-1000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+    <attack name="holy" interval="3000" chance="37" length="10" spread="2" min="-750" max="-1400">
+		<attribute key="areaEffect" value="holyarea"/>
+    </attack>
+    <attack name="holy" interval="3000" chance="10" length="8" spread="0" min="-700" max="-2660">
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+<attack name="melee" interval="2000" min="-800" max="-1620"/>
+<attack name="manadrain" interval="2000" chance="23" range="2" min="-300" max="-830"/>
+<attack name="holy" interval="2000" chance="15" range="7" radius="7" target="1" min="-1200" max="-2450">
+<attribute key="shootEffect" value="holy"/>
+<attribute key="areaEffect" value="holyarea"/>
+</attack>
+<attack name="melee" interval="2000" skill="93" attack="93"/>
+<attack name="manadrain" interval="2000" chance="22" range="7" min="-250" max="-1000">
+<attribute key="areaEffect" value="blueshimmer"/>
+</attack>
+<attack name="holy" interval="3000" chance="37" length="10" spread="2" min="-750" max="-1400">
+<attribute key="areaEffect" value="holyarea"/>
+</attack>
+<attack name="holy" interval="3000" chance="10" length="8" spread="0" min="-700" max="-2660">
+<attribute key="areaEffect" value="holyarea"/>
+</attack>
+</attacks>
+
+<defenses armor="25" defense="18">
+        <defense name="healing" interval="1000" chance="5" min="100" max="1600">
+        <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="invisible" interval="4000" chance="60" duration="5000">
+        <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="healing" interval="1000" chance="1" min="100" max="1200">
+        <attribute key="areaEffect" value="redshimmer"/>
+        </defense>
+        <defense name="speed" interval="1000" chance="1" speedchange="2500" duration="1000000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+</defenses>
+
+<immunities>
+        <immunity physical="0"/>
+        <immunity energy="0"/>
+        <immunity fire="0"/>
+        <immunity poison="0"/>
+        <immunity lifedrain="0"/>
+        <immunity paralyze="0"/>
+        <immunity outfit="0"/>
+        <immunity drunk="0"/>
+        <immunity invisible="1"/>
+</immunities>
+        <voices interval="2000" chance="40">
+        <voice sentence="ADMIT YOUR DEFEAT!"/>
+        <voice sentence="Would you like to die?"/>
+        <voice sentence="I CAN FEEL YOUR PAIN!"/>
+        <voice sentence="I AM A HUNTER!"/>
+        <voice sentence="I AM CASTIEL!"/>
+        <voice sentence="I have my angel blade..."/>
+</voices>
+
+<loot capacity="5000">
+        <item id="2142" countmax="1" chance="350000"/>
+        <item id="2158" countmax="1" chance="150000"/>
+        <item id="2195" countmax="1" chance="400000"/>
+        <item id="2124" countmax="1" chance="550000"/>
+        <item id="2520" countmax="1" chance="1550000"/>
+        <item id="2393" countmax="1" chance="120500"/>
+        <item id="2179" countmax="1" chance="800000"/>
+        <item id="2470" countmax="1" chance="500000"/>
+        <item id="2493" countmax="1" chance="150000"/>
+        <item id="2494" countmax="1" chance="150000"/>
+        <item id="2495" countmax="1" chance="150000"/>
+        <item id="5741" countmax="1" chance="150000"/>
+
+</loot>
+
+</monster>

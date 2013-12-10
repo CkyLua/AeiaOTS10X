@@ -1,0 +1,618 @@
+[20/10/2013 18:34:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[20/10/2013 22:00:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[20/10/2013 23:03:28]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 01:45:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 01:52:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 02:14:11]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 12:35:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 13:41:46]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 13:44:38]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 22:09:42]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/10/2013 22:59:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 11:53:09]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 11:56:25]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 12:14:33]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 12:54:51]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 12:57:57]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 15:38:39]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 16:21:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 16:24:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 18:08:29]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 18:14:03]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 18:15:48]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 18:35:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 19:26:30]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 22:03:20]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 22:06:05]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 22:09:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 22:21:18]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 23:03:17]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 23:30:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/10/2013 23:32:16]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 00:00:02]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 00:01:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 00:30:37]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 01:29:12]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:15:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:22:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:42:20]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:43:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:43:32]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:44:03]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 12:48:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 16:32:12]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 16:35:58]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 16:49:02]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 20:47:01]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 20:58:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/10/2013 21:11:25]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 00:26:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 12:51:57]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 16:25:41]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 18:21:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 18:47:36]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 18:51:03]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 18:53:29]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 19:17:23]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 20:02:49]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 20:10:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 20:24:38]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/10/2013 20:27:50]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 14:44:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 14:54:41]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 15:04:18]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 16:46:39]  :: Houses cleaned:
+
+There were no houses to clean.
+[03/11/2013 23:58:49]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 20:44:33]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 21:01:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/10/2013 22:10:07]  :: Houses cleaned:
+
+There were no houses to clean.
+[26/10/2013 23:59:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 13:29:12]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 13:38:43]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 14:50:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 14:59:17]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 15:11:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/10/2013 22:10:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 15:47:22]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 16:05:37]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 16:09:46]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 16:11:18]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 16:57:48]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 17:28:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 18:15:28]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 19:57:16]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 22:07:59]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/10/2013 22:34:33]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 00:44:46]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 01:26:07]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 11:37:41]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 14:51:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 15:48:57]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 16:11:09]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/10/2013 16:20:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[30/10/2013 12:40:17]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 11:29:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 11:32:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 11:51:37]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 12:08:47]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 13:02:32]  :: Houses cleaned:
+
+There were no houses to clean.
+[31/10/2013 17:41:49]  :: Houses cleaned:
+
+There were no houses to clean.
+[01/11/2013 16:57:39]  :: Houses cleaned:
+
+There were no houses to clean.
+[01/11/2013 22:13:36]  :: Houses cleaned:
+
+There were no houses to clean.
+[02/11/2013 12:53:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/11/2013 14:27:12]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/11/2013 19:41:26]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/11/2013 22:25:51]  :: Houses cleaned:
+
+There were no houses to clean.
+[07/11/2013 22:47:51]  :: Houses cleaned:
+
+There were no houses to clean.
+[07/11/2013 23:05:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[07/11/2013 23:22:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[09/11/2013 18:38:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[09/11/2013 19:24:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[11/11/2013 16:09:48]  :: Houses cleaned:
+
+There were no houses to clean.
+[11/11/2013 16:12:51]  :: Houses cleaned:
+
+There were no houses to clean.
+[12/11/2013 14:47:14]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 15:42:18]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 16:10:41]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 19:43:36]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 20:03:32]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 22:12:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[13/11/2013 22:21:50]  :: Houses cleaned:
+
+There were no houses to clean.
+[14/11/2013 11:23:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[14/11/2013 12:02:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[14/11/2013 13:58:47]  :: Houses cleaned:
+
+There were no houses to clean.
+[14/11/2013 19:39:31]  :: Houses cleaned:
+
+There were no houses to clean.
+[14/11/2013 19:52:24]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 01:34:06]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 11:04:03]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 12:06:29]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 12:20:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 12:49:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 13:47:38]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 13:52:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 14:47:49]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 14:55:39]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 15:50:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 16:54:14]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 21:37:50]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 21:38:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[15/11/2013 21:48:59]  :: Houses cleaned:
+
+There were no houses to clean.
+[16/11/2013 02:43:58]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 13:11:42]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 13:14:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 13:19:13]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 14:37:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 15:21:59]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 15:37:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 15:42:55]  :: Houses cleaned:
+
+There were no houses to clean.
+[18/11/2013 23:21:51]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 10:31:50]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 11:03:22]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 11:11:33]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 11:19:56]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 12:56:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 19:47:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 19:48:58]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 19:49:49]  :: Houses cleaned:
+
+There were no houses to clean.
+[19/11/2013 19:51:25]  :: Houses cleaned:
+
+There were no houses to clean.
+[21/11/2013 13:21:15]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/11/2013 19:05:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[22/11/2013 20:15:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 01:38:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 11:56:59]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 16:08:22]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 16:28:53]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 16:44:27]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 19:17:38]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 19:20:59]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 20:02:40]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 20:09:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[23/11/2013 20:43:50]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 14:19:16]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 15:58:22]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 18:23:55]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 19:30:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 19:40:29]  :: Houses cleaned:
+
+There were no houses to clean.
+[24/11/2013 21:04:27]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 00:01:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 13:40:35]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 14:50:07]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 15:19:10]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 16:50:26]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 16:54:40]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 17:25:03]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 17:27:34]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 17:29:24]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 17:56:22]  :: Houses cleaned:
+
+There were no houses to clean.
+[25/11/2013 22:00:37]  :: Houses cleaned:
+
+There were no houses to clean.
+[26/11/2013 17:11:21]  :: Houses cleaned:
+
+There were no houses to clean.
+[26/11/2013 23:10:34]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/11/2013 12:46:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/11/2013 21:08:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[27/11/2013 22:25:00]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/11/2013 16:01:23]  :: Houses cleaned:
+
+There were no houses to clean.
+[28/11/2013 18:24:55]  :: Houses cleaned:
+
+There were no houses to clean.
+[29/11/2013 12:39:05]  :: Houses cleaned:
+
+There were no houses to clean.
+[30/11/2013 17:33:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[01/12/2013 19:06:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[01/12/2013 20:31:45]  :: Houses cleaned:
+
+There were no houses to clean.
+[02/12/2013 15:17:33]  :: Houses cleaned:
+
+There were no houses to clean.
+[02/12/2013 17:41:58]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/12/2013 13:16:01]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/12/2013 13:23:52]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/12/2013 16:10:44]  :: Houses cleaned:
+
+There were no houses to clean.
+[04/12/2013 17:41:42]  :: Houses cleaned:
+
+There were no houses to clean.
+[06/12/2013 23:36:07]  :: Houses cleaned:
+
+There were no houses to clean.
+[06/12/2013 23:44:36]  :: Houses cleaned:
+
+There were no houses to clean.
+[07/12/2013 00:01:08]  :: Houses cleaned:
+
+There were no houses to clean.

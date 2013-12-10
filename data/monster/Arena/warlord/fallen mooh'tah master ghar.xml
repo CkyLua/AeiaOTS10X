@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fallen Mooh'tah Master Ghar" nameDescription="fallen mooh'tah master ghar" race="blood" experience="4400" speed="230">
+	<health now="8000" max="8000"/>
+	<look type="29" head="20" body="30" legs="40" feet="50" corpse="7349"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="78"/>
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-525" poison="285"/>
+		<attack name="physical" interval="2000" chance="15" min="-0" max="-289" length="8" spread="3">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="15" radius="5" target="1" min="-0" max="-390"> 
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="death" interval="2000" chance="17" min="-0" max="-263"> 
+			<attribute key="shootEffect" value="death"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="14" min="-0" max="-193" length="6" spread="0"> 
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="30" defense="33"/>
+<immunities>
+    <immunity lifedrain="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="I will finish you!"/>
+		<voice sentence="You are no match for a master of the Mooh'Tah!"/>
+		<voice sentence="I might be fallen but you will fall before me!"/>
+	</voices>
+</monster>

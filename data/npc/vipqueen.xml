@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Ultimate Queen" script="promo3.lua" walkinterval="2000" floorchange="0">
+	
+	<health now="100" max="100"/>
+	<look type="331" addons="0"/>
+	
+	<parameters>
+		
+		<parameter key="message_greet" value="Hello |PLAYERNAME|! Welcome to my humble station, I can {promote} you if you want, and after that I can {epic}size you!"/>
+	
+	</parameters>
+	
+	</npc>

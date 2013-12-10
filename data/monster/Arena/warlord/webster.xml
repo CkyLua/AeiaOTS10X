@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Webster" nameDescription="a webster" race="undead" experience="1200" speed="290" manacost="0">
+  <health now="1750" max="1750"/>
+  <look type="263" head="0" body="0" legs="0" feet="0" corpse="7349"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="78"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-204"/>
+    <attack name="speed" interval="2000" chance="30" radius="4" target="1" range="1" duration="8000" speedchange="-500">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+	<attack name="poisoncondition" interval="3000" chance="20" range="7" start="6">
+		<attribute key="shootEffect" value="poison"/>
+	</attack>
+    <attack name="energy" interval="3000" chance="75" min="-0" max="-60" range="7">
+		<attribute key="shootEffect" value="energy"/>
+	</attack>
+  </attacks>
+  <defenses armor="29" defense="34"/>
+  <immunities>
+    <immunity ice="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+<voices interval="2000" chance="5">
+    <voice sentence="You are lost!"/>
+    <voice sentence="Come my little morsel."/>
+  </voices>
+</monster>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<effect delay="100" name="bigclouds" x="1085" y="1050" z="10" />
+	<effect delay="100" name="bigclouds" x="1085" y="1059" z="10" />
+	<effect delay="100" name="bigclouds" x="1085" y="1053" z="10" />
+	<effect delay="100" name="bigclouds" x="1080" y="1052" z="10" />
+	<effect delay="100" name="bigclouds" x="1084" y="1060" z="10" />
+	<effect delay="100" name="bigclouds" x="1085" y="1051" z="10" />
+  	<singlespawn delay="200" name="Grorlam" x="1085" y="1045" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1085" y="1050" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1085" y="1059" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1085" y="1053" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1080" y="1052" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1084" y="1060" z="10" />
+	<singlespawn delay="200" name="Stone Golem" x="1085" y="1051" z="10" />
+</raid>
+

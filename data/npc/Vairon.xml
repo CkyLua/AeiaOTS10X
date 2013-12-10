@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Vairon" script="vairon.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="132" body="77" legs="0" feet="0" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Ah, I see you found me. Will you agree to help me repair my machine? ({task})"/>
+	</parameters>
+</npc>

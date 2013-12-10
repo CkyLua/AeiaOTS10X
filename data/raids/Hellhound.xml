@@ -1,0 +1,15 @@
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="There are creatures of hell coming our way!" />
+  <announce delay="45000" type="Event" message="Evil hounds are attacking! Run for your lives!" />
+
+
+        <areaspawn delay="45000" fromx="980" fromy="970" fromz="7" tox="1050" toy="1030" toz="7">
+        <monster name="Hellhound" amount="40" />
+        </areaspawn>
+        
+        <areaspawn delay="45000" fromx="980" fromy="970" fromz="7" tox="1050" toy="1030" toz="7">
+        <monster name="Fire Elemental" amount="30" />
+        </areaspawn>
+
+</raid>

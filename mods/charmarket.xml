@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mod name="Characters Market System" version="1.0" author="LuckOake" contact="none" enabled="yes">
+------------------------------------------------------------------------------------
+<config name="market"><![CDATA[
+price = 27112
+owner = 27113
+level = 30 -- Level min of character.--
+min_price = 100 -- Price min of character--
+max_price = 1000000 -- Price maximum of character--
+
+function doTransferCharacter(cid, accId)
+return db.executeQuery("UPDATE `players` SET `account_id` = "..accId.." WHERE `id` = "..getPlayerGUIDByName(cid).."")
+end
+
+function doOfflinePlayerAddMoney(guid, money)
+return db.executeQuery("UPDATE `players` SET `balance` = `balance` + '"..money.."' WHERE `id` = '"..getPlayerGUIDByName(guid).."';")
+end
+
+function setOfflinePlayerStorageValue(name, key, value)
+local result = db.getResult("SELECT * FROM `player_storage` WHERE `player_id` = ".. getPlayerGUIDByName(name) .." AND `key` = ".. key ..";")
+if result:getID() == -1 then
+return db.executeQuery("INSERT INTO `player_storage` (`player_id`, `key`, `value`) VALUES (".. getPlayerGUIDByName(name) ..", ".. key ..", ".. value ..");")
+else
+result:free()
+return db.executeQuery("UPDATE `player_storage` SET `value` = ".. value .." WHERE `player_id` = ".. getPlayerGUIDByName(name) .." AND `key` = ".. key ..";")
+end
+end
+
+function getOfflinePlayerStorageValue(name, key)
+local result, ret = db.getResult("SELECT `value` FROM `player_storage` WHERE `player_id` = '".. getPlayerGUIDByName(name) .."' AND `key` = ".. key ..";")
+if result:getID() == -1 then
+return nil
+end
+ret = result:getDataInt("value")
+result:free()
+return ret
+end
+
+function getOfflinePlayerValue(name, value)
+local result, ret = db.getResult("SELECT `"..value.."` FROM `players` WHERE `id` = "..getPlayerGUIDByName(name)..";")
+ret = result:getDataInt(value)
+result:free()
+return ret
+end
+
+function isCharacterForSale(name)
+if not getOfflinePlayerStorageValue(name, price) or getOfflinePlayerStorageValue(name, price) < 1 then
+return false
+else
+return true
+end
+end
+]]></config>
+------------------------------------------------------------------------------------
+<talkaction words="!character" event="buffer"><![CDATA[
+domodlib('market')
+local t = string.explode(param, ",")
+
+if t[1] == "sell" then
+if not t[3] or not tonumber(t[3]) or t[4] or tonumber(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Incorrect Params. Specify the character name and the price.") return true
+elseif getPlayerAccountId(cid) ~= getAccountIdByName(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This is not your character.") return true
+elseif isCharacterForSale(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This character is already for sale.") return true
+elseif getPlayerGUIDByName(t[2]) == getPlayerGUID(cid) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "You cannot sell yourself.") return true
+elseif getPlayerByName(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "The character must be offline to be sold.") return true
+elseif getOfflinePlayerValue(t[2], "level") < level then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Your character can't be sold until it has level "..level..".") return true
+elseif tonumber(t[3]) < min_price then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Sorry, but the minimum price for selling a character is "..min_price..".") return true
+elseif tonumber(t[3]) > max_price then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Sorry, but the maximum price for selling a character is "..max_price..".") return true
+end
+
+setOfflinePlayerStorageValue(t[2], price, t[3])
+setOfflinePlayerStorageValue(t[2], owner, getPlayerGUID(cid))
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'Your character "'..t[2]..'" is now for sale for the price of "'..t[3]..'" gold coins.')
+elseif t[1] == "buy" then
+if not t[2] then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Incorrect Params. Specify the character name.") return true
+elseif not playerExists(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This character doesn't exist.") return true
+elseif getPlayerAccountId(cid) == getAccountIdByName(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "You can't buy your own character.") return true
+elseif not isCharacterForSale(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This character is not for sale.") return true
+elseif not doPlayerRemoveMoney(cid, getOfflinePlayerStorageValue(t[2], price)) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Not enough money. This character's price is "..getOfflinePlayerStorageValue(t[2], price).." gold coins.") return true
+end
+
+if not getPlayerByGUID(getOfflinePlayerStorageValue(t[2], owner)) then
+doOfflinePlayerAddMoney(getPlayerNameByGUID(getOfflinePlayerStorageValue(t[2], owner)), getOfflinePlayerStorageValue(t[2], price))
+setOfflinePlayerStorageValue(getPlayerNameByGUID(getOfflinePlayerStorageValue(t[2], owner)), 41792, getPlayerGUIDByName(t[2]))
+else
+doPlayerAddMoney(getPlayerByGUID(getOfflinePlayerStorageValue(t[2], owner)), getOfflinePlayerStorageValue(t[2], price))
+doPlayerSendTextMessage(getPlayerByGUID(getOfflinePlayerStorageValue(t[2], owner)), MESSAGE_STATUS_CONSOLE_BLUE, 'Your character "'..t[2]..'" has been sold for the price of '..getOfflinePlayerStorageValue(t[2], price)..' gold coins.')
+end
+doTransferCharacter(t[2], getPlayerAccountId(cid))
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'You bought the character "'..t[2]..'" for the price of '..getOfflinePlayerStorageValue(t[2], price)..' gold coins.')
+setOfflinePlayerStorageValue(t[2], owner, -1)
+setOfflinePlayerStorageValue(t[2], price, -1) return true
+elseif t[1] == "remove" then
+if not t[2] then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Incorrect Params. Specify the character name.") return true
+elseif getPlayerAccountId(cid) ~= getAccountIdByName(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This is not your character.") return true
+elseif not isCharacterForSale(t[2]) then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "This character is not for sale.") return true
+end
+
+setOfflinePlayerStorageValue(t[2], price, -1)
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'You removed the character "'..t[2]..'" from the Characters Market.') return true
+elseif t[1] == "list" then
+local result = db.getResult("SELECT `name` FROM `players`")
+if result:getID() == -1 then
+return true
+end
+local msg = "Characters for Sale:\n\n"
+while true do
+local name = result:getDataString("name")
+if isCharacterForSale(name) then
+local sex = getOfflinePlayerValue(name, "sex") == 1 and "Male" or "Female"
+msg = ""..msg.." - ".. name .." (Level: "..getOfflinePlayerValue(name, "level").." / Vocation: "..getVocationInfo(getOfflinePlayerValue(name, "vocation")).name.." / Sex: "..sex.." / Owner: "..getPlayerNameByGUID(getOfflinePlayerStorageValue(name, owner))..") [Price: "..getOfflinePlayerStorageValue(name, price).."] \n"
+end
+if not result:next() then
+break
+end
+end
+doPlayerPopupFYI(cid, msg) return true
+elseif not t[1] or t[1] ~= "buy" or t[1] ~= "sell" or t[1] ~= "remove" or t[1] ~= "list" then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Incorrect params. You can only 'buy' or 'sell' a character, 'remove' it from the Characters Market or see the 'list' of characters for sale.") return true
+end
+return true
+]]></talkaction>
+------------------------------------------------------------------------------------
+<event type="login" name="MarketLogin" event="script"><![CDATA[
+function onLogin(cid)
+domodlib('market')
+if getPlayerStorageValue(cid, price) > 0 then return false
+elseif getPlayerStorageValue(cid, 41792) ~= -1 then
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "You sold the character "..getPlayerNameByGUID(getPlayerStorageValue(cid, 41792))..". The money is in your bank account.")
+setPlayerStorageValue(cid, 41792, -1)
+end
+return true
+end
+]]></event>
+</mod>

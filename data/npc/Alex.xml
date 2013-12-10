@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alex" script="demon_kam.lua" walkinterval="2000" floorchange="0">
+<health now="150" max="150"/>
+<look type="134" head="48" body="90" legs="84" feet="23" corpse="2212"/>
+  <parameters>
+    <parameter key="message_greet" value="Welcome | playername |. I'll change 400 demonic stones for a premium points rune . ({demonic stones})" />
+  </parameters>
+</npc> 

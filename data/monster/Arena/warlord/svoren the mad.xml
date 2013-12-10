@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Svoren the Mad" nameDescription="svoren the mad" race="blood" experience="3000" speed="230" manacost="0">
+  <health now="6300" max="6300"/>
+  <look type="254" head="80" body="99" legs="118" feet="38" corpse="7349"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="78"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-516" poison="200"/>
+    <attack name="speed" interval="2000" chance="17" radius="4" target="1" duration="8000" speedchange="-750">
+		<attribute key="areaEffect" value="whitenote"/>
+	</attack>
+    <attack name="death" interval="2000" chance="9" length="5" spread="0" min="0" max="-187">
+	<attribute key="areaEffect" value="yellownote"/>
+	</attack>
+	<attack name="earth" interval="2000" chance="11" target="0" radius="4" min="-85" max="-98">
+	<attribute key="areaEffect" value="poison"/>
+	</attack>
+  </attacks>
+  <defenses armor="25" defense="27">
+  <defense name="speed" interval="2000" chance="8" duration="6000" speedchange="270">
+		<attribute key="areaEffect" value="bluenote"/>
+	</defense>
+	</defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="NO mommy NO. Leave me alone!"/>
+	<voice sentence="Not that tower again!"/>
+	<voice sentence="Are we there soon mommy?"/>
+	<voice sentence="What was I doing here again?"/>
+  </voices>
+</monster>

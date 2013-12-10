@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demonic Dragon" nameDescription="a demonic dragon" race="undead" experience="8100" speed="300" manacost="0">
+  <health now="13350" max="13350"/>
+  <look type="231" corpse="6306"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+		<attack name="melee" interval="2000" min="-0" max="-1180"/>
+
+    <attack name="fire" interval="2000" chance="20" range="7" radius="4" target="1" min="-300" max="-795">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="redspark"/>
+    </attack>
+
+    <attack name="death" interval="3000" chance="20" range="7" min="-339" max="-600">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+
+    <attack name="poison" interval="2000" chance="20" range="7" radius="4" target="1" min="-407" max="-890">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+
+    <attack name="poison" interval="1000" chance="10" range="7" min="-0" max="-680">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+
+    <attack name="fire" interval="4000" chance="25" length="8" spread="3" min="-600" max="-700">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+    <attack name="poison" interval="2000" chance="23" length="8" spread="3" min="-450" max="-885">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+
+    <attack name="lifedrain" interval="3000" chance="25" length="8" spread="3" min="-500" max="-660">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </attack>
+
+  </attacks>
+  <defenses armor="45" defense="30">
+  </defenses>
+<elements>
+	<element physicalPercent="20"/>
+	<element icePercent="20"/>
+	<element holyPercent="-10"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity earth="1"/>
+    <immunity fire="1"/>
+    <immunity death="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Kawa!"/>
+    <voice sentence="Vutka!"/>
+    <voice sentence="Pifooo!"/>
+
+  </voices>
+<loot>
+<item id="2152" chance="100000" countmax="6" /> -- platinum coin
+<item id="2492" chance="6667" /> -- DSM
+<item id="9930" chance="6667" /> -- rust remover
+<item id="2413" chance="4000" /> -- broad sword
+<item id="1987" chance="100000" > -- bag
+<inside>
+	<item id="6500" chance="1818" countmax="1" /> -- demonic essence
+	<item id="5944" chance="1538" countmax="1" /> -- soul orb
+	<item id="2547" chance="4000" countmax="15" /> -- power bolt
+	<item id="2472" countmax="1" chance="3000"/>
+<item id="2514" countmax="1" chance="7500"/>
+<item id="2164" countmax="1" chance="5000"/>
+<item id="2178" countmax="1" chance="4000"/>
+<item id="2186" countmax="1" chance="3500"/>
+</inside>
+</item>
+</loot>
+</monster>

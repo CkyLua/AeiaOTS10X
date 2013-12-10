@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Has anyone seen that grey could?." />
+  <announce delay="45000" type="Event" message="Looks like its going to rain, better get inside." />
+  <announce delay="180000" type="Event" message="Why do those clouds look strange?" />
+  <announce delay="360000" type="Event" message="Time to get inside. The clouds are here" />
+  <announce delay="720000" type="Event" message="Its raining monsters!!!" />
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="Moskiotes" amount="15" />
+	</areaspawn>
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="Dragon" amount="10" />
+	</areaspawn>
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="Small Piece of Earth" amount="7" />
+	</areaspawn>
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="Zombie" amount="10" />
+	</areaspawn>
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="Draken Warmaster" amount="8" />
+	</areaspawn>
+</raid>

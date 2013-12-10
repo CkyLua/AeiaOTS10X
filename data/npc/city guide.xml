@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="City guide" script="cityguide.lua" walkinterval="2000" floorchange="0">
+	
+	<health now="100" max="100"/>
+	
+	<look type="138" head="79" body="126" legs="127" feet="114" addons="3"/>
+
+	<parameters>
+
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I'm the city guide. Just tell me where you want to go and I will add a mapmark to guide you there. You can also ask for more {information} about a location or I can show you the {list} of locations I know. If you say {all} I will add all the mapmarks right away."/>
+
+	</parameters>
+	
+</npc>

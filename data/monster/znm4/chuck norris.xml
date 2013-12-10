@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chuck Norris" nameDescription="a chuck norris" race="blood" experience="17000" speed="540" manacost="0">
+  <health now="15500" max="15500"/>
+  <look type="153" head="79" body="114" legs="114" feet="0" addons="3" corpse="6080"/>
+  <targetchange interval="4000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="99"/>
+	<flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="melee" interval="2000" min="-300" max="-1861" poison="190"/>
+	<attack name="earth" interval="2000" chance="21" range="7" radius="4" target="1" min="-320" max="-1510">
+	<attribute key="areaEffect" value="firearea"/>
+	</attack>
+
+	<attack name="speed" interval="4000" chance="20" range="1" target="1" radius="8" speedchange="-500" duration="20000">
+	<attribute key="areaEffect" value="poison"/>
+	</attack>
+</attacks>
+  <defenses armor="45" defense="35">
+    <defense name="healing" interval="1000" chance="8" min="255" max="700">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element firePercent="20"/>
+		<element icePercent="20"/>
+		<element energyPercent="20"/>
+		<element icePercent="20"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+</elements>
+  <immunities>
+	<immunity physical="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="4000" chance="20">
+    <voice sentence="CNN - Chuck Norris News!"/>
+    <voice sentence="Chuck Norris does not have a shadow."/>
+    <voice sentence="Norris Mement  - Remember to Chuck"/>
+    <voice sentence="Chuck Norris can toast bread in the refrigerator."/>
+    <voice sentence="Chuck Norris can eat sawdust and crap boards."/>
+    <voice sentence="Chuck Norris has earned Mount Everest. He owns it now."/>
+    <voice sentence="Chuck Norris has a negative ping. Always."/>
+    <voice sentence="Chuck Norris was one of the kamikaze. 12 times."/>
+  </voices>
+
+  <loot>
+<item id="2148" chance="100000" countmax="100" /> -- gold coin
+<item id="2148" chance="70000" countmax="100" /> -- gold coin
+<item id="2152" chance="20000" countmax="5" /> -- plat coin
+<item id="2152" chance="40000" countmax="2" /> -- plat coin
+<item id="1961" chance="2000" /> -- ksiazka
+<item id="7415" chance="2000" /> - cranial basher
+<item id="5792" chance="2000" /> -- kostka
+<item id="7410" chance="700" /> -- queens sceptre
+<item id="2472" chance="2000" /> -- MPA
+<item id="8890" chance="2000" /> -- Robe of the Underworld
+<item id="8890" chance="700" /> -- G LEGS
+<item id="1997" chance="100000" > -- bag
+<inside>
+<item id="7368" chance="3000" countmax="33" /> -- onyx arrow
+	<item id="2492" chance="400" /> -- DSM
+	<item id="2494" chance="200" /> -- Demon Armor	
+	<item id="8857" chance="700" /> -- Nowy bow
+	<item id="2645" chance="700" /> -- steel boots
+	<item id="2470" chance="700" /> -- G Legs
+	<item id="2350" chance="6667" /> -- sword hilt
+	<item id="2513" chance="10000" /> -- steel shield
+	<item id="8879" chance="600" /> 
+	<item id="2270" chance="650" /> 
+	<item id="2169" chance="3222" /> -- club ring
+</inside>
+</item>
+</loot>
+</monster>

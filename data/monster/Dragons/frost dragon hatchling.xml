@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Dragon Hatchling" nameDescription="a frost dragon hatchling" race="undead" experience="745" speed="170" manacost="0">
+	<health now="800" max="800"/>
+	<look type="283" head="0" body="0" legs="0" feet="0" corpse="7969"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="70" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="80"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-160"/>
+		<attack name="ice" interval="1000" chance="12" length="7" spread="3" min="-60" max="-110">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="paralyze" interval="1000" chance="12" range="5" target="1" speedchange="-700">
+			<attribute key="shootEffect" value="blueshimmer"/>
+		</attack>
+		<attack name="ice" interval="1000" chance="10" target="1" radius="4" min="60" max="-110">
+			<attribute key="areaEffect" value="icearea"/>
+			<attribute key="shootEffect" value="smallice"/>
+		</attack>
+	</attacks>
+	<defenses armor="24" defense="30">
+      <defense name="healing" interval="3000" chance="50" min="35" max="55"/> 
+      <attribute key="areaEffect" value="blueshimmer"/> 
+	</defenses>
+	<elements>
+	<element energyPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity ice="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="20">
+		<voice sentence="Rooawwrr"/>
+		<voice sentence="Fchu?"/>
+	</voices>
+	<loot>
+		<item id="7618" countmax="1" chance="6000"/>
+		<item id="2672" countmax="1" chance="35000"/>
+		<item id="2148" countmax="30" chance="100000"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
+        <item id="8900" chance="1000"/>
+      </inside>
+	</item>
+	</loot>
+</monster>

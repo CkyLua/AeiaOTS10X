@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Easter rabbit" nameDescription="an Easter rabbit" race="blood" experience="0" speed="520" manacost="620">
+  <health now="200" max="200"/>
+  <look type="262" head="69" body="66" legs="69" feet="66" corpse="7338"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="200"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="0" attack="0"/>
+  </attacks>
+  <defenses armor="1" defense="2"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+	<voices interval="2000" chance="10">
+		<voice sentence="Merry Christmas!"/>
+		<voice sentence="Happy Easter!"/>
+		<voice sentence="Get the eggs!"/>
+	</voices>
+
+  <loot>
+    <item id="6541" countmax="15" chance1="20000" chancemax="0"/>
+    <item id="6542" countmax="15" chance1="20000" chancemax="0"/>
+    <item id="6543" countmax="15" chance1="20000" chancemax="0"/>
+    <item id="6544" countmax="15" chance1="20000" chancemax="0"/>
+    <item id="6545" countmax="15" chance1="20000" chancemax="0"/>
+
+    <item id="6511" chance="100000"> 
+      <inside> 
+	  <item id="7432" chance1="500" chancemax="0"/> 
+	  <item id="2493" chance1="500" chancemax="0"/> 
+	  <item id="9928" chance1="900" chancemax="0"/> 
+	  <item id="2501" chance1="500" chancemax="0"/> 
+	  <item id="2472" chance1="500" chancemax="0"/> 
+	  <item id="2487" chance1="500" chancemax="0"/> 
+	  <item id="2492" chance1="500" chancemax="0"/> 
+	  <item id="2494" chance1="500" chancemax="0"/> 
+	  <item id="2502" chance1="500" chancemax="0"/> 
+	  <item id="8869" chance1="500" chancemax="0"/> 
+	  <item id="7892" chance1="500" chancemax="0"/> 
+	  <item id="6394" chance1="500" chancemax="0"/> 
+	  <item id="5929" chance1="500" chancemax="0"/> 
+	  <item id="7591" chance1="500" chancemax="0"/> 
+	  <item id="2173" chance1="500" chancemax="0"/> 
+	  <item id="2514" chance1="500" chancemax="0"/> 
+	  <item id="2522" chance1="500" chancemax="0"/> 
+	  <item id="10719" chance1="500" chancemax="0"/> 
+
+	<item id="6391" chance="500"/> -- dark shield czy cos
+	<item id="2470" chance="500"/> --Golden legs
+	<item id="2537" chance="500"/> --Demon shield
+ 	<item id="11076" chance="500"/> --MYSTIC SKULL
+	     <item id="10719" chance="500" chancemax="0"/> --BLOOD AMULET
+
+   	 <item id="6541" countmax="15" chance1="1000" chancemax="0"/>
+   	 <item id="6542" countmax="15" chance1="1000" chancemax="0"/>
+   	 <item id="6543" countmax="15" chance1="1000" chancemax="0"/>
+   	 <item id="6544" countmax="15" chance1="1000" chancemax="0"/>
+   	 <item id="6545" countmax="15" chance1="1000" chancemax="0"/>
+
+	  <item id="11076" chance1="500" chancemax="0"/> 
+	  <item id="2523" chance1="500" chancemax="0"/> 
+	  <item id="2644" chance1="900" chancemax="0"/> 
+	  <item id="2141" chance1="500" chancemax="0"/> 
+
+  	  <item id="5785" chance1="100" chancemax="0"/> 
+  	  <item id="2149" countmax="9" chance1="70000" chancemax="0"/>
+  	  <item id="2160" countmax="2" chance1="1000" chancemax="0"/>
+  	  <item id="2148" countmax="120" chance1="10000" chancemax="0"/>
+  	  <item id="2152" countmax="120" chance1="10000" chancemax="0"/>
+  	  <item id="2684" countmax="9" chance1="70000" chancemax="0"/>
+  	  <item id="2666" countmax="9" chance1="20000" chancemax="0"/>
+      </inside> 
+    </item>
+  </loot>
+</monster>

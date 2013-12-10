@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lowca" script="tasks.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="79" body="114" legs="94" feet="94" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello, I have for you a few tasks for which you will get money and experience. {task}" />
+	</parameters>
+</npc>

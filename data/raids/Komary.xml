@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="A swarm of moskitoes has been sptted in the jungle." />
+  <announce delay="45000" type="Event" message="Moskitoes atack!" />
+
+	<areaspawn delay="45000" fromx="980" fromy="970" fromz="7" tox="1050" toy="1030" toz="7">
+	<monster name="Moskitoes" amount="100" />
+</areaspawn>
+
+</raid>

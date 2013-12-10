@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rocky" nameDescription="rocky" race="undead" experience="190" speed="190">
+	<health now="390" max="390"/>
+	<look type="95" head="20" body="30" legs="40" feet="50" corpse="7349"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-80"/>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="18" min="15" max="35">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<immunities>
+	<immunity earth="1"/>
+    <immunity energy="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+  </immunities>
+	<elements>
+		<element firePercent="-15"/>
+	</elements>
+	  	<voices interval="2000" chance="10">
+		<voice sentence="Another little gladiator!"/>
+		<voice sentence="Come into my embrace"/>
+		<voice sentence="You are too soft for a fight."/>
+	</voices>
+</monster>
+

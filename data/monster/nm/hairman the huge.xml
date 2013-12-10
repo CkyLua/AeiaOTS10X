@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hairman The Huge" tp="1" species="human" nameDescription="a Hairman The Huge" race="blood" experience="6500" speed="300" manacost="0">
+  <health now="9000" max="9000"/>
+  <look type="116" head="113" body="57" legs="95" feet="113" corpse="6043"/>
+  <targetchange interval="60000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="800" min="-120" max="-520"/>
+    <attack name="physical" interval="2000" chance="50" range="7" min="-100" max="-600">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="20"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons max="1">
+    <summon name="Kongra" interval="1000" chance="10"/>
+  </summons>
+  <loot>
+    <item id="2400" chance="30"/>
+	<item id="2477" chance="6667" /> -- torn book
+	<item id="9822" chance="6667" /> -- torn book
+	<item id="5883" chance="6667" countmax="3" /> -- ape fur
+	<item id="2152" chance="100000" countmax="10" /> -- platinum coin
+    <item id="2472" chance="40"/>
+    <item id="2148" countmax="9" chance1="30000" chancemax="0"/> --Gold
+    <item id="2666" countmax="3" chance1="19000"/> --Meat
+    <item id="2237" chance="27000"/> --Dirty Cape
+    <item id="7367" chance="60"/>
+  </loot>
+</monster>

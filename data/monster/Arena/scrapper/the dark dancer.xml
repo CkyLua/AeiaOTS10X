@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Dark Dancer" species="undead" nameDescription="the dark dancer" race="blood" experience="435" speed="220">
+	<health now="855" max="855"/>
+	<look type="58" corpse="7349"/>
+	<targetchange interval="60000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="78"/>
+		<flag targetdistance="4"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-43" poison="230"/>
+		<attack name="physical" interval="3000" chance="70" radius="1" target="1" range="5" min="-50" max="-90">
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="speed" interval="3500" chance="35" radius="1" target="1" range="5" duration="10000" speed="-400">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="manadrain" interval="3000" chance="30" radius="1" target="1" range="5" min="-0" max="-110">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+	</attacks>
+	<defenses armor="13" defense="14">
+		<defense name="healing" interval="2000" chance="25" min="75" max="135">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="invisible" interval="3000" chance="40" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="3">
+		<summon name="Ghoul" interval="4000" chance="25"/>
+	</summons>
+  <elements>
+  <element firePercent="40"/>
+  <element deathPercent="10"/>  
+  </elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="I hope you like my voice!"/>
+	</voices>
+</monster>

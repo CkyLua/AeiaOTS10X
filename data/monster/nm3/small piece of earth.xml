@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Small Piece of Earth" nameDescription="a small piece of earth" race="undead" experience="2300" species="earth" speed="310" manacost="0">
+    <health now="4400" max="4400"/>
+    <look type="301" corpse="8933"/>
+    <targetchange interval="10000" chance="50"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="80"/>
+<flag runonhealth="150"/>
+    </flags>
+    <attacks>
+    <attack name="melee" interval="2000" min="-70" max="-245"/>
+	<attack name="physical" interval="2000" chance="16" range="7" min="-125" max="-295">
+		<attribute key="shootEffect" value="largerock"/>
+			</attack>
+	<attack name="poisoncondition" interval="1000" chance="10" length="6" spread="4" min="-200" max="-400">
+		<attribute key="areaEffect" value="carniphila"/>
+			</attack>
+	<attack name="earth" interval="2000" chance="10" length="7" spread="0" min="-150" max="-200">
+		<attribute key="areaEffect" value="plantattack"/>
+			</attack>
+			<attack name="earth" interval="2500" chance="10" radius="2" target="0" min="-350" max="-600">
+		<attribute key="areaEffect" value="smallplants"/>
+			</attack>
+    </attacks>
+    <defenses armor="35" defense="45">
+    <defense name="healing" interval="1000" chance="9" min="90" max="250">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </defense>
+	</defenses>
+    <elements>
+     <element deathPercent="50"/>
+     <element icePercent="85"/>
+     <element physicalPercent="50"/>
+     <element holyPercent="50"/>
+     <element firePercent="-25"/>
+    </elements>
+    <immunities>
+      <immunity paralyze="1"/>
+      <immunity invisible="1"/>
+      <immunity earth="1"/>
+      <immunity energy="1"/>
+    </immunities>
+    <loot>
+      <item id="2148" countmax="44" chance="90000"/> --gold coin
+      <item id="7850" countmax="9" chance="11000"/> --earth arrow
+      <item id="1294" countmax="12" chance="9000"/> --small stones
+      <item id="2149" countmax="5" chance="3000"/> --small emerald
+	  <item id="2476" chance="1000"/> --knight armor
+	  <item id="2463" chance="3000"/> --plate armor
+	  <item id="8900" chance="1000"/> --sb of enlightenment
+	  <item id="1987" chance="100000">
+      <inside>
+		<item id="7860" chance="1700"/> --earth knight axe
+		<item id="8912" chance="1200"/> --springsprout rod
+		<item id="7886" chance="900"/> --terra boots
+		<item id="2491" chance="1200"/> --crown helmet
+		<item id="7589" chance="7000"/> --smp
+		<item id="2148" countmax="46" chance="60000"/> --gold coin
+      </inside>
+    </item>
+    </loot>
+  </monster>

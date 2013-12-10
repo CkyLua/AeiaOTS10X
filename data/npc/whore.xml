@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Atractive Woman" nameDescription="an atractive woman." script="Playboy Girl.lua" walkinterval="2000" floorchange="0" skull="red">
+<health now="100" max="100"/>
+<look type="156" head="79" body="94" legs="114" feet="94" addons="0"/>
+<interaction range="5" idletime="30">
+  <interact keywords="hi" focus="1">
+   <!--These are the keywords will trigger this interaction-->
+   <keywords>hello</keywords>
+   <response>
+    <action name="script">
+    <![CDATA[
+     if(getPlayerSex(cid)) == 0 then
+      selfSay("I'm into girls to you know, if the price is right. You want to fuck?", cid)
+     else
+      selfSay("Why hello there handsome, would you like to FUCK?", cid)
+     end
+    ]]>
+    </action>
+   </response>
+  </interact>
+  <interact keywords="bye" focus="0">
+   <keywords>farewell</keywords>
+   <response text="See you later honey, dont forget to tell your friends about me.">
+    <!--
+    <action name="script">
+     doRemoveCreature(getNpcCid());
+    </action>
+    -->
+   </response>
+  </interact>
+  <!--
+  If the event onBusy exists, the npc will make a queue like Tibia, if the event is removed
+  the npc will be able to talk to all customers at the same time without problems.
+  -->
+  <interact event="onBusy">
+   <response text="Cant you see I'm fucking your friend |NAME|? Wait for me.">
+    <action name="addqueue" value="|PLAYER|"/>
+   </response>
+  </interact>
+  <!--This event triggers if the player goes to far away from the npc/logout/idle timeout-->
+  <interact event="onPlayerLeave" focus="0">
+   <response text="See you later honey, dont forget to tell your friends about me."/>
+  </interact>
+  <!---Example of calling a script function, check ruby.lua-->
+  <interact focus="1">
+   <!--These are the keywords will trigger this interaction-->
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <response function="onSayCurse">
+    <action name="idle" value="1"/>
+    <action name="scriptparam" value="|PLAYER|"/>
+    <action name="scriptparam" value="|TEXT|"/>
+   </response>
+  </interact>
+  <interact focus="0">
+   <!--These are the keywords will trigger this interaction-->
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <keywords>yes</keywords>
+   <keywords>si</keywords>
+   <keywords>si</keywords>
+   <response function="onSayCurse">
+    <action name="idle" value="1"/>
+    <action name="scriptparam" value="|PLAYER|"/>
+    <action name="scriptparam" value="|TEXT|"/>
+   </response>
+  </interact>
+</interaction>
+</npc>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="01000010 01101111 01101010 00100000 01110011 01101001 01100101!" />
+  <announce delay="45000" type="Event" message="01110010 01101111 01100010 01101111 01110100 01111001" />
+  <announce delay="180000" type="Event" message="01001011 01110101 01110000 01100001 00100001." />
+  <announce delay="360000" type="Event" message="01100001 01110100 01100001 01101011!" />
+  <announce delay="540000" type="Event" message="01100111 01101001 11000101 10000100!" />
+  <announce delay="720000" type="Event" message="01101110 01101111 01100111 01100001!" />
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="01101110" amount="50" />
+	</areaspawn>
+
+	<areaspawn delay="720000" fromx="980" fromy="980" fromz="7" tox="1055" toy="1016" toz="7">
+	<monster name="01101111 01101111" amount="1" />
+	</areaspawn>
+</raid>

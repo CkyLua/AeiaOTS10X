@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Phantasm" nameDescription="a phantasm" race="undead" experience="0" speed="280" manacost="0">
+  <health now="65" max="65"/>
+  <look type="241" head="20" corpse="6344"/>
+  <targetchange interval="5000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" min="0" max="-470"/>
+		    <attack name="drunk" interval="1000" chance="15" range="6" target="1" min="0" max="0">
+        <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="20">
+        <defense name="invisible" interval="2000" chance="15" duration="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Oh my, you forgot to put your pants on!"/>
+    <voice sentence="Weeheeheeheehee!"/>
+    <voice sentence="Its nothing but a dream!"/>
+    <voice sentence="Give in!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+
+ </loot>
+</monster>

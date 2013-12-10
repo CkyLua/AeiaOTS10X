@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Martes 16" nameDescription="a martes 16" race="fire" experience="30000" speed="530" manacost="0">
+<health now="35000" max="35000"/>
+<look type="319" head="38" body="114" legs="0" feet="94" corpse="6068"/>
+<targetchange interval="5000" chance="20"/>
+<strategy attack="95" defense="5"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="0"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="-1700" max="-1900"/>
+<attack name="physical" interval="1000" chance="13" radius="8" target="0" min="-400" max="-1900">
+<attribute key="areaEffect" value="mortarea"/>
+</attack>
+<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+<attack name="strength" interval="1000" chance="12" radius="3" target="0">
+<attribute key="areaEffect" value="blackspark"/>
+</attack>
+<attack name="manadrain" interval="1000" chance="7" length="0" spread="3" min="-600" max="-1900">
+<attribute key="areaEffect" value="energyarea"/>
+</attack>
+<attack name="energy" interval="1000" chance="9" length="8" spread="0" min="-400" max="-1200">
+<attribute key="areaEffect" value="redshimmer"/>
+</attack>
+<attack name="poisoncondition" interval="1000" chance="10" length="0" spread="0" min="-1300" max="-2600">
+<attribute key="areaEffect" value="greenspark"/>
+</attack>
+<attack name="lifedrain" interval="1000" chance="15" length="8" spread="0" min="-600" max="-1700">
+<attribute key="areaEffect" value="redshimmer"/>
+</attack>
+</attacks>
+<defenses armor="198" defense="185">
+<defense name="healing" interval="1000" chance="15" min="1000" max="2000">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+<defense name="speed" interval="2000" chance="8" speedchange="480" duration="6000">
+<attribute key="areaEffect" value="redshimmer"/>
+</defense>
+</defenses>
+  <elements>
+  <element firePercent="0"/>
+    <element earthPercent="100"/>
+	  <element energyPercent="5"/>
+	    <element deathPercent="100"/>
+		  <element holyPercent="-10"/>
+		    <element icePercent="20"/>
+			<element psychicalPercent="15"/>
+	</elements>
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+	<immunity drunk="1"/>
+  </immunities>
+<loot capacity="5000">
+<item id="2142" countmax="1" chance="3500"/>
+<item id="2231" countmax="1" chance="9000"/>
+<item id="2144" countmax="15" chance="15000"/>
+<item id="2158" countmax="1" chance="1500"/>
+<item id="2195" countmax="1" chance="4000"/>
+<item id="2192" countmax="1" chance="2500"/>
+<item id="2125" countmax="1" chance="1500"/>
+<item id="2124" countmax="1" chance="5500"/>
+<item id="2188" countmax="1" chance="2500"/>
+<item id="2143" countmax="15" chance="12500"/>
+</loot>
+</monster>

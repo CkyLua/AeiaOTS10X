@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Drasilla" nameDescription="drasilla" race="blood" experience="700" speed="182" manacost="0">
+  <health now="1320" max="1000"/>
+  <look type="34" head="20" body="30" legs="40" feet="50" corpse="7349"/>
+  <targetchange interval="20000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="78"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-0" max="-120"/>
+    <attack name="fire" interval="6000" chance="60" min="-100" max="-160" length="8" spread="3">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+    <attack name="fire" interval="3000" range="10" radius="5" target="1" chance="50" min="-60" max="-110">
+	    <attribute key="areaEffect" value="firearea"/>
+	</attack>
+  </attacks>
+  
+  <defenses armor="32" defense="33">
+    <defense name="healing" interval="1000" chance="14" min="40" max="60">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+  </defenses>
+      <elements>
+     <element energyPercent="20"/>
+     <element icePercent="-10"/>
+	      <element earthPercent="80"/>
+    </elements>
+  <immunities>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="8">
+    <voice sentence="FCHHHHHHHH!"/>
+    <voice sentence="GROOOOAAAAAAAAR!"/>
+	    <voice sentence="DIRTY LITTLE HUMANS"/>
+		    <voice sentence="YOU CAN'T KEEP ME HERE FOREVER"/>
+  </voices>
+</monster>

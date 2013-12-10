@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Eye Of The Seven" nameDescription="an eye of the seven" species="undead" race="venom" experience="0" speed="0" manacost="0">
+    <health now="250" max="250"/>
+    <look type="109" head="20" body="30" legs="40" feet="50" corpse="3049"/>
+    <targetchange interval="5000" chance="10"/>
+    <strategy attack="1000" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="0"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="100"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+  <attack name="lifedrain" interval="2000" chance="33" radius="1" range="7" target="1" min="-0" max="-500">
+		<attribute key="areaEffect" value="redshimmer"/>
+  </attack>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <immunities>
+      <immunity physical="1"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="0"/>
+    </immunities>
+  </monster>

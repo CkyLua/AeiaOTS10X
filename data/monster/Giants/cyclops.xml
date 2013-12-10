@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cyclops" nameDescription="a cyclops" race="blood" experience="150" speed="202" manacost="490">
+  <health now="260" max="260"/>
+  <look type="22" head="0" body="0" legs="0" feet="0" corpse="5962"/>
+  <targetchange interval="5000" chance="25"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+<attack name="melee" interval="2000" min="-0" max="-105"/>
+  </attacks>
+  <elements>
+		<element holyPercent="20"/>
+		<element energyPercent="25"/>
+		<element deathPercent="-10"/>
+		<element earthPercent="-10"/>
+	</elements>
+  <defenses armor="15" defense="15"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Il lorstok human!"/>
+    <voice sentence="Toks utat."/>
+    <voice sentence="Human, uh whil dyh!"/>
+    <voice sentence="Youh ah trak!"/>
+    <voice sentence="Let da mashing begin!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="42" chance1="70000" chancemax="0"/>
+    <item id="2406" chance="8210"/>
+    <item id="2209" chance="100"/>
+    <item id="2490" chance="250"/>
+    <item id="2129" chance="300"/>
+    <item id="2666" countmax="3" chance1="50500" chancemax="0"/>
+	<item id="7618" chance="120"/>
+	<item id="7398" chance="100"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2513" chance="1540"/>
+		<item id="2510" chance="2310"/>
+        <item id="2381" chance="800"/>
+        <item id="2148" countmax="10" chance1="20000" chancemax="0"/>
+        <item id="2671" countmax="4" chance1="19740" chancemax="0"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

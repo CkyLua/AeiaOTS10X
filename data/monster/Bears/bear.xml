@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="bear" namedescription="a bear" race="blood" experience="23" speed="176" manacost="300">
+  <health now="80" max="80"/>
+  <look type="16" head="20" body="30" legs="40" feet="50" corpse="5975"/>
+  <targetchange interval="2000" chance="6"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="16"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-25"/>
+  </attacks>
+  <defenses armor="6" defense="6"/>
+    <elements>
+  <element icePercent="-10"/>
+  <element holyPerent="10"/>
+  <element earthPercent="20"/>
+  <element deathPercent="-10"/>
+  </elements>
+  <voices interval="4000" chance="10">
+    <voice sentence="Grrrr"/>
+    <voice sentence="Groar"/>
+  </voices>
+  <loot>
+    <item id="3976" countmax="3" chance1="1000" chancemax="0"/>
+    <item id="2666" countmax="4" chance1="90000" chancemax="0"/>
+    <item id="2671" countmax="3" chance1="50000" chancemax="0"/>
+    <item id="5902" countmax="1" chance1="500" chancemax="0"/>
+    <item id="5896" countmax="1" chance1="750" chancemax="0"/>
+    <item id="1987" countmax="1" chance1="400" chancemax="0"/>
+  </loot>
+</monster>

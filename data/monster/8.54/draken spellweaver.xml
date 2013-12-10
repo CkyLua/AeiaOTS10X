@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="2600" speed="220" manacost="0">
+<health now="5000" max="5000"/>
+<look type="340" corpse="4251"/>
+<targetchange interval="5000" chance="12"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="-0" max="-240"/>
+<attack name="fire" interval="2000" chance="10" range="7" radius="1" target="1" min="-15" max="-245">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+<attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-0" max="-410">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<defense name="invisible" interval="5000" chance="50" duration="5000">
+<attribute key="areaEffect" value="redshimmer"/>
+</defense>
+<elements>
+<element physicalPercent="0"/>
+<element holyPercent="20"/>
+<element deathPercent="-10"/>
+<element energyPercent="25"/>
+<element icePercent="0"/>
+<element earthPercent="-10"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+<immunity invisible="1"/>
+</immunities>
+<loot>
+<item id="2148" countmax="100" chance1="2090" chancemax="3400"/>
+<item id="2666" countmax="2" chance1="5000" chancemax="5300"/>
+<item id="11307" chance="1200"/>
+<!--<item id="11296" chance="600"/>-->
+<item id="1987" chance="100000">
+<inside>
+<item id="11348" chance="400"/>
+</inside>
+</item>
+</loot>
+</monster> 

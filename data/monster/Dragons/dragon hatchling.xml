@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="dragon hatchling" nameDescription="a dragon hatchling" race="blood" experience="185" speed="175" manacost="0">
+	<health now="380" max="380"/>
+	<look type="271" head="0" body="0" legs="0" feet="0" corpse="7621"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="70" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="85"/>
+	</flags>
+	<attacks>
+<attack name="melee" interval="2000" min="-0" max="-40"/>
+		<attack name="fire" interval="1000" chance="12" length="8" spread="3" min="-0" max="-75">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+				<attack name="fire" interval="1000" chance="12" radius="4" target="1" min="-30" max="-40">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="18" defense="15">
+		<defense name="healing" interval="1000" chance="13" min="8" max="33">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<elements>
+		<element icePercent="-10"/>
+		<element earthPercent="40"/>
+		<element energyPercent="-6"/>
+	</elements>
+	<voices interval="5000" chance="50">
+		<voice sentence="Fchu?"/>
+		<voice sentence="Rooawwrr"/>
+	</voices>
+	<loot capacity="800">
+		<item id="7618" countmax="1" chance="5000"/>
+		<item id="2672" countmax="1" chance="20000"/>
+		<item id="2148" countmax="26" chance="100000"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
+      </inside>
+	</item>
+	</loot>
+</monster>

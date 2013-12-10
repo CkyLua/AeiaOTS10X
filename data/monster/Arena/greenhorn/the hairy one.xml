@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Hairy One" nameDescription="the hairy one" race="blood" experience="115" speed="200">
+	<health now="325" max="325"/>
+	<look type="116" head="0" body="0" legs="0" feet="0" corpse="7349"/>
+	<targetchange interval="60000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="78"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-70"/>
+	</attacks>
+	<defenses armor="10" defense="15"/>
+	<voices interval="2000" chance="14">
+		<voice sentence="Hugah!"/>
+		<voice sentence="Ungh! Ungh!"/>
+		<voice sentence="Huaauaauaauaa!"/>
+	</voices>
+</monster>

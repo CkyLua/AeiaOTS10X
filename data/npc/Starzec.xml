@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Starzec" script="default.lua" walkinterval="2000" floorchange="0">
+<health now="150" max="150"/>
+<look type="153" head="19" body="21" legs="0" feet="114" addons="1" corpse="2212"/>
+	<parameters>
+        <parameter key="message_greet" value="You're probably another person who is looking for heaven, I'll give you a hint. Use the statues in the basement of the temple."/>
+        <parameter key="message_farewell" value="Bye!"/>
+		<parameter key="message_walkaway" value="That is not nice!"/>
+    </parameters>
+</npc> 

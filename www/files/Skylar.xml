@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skylar" nameDescription="Skylar" race="blood" experience="70000000" speed="90000" manacost="0">
+	<health now="10000000" max="10000000"/>
+  <look type="302" head="94" body="114" legs="94" feet="94" corpse="6081" addons="3"/>
+	<targetchange interval="2000" chance="50"/>
+	<strategy attack="90" defense="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+		<flag skull="5"/>
+	</flags>
+	<attacks>
+    <attack name="fire" interval="1000" chance="100" length="1" min="-1600" max="-3900">
+	<attribute key="areaEffect" value="fireattack"/>
+	</attack>
+    <attack name="fire" interval="1000" chance="12" length="7" spread="3" min="-2000" max="-3300"/>
+    <attack name="fire" interval="1000" chance="12" radius="3" target="0" min="-900" max="-3550">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+		<attack name="lifedrain" interval="1000" chance="15" length="8" spread="0" min="-500" max="-3400">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+			<attack name="physical" interval="1000" chance="13" radius="8" target="0" min="-1000" max="-8000">
+<attribute key="areaEffect" value="holyarea"/>
+</attack>
+	</attacks>
+	<defenses armor="50" defense="50">
+		<defense name="healing" interval="1000" chance="2" min="6000" max="15000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="healing" interval="1000" chance="3" min="2000" max="6000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="1000" chance="8" speedchange="600000" duration="10000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="30">
+     	<voice sentence="DIE"/>
+     	<voice sentence="You can do better than that..."/>
+     	<voice sentence="Time is not an illusion"/>
+     	<voice sentence="KILL THE BOTERS!!"/>
+     	<voice sentence="Not true Dominique, I'm the best"/>
+		<voice sentence="Join me for some tea after we're done here"/>
+		<voice sentence="I AM SKYALR!!!!"/>
+		<voice sentence="Really?"/>
+		<voice sentence="Freyja, GET OVER HERE NOW!!!!!"/>
+		<voice sentence="WTF are you doing Dominique?"/>
+		<voice sentence="Damn, looks like I killed Dominique's dragon."/>
+	</voices>
+
+
+
+	<loot capacity="5000">
+		<item id="2142" countmax="1" chance="3500"/>
+		<item id="2158" countmax="1" chance="1500"/>
+		<item id="2195" countmax="1" chance="4000"/>
+		<item id="2124" countmax="1" chance="5500"/>
+		<item id="2520" countmax="1" chance="15500"/>
+		<item id="2393" countmax="1" chance="12500"/>
+		<item id="2179" countmax="1" chance="8000"/>
+		<item id="2470" countmax="1" chance="5000"/>
+
+		<item id="2493" countmax="1" chance="1500"/>
+		<item id="2494" countmax="1" chance="1500"/>
+		<item id="2495" countmax="1" chance="1500"/>
+		<item id="5741" countmax="1" chance="500"/>
+
+		<item id="11138" countmax="1" chance="1500"/>
+		<item id="11349" countmax="1" chance="3200"/>
+	<!--	<item id="11249" countmax="1" chance="3200"/>-->
+
+		<item id="2418" countmax="1" chance="4500"/>
+		<item id="2155" countmax="1" chance="1500"/>
+
+		<item id="2472" countmax="1" chance="3000"/>
+		<item id="2514" countmax="1" chance="7500"/>
+
+ 		<item id="11076" chance="1000"/> --MYSTIC SKULL
+	        <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
+
+		<item id="2436" countmax="1" chance="5000"/>
+		<item id="7427" countmax="1" chance="5000"/>
+		<item id="2149" countmax="40" chance="2550"/>
+		<item id="2146" countmax="40" chance="2300"/>
+
+		<item id="2112" countmax="1" chance="14500"/>
+		<item id="2421" countmax="1" chance="13500"/>
+		<item id="8932" countmax="1" chance="14500"/>
+		<item id="3955" countmax="1" chance="600"/>
+		<item id="2264" countmax="1" chance="600"/>
+		<item id="8306" countmax="1" chance="3000"/>
+
+		<item id="10150" countmax="1" chance="1500"/>
+		<item id="2160" countmax="100" chance="8000"/>
+	      <item id="2152" countmax="100" chance1="100000" chancemax="0"/>
+		<item id="2152" countmax="80" chance1="100000" chancemax="0"/>
+		<item id="6391" chance="2222"/> -- dark shield czy cos
+		<item id="7416" chance="4444" /> -- Boh
+		<item id="2432" chance="5555"/> -- Fire Axe
+		<item id="2477" chance="6666" /> --Knight legs
+		<item id="2365" chance="30000">
+		<inside>
+			<item id="2151" countmax="11" chance1="6000" chancemax="0"/>
+			<item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+			<item id="2171" chance="2333"/>
+			<item id="5785" chance="100"/>
+			<item id="7708" chance="100"/>
+			<item id="2160" countmax="10" chance="8000"/>
+			<item id="10142" chance="100"/>
+			<item id="2488" chance="6666" /> --Knight legs
+			<item id="2487" chance="6666" /> --Knight legs
+			<item id="9931" chance="2333"/>
+			<item id="2323" chance="4333"/>
+			<item id="10016" chance="4333"/>
+			<item id="9007" countmax="1" chance="1000"/>
+			<item id="2139" chance="2333"/>
+			<item id="2160" countmax="5" chance="8000"/>
+			<item id="7399" chance="2333"/>
+			<item id="10515" chance="3333"/>
+
+			<item id="11424" chance="300"/>
+
+			<item id="11419" chance="3333"/>
+		<!--	<item id="11420" chance="3333"/> -->
+		<!--	<item id="11421" chance="3333"/> -->
+		<!--	<item id="11422" chance="3333"/> -->
+
+			<item id="2138" chance="4444"/>
+			<item id="8931" countmax="1" chance="1500"/>
+			<item id="8841" countmax="10" chance="8000"/>
+			<item id="2470" chance="6500"/> --Golden legs
+			<item id="2537" chance="9999"/> --Demon shield
+		</inside>
+		</item>
+	</loot>
+</monster>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monster name="Dworc Venomsniper" namedescription="a dworc venomsniper" race="venom" experience="30" speed="240" manacost="300">
+  <health now="80" max="80"/>
+  <look type="216" head="20" body="30" legs="40" feet="50" corpse="6059"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-15"/>
+    <attack name="poisoncondition" interval="1000" chance="28" range="5" min="-15" max="-20" start="2">
+      <attribute key="shooteffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="3" defense="8"/>
+  <immunities>
+    <immunity earth="1"/>
+  </immunities>
+  <voices interval="5000" chance="12">
+    <voice sentence="Brak brrretz!"/>
+    <voice sentence="Grow truk grrrrr."/>
+    <voice sentence="Prek tars, dekklep zurk."/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="14" chance1="75000" chancemax="0"/>
+	<item id="2229" countmax="3" chance1="950" chancemax="0"/>
+    <item id="3983" chance="150"/>
+    <item id="3967" chance="600"/>
+	<item id="2467" chance="9620"/>
+    <item id="1987" chance="100000">
+      <inside>
+	    <item id="2545" countmax="3" chance1="5000" chancemax="0"/>
+		<item id="7732" countmax="1" chance1="300" chancemax="0"/>
+		<item id="2410" countmax="2" chance1="7700" chancemax="0"/>
+		<item id="2411" chance="1400"/>
+        <item id="2172" chance="100"/>
+        <item id="2050" chance="5600"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

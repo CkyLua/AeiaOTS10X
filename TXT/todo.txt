@@ -1,0 +1,61 @@
+TODO LIST
+
+##For reference only!! Use the issue tracker feature of github: https://github.com/dominique120/AeiaOTS/issues ##
+
+##how to use:when an item is completed move to DONE anrea. If an item needs a note add a -- followed by the note##
+##Categorize but using "CATEGORY" followed by ::. Get the catogory from the foldler where it resides(eg. data/XML)##
+##Use category "MISC" if it does not fit anything##
+
+
+
+--CRITICAL
+ITEMS::BALANCE DONOR ITEMS
+WEBSITE::PEOPLE CAN LOG INTO 1/1 ACC MANAGER ON THE WEB
+CREATURE::LOOK AT CREATURE CORPSES
+CREATURE::LOOK AT CREATURE LOOTS TO SEE IF THEY DRPO ANYTHING INCORRECT
+
+
+
+--TODO
+ITEMS::finalize donor stuff
+XML::tweak multipliers
+MAP::might combine depo with temple and add a house in place of the market and replace the depo with a market--just need to tweak(freaking redo) depo a bit
+ITEMS::fix invisibilyty wreath(9927)
+ITEMS::Fix the Ingot Conversion to Crystal Coins and the Use of Gold Ingots as a use a money (When trying to buy somethign with Gold Ingots it will not use then it will say you donnt have money until you use the IG and turn it to CC)
+SCRIPT::add and fix guild MOTD
+
+
+
+--Needs checking
+MISC::TRANSLATE  --done, just needs a check and some fixes here and there
+MISC::build a hunting guide -- This is almost done, I will do till lvl 200, let higher gyts tell me or let them find out
+MISC::rebalance
+MAP::go over map to check for stuff
+SPELLS::exevo gran mas flam  needs checking
+
+
+
+--DONE
+get a script to allow players to loot chests with donor stuff after killing dom and skyar. --This is done, I used unique ids
+set shop and theme the acc --theme done, shop needs a tweak or 2, promo stuff reads now
+tweak starting items -- done
+check first items and capacity. they drop meat when they start they will start with 5 now lets see how that works
+cc to ingot thing is done
+CONJURE RUNES NOT WORKING -done
+FIX SCRIPT FOR DOM AND SKYLAR --done
+Change amount of crystal coins you recieve for leveling --done
+Balance spells --done
+CHANGE FOOD ON FOOD STAND
+REMOVE RUNE THAT STARTS WITH THE PLARE --massive bug with those runes, need to fix asap --fixed
+REOKACE ERYN HE DOES NOT SELL WANDS
+FIX MEDUSA CORPSE --done
+CHANGE ATTACK SPEED --done
+CANDIES ARE NOT USABLE --done
+ADD CHARGES TO RUNES
+
+
+
+--MAYBE
+improve mana runes
+Add stuff for anihi 2421
+redo tample(maybe)

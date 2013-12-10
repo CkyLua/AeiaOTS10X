@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The Old Demon has started a plot to DESTROY THE CITY!!" />
+  <announce delay="30000" type="Event" message="This silence is not good..." />
+  <announce delay="60000" type="Event" message="HE'S HERE!" />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Old Demon" x="1000" y="1006" z="7" />
+</raid>

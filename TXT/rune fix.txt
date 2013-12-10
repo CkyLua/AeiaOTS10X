@@ -1,0 +1,6 @@
+[14/11/2013 01:32:37] [Error - Spell Interface] 
+[14/11/2013 01:32:37] data/spells/scripts/summon/animate dead rune.lua:onCastSpell
+[14/11/2013 01:32:37] Description: 
+[14/11/2013 01:32:37] (luaDoConvinceCreature) Creature not found
+
+animate dead rune

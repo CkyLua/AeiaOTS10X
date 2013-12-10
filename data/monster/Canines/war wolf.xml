@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="war wolf" nameDescription="a war wolf" race="blood" experience="55" speed="200" manacost="420">
+  <health now="140" max="140"/>
+  <look type="3" head="20" body="30" legs="40" feet="50" corpse="6009"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+		<attack name="melee" interval="2000" min="-0" max="-50"/>
+  </attacks>
+	<elements>
+		<element EarthPercent="20"/>
+		<element HolyPercent="10"/>
+		<element IcePercent="-15"/>
+		<element DeathPercent="-10"/>
+	</elements>
+  <defenses armor="10" defense="16"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Grrrrrrr"/>
+    <voice sentence="Yoooohhuuuu!" yell="1"/>
+  </voices>
+  <loot>
+    <item id="2666" countmax="4" chance1="57777" chancemax="0"/>
+    <item id="2671" countmax="2" chance1="33333" chancemax="0"/>
+    <item id="5897" countmax="1" chance1="3666" chancemax="0"/>
+    <item id="7394" chance="400"/>
+  </loot>
+</monster>

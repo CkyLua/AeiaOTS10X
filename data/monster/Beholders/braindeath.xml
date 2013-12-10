@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<monster name="Braindeath" nameDescription="a braindeath" experience="985" speed="270" race="Undead">
+  <health now="1225" max="1225"/>
+  <look type="256" corpse="7260"/>
+  <strategy attack="100"/>
+    <targetchange interval="5000" chance="8"/>
+  <flags>
+    <flag canpushitems="1"/>
+    <flag hostile="1"/>
+    <flag attackable="1"/>
+    <flag illusionable="1"/>
+    <flag pushable="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="5"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="0" max="-100"/>
+    <attack name="energy" interval="2000" chance="25" min="-93" max="-170" range="7">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="fire" interval="2000" chance="20" min="-60" max="-80" range="7">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="death" interval="2000" chance="20" min="-70" max="-290" range="7">
+      <attribute key="areaEffect" value="mortarea"/>
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+    <attack name="earth" interval="2000" chance="25" min="-30" max="-70" range="7">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+    <attack name="lifedrain" interval="2000" chance="15" min="-75" max="-85" range="7">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="manadrain" interval="2000" chance="15" min="-0" max="-144" range="7">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+  </attacks>
+  <defenses defense="26" armor="13">
+    <defense name="healing" interval="2000" chance="30" max="1">
+      <attribute key="areaEffect" value="energy"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity name="earth"/>
+    <immunity name="death"/>
+    <immunity name="invisible"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Let me taste your brain!"/>
+    <voice sentence="Let me turn you into something more useful!"/>
+    <voice sentence="You have disturbed my thoughts!"/>
+    <voice sentence="You will be punished!"/>
+  </voices>
+  <summons maxSummons="3">
+    <summon name="Vampire" speed="2000" chance="10"/>
+  </summons>
+  <loot>
+    <item id="1987" countmax="1" chance="80000">
+      <inside>
+        <item id="2148" countmax="32" chance="80000"/>
+        <item id="2148" countmax="90" chance="80000"/>
+        <item id="2175" countmax="1" chance="1000"/>
+        <item id="2377" countmax="1" chance="6000"/>
+        <item id="2391" countmax="1" chance="1333"/>
+        <item id="2394" countmax="1" chance="10000"/>
+        <item id="2423" countmax="1" chance="5000"/>
+      </inside>
+    </item>
+    <item id="2148" countmax="45" chance="100000"/>
+    <item id="2181" countmax="1" chance="1333"/>
+    <item id="2397" countmax="1" chance="12000"/>
+    <item id="2445" countmax="1" chance="400"/>
+	 <item id="7407" chance="400"/> --haunted blade
+    <item id="2509" countmax="1" chance="6000"/> --steel shield
+    <item id="2518" countmax="1" chance="3000"/> --beho shield
+    <item id="3972" countmax="1" chance="550"/> --beho helm
+    <item id="5898" countmax="1" chance="2500"/> --beho eye
+  </loot>
+</monster>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gnarlhound" nameDescription="a gnarlhound" race="blood" experience="60" speed="220" manacost="0">
+<health now="198" max="198"/>
+<look type="341" corpse="5975"/>
+<targetchange interval="5000" chance="12"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" min="-0" max="-36"/>
+<attack name="fire" interval="2000" chance="15" range="7" radius="4" target="1" min="-120" max="-480">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<elements>
+<element physicalPercent="0"/>
+<element holyPercent="0"/>
+<element deathPercent="-5"/>
+<element energyPercent="5"/>
+<element icePercent="0"/>
+<element earthPercent="0"/>
+<element firePercent="5"/>
+</elements>
+<voices interval="5000" chance="10">
+<voice sentence="Gnarlll!" yell="1"/>
+<voice sentence="Grrrrrr!" yell="0"/>
+</voices>
+<loot>
+<item id="2152" countmax="84" chance1="2000" chancemax="3400"/>
+<item id="1987" chance="100000">
+<inside>
+<item id="3974" chance="1400"/>
+<item id="11317" chance="1100"/>
+<item id="2428" chance="1300"/>
+<item id="2455" chance="1600"/>
+<item id="2456" chance="1600"/>
+<item id="11108" chance="900"/>
+</inside>
+</item>
+</loot>
+</monster> 

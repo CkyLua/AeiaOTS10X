@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Acid Blob" nameDescription="an acid blob" race="venom" experience="250" speed="210" manacost="0">
+	<health now="250" max="250"/>
+	<look type="314" corpse="9962"/>
+	<targetchange interval="5000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-80"/>
+		<attack name="earth" interval="2000" chance="100" radius="4" min="-10" max="-20">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+				<attack name="earth" interval="2000" chance="11" length="4" spread="0" min="-40" max="-60">
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+				<attack name="earth" interval="2000" chance="12" range="4" target="1" min="0" max="0">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="earth" interval="3000" chance="8" length="5" spread="0" min="-49" max="-54">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="10" defense="10"/>
+	<immunities>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+	</immunities>
+	<elements>
+		<element firePercent="-10"/>
+		<element icePercent="20"/>
+		<element energyPercent="-10"/>
+	</elements>
+	<summons maxSummons="3">
+		<summon name="Acid Blob" interval="4000" chance="10"/>
+	</summons>
+	<loot>
+		<item id="9967" countmax="1" chance1="28000" chancemax="0"/> <!-- glob of acid -->
+	</loot>
+	  <voices interval="5000" chance="13">
+    <voice sentence="Kzzchhh"/>
+  </voices>
+</monster>
