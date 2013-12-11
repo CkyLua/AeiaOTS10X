@@ -116,14 +116,14 @@
 	<!--DONE-->
 	
 	<!-- Shrine Gates -->
-	<movevent envent="StepIn" fromaid="7704" toaid="7708"   script="theend/shrinetp.lua"/>
+	<movevent event="StepIn" fromaid="7704" toaid="7708"   script="theend/shrinetp.lua"/>
 	
 	<!-- PVP arena movement tiles -->
-	<movevent envent="StepIn" actionid="7709"   script="theend/pvparenatp.lua"/>
+	<movevent event="StepIn" actionid="7709"   script="theend/pvparenatp.lua"/>
 	
 	<!-- Other -->
-	<movevent envent="Equip" itemid="9956" slot="pickupable" function="onEquipItem"/>
-	<movevent envent="DeEquip" itemid="9956" slot="pickupable" function="onDeEquipItem"/>	
+	<movevent event="Equip" itemid="9956" slot="pickupable" function="onEquipItem"/>
+	<movevent event="DeEquip" itemid="9956" slot="pickupable" function="onDeEquipItem"/>	
 
 
 
