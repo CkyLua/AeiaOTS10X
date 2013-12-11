@@ -47,7 +47,7 @@
 		<voice sentence="HUAHAHA!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="76225" /> <!-- gold coin -->
+		<item id="2148" countmax="100" chance="76225" /> <!    coin -->
 		<item id="5893" chance="64800" /> <!-- perfect behemoth fang -->
 		<item id="2666" chance="36200" /> <!-- meat -->
 		<item id="5930" chance="50500" /> <!-- behemoth claw -->

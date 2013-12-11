@@ -65,9 +65,9 @@
 		<voice sentence="May my flames engulf you!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
-		<item id="2148" countmax="70" chance="50000"/><!-- gold coin -->
-		<item id="2148" countmax="64" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="50000"/><!    coin -->
+		<item id="2148" countmax="70" chance="50000"/><!    coin -->
+		<item id="2148" countmax="64" chance="50000"/><!    coin -->
 		<item id="2147" countmax="3" chance="7000"/><!-- small ruby -->
 		<item id="2168" chance="1500"/><!-- life ring -->
 		<item id="7591" chance="1500"/><!-- great health potion -->

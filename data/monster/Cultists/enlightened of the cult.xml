@@ -50,7 +50,7 @@
 		<summon name="Ghost" interval="2000" chance="10000"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="80" chance="20000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="20000"/><!    coin -->
 		<item id="2654" chance="15000"/><!-- cape -->
 		<item id="2200" chance="3000"/><!-- protection amulet -->
 		<item id="2146" chance="2000"/><!-- small sapphire -->

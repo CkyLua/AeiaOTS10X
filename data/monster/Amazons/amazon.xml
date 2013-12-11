@@ -34,7 +34,7 @@
 		<voice sentence="Your head will be mine!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="40030"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="40030"/>
 		<item id="2229" countmax="2" chance="80320"/><!-- skull -->
 		<item id="2379" chance="80150"/><!-- dagger -->
 		<item id="2691" chance="29300"/><!-- brown bread -->

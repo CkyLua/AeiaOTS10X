@@ -50,7 +50,7 @@
 		<voice sentence="Raaarrr!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="40" chance="46000"/><!-- gold coin -->
+		<item id="2148" countmax="40" chance="46000"/><!    coin -->
 		<item id="2666" countmax="4" chance="25000"/><!-- meat -->
 	</loot>
 </monster>

@@ -47,8 +47,8 @@
 		<voice sentence="Crush the intruders!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="29500"/><!-- gold coin -->
-		<item id="2148" countmax="70" chance="29500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="29500"/><!    coin -->
+		<item id="2148" countmax="70" chance="29500"/><!    coin -->
 		<item id="2023" chance="10500"/><!-- amphora -->
 		<item id="7368" countmax="2" chance="7000"/><!-- assassin star -->
 		<item id="2231" chance="7650"/><!-- big bone -->

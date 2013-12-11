@@ -57,12 +57,12 @@
 		<voice sentence="Carnage!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="43000"/><!-- gold coin -->
-		<item id="2148" countmax="75" chance="43000"/><!-- gold coin -->
-		<item id="2148" countmax="65" chance="43000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="43000"/><!    coin -->
+		<item id="2148" countmax="75" chance="43000"/><!    coin -->
+		<item id="2148" countmax="65" chance="43000"/><!    coin -->
 		<item id="6558" countmax="3" chance="25000"/><!-- concentrated demonic blood -->
 		<item id="6500" chance="22500"/><!-- demonic essence -->
-		<item id="2470" chance="450"/><!-- golden legs -->
+		<item id="2470" chance="450"/><!   en legs -->
 		<item id="7591" chance="10000"/><!-- great health potion-->
 		<item id="2666" chance="25000"/><!-- meat -->
 		<item id="7456" chance="1800"/><!-- noble axe -->

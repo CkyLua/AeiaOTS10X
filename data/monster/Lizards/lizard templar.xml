@@ -31,7 +31,7 @@
 		<voice sentence="Hissss!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="29500"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="29500"/><!    coin -->
 		<item id="2406" chance="7000"/><!-- short sword -->
 		<item id="2457" chance="5500"/><!-- steel helmet -->
 		<item id="2376" chance="6000"/><!-- sword -->

@@ -39,7 +39,7 @@
 		<voice sentence="One more head for me!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="32210"/><!-- gold coin -->
+		<item id="2148" countmax="12" chance="32210"/>
 		<item id="2666" countmax="3" chance="30000"/><!-- meat -->
 		<item id="2674" countmax="4" chance="6690"/><!-- red apple -->
 		<item id="2229" countmax="1" chance="690"/><!-- skull -->

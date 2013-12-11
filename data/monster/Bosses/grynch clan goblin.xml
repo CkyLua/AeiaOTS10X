@@ -63,7 +63,7 @@
     <voice sentence="Catch me if you can!"/>
   </voices>
   <loot>
-    <item id="2148" countmax="16" chance1="100000" chancemax="0"/> --Gold Coin
+    <item id="2148" countmax="16" chance1="100000" chancemax="0"/>    
     <item id="2676" countmax="100" chance1="1050" chancemax="0"/> --Banana
     <item id="6501" countmax="2" chance1="13256" chancemax="0"/> --Gingerbread Man
     <item id="2675" countmax="3" chance1="13256" chancemax="0"/> --Orange
@@ -71,7 +71,7 @@
     <item id="2679" countmax="4" chance1="13256" chancemax="0"/> --Cherry
     <item id="2674" countmax="3" chance1="13256" chancemax="0"/> --Apple
     <item id="2678" countmax="19" chance1="1050" chancemax="0"/> --Coconut
-    <item id="1987" chance="100000"> --Bag
+    <item id="1987" chance="100000">    
       <inside>
         <item id="2695" countmax="2" chance1="20000" chancemax="0"/> --Egg
         <item id="2688" countmax="3" chance1="20000" chancemax="0"/> --Candy Cane
@@ -103,7 +103,7 @@
         <item id="4873" chance="10000"/> --Explorer Brooch
         <item id="2102" chance="10000"/> --Flower Bowl
         <item id="2159" chance="1000"/> --Scarab Coin
-        <item id="1987" chance="100000"> --Bag
+        <item id="1987" chance="100000">    
 		  <inside>
 			<item id="5900" chance="10000"/> --Dwarven Beard
 			<item id="5022" chance="10000"/> --Orichalcum Pearl

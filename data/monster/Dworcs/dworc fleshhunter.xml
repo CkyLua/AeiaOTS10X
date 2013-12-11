@@ -36,7 +36,7 @@
 		<voice sentence="Prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="39000"/><!-- gold coin -->
+		<item id="2148" countmax="15" chance="39000"/><!    coin -->
 		<item id="2229" countmax="3" chance="3300"/><!-- skull -->
 		<item id="2568" chance="9750"/><!-- cleaver -->
 		<item id="2050" chance="4750"/><!-- torch -->
@@ -45,7 +45,7 @@
 		<item id="3965" chance="2000"/><!-- hunting spear -->
 		<item id="2172" chance="200"/><!-- bronze amulet -->
 		<item id="2411" chance="1250"/><!-- poison dagger -->
-		<item id="2541" chance="1400"/><!-- bone shield -->
+		<item id="2541" chance="1400"/><!    shield -->
 		<item id="3964" chance="250"/><!-- ripper lance -->
 	</loot>
 </monster>

@@ -67,11 +67,11 @@
 	  <item id="2522" chance1="500" chancemax="0"/> 
 	  <item id="10719" chance1="500" chancemax="0"/> 
 
-	<item id="6391" chance="500"/> -- dark shield czy cos
-	<item id="2470" chance="500"/> --Golden legs
-	<item id="2537" chance="500"/> --Demon shield
- 	<item id="11076" chance="500"/> --MYSTIC SKULL
-	     <item id="10719" chance="500" chancemax="0"/> --BLOOD AMULET
+	<item id="6391" chance="500"/>    
+	<item id="2470" chance="500"/>    
+	<item id="2537" chance="500"/>    
+ 	<item id="11076" chance="500"/>    
+	     <item id="10719" chance="500" chancemax="0"/>    
 
    	 <item id="6541" countmax="15" chance1="1000" chancemax="0"/>
    	 <item id="6542" countmax="15" chance1="1000" chancemax="0"/>

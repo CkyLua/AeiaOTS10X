@@ -58,7 +58,7 @@
 				<item id="2409" chance="1500"/> <!-- serpent sword -->
 				<item id="2423" chance="1500"/> <!-- clerical mace -->
 				<item id="2213" chance="400"/> <!-- dwarven ring -->
-				<item id="2146" chance="300"/> <!-- small sapphire -->
+				<item id="2146" chance="300"/>    
 			</inside>
 		</item>
 	</loot>

@@ -75,20 +75,20 @@
 	</voices>
 	<loot>
 		<item id="8298" chance="100000"/><!-- fire spirit -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="3" chance="25000"/><!-- platinum coin -->
-		<item id="7416" chance="4444" /> -- Boh
-		<item id="2432" chance="5555"/> -- Fire Axe
-		<item id="2470" chance="6500"/> --Golden legs
-		<item id="2469" chance="3000"/><!-- golden armor -->
+		<item id="2148" countmax="100" chance="100000"/>   
+		<item id="2152" countmax="3" chance="25000"/>   
+		<item id="7416" chance="4444" />    
+		<item id="2432" chance="5555"/>    
+		<item id="2470" chance="6500"/>    
+		<item id="2469" chance="3000"/><!   en armor -->
 		<item id="2492" chance="2000"/><!-- knight armor -->
-		<item id="10519" chance="100000"><!-- bag -->
+		<item id="10519" chance="100000">   
 			<inside>
-				<item id="6500" countmax="1" chance="1818"/><!-- demonic essence -->
-				<item id="7382" chance="3000"/><!-- golden armor -->
-				<item id="2672" countmax="15" chance="2000"/><!-- power bolt -->
+				<item id="6500" countmax="1" chance="1818"/>   
+				<item id="7382" chance="3000"/><!   en armor -->
+				<item id="2672" countmax="15" chance="2000"/>   
 				<item id="2413" chance="4000"/><!-- hardened bone -->
-				<item id="6529" countmax="15" chance="4000"/><!-- power bolt -->
+				<item id="6529" countmax="15" chance="4000"/>   
 			</inside>
 		</item>
 	</loot>

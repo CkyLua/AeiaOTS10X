@@ -54,7 +54,7 @@
 		<voice sentence="We'll be back!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="12500"/><!-- gold coin -->
+		<item id="2148" countmax="10" chance="12500"/><!    coin -->
 		<item id="2526" chance="1200"/><!-- studded shield -->
 		<item id="2482" chance="9500"/><!-- studded helmet -->
 		<item id="2484" chance="7000"/><!-- studded armor -->

@@ -58,7 +58,7 @@
 		<voice sentence="You've got the look!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="35000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="35000"/><!    coin -->
 		<item id="2397" chance="7250"/><!-- longsword -->
 		<item id="2394" chance="6000"/><!-- morning star -->
 		<item id="2512" chance="2750"/><!-- wooden shield -->

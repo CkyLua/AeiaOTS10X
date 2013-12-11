@@ -30,7 +30,7 @@
 		<voice sentence="Hand me your purse!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="28" chance="16000"/><!-- gold coin -->
+		<item id="2148" countmax="28" chance="16000"/><!    coin -->
 		<item id="2386" chance="48000"/><!-- axe -->
 		<item id="2511" chance="33700"/><!-- brass shield -->
 		<item id="2649" chance="26000"/><!-- leather legs -->

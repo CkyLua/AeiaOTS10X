@@ -50,8 +50,8 @@
 <voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
 </voices>
 <loot>
-<item id="2148" countmax="173" chance="100000"/><!-- gold coin -->
-<item id="2152" countmax="3" chance="25000"/><!-- platinum coin -->
+<item id="2148" countmax="173" chance="100000"/>   
+<item id="2152" countmax="3" chance="25000"/>   
 <!--<item id="11316" chance="1200"/>-->
 <item id="8473" chance="2200"/>
 <item id="7591" chance="1700"/>
@@ -61,9 +61,9 @@
 <!--<item id="11296" chance="2300"/>-->
 <!--<item id="11360" chance="1500"/>-->
 <item id="11361" chance="1250"/>
-<item id="11237" chance="100000"><!-- bag -->
+<item id="11237" chance="100000">   
 <inside>
-<item id="6500" countmax="1" chance="818"/><!-- demonic essence -->
+<item id="6500" countmax="1" chance="818"/>   
 <item id="9808" chance="1400"/>
 <item id="11297" chance="1300"/>
 <item id="11298" chance="2370"/>

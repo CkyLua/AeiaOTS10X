@@ -55,12 +55,12 @@
 		<voice sentence="Are you tired or why are you moving thhat sslow"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2148" countmax="50" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="2" chance="100000"/><!-- platinum coin -->
+		<item id="2148" countmax="100" chance="100000"/>   
+		<item id="2148" countmax="50" chance="100000"/>   
+		<item id="2152" countmax="2" chance="100000"/>   
 		<item id="2149" countmax="3" chance="6500"/><!-- small emerald -->
 		<item id="2476" chance="4600"/><!-- knight armor -->
-		<item id="1987" chance="100000"><!-- bag -->
+		<item id="1987" chance="100000">   
 			<item id="8473" chance="5000"/><!-- ultimate health potion -->
 			<item id="8473" chance="4980"/><!-- ultimate health potion -->
 			<item id="7589" chance="5300"/><!-- strong mana potion -->

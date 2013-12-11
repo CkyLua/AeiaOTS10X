@@ -69,7 +69,7 @@
         <item id="2176" chance="93000"/> --orb
         <item id="1982" chance="91300"/> --purpel tome
         <item id="7368" countmax="94" chance="1200"/>
-        <item id="2165" chance="1400"/> --stealth ring
+        <item id="2165" chance="1400"/>    
  	<item id="5926" chance="100000">
  	<inside>
         <item id="7393" chance="99500"/> --ring of healing
@@ -80,8 +80,8 @@
  	<item id="2462" chance="91200"/> --devil helmet
 	<item id="2149" countmax="93" chance1="11000" chancemax="0"/>
  	<item id="2171" chance="9800"/> --platinum amulet
- 	<item id="2470" chance="9400"/> --golden legs
- 	<item id="2520" chance="9700"/> --demon shield
+ 	<item id="2470" chance="9400"/>    
+ 	<item id="2520" chance="9700"/>    
  	<item id="7382" chance="94100"/> --demonrage sword
         <item id="7891" chance="9500"/>
         <item id="7894" chance="9500"/>

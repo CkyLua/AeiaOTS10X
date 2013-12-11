@@ -50,8 +50,8 @@
 		<voice sentence="FCHHHHH" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="37500"/><!-- gold coin -->
-		<item id="2148" countmax="50" chance="37500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="37500"/><!    coin -->
+		<item id="2148" countmax="50" chance="37500"/><!    coin -->
 		<item id="2546" countmax="12" chance="4000"/><!-- burst arrow -->
 		<item id="2672" countmax="3" chance="15500"/><!-- dragon ham -->
 		<item id="2406" chance="25000"/><!-- short sword -->

@@ -53,17 +53,17 @@
 		<voice sentence="GRRRRR!"/>
 	</voices>
 	<loot>
-		<item id="2152" countmax="4" chance="6000"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="5944" chance="5555"/><!-- soul orb -->
+		<item id="2152" countmax="4" chance="6000"/>   
+		<item id="2148" countmax="100" chance="100000"/>   
+		<item id="5944" chance="5555"/>   
  	<item id="6548" chance="2300"/> --demoniczny kamien
-		<item id="2671" countmax="5" chance="50000"/><!-- ham -->
-		<item id="2230" chance="25000"/><!-- bone -->
-		<item id="6500" countmax="1" chance="7200"/><!-- demonic essence -->
+		<item id="2671" countmax="5" chance="50000"/><!    -->
+		<item id="2230" chance="25000"/><!    -->
+		<item id="6500" countmax="1" chance="7200"/>   
 		<item id="2231" chance="30000"/><!-- big bone -->
-		<item id="2393" chance="2000"/><!-- giant sword -->
+		<item id="2393" chance="2000"/>   
 		<item id="2144" countmax="3" chance="9999"/><!-- black pearl -->
-		<item id="1987" chance="100000"><!-- bag -->
+		<item id="1987" chance="100000">   
 			<inside>
 				<item id="2430" chance="2857"/><!-- knight axe -->
 				<item id="2383" chance="2500"/><!-- spike sword -->

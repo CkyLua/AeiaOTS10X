@@ -55,8 +55,8 @@
 		<voice sentence="Wishes can come true."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="40000"/><!-- gold coin -->
-		<item id="2148" countmax="50" chance="40000"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="40000"/><!    coin -->
+		<item id="2148" countmax="50" chance="40000"/><!    coin -->
 		<item id="2684" chance="9250"/><!-- carrot -->
 		<item id="7378" countmax="2" chance="3500"/><!-- royal spear -->
 		<item id="2146" countmax="5" chance="1000"/><!-- small sapphire -->

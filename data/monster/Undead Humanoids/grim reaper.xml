@@ -57,9 +57,9 @@
 		<voice sentence="The end is near!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="43750"/><!-- gold coin -->
-		<item id="2148" countmax="80" chance="43750"/><!-- gold coin -->
-		<item id="2148" countmax="75" chance="43750"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="43750"/><!    coin -->
+		<item id="2148" countmax="80" chance="43750"/><!    coin -->
+		<item id="2148" countmax="75" chance="43750"/><!    coin -->
 		<item id="6500" chance="10500"/><!-- demonic essence -->
 		<item id="8473" chance="9500"/><!-- ultimate health potion -->
 		<item id="2152" countmax="4" chance="3500"/><!-- Platinum Coin -->
@@ -74,6 +74,6 @@
 		<item id="7418" chance="450"/><!-- nightmare blade -->
 		<item id="5022" countmax="4" chance="1500"/><!-- orichalcum pearl -->
 		<item id="8889" chance="560"/><!-- skullcracker armor -->
-		<item id="6300" chance="280"/><!-- death ring -->
+		<item id="6300" chance="280"/><!    -->
 	</loot>
 </monster>

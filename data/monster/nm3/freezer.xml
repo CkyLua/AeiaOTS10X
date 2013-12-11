@@ -69,19 +69,19 @@
 		<summon name="Ice Witch" interval="4000" chance="33"/>
 	</summons>
   <loot>
-    <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
-    <item id="2152" countmax="30" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>    
+    <item id="2152" countmax="30" chance1="100000" chancemax="0"/>    
     <item id="8302" countmax="1" chance1="100000" chancemax="0"/> --ta rzecz dobro
     <item id="7290" chance="3666"/> --Shard
-    <item id="2145" countmax="17" chance1="3333" chancemax="0"/> --Small Diamond
+    <item id="2145" countmax="17" chance1="3333" chancemax="0"/>    
     <item id="7441" chance="2222"/> --Ice Cube
-    <item id="10518" chance="100000"> --Bag
+    <item id="10518" chance="100000">    
       <inside>
           <item id="2146" countmax="40" chance1="4200" chancemax="0"/> --Small Sapphire
           <item id="2396" chance="2050"/> --Ice Rapier
           <item id="2479" chance="8887"/> --Strange Helmet
- 		<item id="11076" chance="1000"/> --MYSTIC SKULL
-	      <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
+ 		<item id="11076" chance="1000"/>    
+	      <item id="10719" chance="2000" chancemax="0"/>    
           <item id="7449" chance="1999"/> --Crystal Sword
           <item id="7897" chance="3111"/> --Spike Sword
 		  <item id="7902" chance="100"/> --Spike Sword

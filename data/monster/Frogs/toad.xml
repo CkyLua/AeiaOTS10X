@@ -34,7 +34,7 @@
 		<voice sentence="Ribbit!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="41000"/><!-- gold coin -->
+		<item id="2148" countmax="12" chance="41000"/><!    coin -->
 		<item id="2666" countmax="2" chance="10500"/><!-- meat -->
 		<item id="2667" chance="25000"/><!-- fish -->
 		<item id="2398" chance="4500"/><!-- mace -->

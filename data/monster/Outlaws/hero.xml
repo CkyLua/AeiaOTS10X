@@ -48,8 +48,8 @@
 		<voice sentence="I will sing a tune at your grave."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="55" chance="42500"/><!-- gold coin -->
-		<item id="2148" countmax="45" chance="42500"/><!-- gold coin -->
+		<item id="2148" countmax="55" chance="42500"/><!    coin -->
+		<item id="2148" countmax="45" chance="42500"/><!    coin -->
 		<item id="2544" countmax="15" chance="21000"/><!-- arrow -->
 		<item id="2120" chance="20000"/><!-- rope -->
 		<item id="1949" chance="50000"/><!-- scroll -->
@@ -67,7 +67,7 @@
 		<item id="5911" chance="5000"/><!-- red piece of cloth -->
 		<item id="2487" chance="900"/><!-- crown armor -->
 		<item id="2519" chance="1000"/><!-- crown shield -->
-		<item id="2491" chance="1250"/><!-- crown helmet -->
+		<item id="2491" chance="1250"/><!    -->
 		<item id="2392" chance="750"/><!-- fire sword -->
 		<item id="7591" chance="875"/><!-- great health potion -->
 		<item id="2114" chance="200"/><!-- piggy bank -->

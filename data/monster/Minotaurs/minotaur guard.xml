@@ -32,7 +32,7 @@
 		<voice sentence="Kaplar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="59670"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="59670"/><!    coin -->
 		<item id="2580" chance="480"/><!-- fishing rod -->
 		<item id="2465" chance="4390"/><!-- brass armor -->
 		<item id="2464" chance="2970"/><!-- chain armor -->

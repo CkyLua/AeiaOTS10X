@@ -33,7 +33,7 @@
 		<voice sentence="Broar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="26250"/><!-- gold coin -->
+		<item id="2148" countmax="12" chance="26250"/><!    coin -->
 		<item id="2667" chance="15000"/><!-- fish -->
 		<item id="2382" chance="8000"/><!-- club -->
 		<item id="2384" chance="17000"/><!-- rapier -->

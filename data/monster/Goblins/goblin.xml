@@ -38,9 +38,9 @@
 		<voice sentence="Me green, me mean!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="9" chance="28750"/><!-- gold coin -->
-		<item id="2230" chance="13750"/><!-- bone -->
-		<item id="2449" chance="4000"/><!-- bone club -->
+		<item id="2148" countmax="9" chance="28750"/><!    coin -->
+		<item id="2230" chance="13750"/><!    -->
+		<item id="2449" chance="4000"/><!    club -->
 		<item id="2379" chance="16000"/><!-- dagger -->
 		<item id="2667" chance="13750"/><!-- fish -->
 		<item id="2467" chance="6750"/><!-- leather armor -->

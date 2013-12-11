@@ -45,8 +45,8 @@
 		<voice sentence="Boohaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="48" chance="34000"/><!-- gold coin -->
-		<item id="2148" countmax="45" chance="34000"/><!-- gold coin -->
+		<item id="2148" countmax="48" chance="34000"/><!    coin -->
+		<item id="2148" countmax="45" chance="34000"/><!    coin -->
 		<item id="2406" chance="7200"/><!-- short sword -->
 		<item id="2465" chance="2500"/><!-- brass armor -->
 		<item id="2460" chance="7500"/><!-- brass helmet -->

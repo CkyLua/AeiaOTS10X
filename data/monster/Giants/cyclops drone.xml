@@ -37,9 +37,9 @@
 		<voice sentence="Humy tasy! Hum hum!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="24" chance="32000"/><!-- gold coin -->
+		<item id="2148" countmax="24" chance="32000"/><!    coin -->
 		<item id="2666" countmax="2" chance="26750"/><!-- meat -->
-		<item id="2671" countmax="2" chance="11000"/><!-- ham -->
+		<item id="2671" countmax="2" chance="11000"/><!    -->
 		<item id="2406" chance="8000"/><!-- short sword -->
 		<item id="2510" chance="1600"/><!-- plate shield -->
 		<item id="2513" chance="1300"/><!-- battle shield -->

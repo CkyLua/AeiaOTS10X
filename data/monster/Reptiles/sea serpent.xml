@@ -49,15 +49,15 @@
 	  <element deathPercent="-15"/>
 	</elements>
 	<loot>
-      <item id="2148" countmax="71" chance="40000"/>		<!-- gold coin -->
-      <item id="2146" countmax="2" chance="10000"/>			<!-- small saphire -->
-      <item id="2666" countmax="4" chance="20000"/>			<!-- meat -->
+      <item id="2148" countmax="71" chance="40000"/>		   
+      <item id="2146" countmax="2" chance="10000"/>			   
+      <item id="2666" countmax="4" chance="20000"/>			   
       <item id="2214" chance="10000"/>						<!-- ring of healing -->
       <item id="7888" chance="10000"/>						<!-- glacier amulet -->
       <item id="1987" chance="100000">
 		<inside>
-		  <item id="2672" countmax="5" chance="20000"/>		<!-- dragon ham -->
-		  <item id="2148" countmax="80" chance="40000"/>	<!-- gold coin -->
+		  <item id="2672" countmax="5" chance="20000"/>		   
+		  <item id="2148" countmax="80" chance="40000"/>	   
 		  <item id="8866" chance="2500"/>					<!-- serpent coat -->
 		  <item id="8887" chance="833"/>					<!-- frozen plate -->
 		  <item id="2158" chance="5000"/>					<!-- blue gem -->

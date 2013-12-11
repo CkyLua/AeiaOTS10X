@@ -35,9 +35,9 @@
 		<voice sentence="Let da mashing begin!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="33" chance="22500"/><!-- gold coin -->
-		<item id="2148" countmax="22" chance="22500"/><!-- gold coin -->
-		<item id="2671" countmax="4" chance="4500"/><!-- ham -->
+		<item id="2148" countmax="33" chance="22500"/><!    coin -->
+		<item id="2148" countmax="22" chance="22500"/><!    coin -->
+		<item id="2671" countmax="4" chance="4500"/><!    -->
 		<item id="7618" chance="250"/><!-- health potion -->
 		<item id="2666" countmax="3" chance="18333"/><!-- meat -->
 		<item id="2510" chance="2500"/><!-- plate shield -->

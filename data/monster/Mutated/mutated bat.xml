@@ -40,8 +40,8 @@
 	<voices interval="2500" chance="10">
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="43500"/><!-- gold coin -->
-		<item id="2148" countmax="51" chance="43500"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="43500"/><!    coin -->
+		<item id="2148" countmax="51" chance="43500"/><!    coin -->
 		<item id="5894" countmax="2" chance="4000"/><!-- bat wing -->
 		<item id="2513" chance="7300"/><!-- battle shield -->
 		<item id="2144" countmax="3" chance="1000"/><!-- black pearl -->

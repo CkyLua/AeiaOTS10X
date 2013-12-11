@@ -49,9 +49,9 @@
 		<voice sentence="GROOOOAAAAAAAAR!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="30000"/><!-- gold coin -->
-		<item id="2148" countmax="80" chance="30000"/><!-- gold coin -->
-		<item id="2148" countmax="60" chance="30000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="30000"/><!    coin -->
+		<item id="2148" countmax="80" chance="30000"/><!    coin -->
+		<item id="2148" countmax="60" chance="30000"/><!    coin -->
 		<item id="2672" countmax="3" chance="15000"/><!-- dragon ham -->
 		<item id="2546" countmax="10" chance="4750"/><!-- burst arrow -->
 		<item id="7588" chance="4750"/><!-- strong health potion -->

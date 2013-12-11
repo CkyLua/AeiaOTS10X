@@ -105,8 +105,8 @@
 		<item id="11295" countmax="1" chance="3000"/>
 		<item id="2514" countmax="1" chance="7500"/>
 		<item id="2200" countmax="1" chance="4500"/>
- 		<item id="11076" chance="1000"/> --MYSTIC SKULL
-	      <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
+ 		<item id="11076" chance="1000"/>    
+	      <item id="10719" chance="2000" chancemax="0"/>    
 		<item id="2123" countmax="1" chance="3500"/>
 		<item id="2436" countmax="1" chance="5000"/>
 		<item id="7427" countmax="1" chance="5000"/>
@@ -121,10 +121,10 @@
 		<item id="2160" countmax="10" chance="8000"/>
 	      <item id="2152" countmax="100" chance1="100000" chancemax="0"/>
 		<item id="2152" countmax="80" chance1="100000" chancemax="0"/>
-		<item id="6391" chance="2222"/> -- dark shield czy cos
-		<item id="7416" chance="4444" /> -- Boh
-		<item id="2432" chance="5555"/> -- Fire Axe
-		<item id="2477" chance="6666" /> --Knight legs
+		<item id="6391" chance="2222"/>    
+		<item id="7416" chance="4444" />    
+		<item id="2432" chance="5555"/>    
+		<item id="2477" chance="6666" />    
 		<item id="11237" chance="30000">
 		<inside>
 			<item id="2151" countmax="11" chance1="6000" chancemax="0"/>
@@ -135,8 +135,8 @@
 			<item id="2160" countmax="10" chance="8000"/>
 			<item id="10063" chance="100"/>
 			<item id="10142" chance="100"/>
-			<item id="2488" chance="6666" /> --Knight legs
-			<item id="2487" chance="6666" /> --Knight legs
+			<item id="2488" chance="6666" />    
+			<item id="2487" chance="6666" />    
 			<item id="9931" chance="2333"/>
 			<item id="2323" chance="4333"/>
 			<item id="10016" chance="4333"/>
@@ -148,8 +148,8 @@
 			<item id="2138" chance="4444"/>
 			<item id="8931" countmax="1" chance="1500"/>
 			<item id="8841" countmax="10" chance="8000"/>
-			<item id="2470" chance="6500"/> --Golden legs
-			<item id="2537" chance="9999"/> --Demon shield
+			<item id="2470" chance="6500"/>    
+			<item id="2537" chance="9999"/>    
 		</inside>
 		</item>
 	</loot>

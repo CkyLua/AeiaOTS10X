@@ -28,7 +28,7 @@
 		<element firePercent="-15"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="17" chance="38500"/><!-- gold coin -->
+		<item id="2148" countmax="17" chance="38500"/><!    coin -->
 		<item id="2398" chance="4500"/><!-- mace -->
 		<item id="2376" chance="4000"/><!-- sword -->
 		<item id="11218" chance="11025"/> <!-- centipede leg -->

@@ -39,7 +39,7 @@
 		<voice sentence="Gnarrr!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="37" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="37" chance="100000"/><!    coin -->
 		<item id="2226" chance="2000"/><!-- fishbone -->
 		<item id="2473" chance="3333"/><!-- viking helmet -->
 		<item id="2387" chance="2000"/><!-- double axe -->

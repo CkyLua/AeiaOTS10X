@@ -38,7 +38,7 @@
 	</voices>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="20" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="100000"/><!    coin -->
 		<item id="2464" chance="6666"/><!-- chain armor -->
 		<item id="2125" chance="2500"/><!-- crystal necklace -->
 		<item id="2387" chance="3333"/><!-- double axe -->

@@ -54,17 +54,17 @@
 
   </voices>
   <loot>
-   <item id="2148" countmax="100" chance1="100000" chancemax="0"/> --Gold Coin
-   <item id="2152" countmax="3" chance1="50000" chancemax="0"/> --Platinum Coin
-   <item id="2187" chance="1800" /> -- wand of Inferno
+   <item id="2148" countmax="100" chance1="100000" chancemax="0"/>    
+   <item id="2152" countmax="3" chance1="50000" chancemax="0"/>    
+   <item id="2187" chance="1800" />    
       <item id="8974" chance="1300" /> -- Oracle figurine
    <item id="9774" chance="100000"> --nowy bakpak
             <inside>
-              <item id="2148" countmax="65" chance1="100000" chancemax="0"/> --Gold Coin
+              <item id="2148" countmax="65" chance1="100000" chancemax="0"/>    
               <item id="6500" countmax="3" chance1="2500" chancemax="0"/> --Concentrated Demonic Blood
               <item id="2663" chance="1666"/> --kask
 	
-              <item id="2149" countmax="9" chance1="100000" chancemax="0"/> --Gold Coin
+              <item id="2149" countmax="9" chance1="100000" chancemax="0"/>    
               <item id="9816" chance="1666"/> --kask
             </inside>
         </item>

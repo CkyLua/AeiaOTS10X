@@ -48,7 +48,7 @@
 		<voice sentence="You will not get my treasure!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="69" chance="18000"/><!-- gold coin -->
+		<item id="2148" countmax="69" chance="18000"/><!    coin -->
 		<item id="2237" chance="9000"/><!-- dirty cape -->
 		<item id="2236" chance="6000"/><!-- torn book -->
 		<item id="2165" chance="800"/><!-- stealth ring -->

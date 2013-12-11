@@ -48,16 +48,16 @@
 		<element deathPercent="-10"/>
 	</elements>
   <loot>
-    <item id="2148" countmax="60" chance="70000"/>	-- gold coin
-	    <item id="2148" countmax="100" chance="100000"/>	-- gold coin
-    <item id="2146" countmax="1" chance="3000"/>	-- small saphire
-    <item id="2666" countmax="4" chance="40000"/>	-- meat
+    <item id="2148" countmax="60" chance="70000"/>	   
+	    <item id="2148" countmax="100" chance="100000"/>	   
+    <item id="2146" countmax="1" chance="3000"/>	   
+    <item id="2666" countmax="4" chance="40000"/>	   
     <item id="2214" chance="10000"/>			-- ring of healing
     <item id="7391" chance="400"/>			-- Thaian Sword
     <item id="1987" chance="100000">
     <inside>
-	  <item id="2148" countmax="74" chance="40000"/>	-- gold coin
-      <item id="2672" countmax="3" chance="20000"/>	-- dragon ham
+	  <item id="2148" countmax="74" chance="40000"/>	   
+      <item id="2672" countmax="3" chance="20000"/>	   
       <item id="7888" chance="3100"/>	        -- Glacier amulet
       <item id="8887" chance="400"/>			-- Frozen Plate
       <item id="7424" chance="2600"/>			-- Lunar Staff

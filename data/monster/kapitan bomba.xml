@@ -67,7 +67,7 @@
 				<item id="2164" chance="750"/> <!-- might ring -->
 				<item id="2391" chance="700"/> <!-- war hammer -->
 				<item id="9976" chance="700"/> <!-- crystal pedestal -->
-				<item id="7428" chance="200"/> <!-- bonebreaker -->
+				<item id="7428" chance="200"/> <!   breaker -->
 				<item id="2207" chance="300"/> <!-- sword ring -->
 			</inside>
 		</item>

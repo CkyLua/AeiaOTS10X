@@ -45,7 +45,7 @@
 		<voice sentence="Futchi maruk buta!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="15000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="15000"/><!    coin -->
 		<item id="2399" chance="4000" countmax="22"/><!-- throwing star -->
 		<item id="2667" countmax="2" chance="12500"/><!-- fish -->
 		<item id="2419" chance="29500"/><!-- scimitar -->
@@ -64,7 +64,7 @@
 		<item id="2165" chance="900"/><!-- stealth ring -->
 		<item id="7618" chance="1000"/><!-- health potion -->
 		<item id="7395" chance="100"/><!-- orc trophy -->
-		<item id="2179" chance="100"/><!-- golden ring -->
+		<item id="2179" chance="100"/><!   en ring -->
 		<item id="7891" chance="100"/><!-- magma boots -->
 	</loot>
 </monster>

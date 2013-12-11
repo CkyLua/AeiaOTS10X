@@ -51,7 +51,7 @@
 		<voice sentence="Shhhhhhhh"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="31500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="31500"/><!    coin -->
 		<item id="2654" chance="13000"/><!-- cape -->
 		<item id="2817" chance="40000"/><!-- dead snake -->
 		<item id="2237" chance="22500"/><!-- dirty cape -->

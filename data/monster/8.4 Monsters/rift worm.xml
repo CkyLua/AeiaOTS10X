@@ -31,9 +31,9 @@
 		<element icePercent="-10"/>
 	</elements>
     <loot>
-      <item id="2148" countmax="86" chance1="100000" chancemax="0"/> --Gold
-      <item id="8877" chance="20000"/>  --Gland
-      <item id="3976" countmax="47" chance1="25000" chancemax="0"/> --Worm
+      <item id="2148" countmax="86" chance1="100000" chancemax="0"/> 
+      <item id="8877" chance="20000"/>  
+      <item id="3976" countmax="47" chance1="25000" chancemax="0"/> 
     </loot>
   </monster>
 

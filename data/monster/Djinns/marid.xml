@@ -69,8 +69,8 @@
 		<voice sentence="Djinns will soon again be the greatest!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="40000"/><!-- gold coin -->
-		<item id="2148" countmax="60" chance="40000"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="40000"/><!    coin -->
+		<item id="2148" countmax="60" chance="40000"/><!    coin -->
 		<item id="2677" countmax="25" chance="5000"/><!-- blueberry -->
 		<item id="7378" countmax="3" chance="3500"/><!-- royal spear -->
 		<item id="2442" chance="5000"/><!-- heavy machete -->

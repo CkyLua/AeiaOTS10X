@@ -42,8 +42,8 @@
 		<summon name="massive water elemental" interval="1000" chance="8"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="80" chance1="100000" chancemax="0"/> --Gold Coin
-		<item id="2148" countmax="70" chance1="100000" chancemax="0"/> -- Gold Coin
+		<item id="2148" countmax="80" chance1="100000" chancemax="0"/>    
+		<item id="2148" countmax="70" chance1="100000" chancemax="0"/>    
 		<item id="5895" countmax="1" chance1="100000" chancemax="0"/> -- Fish Fin
 		<item id="5741" chance="3000"/> -- Skull Helmet
 		<item id="7383" chance="1200"/> -- Relic Sword

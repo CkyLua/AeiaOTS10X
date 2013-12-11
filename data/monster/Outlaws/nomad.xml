@@ -34,7 +34,7 @@
 		<voice sentence="We are swift as the wind of the desert!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="51" chance="16250"/><!-- gold coin -->
+		<item id="2148" countmax="51" chance="16250"/><!    coin -->
 		<item id="2666" countmax="2" chance="22500"/><!-- meat -->
 		<item id="2386" chance="28000"/><!-- axe -->
 		<item id="2511" chance="20000"/><!-- brass shield -->

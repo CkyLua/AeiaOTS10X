@@ -85,14 +85,14 @@
 		<item id="2167" countmax="1" chance="13500"/><!-- energy ring -->
 		<item id="2432" countmax="1" chance="17000"/><!-- fire axe -->
 		<item id="2393" countmax="1" chance="12500"/><!-- giant sword -->
-		<item id="2148" countmax="100" chance="99900"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="88800"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="77700"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="66600"/><!-- gold coin -->
-		<item id="2179" countmax="1" chance="8000"/><!-- gold ring -->
-		<item id="2470" countmax="1" chance="5000"/><!-- golden legs -->
-		<item id="2033" countmax="1" chance="7500"/><!-- golden mug -->
-		<item id="2418" countmax="1" chance="4500"/><!-- golden sickle -->
+		<item id="2148" countmax="100" chance="99900"/><!    coin -->
+		<item id="2148" countmax="100" chance="88800"/><!    coin -->
+		<item id="2148" countmax="100" chance="77700"/><!    coin -->
+		<item id="2148" countmax="100" chance="66600"/><!    coin -->
+		<item id="2179" countmax="1" chance="8000"/><!    ring -->
+		<item id="2470" countmax="1" chance="5000"/><!   en legs -->
+		<item id="2033" countmax="1" chance="7500"/><!   en mug -->
+		<item id="2418" countmax="1" chance="4500"/><!   en sickle -->
 		<item id="2182" countmax="1" chance="3500"/><!-- snakebite rod -->
 		<item id="2155" countmax="1" chance="1500"/><!-- green gem -->
 		<item id="2188" countmax="1" chance="2500"/><!-- wand of decay -->

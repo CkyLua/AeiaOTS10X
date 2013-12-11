@@ -218,7 +218,7 @@
 	<monster name="Polar Bear" file="Bears/polar bear.xml"/>
 	<monster name="Undead Cavebear" file="Bears/undead cavebear.xml"/>
 
-<!-- Bonelords -->
+<!--Bone lords -->
 	<monster name="Bonelord" file="Bonelords/bonelord.xml"/>
 	<monster name="Braindeath" file="Bonelords/braindeath.xml"/>
 	<monster name="Elder Beholder" file="Bonelords/elder bonelord.xml"/>

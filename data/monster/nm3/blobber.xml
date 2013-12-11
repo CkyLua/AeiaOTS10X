@@ -61,16 +61,16 @@
 	</summons>
 
   <loot>
-   <item id="2789" countmax="10" chance1="7000" chancemax="0"/> --Gold Coins
-   <item id="2159" countmax="5" chance1="7000" chancemax="0"/> --Gold Coins
-   <item id="2152" countmax="20" chance1="100000" chancemax="0"/> --Gold Coins
- 		<item id="11076" chance="1000"/> --MYSTIC SKULL
-	      <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
-   <item id="8310" countmax="1" chance1="100000" chancemax="0"/> --Gold Coins
-   <item id="2152" countmax="12" chance1="10000" chancemax="0"/> --Platinum Coin
-   <item id="6500" countmax="3" chance1="2857" chancemax="0"/> --Demonic Essence
-		<item id="7416" chance="4444" /> -- Boh
-		<item id="2432" chance="5555"/> -- Fire Axe
-   <item id="7885" chance="2500"/> --Soul Orb
+   <item id="2789" countmax="10" chance1="7000" chancemax="0"/>    
+   <item id="2159" countmax="5" chance1="7000" chancemax="0"/>    
+   <item id="2152" countmax="20" chance1="100000" chancemax="0"/>    
+ 		<item id="11076" chance="1000"/>    
+	      <item id="10719" chance="2000" chancemax="0"/>    
+   <item id="8310" countmax="1" chance1="100000" chancemax="0"/>    
+   <item id="2152" countmax="12" chance1="10000" chancemax="0"/>    
+   <item id="6500" countmax="3" chance1="2857" chancemax="0"/>    
+		<item id="7416" chance="4444" />    
+		<item id="2432" chance="5555"/>    
+   <item id="7885" chance="2500"/>    
  </loot>
 </monster>

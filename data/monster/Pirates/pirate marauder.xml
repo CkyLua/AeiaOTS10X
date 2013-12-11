@@ -41,7 +41,7 @@
 		<voice sentence="Hiyaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="20000"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="20000"/><!    coin -->
 		<item id="2376" chance="9750"/><!-- sword -->
 		<item id="2050" chance="9250"/><!-- torch -->
 		<item id="2389" countmax="2" chance="4000"/><!-- spear -->

@@ -30,12 +30,12 @@
 		<voice sentence="You saw something you shouldn't!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="43000"/><!-- gold coin -->
+		<item id="2148" countmax="10" chance="43000"/><!    coin -->
 		<item id="2050" chance="50000"/><!-- torch -->
 		<item id="2666" countmax="2" chance="22500"/><!-- meat -->
 		<item id="2649" chance="17650"/><!-- leather legs -->
 		<item id="2403" chance="10000"/><!-- knife -->
-		<item id="2671" countmax="2" chance="6000"/><!-- ham -->
+		<item id="2671" countmax="2" chance="6000"/><!    -->
 		<item id="2406" chance="8000"/><!-- short sword -->
 		<item id="2461" chance="7850"/><!-- leather helmet -->
 		<item id="2404" chance="4400"/><!-- combat knife -->

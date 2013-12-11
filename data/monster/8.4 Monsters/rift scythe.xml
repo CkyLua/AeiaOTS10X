@@ -64,24 +64,24 @@
   </voices>
   
 	<loot>
-		<item id="2148" countmax="98" chance="40000"/>	-- gold coin
-		<item id="2148" countmax="100" chance="40000"/>	-- gold coin
-		<item id="2152" countmax="4" chance="20000"/>	-- Platinum Coin
-		<item id="2150" countmax="3" chance="10000"/>	-- small amethyst
-		<item id="6558" chance="13500"/>				-- concentrated demonic blood
-		<item id="6558" chance="18500"/>				-- concentrated demonic blood
-		<item id="6500" countmax="1" chance="6800"/>	-- demonic essence
-		<item id="6300" chance="2300"/>				-- death ring
-		<item id="5909" countmax="1" chance="2800"/>	-- white piece of cloth
-		<item id="2521" chance="7500"/>			-- dark shield
+		<item id="2148" countmax="98" chance="40000"/>	   
+		<item id="2148" countmax="100" chance="40000"/>	   
+		<item id="2152" countmax="4" chance="20000"/>	   
+		<item id="2150" countmax="3" chance="10000"/>	
+		<item id="6558" chance="13500"/>			
+		<item id="6558" chance="18500"/>				
+		<item id="6500" countmax="1" chance="6800"/>	   
+		<item id="6300" chance="2300"/>				   
+		<item id="5909" countmax="1" chance="2800"/>	
+		<item id="2521" chance="7500"/>		
 		<item id="1987" chance="100000">
     		<inside>
-				<item id="5022" countmax="4" chance="40000"/>	-- orichalcum pearl
-				<item id="8889" chance="1100"/>			-- skullcracker armor
-				<item id="7418" chance="1200"/>			-- nightmare blade
-				<item id="7589" chance="7500"/>			-- strong mana potion
-				<item id="8910" chance="5000"/>			-- underworld rod
-				<item id="8473" chance="7777"/>			-- ultimate health potion
+				<item id="5022" countmax="4" chance="40000"/>	
+				<item id="8889" chance="1100"/>		
+				<item id="7418" chance="1200"/>			
+				<item id="7589" chance="7500"/>		
+				<item id="8910" chance="5000"/>		
+				<item id="8473" chance="7777"/>		
 			</inside>
 		</item>
 	</loot>

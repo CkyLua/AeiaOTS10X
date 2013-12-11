@@ -41,7 +41,7 @@
 	</immunities>
 	<loot>
 		<item id="2478" chance="3250"/><!-- brass legs -->
-		<item id="2148" countmax="40" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="40" chance="23000"/><!    coin -->
 		<item id="2510" chance="1800"/><!-- plate shield -->
 		<item id="2457" chance="1250"/><!-- steel helmet -->
 		<item id="2169" chance="200"/><!-- time ring -->

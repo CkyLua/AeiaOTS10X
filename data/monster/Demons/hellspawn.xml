@@ -45,9 +45,9 @@
 		<voice sentence="I'm just a messenger of what's yet to come." yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="44000"/><!-- gold coin -->
-		<item id="2148" countmax="70" chance="44000"/><!-- gold coin -->
-		<item id="2148" countmax="60" chance="44000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="44000"/><!    coin -->
+		<item id="2148" countmax="70" chance="44000"/><!    coin -->
+		<item id="2148" countmax="60" chance="44000"/><!    coin -->
 		<item id="7368" countmax="2" chance="7750"/><!-- assassin stars -->
 		<item id="2413" chance="5000"/><!-- battle shield -->
 		<item id="2231" chance="7000"/><!-- big bone -->

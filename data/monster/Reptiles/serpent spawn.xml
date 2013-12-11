@@ -65,10 +65,10 @@
     <voice sentence="I bring your deathhhh, mortalssss"/>
   </voices>
   <loot>
-    <item id="2182" chance="4000" /> -- snakebite rod
+    <item id="2182" chance="4000" />    
     <item id="2195" chance="750"/>
     <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
-    <item id="2476" chance="1400"/> --knight armor
+    <item id="2476" chance="1400"/>    
     <item id="1976" countmax="1" chance="9000"/>
     <item id="3971" countmax="1" chance="3000"/>
     <item id="2492" countmax="1" chance="200"/>

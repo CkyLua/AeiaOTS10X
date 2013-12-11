@@ -49,7 +49,7 @@
 		<voice sentence="Help me, boys!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="30" chance="100000"/><!    coin -->
 		<item id="2410" countmax="2" chance="50000"/><!-- throwing knife -->
 		<item id="2419" chance="10000"/><!-- scimitar -->
 		<item id="2510" chance="5000"/><!-- plate shield -->

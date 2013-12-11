@@ -29,8 +29,8 @@
 		<immunity death="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="9" chance="44950" /><!-- gold coin -->
-		<item id="2230" chance="58825" /><!-- bone -->
+		<item id="2148" countmax="9" chance="44950" /><!    coin -->
+		<item id="2230" chance="58825" /><!    -->
 		<item id="2789" chance="4675" /><!-- brown mushroom -->
 		<item id="2787" countmax="3" chance="8825" /><!-- white mushroom -->
 		<item id="2398" chance="33825" /><!-- mace -->

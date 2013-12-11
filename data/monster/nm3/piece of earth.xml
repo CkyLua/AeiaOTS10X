@@ -83,47 +83,47 @@
     <summon name="Spiked Piece Of Earth" interval="2000" chance="23" max="3"/>
   </summons>
     <loot>
-      <item id="2148" countmax="98" chance="80000"/> -- Gold
-	  <item id="2148" countmax="87" chance="60000"/> -- Gold
-      <item id="1294" countmax="21" chance="9000"/> -- Small Stones
-      <item id="2436" chance="5000"/> --skull staff
-	  <item id="9970" countmax="25" chance="9300"/> --small topaz
-	  <item id="2197" chance="6900"/> --ssa
-	  <item id="2149" countmax="25" chance="3500"/> --small emerald
-	  <item id="2522" chance="500"/> --great shield
-	  <item id="8880" chance="2200"/> --swamplir armor
-	  <item id="2168" chance="5300"/> --life ring
-	  <item id="7903" chance="4300"/> --terra hood
-	  <item id="2181" chance="5500"/> --terra rod
-	  <item id="2200" chance="4300"/> --prot amulet
-	  <item id="7588" chance="14000"/> --shp
-	  <item id="2528" chance="3800"/> --tower shield
-	  <item id="2409" chance="4300"/> --serpent sword
-	  <item id="8856" chance="2600"/> --yol's bow
-	  <item id="5741" chance="1500"/> --skull helmet
-	  <item id="1987" chance="100000"> --bag
+      <item id="2148" countmax="98" chance="80000"/>    
+	  <item id="2148" countmax="87" chance="60000"/>    
+      <item id="1294" countmax="21" chance="9000"/>    
+      <item id="2436" chance="5000"/>    
+	  <item id="9970" countmax="25" chance="9300"/>    
+	  <item id="2197" chance="6900"/>    
+	  <item id="2149" countmax="25" chance="3500"/>    
+	  <item id="2522" chance="500"/>    
+	  <item id="8880" chance="2200"/>    
+	  <item id="2168" chance="5300"/>    
+	  <item id="7903" chance="4300"/>    
+	  <item id="2181" chance="5500"/>    
+	  <item id="2200" chance="4300"/>    
+	  <item id="7588" chance="14000"/>    
+	  <item id="2528" chance="3800"/>    
+	  <item id="2409" chance="4300"/>    
+	  <item id="8856" chance="2600"/>    
+	  <item id="5741" chance="1500"/>    
+	  <item id="1987" chance="100000">    
 	  <inside>
-	  <item id="8900" chance="2500"/> --sb of enlightenement
-	  <item id="2152" countmax="16" chance="13000"/> --pc
-	  <item id="7866" chance="2000"/> --ench cranial basher
-	  <item id="8850" chance="1500"/> --chain bolter
-	  <item id="2466" chance="4700"/> --golden armor
-	  <item id="2145" countmax="16" chance="7300"/> --small diamond
-	  <item id="7887" chance="3900"/> --terra amulet
-	  <item id="7591" chance="5300"/> --ghp
-	  <item id="7850" countmax="22" chance="8300"/> --earth arrow
-	  <item id="8869" chance="1500"/> --greenwood coat
-	  <item id="8912" chance="3500"/> --springsprout rod
-	  <item id="8882" chance="2110"/> --earthborn giant armor
-	  <item id="7885" chance="3400"/> --terra legs
-	  <item id="2536" chance="4650"/> --medusa shield
-	  <item id="2155" chance="2300"/> --green gem
-	  <item id="9810" chance="3300"/> --rusty armor
-	  <item id="2656" chance="3500"/> --blue robe
-	  <item id="2170" chance="7300"/> --silver amulet
-	  <item id="8853" chance="1500"/> --the ironworker
-	  <item id="7366" countmax="14" chance="5500"/> --viper star
-	  <item id="7405" chance="900"/> --havoc blade
+	  <item id="8900" chance="2500"/>    
+	  <item id="2152" countmax="16" chance="13000"/>    
+	  <item id="7866" chance="2000"/>    
+	  <item id="8850" chance="1500"/>    
+	  <item id="2466" chance="4700"/>    
+	  <item id="2145" countmax="16" chance="7300"/>    
+	  <item id="7887" chance="3900"/>    
+	  <item id="7591" chance="5300"/>    
+	  <item id="7850" countmax="22" chance="8300"/>    
+	  <item id="8869" chance="1500"/>    
+	  <item id="8912" chance="3500"/>    
+	  <item id="8882" chance="2110"/>    
+	  <item id="7885" chance="3400"/>    
+	  <item id="2536" chance="4650"/>    
+	  <item id="2155" chance="2300"/>    
+	  <item id="9810" chance="3300"/>    
+	  <item id="2656" chance="3500"/>    
+	  <item id="2170" chance="7300"/>    
+	  <item id="8853" chance="1500"/>    
+	  <item id="7366" countmax="14" chance="5500"/>    
+	  <item id="7405" chance="900"/>    
 	  </inside>
 	  </item>
     </loot>

@@ -59,7 +59,7 @@
 		<item id="7620" chance="14830"/> <!-- mp -->
 		<item id="7618" chance="13360"/> <!-- hp -->
 		<item id="2687" countmax="5" chance1="690" /> <!-- cookie -->
-		<item id="1987" chance="100000"> <!-- bag -->
+		<item id="1987" chance="100000">    
 			<inside>
 				<item id="7762" countmax="1" chance1="540"/> <!-- small enchanted amethyst -->
 				<item id="2177" chance="2010"/> <!-- life crystal -->

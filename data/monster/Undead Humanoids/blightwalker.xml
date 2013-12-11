@@ -48,12 +48,12 @@
 		<voice sentence="Let me taste your mortality!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="627500"/><!-- gold coin -->
-		<item id="2148" countmax="70" chance="627500"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="627500"/><!    coin -->
+		<item id="2148" countmax="70" chance="627500"/><!    coin -->
 		<item id="2260" chance="29750"/><!-- blank rune -->
 		<item id="2694" countmax="3" chance="33000"/><!-- bunch of wheat -->
 		<item id="6500"  chance="22000"/><!-- demonic essence -->
-		<item id="2179" chance="7800"/><!-- gold ring -->
+		<item id="2179" chance="7800"/><!    ring -->
 		<item id="2152" countmax="3" chance="7500"/><!-- platinum coin -->
 		<item id="2545" countmax="9" chance="627500"/><!-- poison arrow -->
 		<item id="7732" chance="1550"/><!-- seeds -->
@@ -65,8 +65,8 @@
 		<item id="7884" chance="1750"/><!-- terra mantle -->
 		<item id="2199" chance="750"/><!-- garlic necklace -->
 		<item id="2173" chance="50"/><!-- amulet of loss -->
-		<item id="6300" chance="100"/><!-- death ring -->
-		<item id="9971" chance="150"/><!-- gold ingot -->
+		<item id="6300" chance="100"/><!    -->
+		<item id="9971" chance="150"/><!    ingot -->
 		<item id="2436" chance="500"/><!-- skull staff -->
 	</loot>
 </monster>

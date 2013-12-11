@@ -34,7 +34,7 @@
 		<voice sentence="Ugaar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="11" chance="22500"/><!-- gold coin -->
+		<item id="2148" countmax="11" chance="22500"/><!    coin -->
 		<item id="2420" chance="17250"/><!-- machete -->
 		<item id="2666" chance="30000"/><!-- meat -->
 		<item id="2389" chance="12000"/><!-- spear -->

@@ -49,7 +49,7 @@
 		<summon name="Snake" interval="1000" chance="25" max="4"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="5" chance="61000"/><!-- gold coin -->
+		<item id="2148" countmax="5" chance="61000"/><!    coin -->
 		<item id="2686" countmax="2" chance="10000"/><!-- corncob -->
 		<item id="2458" chance="9500"/><!-- chain helmet -->
 		<item id="2464" chance="8000"/><!-- chain armor -->

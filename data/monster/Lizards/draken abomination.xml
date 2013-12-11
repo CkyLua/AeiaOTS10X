@@ -55,8 +55,8 @@
 		<voice sentence="Ugggh!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="40825" /><!-- gold coin -->
-		<item id="2148" countmax="100" chance="40825" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="40825" /><!    coin -->
+		<item id="2148" countmax="100" chance="40825" /><!    coin -->
 		<item id="2666" countmax="4" chance="50450" /><!-- meat -->
 		<item id="8473" countmax="3" chance="6700" /><!-- ultimate health potion -->
 		<item id="2152" countmax="8" chance="28900" /><!-- platinum coin -->

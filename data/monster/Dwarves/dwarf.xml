@@ -30,7 +30,7 @@
 		<voice sentence="Hail Durin!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="8" chance="20000"/><!-- gold coin -->
+		<item id="2148" countmax="8" chance="20000"/><!    coin -->
 		<item id="2787" countmax="2" chance="20000"/><!-- white mushroom -->
 		<item id="2388" chance="25000"/><!-- hatchet -->
 		<item id="2386" chance="15000"/><!-- axe -->

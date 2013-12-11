@@ -35,7 +35,7 @@
 		<voice sentence="Gimme your money!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="16750"/><!-- gold coin -->
+		<item id="2148" countmax="30" chance="16750"/><!    coin -->
 		<item id="2666" countmax="2" chance="20000"/><!-- meat -->
 		<item id="2649" chance="27500"/><!-- leather legs -->
 		<item id="2110" chance="2650"/><!-- doll -->

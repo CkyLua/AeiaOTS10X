@@ -36,7 +36,7 @@
 		<immunity invisible="0"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="20" chance="34000"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="34000"/><!    coin -->
 		<item id="2397" chance="4600"/><!-- longsword -->
 		<item id="2460" chance="7500"/><!-- brass helmet -->
 		<item id="2465" chance="7500"/><!-- brass armor -->

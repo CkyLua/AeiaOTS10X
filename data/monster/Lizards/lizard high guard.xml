@@ -55,9 +55,9 @@
 		<item id="11245" chance="5550" /><!-- bunch of ripe rice -->
 		<item id="7591" chance="7375" /><!-- great health potion -->
 		<item id="2152" countmax="2" chance="4350" /><!-- platinum coin -->
-		<item id="2148" countmax="100" chance="33725" /><!-- gold coin -->
-		<item id="2148" countmax="100" chance="33725" /><!-- gold coin -->
-		<item id="2148" countmax="27" chance="33725" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="33725" /><!    coin -->
+		<item id="2148" countmax="100" chance="33725" /><!    coin -->
+		<item id="2148" countmax="27" chance="33725" /><!    coin -->
 		<item id="11206" chance="1650" /><!-- red lantern -->
 	</loot>
 </monster>

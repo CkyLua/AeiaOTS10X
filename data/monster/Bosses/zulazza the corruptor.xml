@@ -55,9 +55,9 @@
 	<loot>
 		<item id="7591" chance="30500" /><!-- great health potion -->
 		<item id="2152" countmax="30" chance="41325" /><!-- platinum coin -->
-		<item id="2148" countmax="100" chance="49650" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="49650" /><!    coin -->
 		<item id="9808" chance="50500" /><!-- rusty armor -->
-		<item id="9971" countmax="4" chance="33000" /><!-- gold ingot -->
+		<item id="9971" countmax="4" chance="33000" /><!    ingot -->
 		<item id="2158" chance="30500" /><!-- blue gem -->
 		<item id="2155" chance="20500" /><!-- green gem -->
 		<item id="8473" chance="10500" /><!-- dragon scale boots -->

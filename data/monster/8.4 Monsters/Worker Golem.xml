@@ -55,7 +55,7 @@
 		<item id="2148" countmax="75" chance1="94000" chancemax="0"/> <!-- gps -->
 		<item id="2148" countmax="75" chance1="94000" chancemax="0"/> <!-- gps -->
 		<item id="5880" chance="2000"/> <!-- iron ore -->
-                <item id="7591" chance="1000"/> <!--ghp-->
+                <item id="7591" chance="1000"/> 
                 <item id="8472" chance="1000"/> <!--gsp-->
 		<item id="7452" chance="400"/> <!-- spiked squelcher -->
 		<item id="1987" chance="100000">
@@ -68,7 +68,7 @@
 				<item id="2164" chance="750"/> <!-- might ring -->
 				<item id="2391" chance="700"/> <!-- war hammer -->
 				<item id="9976" chance="1000"/> <!-- crystal pedestal -->
-				<item id="7428" chance="100"/> <!-- bonebreaker -->
+				<item id="7428" chance="100"/> <!   breaker -->
 				<item id="2207" chance="400"/> <!-- sword ring -->
 			</inside>
 		</item>

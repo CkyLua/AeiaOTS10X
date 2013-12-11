@@ -54,8 +54,8 @@
 		<voice sentence="Taste the sweetness of death!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="8250"/><!-- gold coin -->
-		<item id="2148" countmax="30" chance="8250"/><!-- gold coin -->
+		<item id="2148" countmax="60" chance="8250"/><!    coin -->
+		<item id="2148" countmax="30" chance="8250"/><!    coin -->
 		<item id="2545" countmax="5" chance="4000"/><!-- poison arrow -->
 		<item id="2406" chance="14000"/><!-- short sword -->
 		<item id="2483" chance="10500"/><!-- scale armor -->

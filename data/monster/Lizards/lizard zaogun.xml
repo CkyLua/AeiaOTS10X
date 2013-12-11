@@ -42,9 +42,9 @@
 	</immunities>
 	<loot>
 		<item id="7591" countmax="3" chance="4775" /><!-- great health potion -->
-		<item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
-		<item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
-		<item id="2148" countmax="89" chance="42375" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="42375" /><!    coin -->
+		<item id="2148" countmax="100" chance="42375" /><!    coin -->
+		<item id="2148" countmax="89" chance="42375" /><!    coin -->
 		<item id="11330" chance="6150" /><!-- zaogun flag -->
 		<item id="5881" countmax="3" chance="7475" /><!-- lizard scale -->
 		<item id="11303" chance="1500" /><!-- zaoan shoes -->

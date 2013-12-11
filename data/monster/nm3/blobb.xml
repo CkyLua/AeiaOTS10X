@@ -63,10 +63,10 @@
       <item id="2148" countmax="121" chance1="100000" chancemax="0"/>
       <item id="2152" countmax="21" chance1="10000" chancemax="0"/>
       <item id="2647" chance="5000"/>
-	<item id="6500" countmax="1" chance="7200"/><!-- demonic essence -->
+	<item id="6500" countmax="1" chance="7200"/>   
 	<item id="2231" chance="30000"/><!-- big bone -->
-	<item id="2393" chance="2000"/><!-- giant sword -->
-		<item id="1987" chance="100000"><!-- bag -->
+	<item id="2393" chance="2000"/>   
+		<item id="1987" chance="100000">   
 			<inside>
 	<item id="6553" chance="1600"/><!-- ruthless axe -->
       <item id="8472" chance="5000"/>

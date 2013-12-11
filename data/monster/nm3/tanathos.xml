@@ -86,23 +86,23 @@
 	</voices>
 	<loot>
 		<item id="8304" chance="100000"/><!-- fire spirit -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="12" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="100000"/>   
+		<item id="2152" countmax="12" chance="50000"/>   
 		<item id="9970" countmax="5" chance="10000"/><!-- white pearl -->
 		<item id="8881" chance="19429"/><!-- ice rapier -->
- 		<item id="11076" chance="1000"/> --MYSTIC SKULL
-	      <item id="10719" chance="2000" chancemax="0"/> --BLOOD AMULET
-		<item id="6391" chance="2222"/> -- dark shield czy cos
-		<item id="7416" chance="4444" /> -- Boh
-		<item id="2432" chance="5555"/> -- Fire Axe
-		<item id="2470" chance="6500"/> --Golden legs
-		<item id="2537" chance="9999"/> --Demon shield
+ 		<item id="11076" chance="1000"/>    
+	      <item id="10719" chance="2000" chancemax="0"/>    
+		<item id="6391" chance="2222"/>    
+		<item id="7416" chance="4444" />    
+		<item id="2432" chance="5555"/>    
+		<item id="2470" chance="6500"/>    
+		<item id="2537" chance="9999"/>    
 		<item id="2462" chance="20000"/><!-- devil helmet -->
 		<item id="2214" chance="16000"/><!-- ring of healing -->
 		<item id="11238" chance="100000"><!-- grey backpack -->
 			<inside>
 				<item id="2495" chance="6000"/><!-- demon legs -->
-				<item id="2393" chance="60000"/><!-- giant sword -->
+				<item id="2393" chance="60000"/>   
 				<item id="2195" chance="16033"/><!-- boots of haste -->
 				<item id="2421" chance="7000"/><!-- thunder hammer -->
 				<item id="2522" chance="5600"/><!-- great shield -->

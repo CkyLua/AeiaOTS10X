@@ -37,7 +37,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="8" chance="5000"/><!-- gold coin -->
+		<item id="2148" countmax="8" chance="5000"/><!    coin -->
 		<item id="2410" countmax="2" chance="3000"/><!-- throwing knife -->
 		<item id="2649" chance="9500"/><!-- leather legs -->
 		<item id="2478" chance="7000"/><!-- brass legs -->
