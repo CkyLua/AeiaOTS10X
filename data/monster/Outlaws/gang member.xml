@@ -31,7 +31,7 @@
 		<voice sentence="You're wearing the wrong colours!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="23" chance="22500"/><!    coin -->
+		<item id="2148" countmax="23" chance="22500"/>   
 		<item id="2666" chance="20450"/><!-- meat -->
 		<item id="2389" chance="20500"/><!-- mace -->
 		<item id="2050" chance="3500"/><!-- torch -->

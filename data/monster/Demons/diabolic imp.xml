@@ -55,15 +55,15 @@
 		<voice sentence="He he he!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="99" chance="50000"/><!    coin -->
-		<item id="2148" countmax="98" chance="50000"/><!    coin -->
+		<item id="2148" countmax="99" chance="50000"/>   
+		<item id="2148" countmax="98" chance="50000"/>   
 		<item id="2548" chance="50000"/><!-- pitch fork -->
 		<item id="6558" chance="25000"/><!-- concentrated demonic blood -->
 		<item id="6558" chance="25000"/><!-- concentrated demonic blood -->
 		<item id="6500" chance="5000"/><!-- demonic essence -->
 		<item id="2260" chance="10000"/><!-- blank rune -->
 		<item id="7900" chance="1200"/><!-- magma monocle -->
-		<item id="6300" chance="500"/><!    -->
+		<item id="6300" chance="500"/>   
 		<item id="7899" chance="900"/><!-- magma coat-->
 		<item id="2165" chance="2500"/><!-- stealth ring -->
 		<item id="2515" chance="10000"/><!-- guardian shield -->

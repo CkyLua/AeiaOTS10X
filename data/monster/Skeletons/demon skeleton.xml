@@ -32,7 +32,7 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="50" chance="18500"/><!    coin -->
+		<item id="2148" countmax="50" chance="18500"/>   
 		<item id="2050" chance="52750"/><!-- torch -->
 		<item id="2399" countmax="3" chance="3000"/><!-- throwing star -->
 		<item id="2417" chance="3000"/><!-- battle hammer -->

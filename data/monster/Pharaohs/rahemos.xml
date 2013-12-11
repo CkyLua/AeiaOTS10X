@@ -71,9 +71,9 @@
 		<voice sentence="I will make you believe in magic."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="50000"/><!    coin -->
-		<item id="2148" countmax="80" chance="50000"/><!    coin -->
-		<item id="2148" countmax="60" chance="50000"/><!    coin -->
+		<item id="2148" countmax="90" chance="50000"/>   
+		<item id="2148" countmax="80" chance="50000"/>   
+		<item id="2148" countmax="60" chance="50000"/>   
 		<item id="2150" countmax="3" chance="7000"/><!-- small amethyst -->
 		<item id="2214" chance="7000"/><!-- ring of healing -->
 		<item id="7590" chance="7000"/><!-- great mana potion -->

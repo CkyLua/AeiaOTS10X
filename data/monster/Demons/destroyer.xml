@@ -46,10 +46,10 @@
 		<voice sentence="It's a good day to destroy!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="37500"/><!    coin -->
-		<item id="2148" countmax="80" chance="37500"/><!    coin -->
-		<item id="2148" countmax="70" chance="37500"/><!    coin -->
-		<item id="2148" countmax="90" chance="37500"/><!    coin -->
+		<item id="2148" countmax="90" chance="37500"/>   
+		<item id="2148" countmax="80" chance="37500"/>   
+		<item id="2148" countmax="70" chance="37500"/>   
+		<item id="2148" countmax="90" chance="37500"/>   
 		<item id="2231" chance="8000"/><!-- big bone -->
 		<item id="2666" countmax="6" chance="8000"/><!-- meat -->
 		<item id="7419" chance="2300"/><!-- dreaded cleaver -->
@@ -69,6 +69,6 @@
 		<item id="2178" chance="750"/><!-- mind stone -->
 		<item id="7427" chance="700"/><!-- chaos mace -->
 		<item id="5741" chance="300"/><!-- skull helmet -->
-		<item id="6300" chance="400"/><!    -->
+		<item id="6300" chance="400"/>   
 	</loot>
 </monster>

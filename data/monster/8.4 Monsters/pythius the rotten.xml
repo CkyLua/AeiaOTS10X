@@ -74,16 +74,16 @@
 <item id="2152" chance="28000" countmax="12"/>    
 <item id="2236" chance="15000"/>    
 <item id="2413" chance="20000"/>    
-<item id="2413" chance="3000"/>    en armor
-<item id="2413" chance="8000"/> -- knight armor
-<item id="2413" chance="950"/> -- dragon scale mail
-<item id="2413" chance="1200"/> -- war axe
-<item id="2413" chance="4200"/> -- underworld rod
+<item id="2413" chance="3000"/>   
+<item id="2413" chance="8000"/> 
+<item id="2413" chance="950"/> 
+<item id="2413" chance="1200"/> 
+<item id="2413" chance="4200"/> 
 <item id="1987" chance="100000">    
 <inside>
 	<item id="6500" chance="2818" countmax="3"/>    
 	<item id="5944" chance="2538" countmax="2"/>    
-	<item id="2413" chance="4500"/> -- hardened bone
+	<item id="2413" chance="4500"/>
 	<item id="2547" chance="4600" countmax="15"/>    
 </inside>
 </item>

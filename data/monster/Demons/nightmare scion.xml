@@ -51,18 +51,18 @@
 		<voice sentence="Weeeheeheee!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="74" chance="43000"/><!    coin -->
-		<item id="2148" countmax="73" chance="43000"/><!    coin -->
-		<item id="2491" chance="800"/><!    -->
+		<item id="2148" countmax="74" chance="43000"/>   
+		<item id="2148" countmax="73" chance="43000"/>   
+		<item id="2491" chance="800"/>   
 		<item id="9941" chance="250"/><!-- crystal of focus -->
-		<item id="6300" chance="250"/><!    -->
+		<item id="6300" chance="250"/>   
 		<item id="7387" chance="400"/><!-- diamond sceptre -->
 		<item id="2387" chance="1000"/><!-- double axe -->
 		<item id="8871" chance="230"/><!-- focus cape -->
 		<item id="2152" countmax="3" chance="800"/><!-- platinum coin -->
-		<item id="2671" countmax="2" chance="20000"/><!    -->
+		<item id="2671" countmax="2" chance="20000"/>   
 		<item id="2666" countmax="4" chance="27500"/><!-- meat -->
-		<item id="6574" chance="150"/><!    -->
-		<item id="7451" chance="170"/><!    -->
+		<item id="6574" chance="150"/>   
+		<item id="7451" chance="170"/>   
 	</loot>
 </monster>

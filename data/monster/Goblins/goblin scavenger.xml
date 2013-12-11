@@ -41,16 +41,16 @@
 		<voice sentence="Uhh!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="9" chance="31500"/><!    coin -->
+		<item id="2148" countmax="9" chance="31500"/>   
 		<item id="1294" countmax="4" chance="9000"/><!-- small stone -->
 		<item id="2379" chance="22500"/><!-- dagger -->
-		<item id="2230" chance="15000"/><!    -->
+		<item id="2230" chance="15000"/>   
 		<item id="2559" chance="14250"/><!-- small axe -->
 		<item id="2667" chance="12500"/><!-- fish -->
 		<item id="2461" chance="12500"/><!-- leather helmet -->
 		<item id="2235" chance="6000"/><!-- moldy cheese -->
 		<item id="2406" chance="8200"/><!-- short sword -->
 		<item id="2467" chance="4000"/><!-- leather armor -->
-		<item id="2449" chance="8000"/><!    club -->
+		<item id="2449" chance="8000"/>   
 	</loot>
 </monster>

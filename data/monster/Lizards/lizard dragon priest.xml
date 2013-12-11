@@ -57,8 +57,8 @@
 		<item id="5876" chance="1375" /><!-- lizard leather -->
 		<item id="2181" chance="1550" /><!-- terra rod -->
 		<item id="7590" chance="8625" /><!-- great mana potion -->
-		<item id="2148" countmax="100" chance="38450" /><!    coin -->
-		<item id="2148" countmax="90" chance="38450" /><!    coin -->
+		<item id="2148" countmax="100" chance="38450" />   
+		<item id="2148" countmax="90" chance="38450" />   
 		<item id="11356" chance="775" /><!-- zaoan robe -->
 		<item id="2187" chance="2000" /><!-- wand of inferno -->
 		<item id="5881" countmax="3" chance="1525" /><!-- lizard scale -->

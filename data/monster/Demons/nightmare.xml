@@ -56,15 +56,15 @@
 		<voice sentence="Weeeheeheeeheee!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="75" chance="50000"/><!    coin -->
-		<item id="2148" countmax="45" chance="50000"/><!    coin -->
+		<item id="2148" countmax="75" chance="50000"/>   
+		<item id="2148" countmax="45" chance="50000"/>   
 		<item id="2532" chance="800"/><!-- ancient shield -->
 		<item id="2195" chance="300"/><!-- boots of haste -->
 		<item id="6558" countmax="2" chance="13500"/><!-- concentrated demonic blood -->
-		<item id="6300" chance="1429"/><!    -->
+		<item id="6300" chance="1429"/>   
 		<item id="6500" chance="10000"/><!-- demonic essence -->
 		<item id="2387" chance="15000"/><!-- double axe -->
-		<item id="2671" countmax="2" chance="15000"/><!    -->
+		<item id="2671" countmax="2" chance="15000"/>   
 		<item id="2477" chance="3333"/><!-- knight legs -->
 		<item id="2666" countmax="4" chance="17500"/><!-- meat -->
 		<item id="5669" chance="100"/><!-- mysterious voodoo skull -->

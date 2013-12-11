@@ -49,9 +49,9 @@
 		<voice sentence="Blubb"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance1="20000" chancemax="0"/><!    coins -->
-		<item id="2148" countmax="60" chance1="20000" chancemax="0"/><!    coins -->
-		<item id="2148" countmax="45" chance1="20000" chancemax="0"/><!    coins -->
+		<item id="2148" countmax="70" chance1="20000" chancemax="0"/>   
+		<item id="2148" countmax="60" chance1="20000" chancemax="0"/>   
+		<item id="2148" countmax="45" chance1="20000" chancemax="0"/>   
 		<item id="2152" countmax="13" chance1="25000" chancemax="0"/><!-- platinum coin -->
 		<item id="6500" chance1="45000" chancemax="0"/><!-- demonic essence -->
 		<item id="2144" countmax="3" chance1="5000" chancemax="0"/><!-- black pearl -->

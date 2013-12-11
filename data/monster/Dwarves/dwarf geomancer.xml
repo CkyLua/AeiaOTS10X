@@ -50,7 +50,7 @@
 		<voice sentence="Dust to dust."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="35" chance="50000"/><!    coin -->
+		<item id="2148" countmax="35" chance="50000"/>   
 		<item id="2260" chance="40000"/><!-- blank rune -->
 		<item id="2787" chance="60000"/><!-- white mushroom -->
 		<item id="2643" chance="47500"/><!-- leather boots -->

@@ -34,7 +34,7 @@
   </voices>
   <loot>
     <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
-    <item id="3975" chance="18000"/> --Salamander Shield
+    <item id="3975" chance="18000"/> 
     <item id="2463" chance="12000"/>
     <item id="5876" countmax="1" chance1="50000" chancemax="0"/>
     <item id="1987" chance="100000">

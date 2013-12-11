@@ -55,16 +55,16 @@
   </voices>
   <loot>
  	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
- 	<item id="7893" chance="9000"/> --lightning boots
+ 	<item id="7893" chance="9000"/>
  	<item id="2656" chance="7000"/>    
-	<item id="8978" chance="100000"/> --Vampire Lord Token
- 	<item id="2144" countmax="2" chance1="66666" chancemax="0"/>  black pearl
+	<item id="8978" chance="100000"/> 
+ 	<item id="2144" countmax="2" chance1="66666" chancemax="0"/> 
 	<item id="1987" chance="100000">
 		<inside>
 			<item id="2165" chance="8888"/>    
-			<item id="2143" countmax="1" chance1="44444" chancemax="0"/>  white pearl
-			<item id="2148" countmax="57" chance1="80000" chancemax="0"/> --Gold
-			<item id="8904" chance="13000"/> --spell book of prophecies
+			<item id="2143" countmax="1" chance1="44444" chancemax="0"/>  
+			<item id="2148" countmax="57" chance1="80000" chancemax="0"/>
+			<item id="8904" chance="13000"/> 
       </inside>
     </item>
   </loot>

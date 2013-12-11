@@ -57,7 +57,7 @@
 		<voice sentence="OWE RULE!" yell="0"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="170" chance="100000" /> <!    coin -->
+		<item id="2148" countmax="170" chance="100000" />    
 		<item id="2152" countmax="3" chance="900000" /> <!-- platinum coin -->
 		<item id="2187" chance="8000" /> <!-- Wand of Inferno  -->
 		<item id="13530" chance="3000" /> <!-- Demonic Finge -->

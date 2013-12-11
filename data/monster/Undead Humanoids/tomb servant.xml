@@ -37,13 +37,13 @@
 		<voice sentence="Ngl..Nglll...Gll"/>
 	</voices>
 	<loot>
-		<item id="2230" chance="4900" /><!    -->
+		<item id="2230" chance="4900" />   
 		<item id="11200" chance="5125" /><!-- half-digested piece of meat -->
-		<item id="2148" countmax="55" chance="17875" /><!    coin -->
+		<item id="2148" countmax="55" chance="17875" />   
 		<item id="3976" countmax="10" chance="5325" /><!-- worm -->
 		<item id="2377" chance="2450" /><!-- two handed sword -->
-		<item id="2541" chance="1525" /><!    shield -->
-		<item id="2450" chance="1550" /><!    sword -->
+		<item id="2541" chance="1525" />   
+		<item id="2450" chance="1550" />   
 		<item id="2145" chance="900" /><!-- small diamond -->
 		<item id="2227" chance="2250" /><!-- rotten meat -->
 		<item id="2459" chance="2400" /><!-- iron helmet -->

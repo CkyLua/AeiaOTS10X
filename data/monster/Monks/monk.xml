@@ -42,7 +42,7 @@
 		<voice sentence="I will punish the sinners!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="24000"/><!    coin -->
+		<item id="2148" countmax="20" chance="24000"/>   
 		<item id="2689" chance="20000"/><!-- bread -->
 		<item id="1949" chance="18000"/><!-- scroll -->
 		<item id="2044" chance="12000"/><!-- lamp -->

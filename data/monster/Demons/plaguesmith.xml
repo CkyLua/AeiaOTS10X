@@ -55,16 +55,16 @@
 		<voice sentence="Cough Cough!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="50000"/><!    coin -->
-		<item id="2148" countmax="75" chance="50000"/><!    coin -->
-		<item id="2148" countmax="85" chance="50000"/><!    coin -->
+		<item id="2148" countmax="70" chance="50000"/>   
+		<item id="2148" countmax="75" chance="50000"/>   
+		<item id="2148" countmax="85" chance="50000"/>   
 		<item id="2208" chance="4750"/><!-- axe ring -->
 		<item id="2417" chance="20000"/><!-- battle hammer -->
 		<item id="2209" chance="4500"/><!-- club ring -->
 		<item id="6500" chance="10000"/><!-- demonic essence -->
 		<item id="2237" chance="60000"/><!-- dirty cape -->
 		<item id="7591" chance="10000"/><!-- great health potion -->
-		<item id="2444" chance="600"/><!   mer of wrath -->
+		<item id="2444" chance="600"/>
 		<item id="2477" chance="6000"/><!-- knight legs -->
 		<item id="2235" chance="50000"/><!-- moldy cheese -->
 		<item id="2394" chance="27200"/><!-- morning star-->

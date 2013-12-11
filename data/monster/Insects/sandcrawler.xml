@@ -28,7 +28,7 @@
 		<voice sentence="Chrk chrk!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="6" chance="20000"/><!    coin -->
+		<item id="2148" countmax="6" chance="20000"/>   
 		<item id="11373" chance="1500"/><!-- sandcrawler shell -->
 	</loot>
 </monster>

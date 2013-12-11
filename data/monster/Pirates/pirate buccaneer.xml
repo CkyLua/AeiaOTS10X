@@ -42,7 +42,7 @@
 		<voice sentence="Plundeeeeer!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="59" chance="26500"/><!    coin -->
+		<item id="2148" countmax="59" chance="26500"/>   
 		<item id="2410" countmax="6" chance="4000"/><!-- throwing knife -->
 		<item id="2385" chance="10750"/><!-- sabre -->
 		<item id="2238" chance="9750"/><!-- worn leather boots -->

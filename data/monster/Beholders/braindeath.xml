@@ -70,10 +70,10 @@
     <item id="2181" countmax="1" chance="1333"/>
     <item id="2397" countmax="1" chance="12000"/>
     <item id="2445" countmax="1" chance="400"/>
-	 <item id="7407" chance="400"/> --haunted blade
-    <item id="2509" countmax="1" chance="6000"/> --steel shield
-    <item id="2518" countmax="1" chance="3000"/> --beho shield
-    <item id="3972" countmax="1" chance="550"/> --beho helm
-    <item id="5898" countmax="1" chance="2500"/> --beho eye
+	 <item id="7407" chance="400"/> 
+    <item id="2509" countmax="1" chance="6000"/> 
+    <item id="2518" countmax="1" chance="3000"/> 
+    <item id="3972" countmax="1" chance="550"/> 
+    <item id="5898" countmax="1" chance="2500"/> 
   </loot>
 </monster>

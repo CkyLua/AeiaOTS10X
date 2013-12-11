@@ -61,10 +61,10 @@
 		<voice sentence="prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="35000"/><!    coin -->
+		<item id="2148" countmax="20" chance="35000"/>   
 		<item id="2229" countmax="3" chance="1000"/><!-- skull -->
 		<item id="2050" chance="7000"/><!-- torch -->
-		<item id="2230" chance="12500"/><!    -->
+		<item id="2230" chance="12500"/>   
 		<item id="2467" chance="13000"/><!-- leather armor -->
 		<item id="2172" chance="200"/><!--  bronze amulet -->
 		<item id="2411" chance="1000"/><!-- poison dagger -->

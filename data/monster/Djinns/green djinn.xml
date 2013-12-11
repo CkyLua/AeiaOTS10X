@@ -56,8 +56,8 @@
 		<voice sentence="Good wishes are for fairytales"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="31000"/><!    coin -->
-		<item id="2148" countmax="45" chance="31000"/><!    coin -->
+		<item id="2148" countmax="70" chance="31000"/>   
+		<item id="2148" countmax="45" chance="31000"/>   
 		<item id="2696" chance="27500"/><!-- cheese -->
 		<item id="2747" chance="10000"/><!-- grave flower -->
 		<item id="7378" countmax="2" chance="2750"/><!-- royal spear -->

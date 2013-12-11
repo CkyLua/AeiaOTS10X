@@ -58,10 +58,10 @@
 		<summon name="Phantasm Summon" interval="3000" chance="20" max="2"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="96" chance="58000"/><!    coin -->
-		<item id="2148" countmax="90" chance="58000"/><!    coin -->
+		<item id="2148" countmax="96" chance="58000"/>   
+		<item id="2148" countmax="90" chance="58000"/>   
 		<item id="2260" chance="32500"/><!-- blank rune -->
-		<item id="2230" chance="50000"/><!    -->
+		<item id="2230" chance="50000"/>   
 		<item id="6500" chance="20000"/><!-- demonic essence -->
 		<item id="7590" chance="3300" /><!-- great mana potion -->
 		<item id="2152" chance="1000" /><!-- platinum coin -->
@@ -72,6 +72,6 @@
 		<item id="7414" chance="775" /><!-- abyss hammer -->
 		<item id="2487" chance="600" /><!-- crown armor -->
 		<item id="2165" chance="600" /><!-- stealth ring -->
-		<item id="6300" chance="200" /><!    -->
+		<item id="6300" chance="200" />   
 	</loot>
 </monster>

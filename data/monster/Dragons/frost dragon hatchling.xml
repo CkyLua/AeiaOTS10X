@@ -42,7 +42,7 @@
 		<voice sentence="Fchu?" yell="0"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="55" chance="33750"/><!    coin -->
+		<item id="2148" countmax="55" chance="33750"/>   
 		<item id="2672" chance="25000"/><!-- dragon ham -->
 		<item id="8900" chance="200"/><!-- spellbook of enlightenment -->
 		<item id="7618" chance="5000"/><!-- health potion -->

@@ -76,7 +76,7 @@
 	<item id="2148" chance="50000" countmax="90"/>
 	<item id="2143" chance="10000" countmax="5"/>
 	<item id="2396" chance="19429"/>
- 	<item id="6548" chance="2300"/> --demoniczny kamien
+ 	<item id="6548" chance="2300"/> 
 	<item id="2462" chance="20000"/>
     <item id="11418" chance="900"/>
 	<item id="2214" chance="16000"/>

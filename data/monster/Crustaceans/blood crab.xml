@@ -29,7 +29,7 @@
 		<element energyPercent="5"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="36" chance="17500"/><!    coin -->
+		<item id="2148" countmax="36" chance="17500"/>   
 		<item id="2667" chance="27000"/><!-- fish -->
 		<item id="2478" chance="7000"/><!-- brass legs -->
 		<item id="2464" chance="10000"/><!-- chain armor -->

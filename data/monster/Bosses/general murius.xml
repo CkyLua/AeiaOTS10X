@@ -44,7 +44,7 @@
 		<voice sentence="For the king!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="100000"/><!    coin -->
+		<item id="2148" countmax="30" chance="100000"/>   
 		<item id="2410" countmax="2" chance="50000"/><!-- throwing knife -->
 		<item id="2419" chance="10000"/><!-- scimitar -->
 		<item id="2510" chance="5000"/><!-- plate shield -->
@@ -52,7 +52,7 @@
 		<item id="2647" chance="1818"/><!-- plate legs -->
 		<item id="2413" chance="2857"/><!-- broadsword -->
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="1" chance="2857"/><!    coin -->
+		<item id="2148" countmax="1" chance="2857"/>   
 		<item id="2207" chance="2000"/><!-- sword ring -->
 		<item id="2666" countmax="2" chance="33333"/><!-- meat -->
 		<item id="2379" chance="6666"/><!-- dagger -->

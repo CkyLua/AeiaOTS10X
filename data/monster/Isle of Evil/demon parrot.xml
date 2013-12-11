@@ -42,6 +42,6 @@
 		<voice sentence="Your shhoooul will be mineee!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="99" chance="50000"/><!    coins -->
+		<item id="2148" countmax="99" chance="50000"/>   
 	</loot>
 </monster>

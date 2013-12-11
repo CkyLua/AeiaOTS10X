@@ -41,7 +41,7 @@
 		<voice sentence="Herba budinia ex!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="13000"/><!    coin -->
+		<item id="2148" countmax="10" chance="13000"/>   
 		<item id="2687" countmax="8" chance="15750"/><!-- cookie -->
 		<item id="2643" chance="67000"/><!-- leather boots -->
 		<item id="2696" chance="58750"/><!-- cheese -->

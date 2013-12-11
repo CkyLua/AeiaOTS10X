@@ -41,7 +41,7 @@
   </voices>
   <loot>
     <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
-    <item id="2398" chance="10000"/> --Mace
-    <item id="2666" countmax="3" chance1="20000" chancemax="0"/> --Meat
+    <item id="2398" chance="10000"/> 
+    <item id="2666" countmax="3" chance1="20000" chancemax="0"/> 
   </loot>
 </monster>

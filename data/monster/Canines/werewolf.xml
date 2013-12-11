@@ -45,16 +45,16 @@
 		<voice sentence="HRAAAAAAAAAARRRRRR!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="35000"/><!    coin -->
-		<item id="2148" countmax="90" chance="35000"/><!    coin -->
-		<item id="2148" countmax="45" chance="35000"/><!    coin -->
+		<item id="2148" countmax="90" chance="35000"/>   
+		<item id="2148" countmax="90" chance="35000"/>   
+		<item id="2148" countmax="45" chance="35000"/>   
 		<item id="2381" chance="2700"/><!-- halberd -->
 		<item id="2398" chance="19000"/><!-- mace-->
 		<item id="2647" chance="6500"/><!-- plate legs -->
 		<item id="2510" chance="10000"/><!-- plate shield -->
 		<item id="2171" chance="600"/><!-- platinum amulet -->
 		<item id="7439" chance="1000"/><!-- berserk potion -->
-		<item id="7428" chance="300"/><!   breaker -->
+		<item id="7428" chance="300"/>
 		<item id="2438" chance="600"/><!-- epee -->
 		<item id="7383" chance="420"/><!-- relic sword -->
 		<item id="9809" chance="7800"/><!-- rusty armor -->

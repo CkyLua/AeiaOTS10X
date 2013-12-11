@@ -62,7 +62,7 @@
 		<item id="6500" chance1="6500" countmax="1" />    
 		<item id="1987" chance="100000" >    
 			<inside>
-				<item id="2387" chance="8800" /> -- double axe
+				<item id="2387" chance="8800" /> 
 				<item id="2491" chance="3000" />    
 				<item id="8871" chance="3400" />   
 				<item id="7451" chance="1100" />    

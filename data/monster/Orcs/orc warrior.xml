@@ -33,7 +33,7 @@
 		<voice sentence="Alk!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="30000"/><!    coin -->
+		<item id="2148" countmax="15" chance="30000"/>   
 		<item id="2385" chance="51850"/><!-- sabre -->
 		<item id="2512" chance="23333"/><!-- wooden shield -->
 		<item id="2666" chance="16000"/><!-- meat -->

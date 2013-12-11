@@ -51,7 +51,7 @@
 	<loot>
 		<item id="2478" chance="9000"/><!-- brass legs -->
 		<item id="2152" countmax="2" chance="23000"/><!-- plat coin -->
-		<item id="2148" countmax="93" chance="23000"/><!    coin -->
+		<item id="2148" countmax="93" chance="23000"/>   
 		<item id="2439" chance="3600"/><!-- daraminian mace -->
 		<item id="2457" chance="2200"/><!-- steel helmet -->
 		<item id="2149" countmax="2" chance="1600"/><!-- emeralds -->

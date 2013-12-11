@@ -33,7 +33,7 @@
 		<voice sentence="Hurr"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="25" chance="65740"/><!    coin -->
+		<item id="2148" countmax="25" chance="65740"/>   
 		<item id="2510" chance="19980"/><!-- plate shield -->
 		<item id="2398" chance="12000"/><!-- mace -->
 		<item id="2376" chance="5020"/><!-- sword -->

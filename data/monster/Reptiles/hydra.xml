@@ -52,11 +52,11 @@
 		<voice sentence="HISSSS"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="24000"/><!    coin -->
-		<item id="2148" countmax="80" chance="24000"/><!    coin -->
-		<item id="2148" countmax="80" chance="24000"/><!    coin -->
+		<item id="2148" countmax="90" chance="24000"/>   
+		<item id="2148" countmax="80" chance="24000"/>   
+		<item id="2148" countmax="80" chance="24000"/>   
 		<item id="2666" countmax="4" chance="37500"/><!-- meat -->
-		<item id="2671" countmax="4" chance="25000"/><!    -->
+		<item id="2671" countmax="4" chance="25000"/>   
 		<item id="7589" chance="200"/><!-- strong mana potion -->
 		<item id="2177" chance="500"/><!-- life crystal -->
 		<item id="2197" chance="900"/><!-- stone skin amulet -->

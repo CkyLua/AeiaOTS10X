@@ -37,8 +37,8 @@
 		<voice sentence="Goblinkiller! Catch him !!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="100000"/><!    coin -->
-		<item id="2230" chance="15000"/><!    -->
+		<item id="2148" countmax="10" chance="100000"/>   
+		<item id="2230" chance="15000"/>   
 		<item id="2461" chance="16000"/><!-- leather helmet -->
 		<item id="2467" chance="9000"/><!-- leather armor -->
 		<item id="2379" chance="17500"/><!-- dagger -->
@@ -47,6 +47,6 @@
 		<item id="1294" countmax="4" chance="10000"/><!-- small stone -->
 		<item id="2559" chance="10500"/><!-- small axe -->
 		<item id="2406" chance="12500"/><!-- short sword -->
-		<item id="2449" chance="6000"/><!    club -->
+		<item id="2449" chance="6000"/>   
 	</loot>
 </monster>

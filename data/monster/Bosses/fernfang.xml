@@ -61,7 +61,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="100000"/><!    coin -->
+		<item id="2148" countmax="20" chance="100000"/>   
 		<item id="1949" chance="10000"/><!-- scroll -->
 		<item id="2467" chance="10000"/><!-- leather armor -->
 		<item id="2642" chance="6666"/><!-- sandals -->

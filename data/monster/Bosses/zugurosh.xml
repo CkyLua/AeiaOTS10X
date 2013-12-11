@@ -57,9 +57,9 @@
 		<voice sentence="I sense your strength fading!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!    coin -->
-		<item id="2148" countmax="50" chance="100000"/><!    coin -->
-		<item id="6300" chance="7777"/><!    -->
+		<item id="2148" countmax="100" chance="100000"/>   
+		<item id="2148" countmax="50" chance="100000"/>   
+		<item id="6300" chance="7777"/>   
 		<item id="2195" chance="4444"/><!-- boots of haste -->
 		<item id="2393" chance="3000"/><!-- giant sword -->
 		<item id="2432" chance="5555"/><!-- fire axe -->
@@ -70,7 +70,7 @@
 		<item id="2149" countmax="3" chance="1428"/><!-- small emerald -->
 		<item id="2171" chance="2333"/><!-- platinum amulet -->
 		<item id="2158" chance="4444"/><!-- blue gem -->
-		<item id="2470" chance="6500"/><!   en legs -->
+		<item id="2470" chance="6500"/>
 		<item id="2520" chance="9999"/><!-- demon shield -->
 	</loot>
 </monster>

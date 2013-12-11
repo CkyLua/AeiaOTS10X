@@ -39,7 +39,7 @@
 	</immunities>
 	<loot>
 		<item id="3976" countmax="6" chance="46325" /><!-- worm -->
-		<item id="2148" countmax="29" chance="38150" /><!    coin -->
+		<item id="2148" countmax="29" chance="38150" />   
 		<item id="2403" chance="33825" /><!-- knife -->
 		<item id="2050" chance="58825" /><!-- torch -->
 		<item id="2460" chance="17175" /><!-- brass helmet -->

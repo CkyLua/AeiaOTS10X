@@ -66,22 +66,22 @@
 
 <item id="6500" chance="2000" />    
 <item id="2444" chance="700" />    
-<item id="2472" chance="2000" /> -- knight legs
+<item id="2472" chance="2000" /> 
 <item id="1987" chance="100000" >    
 <inside>
 <item id="2148" chance="10000" countmax="51" />    
-	<item id="2492" chance="400" /> -- DSM
-	<item id="2645" chance="700" /> -- steel boots
-	<item id="2470" chance="700" /> -- steel boots
-	<item id="2417" chance="6667" /> -- battle hammer
-	<item id="2509" chance="10000" /> -- steel shield
-	<item id="8905" chance="3538" countmax="1" /> -- cos
-	<item id="5877" chance="900" countmax="1" /> -- royal steel
-	<item id="5878" chance="900" countmax="1" /> -- hell steel
+	<item id="2492" chance="400" /> 
+	<item id="2645" chance="700" /> 
+	<item id="2470" chance="700" /> 
+	<item id="2417" chance="6667" /> 
+	<item id="2509" chance="10000" /> 
+	<item id="8905" chance="3538" countmax="1" /> 
+	<item id="5877" chance="900" countmax="1" /> 
+	<item id="5878" chance="900" countmax="1" /> 
 	<item id="8865" chance="900" countmax="1" />
 	<item id="8879" chance="600" /> 
 	<item id="2270" chance="650" /> 
-	<item id="2209" chance="3222" /> -- club ring
+	<item id="2209" chance="3222" /> 
 </inside>
 </item>
 </loot>

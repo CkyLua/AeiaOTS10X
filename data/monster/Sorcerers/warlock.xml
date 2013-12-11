@@ -69,8 +69,8 @@
 		<voice sentence="We don't like intruders!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="36500"/><!    coin -->
-		<item id="2148" countmax="70" chance="3t6500"/><!    coin -->
+		<item id="2148" countmax="80" chance="36500"/>   
+		<item id="2148" countmax="70" chance="3t6500"/>   
 		<item id="2679" countmax="5" chance="55000"/><!-- cherry -->
 		<item id="2689" chance="22500"/><!-- bread -->
 		<item id="2047" chance="15000"/><!-- candlestick -->
@@ -92,7 +92,7 @@
 		<item id="2197" chance="750"/><!-- stone skin amulet -->
 		<item id="7898" chance="450"/><!-- lightning robe -->
 		<item id="7895" chance="450"/><!-- lightning legs -->
-		<item id="2466" chance="375"/><!   en armor -->
+		<item id="2466" chance="375"/>   
 		<item id="2114" chance="100"/><!-- piggy bank -->
 	</loot>
 </monster>

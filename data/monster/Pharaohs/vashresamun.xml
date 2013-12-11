@@ -49,9 +49,9 @@
 		<voice sentence="If music is the food of death, drop dead."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="50000"/><!    coin -->
-		<item id="2148" countmax="80" chance="50000"/><!    coin -->
-		<item id="2148" countmax="65" chance="50000"/><!    coin -->
+		<item id="2148" countmax="90" chance="50000"/>   
+		<item id="2148" countmax="80" chance="50000"/>   
+		<item id="2148" countmax="65" chance="50000"/>   
 		<item id="2143" chance="7000"/><!-- white pearl -->
 		<item id="2072" chance="7000"/><!-- lute -->
 		<item id="7691" chance="7000"/><!-- great mana potion -->

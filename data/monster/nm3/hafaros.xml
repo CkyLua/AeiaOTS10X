@@ -80,12 +80,12 @@
 		<item id="7416" chance="4444" />    
 		<item id="2432" chance="5555"/>    
 		<item id="2470" chance="6500"/>    
-		<item id="2469" chance="3000"/><!   en armor -->
+		<item id="2469" chance="3000"/>   
 		<item id="2492" chance="2000"/><!-- knight armor -->
 		<item id="10519" chance="100000">   
 			<inside>
 				<item id="6500" countmax="1" chance="1818"/>   
-				<item id="7382" chance="3000"/><!   en armor -->
+				<item id="7382" chance="3000"/>   
 				<item id="2672" countmax="15" chance="2000"/>   
 				<item id="2413" chance="4000"/><!-- hardened bone -->
 				<item id="6529" countmax="15" chance="4000"/>   

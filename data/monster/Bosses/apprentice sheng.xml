@@ -48,7 +48,7 @@
 	</voices>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
-		<item id="2148" countmax="20" chance="100000"/><!    coin -->
+		<item id="2148" countmax="20" chance="100000"/>   
 		<item id="2050" chance="10000"/><!-- torch -->
 		<item id="2461" chance="8000"/><!-- leather helmet -->
 		<item id="2649" chance="8000"/><!-- leather legs -->

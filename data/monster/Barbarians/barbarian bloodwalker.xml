@@ -45,8 +45,8 @@
 		<voice sentence="You can run but you can't hide"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="20000"/><!    coin -->
-		<item id="2671" chance="14250"/><!    -->
+		<item id="2148" countmax="15" chance="20000"/>
+		<item id="2671" chance="14250"/>
 		<item id="2044" chance="12500"/><!-- lamp -->
 		<item id="2381" chance="10750"/><!-- halberd -->
 		<item id="2458" chance="9000"/><!-- chain helmet -->

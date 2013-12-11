@@ -41,11 +41,11 @@
 		<voice sentence="Goblin Powahhh!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="9" chance="30000"/><!    coin -->
+		<item id="2148" countmax="9" chance="30000"/>   
 		<item id="2667"  chance="13750"/><!-- fish -->
-		<item id="2449" chance="5000"/><!    club -->
+		<item id="2449" chance="5000"/>   
 		<item id="2406" chance="10000"/><!-- short sword -->
-		<item id="2230" chance="15000"/><!    -->
+		<item id="2230" chance="15000"/>   
 		<item id="2379" chance="20000"/><!-- dagger -->
 		<item id="2467" chance="10000"/><!-- leather armor -->
 		<item id="2559" chance="8750"/><!-- small axe -->

@@ -48,7 +48,7 @@
 		<summon name="Ghoul" interval="2000" chance="10000"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="57" chance="20000"/><!    coin -->
+		<item id="2148" countmax="57" chance="20000"/>   
 			<item id="5810" chance="850"/><!-- pirate voodoo doll -->
 		<item id="1987" chance="100000"><!-- bag -->
 			<inside>

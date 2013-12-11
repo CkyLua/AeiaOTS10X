@@ -50,15 +50,15 @@
 		<voice sentence="YOU WILL BURN!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="33750"/><!    coin -->
-		<item id="2148" countmax="80" chance="33750"/><!    coin -->
-		<item id="2148" countmax="60" chance="33750"/><!    coin -->
+		<item id="2148" countmax="90" chance="33750"/>   
+		<item id="2148" countmax="80" chance="33750"/>   
+		<item id="2148" countmax="60" chance="33750"/>   
 		<item id="1976" chance="10000"/><!-- gemmed book -->
 		<item id="2672" countmax="5" chance="11500"/><!-- dragon ham -->
 		<item id="7399" chance="200"/><!-- dragon lord trophy -->
 		<item id="2167" chance="5250"/><!-- energy ring -->
 		<item id="2392" chance="750"/><!-- fire sword -->
-		<item id="2033" chance="2650"/><!   en mug -->
+		<item id="2033" chance="2650"/>
 		<item id="2796" chance="12000"/><!-- green mushroom -->
 		<item id="2177" chance="950"/><!-- life crystal -->
 		<item id="2547" countmax="7" chance="2500"/><!-- power bolt -->

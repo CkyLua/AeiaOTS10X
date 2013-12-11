@@ -51,12 +51,12 @@
 		<voice sentence="Knooorrrrr!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="55" chance="15000"/><!    coin -->
-		<item id="2148" countmax="35" chance="15000"/><!    coin -->
+		<item id="2148" countmax="55" chance="15000"/>   
+		<item id="2148" countmax="35" chance="15000"/>   
 		<item id="2231" chance="11000"/><!-- big bone -->
-		<item id="2230" chance="47750"/><!    -->
-		<item id="2449" chance="3250"/><!    club -->
-		<item id="2541" chance="2600"/><!    shield -->
+		<item id="2230" chance="47750"/>   
+		<item id="2449" chance="3250"/>   
+		<item id="2541" chance="2600"/>   
 		<item id="2796" chance="1750"/><!-- green mushroom -->
 		<item id="5925" chance="900"/><!-- hardened bone -->
 		<item id="2463" chance="5650"/><!-- plate armor -->

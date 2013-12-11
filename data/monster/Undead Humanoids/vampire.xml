@@ -56,7 +56,7 @@
 		<voice sentence="I call you, my bats! Come!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="6111"/><!    coin -->
+		<item id="2148" countmax="20" chance="6111"/>   
 		<item id="2144" chance="1620"/><!-- black pearl -->
 		<item id="2032" chance="10300"/><!-- bowl -->
 		<item id="2172" chance="50"/><!-- bronze amulet -->

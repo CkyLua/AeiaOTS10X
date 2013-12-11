@@ -43,7 +43,7 @@
 		<voice sentence="Plundeeeeer!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="74" chance="40000"/><!    coin -->
+		<item id="2148" countmax="74" chance="40000"/>   
 		<item id="2489" chance="3650"/><!-- dark armor -->
 		<item id="2385" chance="14500"/><!-- sabre -->
 		<item id="2376" chance="3000"/><!-- sword -->

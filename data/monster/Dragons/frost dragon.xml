@@ -61,10 +61,10 @@
 		<voice sentence="Chill out!." yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="95" chance="23000"/><!    coin -->
-		<item id="2148" countmax="90" chance="23000"/><!    coin -->
-		<item id="2148" countmax="85" chance="23000"/><!    coin -->
-		<item id="2148" countmax="80" chance="23000"/><!    coin -->
+		<item id="2148" countmax="95" chance="23000"/>   
+		<item id="2148" countmax="90" chance="23000"/>   
+		<item id="2148" countmax="85" chance="23000"/>   
+		<item id="2148" countmax="80" chance="23000"/>   
 		<item id="2672" countmax="5" chance="11500"/><!-- dragon ham -->
 		<item id="2547" countmax="6" chance="4100"/><!-- power bolt -->
 		<item id="2796" chance="11000"/><!-- green mushroom -->
@@ -72,7 +72,7 @@
 		<item id="2146" chance="6200"/><!-- small sapphire -->
 		<item id="7441" chance="5500"/><!-- ice cube -->
 		<item id="2167" chance="5500"/><!-- energy ring -->
-		<item id="2033" chance="3000"/><!   en mug -->
+		<item id="2033" chance="3000"/>   
 		<item id="7290" chance="500"/><!-- shard -->
 		<item id="2177" chance="400"/><!-- life crystal -->
 		<item id="2492" chance="300"/><!-- dragon scale mail -->

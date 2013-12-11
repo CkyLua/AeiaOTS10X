@@ -58,8 +58,8 @@
 		<voice sentence="Psssst, I am over chhhere."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="50000"/><!    coin -->
-		<item id="2148" countmax="70" chance="50000"/><!    coin -->
+		<item id="2148" countmax="90" chance="50000"/>   
+		<item id="2148" countmax="70" chance="50000"/>   
 		<item id="2443" countmax="2" chance="10000"/><!-- apple -->
 		<item id="2544" countmax="21" chance="10000"/><!-- arrow-->
 		<item id="2545" countmax="20" chance="10000"/><!-- poison arrow -->

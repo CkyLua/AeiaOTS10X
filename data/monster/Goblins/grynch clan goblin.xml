@@ -56,7 +56,7 @@
 		<voice sentence="Catch me if you can!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="22" chance="22500"/><!    coin -->
+		<item id="2148" countmax="22" chance="22500"/>   
 		<item id="6497" chance="7000"/><!-- present bag -->
 		<item id="2111" countmax="5" chance="7000"/><!-- snowball -->
 		<item id="6277" countmax="3" chance="7000"/><!-- lump of cake dough -->

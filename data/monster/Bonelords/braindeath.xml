@@ -68,10 +68,10 @@
 		<voice sentence="You will be punished!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="35000"/><!    coin -->
+		<item id="2148" countmax="90" chance="35000"/>   
 		<item id="7364" countmax="4" chance="10000"/><!-- sniper arrows -->
 		<item id="2175" chance="7500"/><!-- spellbook -->
-		<item id="2450" chance="8000"/><!    sword -->
+		<item id="2450" chance="8000"/>   
 		<item id="2423" chance="7000"/><!-- clerical mace -->
 		<item id="2509" chance="5000"/><!-- steel shield -->
 		<item id="5898" chance="1500"/><!-- beholder eye -->

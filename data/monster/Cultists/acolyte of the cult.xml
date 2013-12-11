@@ -52,7 +52,7 @@
 		<voice sentence="Praise voodoo!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="40" chance="20000"/><!    coin -->
+		<item id="2148" countmax="40" chance="20000"/>   
 		<item id="2394" chance="6000"/><!-- morning star -->
 		<item id="5810" chance="850"/><!-- pirate voodoo doll -->
 		<item id="2201" chance="900"/><!-- dragon necklace -->

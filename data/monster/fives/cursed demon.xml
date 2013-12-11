@@ -59,30 +59,30 @@
   </voices>
 <loot>
  	<item id="2148" countmax="100" chance1="100000" chancemax="0"/>
- 	<item id="2393" chance="91428"/> --giantsword
- 	<item id="2514" chance="9500"/> --mastermind shield
- 	<item id="2432" chance="91200"/> --fire axe
- 	<item id="2472" chance="99130"/> --magic plate armor
- 	<item id="5906" countmax="95" chance="5000"/> -- demon dust
-	<item id="5954" countmax="95" chance="5000"/> -- demon horn
-        <item id="2164" chance="9200"/> --might ring
-        <item id="2176" chance="93000"/> --orb
-        <item id="1982" chance="91300"/> --purpel tome
+ 	<item id="2393" chance="91428"/>
+ 	<item id="2514" chance="9500"/>
+ 	<item id="2432" chance="91200"/> 
+ 	<item id="2472" chance="99130"/> 
+ 	<item id="5906" countmax="95" chance="5000"/> 
+	<item id="5954" countmax="95" chance="5000"/>
+        <item id="2164" chance="9200"/> 
+        <item id="2176" chance="93000"/> 
+        <item id="1982" chance="91300"/> 
         <item id="7368" countmax="94" chance="1200"/>
         <item id="2165" chance="1400"/>    
  	<item id="5926" chance="100000">
  	<inside>
-        <item id="7393" chance="99500"/> --ring of healing
-        <item id="2179" chance="91100"/> --golden ring
+        <item id="7393" chance="99500"/> 
+        <item id="2179" chance="91100"/>
         <item id="2795" countmax="96" chance="20000"/>
   	<item id="2678" countmax="93" chance1="10000" chancemax="0"/>
  	<item id="2151" countmax="94" chance1="4000" chancemax="0"/>
- 	<item id="2462" chance="91200"/> --devil helmet
+ 	<item id="2462" chance="91200"/> 
 	<item id="2149" countmax="93" chance1="11000" chancemax="0"/>
- 	<item id="2171" chance="9800"/> --platinum amulet
+ 	<item id="2171" chance="9800"/> 
  	<item id="2470" chance="9400"/>    
  	<item id="2520" chance="9700"/>    
- 	<item id="7382" chance="94100"/> --demonrage sword
+ 	<item id="7382" chance="94100"/> 
         <item id="7891" chance="9500"/>
         <item id="7894" chance="9500"/>
         <item id="7899" chance="9500"/>

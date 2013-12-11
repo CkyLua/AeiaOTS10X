@@ -47,9 +47,9 @@
 		<voice sentence="Grzzzzzzz!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="36450" /><!    coin -->
-		<item id="2148" countmax="100" chance="36450" /><!    coin -->
-		<item id="2148" countmax="32" chance="36450" /><!    coin -->
+		<item id="2148" countmax="100" chance="36450" />   
+		<item id="2148" countmax="100" chance="36450" />   
+		<item id="2148" countmax="32" chance="36450" />   
 		<item id="5876" chance="2525" /><!-- lizard leather -->
 		<item id="11325" chance="9825" /><!-- spiked iron ball -->
 		<item id="12629" chance="3675" /><!-- scale of corruption -->

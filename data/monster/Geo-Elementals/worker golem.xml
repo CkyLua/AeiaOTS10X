@@ -49,8 +49,8 @@
 		<voice sentence="Secret objective complete."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="34000"/><!    coin -->
-		<item id="2148" countmax="61" chance="34000"/><!    coin -->
+		<item id="2148" countmax="70" chance="34000"/>   
+		<item id="2148" countmax="61" chance="34000"/>   
 		<item id="2145" countmax="3" chance="5000"/><!-- small diamond -->
 		<item id="8309" countmax="5" chance="2000"/><!-- nails -->
 		<item id="5880" chance="850"/><!-- iron ore -->
@@ -65,7 +65,7 @@
 		<item id="2391" chance="1550"/><!-- war hammer -->
 		<item id="2177" chance="750"/><!-- life crystal -->
 		<item id="2164" chance="650"/><!-- might ring -->
-		<item id="7428" chance="200"/><!   breaker -->
+		<item id="7428" chance="200"/>   
 		<item id="7590" chance="1500"/><!-- great mana potion -->
 	</loot>
 </monster>

@@ -69,8 +69,8 @@
 		<voice sentence="I remember your face - and I know where you sleep"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="65" chance="31000"/><!    coin --> 
-		<item id="2148" countmax="45" chance="31000"/><!    coin -->
+		<item id="2148" countmax="65" chance="31000"/>    
+		<item id="2148" countmax="45" chance="31000"/>   
 		<item id="9942" chance="2200"/><!-- crystal of balance -->
 		<item id="2804" chance="2250"/><!-- shadow herb -->
 		<item id="7589" chance="2000"/><!-- strong mana potion -->

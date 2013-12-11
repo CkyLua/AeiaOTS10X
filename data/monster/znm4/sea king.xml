@@ -52,7 +52,7 @@
     <item id="2146" countmax="1" chance="3000"/>	   
     <item id="2666" countmax="4" chance="40000"/>	   
     <item id="2214" chance="10000"/>			-- ring of healing
-    <item id="7391" chance="400"/>			-- Thaian Sword
+    <item id="7391" chance="400"/>			
     <item id="1987" chance="100000">
 		<item id="2418" countmax="1" chance="4500"/>
 		<item id="2155" countmax="1" chance="1500"/>
@@ -63,7 +63,7 @@
     <inside>
 	  <item id="2148" countmax="74" chance="40000"/>	   
       <item id="2672" countmax="3" chance="20000"/>	   
-      <item id="7888" chance="3100"/>	        -- Glacier amulet
+      <item id="7888" chance="3100"/>	       
     <item id="2654" chance="5000"/>
     <item id="2539" chance="2000"/>
     <item id="2237" chance="2000"/>
@@ -74,8 +74,8 @@
     <item id="2173" chance="1209"/>
     <item id="2470" chance="1209"/>
     <item id="2492" chance="700"/>
-      <item id="8887" chance="400"/>			-- Frozen Plate
-      <item id="7424" chance="2600"/>			-- Lunar Staff
+      <item id="8887" chance="400"/>		
+      <item id="7424" chance="2600"/>			
     </inside>
     </item>
 </loot>

@@ -46,7 +46,7 @@
 		<voice sentence="I'll bite you! Nyehehehehe!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="22500"/><!    coin -->
+		<item id="2148" countmax="90" chance="22500"/>   
 		<item id="2378" chance="3100"/><!-- battle axe -->
 		<item id="2015" chance="8750"/><!-- brown flask -->
 		<item id="2423" chance="900"/><!-- clerical mace -->

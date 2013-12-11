@@ -46,7 +46,7 @@
 	</voices>
 	<loot>
 		<item id="2213" chance="1000"/><!-- dwarven ring -->
-		<item id="2148" countmax="96" chance="35000"/><!    coin -->
+		<item id="2148" countmax="96" chance="35000"/>   
 		<item id="7618" chance="7200"/><!-- health potion -->
 		<item id="2790" chance="1000"/><!-- orange mushroom -->
 		<item id="2788" chance="8000"/><!-- red mushroom -->

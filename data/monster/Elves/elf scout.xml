@@ -39,7 +39,7 @@
 		<voice sentence="Your existence will end here!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="31000"/><!    coin -->
+		<item id="2148" countmax="30" chance="31000"/>   
 		<item id="2544" countmax="15" chance="12500"/><!-- arrow -->
 		<item id="2545" countmax="6" chance="7000"/><!-- poison arrow -->
 		<item id="2681" chance="17750"/><!-- grape -->

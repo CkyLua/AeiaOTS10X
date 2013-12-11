@@ -65,14 +65,14 @@
 		<voice sentence="I bring your deathhh, mortalssss"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="40500"/><!    coin -->
-		<item id="2148" countmax="70" chance="40500"/><!    coin -->
-		<item id="2148" countmax="69" chance="40500"/><!    coin -->
+		<item id="2148" countmax="80" chance="40500"/>   
+		<item id="2148" countmax="70" chance="40500"/>   
+		<item id="2148" countmax="69" chance="40500"/>   
 		<item id="1976" chance="8888"/><!-- gemmed book -->
 		<item id="3971" chance="2200"/><!-- charmer tiara -->
 		<item id="2487" chance="600"/><!-- crown armor-->
 		<item id="2167" chance="6250"/><!-- energy ring -->
-		<item id="2033" chance="2870"/><!   en mug -->
+		<item id="2033" chance="2870"/>   
 		<item id="7590" chance="2000"/><!-- great mana potion -->
 		<item id="2796" chance="18200"/><!-- green mushroom -->
 		<item id="2177" chance="650"/><!-- life crystal -->

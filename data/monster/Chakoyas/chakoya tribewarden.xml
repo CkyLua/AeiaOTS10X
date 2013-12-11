@@ -36,12 +36,12 @@
 		<voice sentence="Si ji jusipa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="20000"/><!    coin -->
+		<item id="2148" countmax="30" chance="20000"/>   
 		<item id="2666" chance="20000"/><!-- meat -->
-		<item id="2671" chance="20000"/><!    -->
+		<item id="2671" chance="20000"/>   
 		<item id="2667" countmax="3" chance="10000"/><!-- fish -->
 		<item id="2398" chance="9000"/><!-- mace-->
-		<item id="2541" chance="2500"/><!    shield -->
+		<item id="2541" chance="2500"/>   
 		<item id="7381" chance="1750"/><!-- mammoth whopper -->
 		<item id="7441" chance="1000"/><!-- ice cube -->
 		<item id="7158" chance="900"/><!-- rainbow trout -->

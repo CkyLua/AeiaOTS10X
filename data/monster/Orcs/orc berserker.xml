@@ -35,8 +35,8 @@
 		<voice sentence="KRAK ORRRRRRK!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="26000"/><!    coin -->
-		<item id="2671" chance="20000"/><!    -->
+		<item id="2148" countmax="15" chance="26000"/>   
+		<item id="2671" chance="20000"/>   
 		<item id="2458" chance="13500"/><!-- chain helmet -->
 		<item id="2464" chance="12500"/><!-- chain armor -->
 		<item id="2044" chance="7000"/><!-- lamp -->

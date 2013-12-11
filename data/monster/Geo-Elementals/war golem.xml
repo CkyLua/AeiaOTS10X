@@ -62,8 +62,8 @@
 		<voice sentence="Rrrtttarrrttarrrtta"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="37500"/><!    coin -->
-		<item id="2148" countmax="80" chance="375000"/><!    coin -->
+		<item id="2148" countmax="90" chance="37500"/>   
+		<item id="2148" countmax="80" chance="375000"/>   
 		<item id="8309" countmax="5" chance="9000"/><!-- nails -->
 		<item id="2377" chance="5500"/><!-- two handed sword -->
 		<item id="2510" chance="9000"/><!-- plate shield -->
@@ -82,7 +82,7 @@
 		<item id="2645" chance="400"/><!-- steel boots -->
 		<item id="7403" chance="250"/><!-- berserker -->
 		<item id="7422" chance="250"/><!-- jade hammer -->
-		<item id="7428" chance="300"/><!   breaker -->
+		<item id="7428" chance="300"/>
 		<item id="2177" chance="300"/><!-- life crystal -->
 	</loot>
 </monster>

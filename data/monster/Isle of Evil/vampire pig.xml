@@ -42,6 +42,6 @@
 		<voice sentence="Oink oink"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="40" chance="50000"/><!    coins -->
+		<item id="2148" countmax="40" chance="50000"/>   
 	</loot>
 </monster>

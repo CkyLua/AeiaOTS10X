@@ -37,7 +37,7 @@
 		<voice sentence="Take this!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="31750"/><!    coin -->
+		<item id="2148" countmax="20" chance="31750"/>   
 		<item id="2666" countmax="2" chance="10000"/><!-- meat -->
 		<item id="2510" chance="9500"/><!-- plate shield -->
 		<item id="2376" chance="9500"/><!-- sword -->

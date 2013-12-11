@@ -51,8 +51,8 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="90" chance="15000"/><!    coin -->
-		<item id="2148" countmax="60" chance="15000"/><!    coin -->
+		<item id="2148" countmax="90" chance="15000"/>   
+		<item id="2148" countmax="60" chance="15000"/>   
 		<item id="2152" countmax="5" chance="5000"/><!-- platinum coin -->
 		<item id="2146" countmax="4" chance="3000"/><!-- small sapphires -->
 		<item id="2654" chance="35000"/><!-- cape -->
@@ -64,10 +64,10 @@
 		<item id="2187" chance="2900"/><!-- wand of inferno -->
 		<item id="2476" chance="2200"/><!-- knight armor -->
 		<item id="2436" chance="2000"/><!-- skull staff -->
-		<item id="9971" chance="1000"/><!    ingot -->
+		<item id="9971" chance="1000"/>   
 		<item id="2487" chance="750"/><!-- crown armor -->
 		<item id="2153" chance="300"/><!-- violet gem -->
-		<item id="5799" chance="100"/><!   en figurine -->
+		<item id="5799" chance="100"/>
 		<item id="7414" chance="100"/><!-- abyss hammer -->
 	</loot>
 </monster>

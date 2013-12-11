@@ -45,7 +45,7 @@
 		<voice sentence="Target identified: Rat! Termination initiated!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="86" chance="21000"/><!    coin -->
+		<item id="2148" countmax="86" chance="21000"/>   
 		<item id="9808" chance="13275"/><!-- rusty armor -->
 		<item id="5880" chance="650"/><!-- iron ore -->
 		<item id="2207" chance="650"/><!-- sword ring -->

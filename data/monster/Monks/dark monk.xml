@@ -45,7 +45,7 @@
 		<voice sentence="Your end has come!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="5" chance="34000"/><!    coin -->
+		<item id="2148" countmax="5" chance="34000"/>   
 		<item id="2193" chance="1400"/><!-- ankh -->
 		<item id="2689" chance="20000"/><!-- bread -->
 		<item id="2015" chance="10000"/><!-- brown flask -->

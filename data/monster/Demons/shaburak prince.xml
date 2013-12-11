@@ -62,7 +62,7 @@
 		<voice sentence="OWE RULE!" yell="0"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="170" chance="100000" /> <!    coin -->
+		<item id="2148" countmax="170" chance="100000" />    
 		<item id="2152" countmax="3" chance="900000" /> <!-- platinum coin -->
 		<item id="7589" chance="850" /> <!-- Strong Mana Potion  -->
 		<item id="7588" chance="800" /> <!-- Strong Health Potion -->

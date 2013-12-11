@@ -40,8 +40,8 @@
 		<voice sentence="Shrrrr"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="27000"/><!    coin -->
-		<item id="2148" countmax="60" chance="27000"/><!    coin -->
+		<item id="2148" countmax="70" chance="27000"/>   
+		<item id="2148" countmax="60" chance="27000"/>   
 		<item id="2377" chance="12950"/><!-- two handed sword -->
 		<item id="2229" chance="11800"/><!-- skull -->
 		<item id="2654" chance="8750"/><!-- cape -->

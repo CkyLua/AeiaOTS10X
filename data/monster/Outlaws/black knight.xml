@@ -48,8 +48,8 @@
 		<voice sentence="You're no match for me!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="16500"/><!    coin -->
-		<item id="2148" countmax="44" chance="16500"/><!    coin -->
+		<item id="2148" countmax="80" chance="16500"/>   
+		<item id="2148" countmax="44" chance="16500"/>   
 		<item id="2389" countmax="3" chance="12000"/><!-- spear -->
 		<item id="2691" countmax="2" chance="15000"/><!-- brown bread -->
 		<item id="2478" chance="17500"/><!-- brass legs -->

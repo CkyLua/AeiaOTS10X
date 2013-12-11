@@ -55,8 +55,8 @@
 		<voice sentence="Are you tired or why are you moving thhat sslow"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="46000"/><!    coin -->
-		<item id="2148" countmax="70" chance="46000"/><!    coin -->
+		<item id="2148" countmax="80" chance="46000"/>   
+		<item id="2148" countmax="70" chance="46000"/>   
 		<item id="8473" chance="6250"/><!-- ultimate health potion -->
 		<item id="7590" chance="6750"/><!-- great mana potion -->
 		<item id="2476" chance="2600"/><!-- knight armor -->
