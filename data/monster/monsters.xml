@@ -2,7 +2,7 @@
 <monsters>
 	<monster name="Mad King Cow" file="/Giants/Mad Cow King.xml"/>
 	<monster name="Zakarius" file="Zakarius.xml"/>
-	<monster name="Dominique" file="GOD Dominique.xml"/>
+	<monster name="Dominique" file="Dominique.xml"/>
 	<monster name="Skylar" file="Skylar.xml"/>
 	<monster name="King" file="King.xml"/>
 	<monster name="Lilith" file="Lilith.xml"/>

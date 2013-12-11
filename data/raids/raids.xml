@@ -10,5 +10,5 @@
 	<!-- <raid name="moskitoes" file="Komary.xml" interval2="1200" margin="0" reftype="block" ref="no"/> -->
 	<raid name="easter" file="easter.xml" interval2="21600" margin="0" reftype="block" ref="no"/>
 	<raid name="creatures" file="Potworki.xml" interval2="3600" margin="0" reftype="block" ref="no"/>
-	<raid name="eastervip" file="easter vip.xml" interval2="7200" margin="0" reftype="block" ref="no"/>
+	<raid name="eastervip" file="easter Vip.xml" interval2="7200" margin="0" reftype="block" ref="no"/>
 </raids>
