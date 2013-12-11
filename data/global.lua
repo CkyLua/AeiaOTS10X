@@ -6,6 +6,10 @@ FALSE = false
 LUA_ERROR = false
 LUA_NO_ERROR = true
 
+--custom stuff start
+ITEM_GOLD_INGOT = 9971
+--custom end
+
 TILESTATE_NONE = 0
 TILESTATE_PROTECTIONZONE = 1
 TILESTATE_DEPRECATED_HOUSE = 2
@@ -633,6 +637,86 @@ ITEM_MAGICWALL_SAFE = 11098
 ITEM_WILDGROWTH = 1499
 ITEM_WILDGROWTH_PERSISTENT = 2721
 ITEM_WILDGROWTH_SAFE = 11099
+
+
+--custom functions
+
+function getExperienceForLevel(lv)
+	lv = lv - 1
+	return ((50 * lv * lv * lv) - (150 * lv * lv) + (400 * lv)) / 3
+end
+
+ function getPlayerMarriage(player)
+	local rows = db.getResult("SELECT `marriage` FROM `players` WHERE `id` = " .. player .. ";")
+	local marry = rows:getDataInt("marriage")
+	if marry ~= 0 then
+		return marry
+	else
+		return FALSE
+	end
+end
+
+function addMarryStatus(player,partner)
+	db.executeQuery("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
+	return TRUE
+end
+
+function doCancelMarryStatus(player)
+	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
+	return TRUE
+end
+
+function getMarryStatus(player)
+	local stat = db.getResult("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player .. ";")
+	if(stat:getID() == -1) then
+		return FALSE
+	else
+		local info = stat:getDataInt("id")
+		return info
+	end
+end
+
+function getOwnMarryStatus(player)
+	local stat = db.getResult("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player .. ";")
+	if(stat:getID() == -1) then
+		return FALSE
+	else
+		local info = stat:getDataInt("marrystatus")
+		return info
+	end
+end
+
+function isOnline(player)
+	local rows = db.getResult("SELECT `online` FROM `players` WHERE `id` = " .. player .. ";")
+	local on = rows:getDataInt("online")
+	if on ~= 0 then
+		return TRUE
+	else
+		return FALSE
+	end
+end 
+
+
+--- Vip functions by Kekox
+function getPlayerVipDays(cid)
+	local Info = db.getResult("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid) .. " LIMIT 1")
+	if Info:getID() ~= LUA_ERROR then
+	local days= Info:getDataInt("vipdays")
+	Info:free()
+		return days
+	end
+		return LUA_ERROR
+end
+
+function doAddVipDays(cid, days)
+	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` + " .. days .. " WHERE `id` = " .. getPlayerAccountId(cid) .. ";")
+end
+
+function doRemoveVipDays(cid, days)
+	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getPlayerAccountId(cid) .. ";")
+end
+
+--End custom funcs
 
 function doCreatureSayWithRadius(cid, text, type, radiusx, radiusy, position)
 	if position == nil then

@@ -38,11 +38,11 @@
 		<voice sentence="Chhhhhhh!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="35" chance="18000"/>   
-		<item id="2148" countmax="20" chance="18000"/>   
-		<item id="2230" chance="50000"/><!     -->
-		<item id="2541" chance="1200"/>   
-		<item id="2450" chance="900"/>   
+		<item id="2148" countmax="35" chance="18000"/><!-- gold coin -->
+		<item id="2148" countmax="20" chance="18000"/><!-- gold coin -->
+		<item id="2230" chance="50000"/><!-- bone  -->
+		<item id="2541" chance="1200"/><!-- bone shield -->
+		<item id="2450" chance="900"/><!-- bone sword -->
 		<item id="2459" chance="1700"/><!-- iron helmet -->
 		<item id="2227" chance="21500"/><!-- rotten meat -->
 		<item id="2145" countmax="2" chance="750"/><!-- small diamond -->
