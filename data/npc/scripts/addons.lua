@@ -18,28 +18,28 @@ function buyAddons(cid, message, keywords, parameters, node)
 	local premium = (parameters.premium ~= nil and parameters.premium)
 
 	if isPlayerPremiumCallback == nil or (isPlayerPremiumCallback(cid) and premium) then
-		if doPlayerRemoveMoney(cid, cost) then
+		if doPlayerRemoveMoney(cid, cost) == TRUE then
 			doPlayerAddAddons(cid, addon)
-			npcHandler:say('There, you are now able to use the addon you just bought.', cid)
+			npcHandler:say('There, you are now able to use all addons!', cid)
 		else
 			npcHandler:say('Sorry, you do not have enough money.', cid)
 		end
 	else
-		npcHandler:say('I only serve customers with premium accounts, to get it just say !pacc', cid)
+		npcHandler:say('I only serve customers with premium accounts.', cid)
 	end
 
 	keywordHandler:moveUp(1)
 	return true
 end
 
-local node1 = keywordHandler:addKeyword({'first addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the first addons set for 1cc?'})
-	node1:addChildKeyword({'yes'}, buyAddons, {addon = 1, cost = 10000, premium = true})
+local node1 = keywordHandler:addKeyword({'first addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Do you want to buy the first addons set for 5000 gold coins?'})
+	node1:addChildKeyword({'yes'}, buyAddons, {addon = 1, cost = 5000, premium = true})
 	node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, moveup = 1, text = 'Too expensive, eh?'})
 
-local node2 = keywordHandler:addKeyword({'second addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Would you like to buy the second addons set for 1cc?'})
+local node2 = keywordHandler:addKeyword({'second addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Would you like to buy the second addons set for 10000 gold coins?'})
 	node2:addChildKeyword({'yes'}, buyAddons, {addon = 2, cost = 10000, premium = true})
 	node2:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, moveup = 1, text = 'Too expensive, eh?'})
 
-keywordHandler:addKeyword({'addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I sell the first addons set for 1cc and the second addons set for 1cc.'})
+keywordHandler:addKeyword({'addon'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I sell the first addons set for 5000 gold coins and the second addons set for 10000 gold coins.'})
 
 npcHandler:addModule(FocusModule:new())

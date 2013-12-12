@@ -4,7 +4,7 @@ function onStepIn(cid, item, position, fromPosition)
 	if (getPlayerStorageValue(cid,35098) < 1) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            doPlayerSendTextMessage(cid,22,"You have not killed the boss...")
+            doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You have not killed the boss...")
 		else
 	end
 	return true

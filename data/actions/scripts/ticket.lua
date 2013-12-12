@@ -15,7 +15,7 @@ function onUse(cid, item, frompos, item2, topos)
                 doSendMagicEffect(skullpos,13)
                 doSendMagicEffect(amuletpos,13)
                 doCreateItem(12661,1,ticketpos)
-                doPlayerSendTextMessage(cid,22,"Items were combined.")
+                doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Items were combined.")
              end
 	  end
 end

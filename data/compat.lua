@@ -1,3 +1,8 @@
+--Custom stuff
+function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
+--END custom stuff
+
+
 function pushThing(thing)
 	local t = {uid = 0, itemid = 0, type = 0, actionid = 0}
 	if thing ~= nil then

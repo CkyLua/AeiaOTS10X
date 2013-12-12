@@ -28,7 +28,11 @@
 		<attribute key="areaEffect" value="firearea"/>
 	</attack>
     <attack name="lifedrain" interval="1000" chance="15" target="1" range="1" min="-1600" max="-3480"/>	
-    <attack name="sudden death" interval="2000" chance="100" min="-2319" max="-4166"/>
+     <attack name="physical" interval="2000" chance="100" min="-2319" max="-4166">
+    <attribute key="shootEffect" value="suddendeath"/>
+    <attribute key="areaEffect" value="mortarea"/>
+</attack>
+	
   </attacks>
   
   <defenses armor="78" defense="79">

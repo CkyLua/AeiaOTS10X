@@ -32,7 +32,7 @@
     <immunity drunk="1"/>
     <immunity invisible="1"/>
   </immunities>
-  <summons max="1">
+  <summons maxsummons="1">
     <summon name="Kongra" interval="1000" chance="10"/>
   </summons>
   <loot>

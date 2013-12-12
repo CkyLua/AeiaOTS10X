@@ -7,14 +7,14 @@ if promocjanow > 4 then
 		doRemoveItem(item.uid,2282)
 		setPlayerPromotionLevel(cid, 2)
 		doSendMagicEffect(playerpos, 53)
-		doPlayerSendTextMessage(cid,22,"You got it! Log out, then back in.")
+		doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You got it! Log out, then back in.")
 	else 
 		doSendMagicEffect(playerpos, 2)
-		doPlayerSendTextMessage(cid,22,"You already have this promotion")
+		doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You already have this promotion")
 	end
 else
 	doSendMagicEffect(playerpos, 2)
-	doPlayerSendTextMessage(cid,22,"You do not have the first promotion")
+	doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You do not have the first promotion")
 end
 end
 return true

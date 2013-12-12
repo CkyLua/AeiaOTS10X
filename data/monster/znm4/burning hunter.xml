@@ -28,7 +28,10 @@
 </attack>
     </attacks>
     <defenses armor="54" defense="52">
-      <defense name="Ultimate Healing" interval="4000" chance="30" min="3100" max="5800"/>
+      <!-- <defense name="Ultimate Healing" interval="4000" chance="30" min="3100" max="5800"/> -->
+	  <defense name="healing" interval="4000" chance="30" min="3100" max="5800">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
     </defenses>
     <immunities>
       <immunity physical="0"/>

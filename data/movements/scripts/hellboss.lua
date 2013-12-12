@@ -6,7 +6,7 @@ function onStepIn(cid, item, position, fromPosition)
 			if (getPlayerStorageValue(cid,889) < 1) then
 	        	doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            	doPlayerSendTextMessage(cid,22,"I did not touch the statues ...")
+            	doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"I did not touch the statues ...")
 		else
 		end
 		else

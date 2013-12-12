@@ -32,7 +32,10 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="31">
-		<defense name="ultimate healing" interval="1200" chance="35" min="600" max="800"/>
+		
+		<defense name="healing" interval="1200" chance="35" min="600" max="800">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
 	</defenses>
 	<elements>
 		<element earthPercent="100"/>

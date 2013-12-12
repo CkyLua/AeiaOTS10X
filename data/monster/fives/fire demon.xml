@@ -21,11 +21,21 @@
     <attacks>
       <attack name="ice" interval="2000" chance="100" min="-1194" max="-1716"/>
       <attack name="melee" interval="2000" min="-1115" max="-1364"/>
-      <attack name="sudden death" interval="2000" chance="100" min="-1419" max="-1866"/>
+	   <attack name="physical" interval="2000" chance="100" min="-1419" max="-1866">
+    <attribute key="shootEffect" value="suddendeath"/>
+    <attribute key="areaEffect" value="mortarea"/>
+</attack>
     </attacks>
     <defenses armor="74" defense="72">
-      <defense name="haste" interval="5000" chance="100"/>
-      <defense name="Ultimate Healing" interval="4000" chance="30" min="3100" max="6800"/>
+     
+    <defense name="speed" interval="5000" chance="100" speedchange="30" duration="2000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	  
+	  <defense name="healing" interval="4000" chance="30" min="3100" max="6800">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+	  
     </defenses>
     <immunities>
       <immunity physical="0"/>

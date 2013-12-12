@@ -8,7 +8,7 @@
 	<!--donor stuff-->
 	<movevent event="StepIn" itemid="13060" script="godtile.lua"/>
 	
-	<movevent event="DeEquip" itemid="12644" slot="shield" function="onDeEquipItem"/>
+	<movevent event="DeEquip" itemid="12466" slot="shield" function="onDeEquipItem"/>
 	<movevent event="Equip" itemid="12466" slot="shield" function="onEquipItem"/>
 	
 	<movevent event="DeEquip" itemid="12431" slot="armor" function="onDeEquipItem"/>

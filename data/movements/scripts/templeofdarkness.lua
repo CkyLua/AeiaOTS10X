@@ -4,7 +4,7 @@ function onStepIn(cid, item, position, fromPosition)
 	if (getGlobalStorageValue(6500) < 1) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            doPlayerSendTextMessage(cid,22,"Temple of Darkness - Closed.")
+            doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Temple of Darkness - Closed.")
 		else
 	end
 	return true

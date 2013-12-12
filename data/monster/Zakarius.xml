@@ -14,7 +14,7 @@
 	<flag canpushcreatures="1"/>
 	<flag targetdistance="1"/>
 	<flag runonhealth="0"/>
-	<flag skull="4"/>
+	
 </flags>
 <attacks>
 <attack name="death" interval="1000" chance="80" length="1" min="-700" max="-1000">

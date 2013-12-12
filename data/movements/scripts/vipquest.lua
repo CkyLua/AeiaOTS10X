@@ -4,7 +4,7 @@ function onStepIn(cid, item, position, fromPosition)
 	if (getPlayerStorageValue(cid,21444) < 1) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            doPlayerSendTextMessage(cid,22,"You are not a VIP.")
+            doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You are not a VIP.")
 		else
 	end
 	return true

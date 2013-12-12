@@ -54,7 +54,7 @@
 		<voice sentence="Freeze!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="6300"/>   
+		<item id="2148" countmax="90" chance="6300"/><!-- gold coin -->
 		<item id="7441" chance="5000"/><!-- ice cube -->
 		<item id="2796" chance="1550"/><!-- green mushroom -->
 		<item id="7892" chance="500"/><!-- glacier shoes -->

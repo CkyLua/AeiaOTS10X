@@ -14,13 +14,13 @@ else
 pos.x = topos.x - 1
 end
 else
-doPlayerSendTextMessage(cid,22,"Stand in front of the door.")
+doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Stand in front of the door.")
 return true
 end
 doTeleportThing(cid,pos)
 doSendMagicEffect(topos,12)
 else
-doPlayerSendTextMessage(cid,22,'Only VIP Account can go there.')
+doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,'Only VIP Account can go there.')
 end
 return true
 end

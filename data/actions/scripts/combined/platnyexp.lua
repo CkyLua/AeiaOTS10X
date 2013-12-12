@@ -8,7 +8,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(ingotpos,2)
 			doTeleportThing(cid, tppos)
 		else
-			doPlayerSendTextMessage(cid,22,"You must put 5 gold ingots.")
+			doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You must put 5 gold ingots.")
 		end
 return true
 end

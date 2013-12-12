@@ -28,16 +28,16 @@ function onUse(cid, item, frompos, item2, topos)
 						
 					    doCreateItem(12678,1,combinedpos)
 					else
-						doPlayerSendTextMessage(cid,22,"Set the shields as written on the blackboard.")
+						doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Set the shields as written on the blackboard.")
 					end
 				else
-					doPlayerSendTextMessage(cid,22,"Set the shields as written on the blackboard.")
+					doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Set the shields as written on the blackboard.")
 				end
 			else
-				doPlayerSendTextMessage(cid,22,"Set the shields as written on the blackboard.")
+				doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Set the shields as written on the blackboard.")
 			end
 		else
-		    doPlayerSendTextMessage(cid,22,"Set the shields as written on the blackboard.")
+		    doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Set the shields as written on the blackboard.")
 		end
     end
 end

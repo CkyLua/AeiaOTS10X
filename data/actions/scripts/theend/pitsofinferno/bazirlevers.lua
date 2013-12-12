@@ -9,7 +9,7 @@ local newposition = {x=818, y=1280, z=12}
 	elseif item.uid >= 10260 and item.uid <= 10270 and item.itemid == 1946 then
 		doTransformItem(item.uid, item.itemid-1)
 	else
-		doPlayerSendTextMessage(cid,22,"Sorry, not possible.")
+		doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"Sorry, not possible.")
 	end
 return TRUE
 end  

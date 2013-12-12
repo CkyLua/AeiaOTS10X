@@ -4,7 +4,7 @@
 	if (getPlayerLevel(cid) > 300) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            doPlayerSendTextMessage(cid,22,"You are not level 300")
+            doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You are not level 300")
 		else
 	end
 	return true

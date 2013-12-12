@@ -4,7 +4,7 @@ function onStepIn(cid, item, position, fromPosition)
 	if (getPlayerStorageValue(cid,140) < 1) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
-            doPlayerSendTextMessage(cid,22,"You may not enter...")  --Nie masz tu wstepu
+            doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You may not enter...")  --Nie masz tu wstepu
 		else
 	end
 	return true

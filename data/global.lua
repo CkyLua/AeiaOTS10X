@@ -641,6 +641,28 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 --custom functions
 
+function doCopyItem(item, attributes)
+        local attributes = attributes or false
+
+        local ret = doCreateItemEx(item.itemid, item.type)
+        if(attributes) then
+                if(item.actionid > 0) then
+                        doSetItemActionId(ret, item.actionid)
+                end
+        end
+
+        if(isContainer(item.uid) == TRUE) then
+                for i = (getContainerSize(item.uid) - 1), 0, -1 do
+                        local tmp = getContainerItem(item.uid, i)
+                        if(tmp.itemid > 0) then
+                                doAddContainerItemEx(ret, doCopyItem(tmp, true).uid)
+                        end
+                end
+        end
+
+        return getThing(ret)
+end
+
 function getExperienceForLevel(lv)
 	lv = lv - 1
 	return ((50 * lv * lv * lv) - (150 * lv * lv) + (400 * lv)) / 3
@@ -698,6 +720,8 @@ end
 
 
 --- Vip functions by Kekox
+
+--[[
 function getPlayerVipDays(cid)
 	local Info = db.getResult("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid) .. " LIMIT 1")
 	if Info:getID() ~= LUA_ERROR then
@@ -715,7 +739,36 @@ end
 function doRemoveVipDays(cid, days)
 	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getPlayerAccountId(cid) .. ";")
 end
+]]
+--[[
+function getPlayerVipDays(cid)
+	local Info = db.getResult("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getAccountNumberByPlayerName(name) .. " LIMIT 1")
+	if Info:getID() ~= LUA_ERROR then
+	local days= Info:getDataInt("vipdays")
+	Info:free()
+		return days
+	end
+		return LUA_ERROR
+end
+]]
 
+function getPlayerVipDays(cid)
+    local resultId = db.storeQuery("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid))
+    if resultId ~= false then
+        local days = result.getDataInt(resultId, "vipdays")
+        result.free(resultId)
+        return days
+    end
+    return 0
+end
+
+function doAddVipDays(cid, days)
+	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` + " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name) .. ";")
+end
+
+function doRemoveVipDays(cid, days)
+	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name) .. ";")
+end
 --End custom funcs
 
 function doCreatureSayWithRadius(cid, text, type, radiusx, radiusy, position)

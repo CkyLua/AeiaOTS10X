@@ -14,7 +14,7 @@
         <flag canpushcreatures="1"/>
         <flag targetdistance="1"/>
         <flag runonhealth="3000"/>
-        <flag skull="4"/>
+
 </flags>
 
 <attacks>

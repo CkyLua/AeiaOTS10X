@@ -9,7 +9,7 @@ function onUse(cid, item, frompos, item2, topos)
 				doTeleportThing(cid, teleportpos1)
 				doSendMagicEffect(teleportpos1,10)
 		else
-                doPlayerSendTextMessage(cid,22,"You must place 100 demonic stones.")		
+                doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You must place 100 demonic stones.")		
         end
 	end
 	
@@ -23,7 +23,7 @@ function onUse(cid, item, frompos, item2, topos)
 				doTeleportThing(cid, teleportpos1)
 				doSendMagicEffect(teleportpos1,10)
 		else
-                doPlayerSendTextMessage(cid,22,"You must place 100 demonic stones.")		
+                doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You must place 100 demonic stones.")		
         end
 	end
 	
@@ -37,7 +37,7 @@ function onUse(cid, item, frompos, item2, topos)
 				doTeleportThing(cid, teleportpos1)
 				doSendMagicEffect(teleportpos1,10)
 		else
-                doPlayerSendTextMessage(cid,22,"You must place 100 demonic stones.")		
+                doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You must place 100 demonic stones.")		
         end
 	end
 	
@@ -51,7 +51,7 @@ function onUse(cid, item, frompos, item2, topos)
 				doTeleportThing(cid, teleportpos1)
 				doSendMagicEffect(teleportpos1,10)
 		else
-                doPlayerSendTextMessage(cid,22,"You must place 100 demonic stones.")		
+                doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You must place 100 demonic stones.")		
         end
 	end
 
