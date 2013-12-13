@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <groups>
+
+<!--
 	<group id="1" name="Player"/>
 	<group id="2" name="Tester" flags="21028177739776" customFlags="2062"/> 
 	<group id="3" name="Senior Tutor" flags="3504710189056" customFlags="6158" access="2" violationReasons="10" nameViolationFlags="2" statementViolationFlags="63" maxVips="200"/>
@@ -7,5 +9,10 @@
 	<group id="5" name="Community Manager" flags="3840774348794" customFlags="781823" access="4" violationReasons="23" nameViolationFlags="170" statementViolationFlags="213" depotLimit="4000" maxVips="400" outfit="266"/>
 	<group id="6" name="God" flags="3845069447162" customFlags="2097151" access="5" violationReasons="23" nameViolationFlags="170" statementViolationFlags="213" depotLimit="5000" maxVips="500" outfit="302"/>
 	<group id="7" name="Admin" flags="3571265282042" customFlags="65011711" access="6" violationReasons="23" nameViolationFlags="170" statementViolationFlags="213" depotLimit="5000" maxVips="500" outfit="302"/>
+-->
 
-	</groups>
+	<group id="1" name="player" flags="0" access="0" maxdepotitems="0" maxvipentries="0" />
+	<group id="2" name="gamemaster" flags="137438953471" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="3" name="god" flags="127540697997304" access="1" maxdepotitems="0" maxvipentries="200" />
+	
+</groups>
