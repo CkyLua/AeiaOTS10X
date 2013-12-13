@@ -13,7 +13,7 @@ stairJumpExhaustion = 2000
 experienceByKillingPlayers = "no"
 
 -- Connection Config
-ip = "127.0.0.1"
+ip = "192.168.1.5"
 bindOnlyGlobalAddress = "no"
 loginProtocolPort = 7171
 gameProtocolPort = 7172

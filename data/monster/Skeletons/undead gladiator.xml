@@ -46,8 +46,8 @@
 		<voice sentence="Another foolish adventurer who tries to beat me."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="387500"/>   
-		<item id="2148" countmax="70" chance="387500"/>   
+		<item id="2148" countmax="80" chance="387500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="387500"/><!-- gold coin -->
 		<item id="8872" chance="11000"/><!-- belted cape -->
 		<item id="2465" chance="11000"/><!-- brass armor -->
 		<item id="2478" chance="15500"/><!-- brass legs -->
