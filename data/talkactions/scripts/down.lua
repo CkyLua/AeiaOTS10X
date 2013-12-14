@@ -4,6 +4,8 @@ function onSay(cid, words, param)
 		return false
 	end
 
-	player:getPosition():sendMagicEffect(tonumber(param))
+	local position = player:getPosition()
+	position.z = position.z + 1
+	player:teleportTo(position)
 	return false
 end

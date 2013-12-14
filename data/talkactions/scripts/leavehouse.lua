@@ -1,19 +1,22 @@
-function onSay(cid, words, param, channel)
-	local house = getHouseFromPos(getCreaturePosition(cid))
-	if(not house) then
-		doPlayerSendCancel(cid, "You are not inside a house.")
-		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+function onSay(cid, words, param)
+	local player = Player(cid)
+	local house = House(getTileHouseInfo(player:getPosition()))
+	
+	if not house then
+		player:sendCancelMessage("You are not inside a house.")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
 		return false
 	end
-
-	local owner = getHouseInfo(house).owner
-	if(owner ~= getPlayerGUID(cid) and (owner ~= getPlayerGuildId(cid) or getPlayerGuildLevel(cid) ~= GUILDLEVEL_LEADER)) then
-		doPlayerSendCancel(cid, "You are not the owner of this house.")
-		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_POFF)
+	
+	if house:getOwnerGuid() ~= player:getGuid() then
+		player:sendCancelMessage("You are not the owner of this house.")
+		player:getPosition():sendMagicEffect(CONST_ME_POFF)
 		return false
 	end
+	
+	house:setOwnerGuid(0)
+	player:sendTextMessage(MESSAGE_INFO_DESCR, "You have successfully left your house.")
+	player:getPosition():sendMagicEffect(CONST_ME_POFF)
 
-	setHouseOwner(house, 0)
-	doSendMagicEffect(getCreaturePosition(cid), CONST_ME_MAGIC_BLUE)
 	return false
 end

@@ -1,9 +1,9 @@
 function onSay(cid, words, param)
 	local player = Player(cid)
 	if not player:getGroup():getAccess() then
-		return false
+		return true
 	end
 
-	player:getPosition():sendMagicEffect(tonumber(param))
+	player:teleportTo(player:getTown():getTemplePosition())
 	return false
 end

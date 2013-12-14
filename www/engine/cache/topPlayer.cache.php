@@ -1,1 +1,1 @@
-[{"name":"Gadriel","level":"717217","experience":"6148891664141657600"},{"name":"Mage Test","level":"500061","experience":"2084070920405119894"},{"name":"Dominique","level":"10011","experience":"16711708063000"},{"name":"Swording","level":"610","experience":"3745979300"},{"name":"Test B","level":"516","experience":"2263322000"}]
+[{"name":"Dominique","level":"8","experience":"4200"},{"name":"Skylar","level":"7","experience":"3780"}]

@@ -16,12 +16,13 @@
             <span style="font-size: 11px; line-height: normal; ">
               &copy; <?php echo $config['site_title'];?>. <!--Edit: <a href="http://otland.net/members/dominique120.184693/" target="_BLANK">dominique120</a>. Design: <a href="http://otland.net/members/amiroslo.54687/" target="_BLANK">Amiroslo</a>. Engine: <a href="credits.php">Znote AAC</a><br> -->
 <?php
+$date = date('m/d/Y h:i:s a', time());
 $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $finish = $time;
 $total_time = round(($finish - $start), 4);
-echo 'Server date and clock is: '. date($config['date'],time()) .' Page generated in '. $total_time .' seconds.';
+echo 'Server date and clock is: '. getClock(false, true) .' Page generated in '. $total_time .' seconds.';
 ?>
             </span> 
           </font>

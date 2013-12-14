@@ -1,14 +1,29 @@
-function onSay(cid, words, param, channel)
-	param = tonumber(param)
-	if(not param or param < 0 or param > CONST_ANI_LAST) then
-		doPlayerSendCancel(cid, "Numeric param may not be lower than 0 and higher than " .. CONST_ANI_LAST .. ".")
-		return true
+function onSay(cid, words, param)
+	local player = Player(cid)
+	if not player:getGroup():getAccess() then
+		return false
 	end
 
-	local position = getCreaturePosition(cid)
-	for i = 1, 30 do
-		doSendDistanceShoot(position, {x = position.x + math.random(-7, 7), y = position.y + math.random(-5, 5), z = position.z}, param)
+	local effect = tonumber(param)
+	local orig = player:getPosition()
+	local d1, d2 = {z = orig.z}, {z = orig.z}
+
+	d1.x = orig.x - 7
+	d2.x = orig.x + 7
+	for i = -5, 5 do
+		d1.y = orig.y + i
+		d2.y = d1.y
+		orig:sendDistanceEffect(d1, effect)
+		orig:sendDistanceEffect(d2, effect)
 	end
 
-	return true
+	d1.y = orig.y - 5
+	d2.y = orig.y + 5
+	for i = -6, 6 do
+		d1.x = orig.x + i
+		d2.x = d1.x
+		orig:sendDistanceEffect(d1, effect)
+		orig:sendDistanceEffect(d2, effect)
+	end
+	return false
 end

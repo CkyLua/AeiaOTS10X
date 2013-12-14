@@ -4,7 +4,7 @@
 	// TFS 0.3 = TFS_03 (If ur using 0.3.6, set $config['salt'] to false)!
 	// TFS 0.4 = TFS_03
 	// TFS 1.0 = TFS_10 (Under developement)
-	$config['TFSVersion'] = 'TFS_03';
+	$config['TFSVersion'] = 'TFS_10';
 	
 	$config['site_title'] = 'Aeia OTS';
 	$config['site_title_context'] = 'Ready for a new adventure?';
@@ -14,13 +14,13 @@
 	// ------------------------ \\
 	
 	// phpmyadmin username for OT server: (DONT USE "root" if ur hosting to public.).
-	$config['sqlUser'] = '04';
+	$config['sqlUser'] = 'otserv';
 	
 	// phpmyadmin password for OT server:
-	$config['sqlPassword'] = 'ELPKRbRtpBBjGvfw';
+	$config['sqlPassword'] = 'zThA96eAH9u2V8Ty';
 	
 	// The database name to connect to. (This is usually same as username).
-	$config['sqlDatabase'] = '04';
+	$config['sqlDatabase'] = 'otserv';
 	
 	// Hostname is usually localhost or 127.0.0.1.
 	$config['sqlHost'] = '127.0.0.1';
