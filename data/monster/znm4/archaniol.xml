@@ -57,7 +57,7 @@
 	    <element deathPercent="-20"/>
 		  <element holyPercent="50"/>
 		    <element icePercent="10"/>
-			<element psychicalPercent="15"/>
+		<!--	<element psychicalPercent="15"/> -->
 	</elements>
   <immunities>
     <immunity paralyze="1"/>

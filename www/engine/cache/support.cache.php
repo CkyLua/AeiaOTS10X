@@ -1,1 +1,1 @@
-{"Tutor":[{"group_id":"2","name":"Bridgit","online":"0"}],"Senior Tutor":[{"group_id":"3","name":"Tutor test","online":"0"}],"Community Manager":[{"group_id":"5","name":"Alice","online":"0"}],"God":[{"group_id":"6","name":"Admin","online":"0"},{"group_id":"6","name":"Alex The Pro","online":"0"},{"group_id":"6","name":"Cows","online":"0"},{"group_id":"6","name":"Rahahaha","online":"0"},{"group_id":"6","name":"Donkeo","online":"0"},{"group_id":"6","name":"Venom","online":"0"},{"group_id":"6","name":"Skylar","online":"0"}]}
+{"God":[{"group_id":"6","name":"Znote","online":1}]}

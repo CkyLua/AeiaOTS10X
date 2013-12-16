@@ -50,7 +50,7 @@
 		<element holyPercent="10"/>
 		<element icePercent="10"/>
 		<element icePercent="10"/>
-		<element psychicalPercent="22"/>
+<!--		<element psychicalPercent="22"/>-->
 </elements>
   <immunities>
     <immunity physical="0"/>

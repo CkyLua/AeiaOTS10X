@@ -129,12 +129,12 @@ width:96%;
           </div>
         </div>
       </div>
-   <!--
+   
       <div class="alert">
         <button type="button" class="close" data-dismiss="alert">×</button>
-        <b>Hey there!</b> You best check yourself, you're not looking so good.               <!--add important news here -->
-<!--      </div>
-      -->
+        <b>News!</b> Updated to 10.3               <!--add important news here -->
+      </div>
+      
       <div class="container-fluid">
         <div class="row-fluid">
 

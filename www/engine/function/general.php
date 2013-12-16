@@ -1,30 +1,5 @@
 <?php
-
-function voc_str($id)
-{    
-    $vocs = config('voc_str');
-    $id = strVal($id);
-    
-    return ($vocs[$id] >= 0 ) ? $vocs[$id] :false ;
-}
-
-function array_concat($array, $val)
-{
-    $ret = "";
-    $size = count($array) - 1;
-    if ($size < 0) 
-        return false;
-        
-    for ($i = 0; $i <= $size; $i++) 
-    {    
-        $ret .= voc_str($array[$i]).''.($i < $size ? $val : '.');
-        
-    }
-    
-    
-    return $ret;
-}
-
+// Fetch and sanitize POST and GET values
 function getValue($post) {
 	return (!empty($post)) ? sanitize($post) : false;
 }
@@ -446,23 +421,5 @@ function sanitize($data) {
 
 function output_errors($errors) {
 	return '<ul><li>'. implode('</li><li>', $errors) .'</li></ul>';
-	
 }
-
-function isPromoted($user_id) 
-{
-	$user_id = sanitize($user_id);
-	$data = mysql_select_single("SELECT `promotion` FROM `players` WHERE `id` = $user_id;");
-	$return = $data['promotion'] > 0 ? 1 : 0;
-	return $return;
-}
-
-function getPromotedLevel($user_id) 
-{
-	$user_id = sanitize($user_id);
-	$data = mysql_select_single("SELECT `promotion` FROM `players` WHERE `id` = $user_id;");
-	$return = $data['promotion'];
-	return $return;
-}
-
 ?>

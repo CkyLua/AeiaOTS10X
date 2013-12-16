@@ -18,7 +18,7 @@
     <flag runonhealth="0"/>
   </flags>
 	<elements>
-		<element HolyPercent="-25"/>
+		<element holyPercent="-25"/>
 	</elements>
 <attacks>
     <attack name="melee" interval="2000" min="-0" max="-50"/>

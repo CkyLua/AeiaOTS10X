@@ -50,6 +50,7 @@ if (empty($_POST) === false) {
 			[link]<a href="http://youtube.com/" target="_BLANK">http://youtube.com/</a>[/link]<br>
 			[link=http://youtube.com/]<a href="http://youtube.com/" target="_BLANK">Click to View youtube</a>[/link]<br>
 			[color=<font color="green">GREEN</font>]<font color="green">Green Text!</font>[/color]<br>
+			[*]* Noted text [/*]
 		</p>
 
 		<?php
@@ -98,6 +99,7 @@ if (empty($_POST) === false) {
 			[link]<a href="http://youtube.com/" target="_BLANK">http://youtube.com/</a>[/link]<br>
 			[link=http://youtube.com/]<a href="http://youtube.com/" target="_BLANK">Click to View youtube</a>[/link]<br>
 			[color=<font color="green">GREEN</font>]<font color="green">Green Text!</font>[/color]<br>
+			[*]* Noted text [/*]
 		</p>
 		<?php
 	}

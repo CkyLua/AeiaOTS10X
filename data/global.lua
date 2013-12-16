@@ -1,5 +1,6 @@
 dofile('data/compat.lua')
 
+
 TRUE = true
 FALSE = false
 
@@ -8,6 +9,7 @@ LUA_NO_ERROR = true
 
 --custom stuff start
 ITEM_GOLD_INGOT = 9971
+doBroadcastMessage = broadcastMessage
 --custom end
 
 TILESTATE_NONE = 0
@@ -641,6 +643,20 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 --custom functions
 
+function getBooleanFromString(input)
+    local tmp = type(input)
+    if(tmp == 'boolean') then
+        return input
+    end
+
+    if(tmp == 'number') then
+        return input > 0
+    end
+
+    local str = string.lower(tostring(input))
+    return (str == "yes" or str == "true" or (tonumber(str) ~= nil and tonumber(str) > 0))
+end
+
 function doCopyItem(item, attributes)
         local attributes = attributes or false
 
@@ -769,6 +785,16 @@ end
 function doRemoveVipDays(cid, days)
 	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name) .. ";")
 end
+
+function getConfigValue(info)
+	if type(info) ~= "string" then
+		return nil
+	end
+	dofile('config.lua')
+	return _G[info]
+end
+
+
 --End custom funcs
 
 function doCreatureSayWithRadius(cid, text, type, radiusx, radiusy, position)
@@ -831,7 +857,7 @@ function isSorcerer(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({1, 5}, player:getVocation():getId())
+	return isInArray({1, 5, 9}, player:getVocation():getId())  --Added promo 2
 end
 
 function isDruid(cid)
@@ -839,7 +865,7 @@ function isDruid(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({2, 6}, player:getVocation():getId())
+	return isInArray({2, 6, 10}, player:getVocation():getId())  --Added promo 2
 end
 
 function isPaladin(cid)
@@ -847,7 +873,7 @@ function isPaladin(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({3, 7}, player:getVocation():getId())
+	return isInArray({3, 7, 11}, player:getVocation():getId())  --Added promo 2
 end
 
 function isKnight(cid)
@@ -855,7 +881,7 @@ function isKnight(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({4, 8}, player:getVocation():getId())
+	return isInArray({4, 8, 12}, player:getVocation():getId())  --Added promo 2
 end
 
 function getTibianTime()

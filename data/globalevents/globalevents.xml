@@ -7,7 +7,7 @@
 <!--<globalevent name="globalsave" type="globalsave"  script="init.lua"/> -->
 <!--<globalevent name="shop" interval="30000"  script="shop.lua"/>  -->
 	<globalevent name="reklama" interval="7500000"  script="reklama.lua"/> <!--7500-->
-	<globalevent name="init" type="startup"  script="init.lua"/>
+<!--<globalevent name="init" type="startup"  script="init.lua"/>-->
 	<globalevent name="fb" interval="8700000"  script="fb.lua"/>
 	<globalevent name="TempleOfDarkness1" time="19:00:00"  script="temple.lua"/>
 	<globalevent name="TempleOfDarkness2" time="21:00:00"  script="temple.lua"/>

@@ -26,17 +26,5 @@
 	</li>
 </ol>
 
-<h2>How to connect and play with our client:</h2>
-<ol>
-	<li>
-		<a href="" target="_blank">Download</a>, unzip and run tibia.exe if you havent already. *EDIT LINK
-	</li>
-
-	<li>
-		Now you can successfully login on the tibia client and play. <br>
-		If you do not have an account to login with, you need to register an account <a href="register.php">HERE</a>.
-	</li>
-</ol>
-
 <?php 
 include 'layout/overall/footer.php'; ?>

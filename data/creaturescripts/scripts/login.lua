@@ -1,37 +1,32 @@
-local config = {
-    loginMessage = getConfigValue('loginMessage'),
-    useFragHandler = getBooleanFromString(getConfigValue('useFragHandler'))
-}
-
 function onLogin(cid)
-    local loss = getConfigValue('deathLostPercent')
-    if(loss ~= nil) then
-        doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, loss * 10)
-    end
+	local player = Player(cid)
 
-    if(not isPlayerGhost(cid)) then
-        doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
-    end
+	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
+	if player:getLastLoginSaved() <= 0 then
+		loginStr = loginStr .. " Please choose your outfit."
+		player:sendOutfitWindow()
+	else
+		if loginStr ~= "" then
+			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
+		end
 
-    registerCreatureEvent(cid, "Mail")
-    registerCreatureEvent(cid, "GuildMotd")
-    registerCreatureEvent(cid, "Idle")
-    registerCreatureEvent(cid, "5cc")
-    registerCreatureEvent(cid, "10cc")
-    registerCreatureEvent(cid, "remover")
-    registerCreatureEvent(cid, "FirstItems")
+		loginStr = string.format("Your last visit was on %s.", os.date("%a %b %d %X %Y", player:getLastLoginSaved()))
+	end
+	player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
-    if(config.useFragHandler) then
-        registerCreatureEvent(cid, "SkullCheck")
-    end
-    registerCreatureEvent(cid, "ReportBug")
-    registerCreatureEvent(cid, "KilledMonstersCounter")
-    -- New insertion.
-    registerCreatureEvent(cid, "KillingInTheNameOf")
-    registerCreatureEvent(cid, "Advance")
-    registerCreatureEvent(cid, "demonOakLogout")
-    registerCreatureEvent(cid, "demonOakDeath") 
-    registerCreatureEvent(cid, "VipCheck")
-	registerCreatureEvent(cid, "CreateTeleport")
-    return true
+	player:registerEvent("Mail")
+	player:registerEvent("GuildMotd")
+	player:registerEvent("Idle")
+	player:registerEvent("5cc")
+	player:registerEvent("10cc")
+	player:registerEvent("remover")
+	player:registerEvent("FirstItems")
+	player:registerEvent("ReportBug")
+	player:registerEvent("KilledMonstersCounter")
+	player:registerEvent("Advance")
+	player:registerEvent("demonOakLogout")
+	player:registerEvent("demonOakDeath")
+	player:registerEvent("VipCheck")
+	player:registerEvent("CreateTeleport")
+	return true 
 end

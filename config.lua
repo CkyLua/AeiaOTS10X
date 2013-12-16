@@ -1,25 +1,25 @@
 -- Combat settings
-worldType = "pvp"
+worldType = "no-pvp"
 hotkeyAimbotEnabled = "yes"
 protectionLevel = 1
-killsToRedSkull = 3
-killsToBlackSkull = 6
+killsToRedSkull = 5
+killsToBlackSkull = 10
 pzLocked = 60000
-removeAmmoWhenUsingDistanceWeapon = "yes"
+removeAmmoWhenUsingDistanceWeapon = "no"
 removeChargesFromRunes = "yes"
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
-stairJumpExhaustion = 2000
-experienceByKillingPlayers = "no"
+stairJumpExhaustion = 800
+experienceByKillingPlayers = "yes"
 
 -- Connection Config
-ip = "aeiaots.pw"
+ip = "login.aeiaots.pw"
 bindOnlyGlobalAddress = "no"
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = "1500"
-motd = "Welcome to AeiaOTS, If you find a typo, bug, glitch or just want to make a suggestion, find the God."
+motd = "Welcome to AeiaOTS! If you find a typo, bug, glitch or just want to make a suggestion, find the God."
 onePlayerOnlinePerAccount = "yes"
 allowClones = "no"
 serverName = "Aeia OTS"

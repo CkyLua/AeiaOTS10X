@@ -416,6 +416,43 @@ function guild_remove_invitation($cid, $gid) {
 	mysql_delete("DELETE FROM `guild_invites` WHERE `player_id`='$cid' AND `guild_id`='$gid';");
 }
 
+// simple invite/accept/end etc guild war system 
+function guild_war_invite_check($name) {
+	$name = sanitize($name);
+	return mysql_select_multi("SELECT `id` FROM `guilds` WHERE `name`='$name';");
+}
+
+function guild_war_invite_check2($gid) {
+	$gid = (int)$gid;
+	return mysql_select_multi("SELECT `name` FROM `guilds` WHERE `id`='$gid';");
+}
+
+function guild_war_rdeclaration($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_delete("DELETE FROM `guild_wars` WHERE `guild2`='$cid' AND `guild1`='$gid';");
+}
+
+function guild_war_reject($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_delete("DELETE FROM `guild_wars` WHERE `guild1`='$cid' AND `guild2`='$gid';");
+}
+
+function guild_war_accept($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_update("UPDATE `guild_wars` SET `status` = 1 WHERE `guild1`='$cid' AND `guild2`='$gid' AND `status` = 0;");
+}
+
+function guild_war_cancel($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	$time = time();
+	mysql_update("UPDATE `guild_wars` SET `status` = 5, `ended` = '$time' WHERE (`guild1`='$cid' OR `guild2`='$cid') AND (`guild2`='$gid' OR `guild1`='$gid') AND `status` = 1;");
+}
+// END of simple guild war system
+
 // Invite character to guild
 function guild_invite_player($cid, $gid) {
 	$cid = (int)$cid;
@@ -1421,6 +1458,15 @@ function user_name($id) { //USERNAME FROM PLAYER ID
     else return false;
 }
 
+// checks if guild name exist
+function user_guild_exist($id) {
+    $id = (int)$id; 
+    $name = mysql_select_single("SELECT `name` FROM `guilds` WHERE `id`='$id';");
+    if ($name !== false) return $name['name'];
+    else return false;
+}
+
+
 // Checks that character name exist
 function user_character_exist($username) {
 	$username = sanitize($username);
@@ -1490,6 +1536,13 @@ function user_character_id($charname) {
 	$charname = sanitize($charname);
 	$char = mysql_select_single("SELECT `id` FROM `players` WHERE `name`='$charname';");
 	if ($char !== false) return $char['id'];
+	else return false;
+}
+
+function user_guild_id($guildname) {
+	$guildname = sanitize($guildname);
+	$guild = mysql_select_single("SELECT `id` FROM `guilds` WHERE `name`='$guildname';");
+	if ($guild !== false) return $guild['id'];
 	else return false;
 }
 

@@ -21,27 +21,12 @@ if (isset($_GET['name']) === true && empty($_GET['name']) === false) {
 		}
 		?>
 		
-		<?php
-			$vocation = isPromoted($user_id) == 1 ? 4 : 0;
-			$extra = 0;
-			switch(getPromotedLevel($user_id))
-			{
-				case 0: $extra = 0;
-					break;
-				case 1: $extra = 4;
-					break;
-				case 2: $extra = 8;
-					break;	
-			}		
-		?>		
-
-
 		<!-- PROFILE MARKUP HERE-->
 			<?php ?>
 			<h1><font class="profile_font" name="profile_font_header">Profile: <?php echo $profile_data['name']; ?></font></h1>
 			<ul class="unstyled">
 				<li><font class="profile_font" name="profile_font_level">Level: <?php echo $profile_data['level']; ?></font></li>
-				<li><font class="profile_font" name="profile_font_vocation">Vocation: <?php echo vocation_id_to_name($profile_data['vocation']+$extra); ?></font></li>
+				<li><font class="profile_font" name="profile_font_vocation">Vocation: <?php echo vocation_id_to_name($profile_data['vocation']); ?></font></li>
 				<?php 
 				if ($guild_exist) {
 				?>

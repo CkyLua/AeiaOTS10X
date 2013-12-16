@@ -1,38 +1,29 @@
-local config = {
-	broadcast = {120, 30, 5},
-	shallow = "no",
-	delay = 120,
-	events = 30
-}
+local shutdownAtServerSave = false
+local cleanMapAtServerSave = false
 
-config.shallow = getBooleanFromString(config.shallow)
-
-local function executeSave(seconds)
-	if(isInArray(config.broadcast, seconds)) then
-		local text = ""
-		if(not config.shallow) then
-			text = "Full s"
-		else
-			text = "S"
-		end
-
-		text = text .. "erver save within " .. seconds .. " seconds, please mind it may freeze!"
-		doBroadcastMessage(text)
-	end
-
-	if(seconds > 0) then
-		addEvent(executeSave, config.events * 1000, seconds - config.events)
-	else
-		doSaveServer(config.shallow)
-	end
+local function serverSave()
+        if shutdownAtServerSave then
+                Game.setGameState(GAME_STATE_SHUTDOWN)
+        end
+        if cleanMapAtServerSave then
+                cleanMap()
+        end
+        saveServer()
 end
 
-function onThink(interval)
-	if(table.maxn(config.broadcast) == 0) then
-		doSaveServer(config.shallow)
-	else
-		executeSave(config.delay)
-	end
+local function secondServerSaveWarning()
+        broadcastMessage("Server is saving game in one minute. Please go to a safe place.", MESSAGE_STATUS_WARNING)
+        addEvent(serverSave, 60000)
+end
 
-	return true
+local function firstServerSaveWarning()
+        broadcastMessage("Server is saving game in 3 minutes. Please go to a safe place.", MESSAGE_STATUS_WARNING)
+        addEvent(secondServerSaveWarning, 120000)
+end
+
+function onTime(interval)
+        broadcastMessage("Server is saving game in 5 minutes. Please go to a safe place.", MESSAGE_STATUS_WARNING)
+        Game.setGameState(GAME_STATE_STARTUP)
+        addEvent(firstServerSaveWarning, 120000)
+        return not shutdownAtServerSave
 end
