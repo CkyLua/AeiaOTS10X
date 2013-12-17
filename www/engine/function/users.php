@@ -1041,9 +1041,9 @@ function user_account_id_from_password($password) {
 function user_account_add_premdays($accid, $days) {
 	$accid = (int)$accid;
 	$days = (int)$days;
-	$tmp = mysql_result(mysql_query("SELECT `premdays` FROM `accounts` WHERE `id`='$accid';"), 0, 'premdays');
+	$tmp = mysql_result(mysql_query("SELECT `vipdays` FROM `accounts` WHERE `id`='$accid';"), 0, 'vipdays');
 	$tmp += $days;
-	mysql_query("UPDATE `accounts` SET `premdays`='$tmp' WHERE `id`='$accid'");
+	mysql_query("UPDATE `accounts` SET `vipdays`='$tmp' WHERE `id`='$accid'");
 }
 
 // Name = char name. Changes from male to female & vice versa.

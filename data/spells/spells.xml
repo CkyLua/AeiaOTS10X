@@ -117,6 +117,21 @@
 		<vocation id="12"/>
 	</instant>
 	
+		<instant name="Anti-Fire" words="exana flam" lvl="10" mana="30" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="healing/anti-fire.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="3"/>
+		<vocation id="4"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+		<vocation id="7"/>
+		<vocation id="8"/>
+		<vocation id="12"/>
+		<vocation id="11"/>
+		<vocation id="10"/>
+		<vocation id="9"/>
+	</instant>
+	
 	<!--SPELLS FROM MOONOTS -->
 	<!-- start of monster spells -->
 <instant name="death1" words="exevo death" script="death.lua">
