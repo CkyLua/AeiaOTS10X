@@ -1,7 +1,7 @@
 AeiaOTS
 =======
 
-AeiaOTS
+AeiaOTS Updated to 10.3
 
 Evo based server with staged exp
 First EVO to ever use protocol 10.x and TFS 1.0
