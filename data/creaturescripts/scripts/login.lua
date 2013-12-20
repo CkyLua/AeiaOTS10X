@@ -14,6 +14,7 @@ function onLogin(cid)
 	end
 	player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
+	player:setStorageValue(30019, 1)
 	player:registerEvent("Mail")
 	player:registerEvent("GuildMotd")
 	player:registerEvent("Idle")

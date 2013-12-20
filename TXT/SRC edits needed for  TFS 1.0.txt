@@ -1,0 +1,2 @@
+I need this source edits mentioned here and to edit the login file to update the storage.
+http://otland.net/threads/tfs-1-0-enable-disable-emoted-spells-on-your-character.204590/
