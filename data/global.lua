@@ -9,6 +9,7 @@ LUA_NO_ERROR = true
 
 --custom stuff start
 ITEM_GOLD_INGOT = 9971
+db.executeQuery = db.query
 doBroadcastMessage = broadcastMessage
 --custom end
 
