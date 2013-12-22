@@ -13,7 +13,6 @@
 	<event type="joinchannel" name="GuildMotd"  script="guildmotd.lua"/>
 	<event type="receivemail" name="Mail"  script="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
-	<!-- <event type="think" name="Idle"  script="idle.lua"/> -->
 	<event type="think" name="SkullCheck"  script="skullcheck.lua"/>
 	<event type="login" name="VipCheck"  script="vipcheck.lua"/>
 	<event type="login" name="TempleTeleporter"  script="templeteleport.lua"/>

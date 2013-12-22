@@ -2,21 +2,15 @@
 <globalevents>
 
     <globalevent name="DemonCastle" interval="10800000"  script="demon_castle.lua"/>
-<!--<globalevent name="EffectTile" interval="3000" script="effectile.lua"/> -->
 	<globalevent name="save" interval="5400000"  script="save.lua"/>
-<!--<globalevent name="globalsave" type="globalsave"  script="init.lua"/> -->
-<!--<globalevent name="shop" interval="30000"  script="shop.lua"/>  -->
 	<globalevent name="reklama" interval="7500000"  script="reklama.lua"/> <!--7500-->
-<!--<globalevent name="init" type="startup"  script="init.lua"/>-->
 	<globalevent name="fb" interval="8700000"  script="fb.lua"/>
 	<globalevent name="TempleOfDarkness1" time="19:00:00"  script="temple.lua"/>
 	<globalevent name="TempleOfDarkness2" time="21:00:00"  script="temple.lua"/>
 	<globalevent name="TempleOfDarkness3" time="20:00:00"  script="temple.lua"/>
 	<globalevent name="TempleOfDarkness4" time="22:00:00"  script="templeoff.lua"/>
-<!--<globalevent name="lottery" interval="300"  script="lottery.lua"/> -->
 	<globalevent name="playersrecord" type="record"  script="record.lua"/>
 	<globalevent name="clean" interval="7200000"  script="clean.lua"/>
-<!--<globalevent name="timer_example" time="21:35"  script="my_script.lua"/> -->
 	<globalevent name="VipDaysRemover" time="00:01"  script="daysremover.lua"/>
 	<globalevent name="worldtype" time="00:00"  script="worldtype.lua"/>
 	
