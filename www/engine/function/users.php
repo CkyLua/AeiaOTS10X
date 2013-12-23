@@ -1529,4 +1529,41 @@ function user_login_03($username, $password) {
 function user_logged_in() {
 	return (isset($_SESSION['user_id'])) ? true : false;
 }
+
+// simple guild war management system 
+function guild_war_invite_check($name) {
+	$name = sanitize($name);
+	return mysql_select_multi("SELECT `id` FROM `guilds` WHERE `name`='$name';");
+}
+
+function guild_war_invite_check2($gid) {
+	$gid = (int)$gid;
+	return mysql_select_multi("SELECT `name` FROM `guilds` WHERE `id`='$gid';");
+}
+
+function guild_war_rdeclaration($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_delete("DELETE FROM `guild_wars` WHERE `guild2`='$cid' AND `guild1`='$gid';");
+}
+
+function guild_war_reject($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_delete("DELETE FROM `guild_wars` WHERE `guild1`='$cid' AND `guild2`='$gid';");
+}
+
+function guild_war_accept($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	mysql_update("UPDATE `guild_wars` SET `status` = 1 WHERE `guild1`='$cid' AND `guild2`='$gid' AND `status` = 0;");
+}
+
+function guild_war_cancel($cid, $gid) {
+	$cid = (int)$cid;
+	$gid = (int)$gid;
+	$time = time();
+	mysql_update("UPDATE `guild_wars` SET `status` = 2, `ended` = '$time' WHERE (`guild1`='$cid' OR `guild2`='$cid') AND (`guild2`='$gid' OR `guild1`='$gid') AND `status` = 1;");
+}
+// end
 ?>
