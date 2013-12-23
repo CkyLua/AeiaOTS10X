@@ -2,7 +2,7 @@
 <raid>
   <!--Announcements-->
   <announce delay="1000" type="Event" message="The toxiros are gathering strength to atack the city." />
-  <announce delay="60000" type="Event" message="Toxiros atack!! Go to the toxic mix and kill them all!1" />
+  <announce delay="60000" type="Event" message="Toxiros atack!! Go to the toxic mix and kill them all!!" />
   <!--Single Spawns-->
   <singlespawn delay="60000" name="Toxiros" x="1171" y="958" z="7" />
 </raid>
