@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Crazed Beggar" nameDescription="a crazed beggar" race="blood" experience="35" speed="220" manacost="300">
 	<health now="100" max="100"/>
-	<look type="153" body="38" feet="97" head="59" legs="38" addons="3" corpse="3058"/>
+	<look type="153" body="38" feet="97" head="59" legs="38" addons="3" corpse="20558"/>
 	<targetchange interval="4000" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -35,7 +35,7 @@
 		<voice sentence="Wanna buy roses??"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="9" chance="50000"/>   
+		<item id="2148" countmax="9" chance="50000"/><!-- gold coin -->
 		<item id="2237" chance="55000"/><!-- dirty cape -->
 		<item id="2690" chance="22500"/><!-- roll -->
 		<item id="2666" chance="12000"/><!-- meat -->

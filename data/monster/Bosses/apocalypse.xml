@@ -37,7 +37,7 @@
                 </attack>
         </attacks>
                 <defenses name="speed" interval="4000" chance="80" speedchange="440" duration="6000">
-                        <attribute key="areaEffect" value="redshimmer"/>
+                       
         </defenses>
         <elements>
         </elements>

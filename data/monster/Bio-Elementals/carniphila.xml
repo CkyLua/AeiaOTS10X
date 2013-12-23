@@ -42,9 +42,9 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="37" chance="43000"/>
+		<item id="2148" countmax="37" chance="43000"/><!-- gold coin -->
 		<item id="2666" countmax="2" chance="36500"/><!-- meat -->
-		<item id="2671" countmax="2" chance="20000"/>
+		<item id="2671" countmax="2" chance="20000"/><!-- ham -->
 		<item id="2802" chance="8000"/><!-- sling herb -->
 		<item id="2804" chance="8000"/><!-- shadow herb -->
 		<item id="2747" chance="7500"/><!-- grave flower-->

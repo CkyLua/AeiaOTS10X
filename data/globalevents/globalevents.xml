@@ -2,7 +2,7 @@
 <globalevents>
 
     <globalevent name="DemonCastle" interval="10800000"  script="demon_castle.lua"/>
-	<globalevent name="save" interval="5400000"  script="save.lua"/>
+	<globalevent name="Server Save" interval="54000000" script="save.lua" />
 	<globalevent name="reklama" interval="7500000"  script="reklama.lua"/> <!--7500-->
 	<globalevent name="fb" interval="8700000"  script="fb.lua"/>
 	<globalevent name="TempleOfDarkness1" time="19:00:00"  script="temple.lua"/>

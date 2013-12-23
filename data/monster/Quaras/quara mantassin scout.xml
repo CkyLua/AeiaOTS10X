@@ -37,7 +37,7 @@
 		<voice sentence="Shrrrr"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="29" chance="27000"/>   
+		<item id="2148" countmax="29" chance="27000"/><!-- gold coin -->
 		<item id="2229" chance="11800"/><!-- skull -->
 		<item id="2464" chance="10000"/><!-- chain armor -->
 		<item id="2654" chance="8750"/><!-- cape -->

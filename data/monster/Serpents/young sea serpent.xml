@@ -51,9 +51,9 @@
 		<element deathPercent="-10"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="65" chance="31000"/>   
-		<item id="2148" countmax="55" chance="31000"/>   
-		<item id="2148" countmax="45" chance="31000"/>   
+		<item id="2148" countmax="65" chance="31000"/><!-- gold coin -->
+		<item id="2148" countmax="55" chance="31000"/><!-- gold coin -->
+		<item id="2148" countmax="45" chance="31000"/><!-- gold coin -->
 		<item id="2666" countmax="4" chance="20000"/><!-- meat -->
 		<item id="2146" chance="1500" countmax="2"/><!-- small saphire -->
 		<item id="2165" chance="750"/><!--stealth ring -->

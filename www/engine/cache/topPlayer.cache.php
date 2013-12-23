@@ -1,1 +1,1 @@
-[{"name":"Freyja","level":"292","experience":"406507600"},{"name":"Dominique","level":"8","experience":"4200"}]
+[{"name":"Freyja","level":"292","experience":"406507600"},{"name":"Dominique","level":"8","experience":"4200"},{"name":"Skylar","level":"8","experience":"4200"}]

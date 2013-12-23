@@ -73,7 +73,7 @@
 	<loot>
 		<item id="2160" countmax="12" chance="100000"/><!-- crystal coin -->
 		<item id="2514" chance="18000"/><!-- mastermind shield -->
-		<item id="6300" chance="12000"/>   
+		<item id="6300" chance="12000"/><!-- death ring -->
 		<item id="5943" chance="7000"/><!-- Morgaroth's heart -->
 		<item id="7431" chance="6000"/><!-- demonbone -->
 		<item id="2393" chance="60000"/><!-- giant sword -->

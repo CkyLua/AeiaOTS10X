@@ -49,8 +49,8 @@
 		<voice sentence="Screeech!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="800000"/>
-		<item id="2148" countmax="45" chance="800000"/>
+		<item id="2148" countmax="50" chance="800000"/><!-- gold coin -->
+		<item id="2148" countmax="45" chance="800000"/><!-- gold coin -->
 		<item id="7364" countmax="7" chance="2500"/><!-- sniper arrow -->
 		<item id="2478" chance="8600"/><!-- brass legs -->
 		<item id="2463" chance="6500"/><!-- plate armor -->

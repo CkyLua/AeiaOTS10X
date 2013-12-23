@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Valkyrie" nameDescription="a valkyrie" race="blood" experience="85" speed="176" manacost="450">
 	<health now="190" max="190"/>
-	<look type="139" head="113" body="57" legs="95" feet="113" corpse="6081"/>
+	<look type="139" head="113" body="57" legs="95" feet="113" corpse="20526"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -39,7 +39,7 @@
 		<voice sentence="One more head for me!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="12" chance="32210"/>
+		<item id="2148" countmax="12" chance="32210"/><!-- gold coin -->
 		<item id="2666" countmax="3" chance="30000"/><!-- meat -->
 		<item id="2674" countmax="4" chance="6690"/><!-- red apple -->
 		<item id="2229" countmax="1" chance="690"/><!-- skull -->

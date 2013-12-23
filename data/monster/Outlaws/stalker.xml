@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Stalker" nameDescription="a stalker" race="blood" experience="90" speed="210" manacost="0">
 	<health now="150" max="150"/>
-	<look type="128" head="95" body="116" legs="95" feet="114" corpse="6080"/>
+	<look type="128" head="95" body="116" legs="95" feet="114" corpse="20514"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -37,7 +37,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="8" chance="5000"/>   
+		<item id="2148" countmax="8" chance="5000"/><!-- gold coin -->
 		<item id="2410" countmax="2" chance="3000"/><!-- throwing knife -->
 		<item id="2649" chance="9500"/><!-- leather legs -->
 		<item id="2478" chance="7000"/><!-- brass legs -->

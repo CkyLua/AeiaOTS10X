@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Witch" nameDescription="a witch" race="blood" experience="120" speed="180" manacost="0">
 	<health now="300" max="300"/>
-	<look type="54" corpse="6081"/>
+	<look type="54" corpse="20538"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -41,7 +41,7 @@
 		<voice sentence="Herba budinia ex!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="13000"/>   
+		<item id="2148" countmax="10" chance="13000"/><!-- gold coin -->
 		<item id="2687" countmax="8" chance="15750"/><!-- cookie -->
 		<item id="2643" chance="67000"/><!-- leather boots -->
 		<item id="2696" chance="58750"/><!-- cheese -->

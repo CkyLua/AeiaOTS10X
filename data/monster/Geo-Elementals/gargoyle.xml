@@ -45,12 +45,12 @@
 		<voice sentence="There is a stone in your shoe!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="24000"/>   
+		<item id="2148" countmax="30" chance="24000"/><!-- gold coin -->
 		<item id="2513" chance="1200"/><!-- battle shield -->
-		<item id="2671" chance="17500"/>   
+		<item id="2671" chance="17500"/><!-- ham -->
 		<item id="2666" countmax="2" chance="27500"/><!-- meat -->
 		<item id="2394" chance="1750"/><!-- morning star -->
-		<item id="2449" chance="10000"/>   
+		<item id="2449" chance="10000"/><!-- bone club -->
 		<item id="2194" countmax="10" chance="8000"/><!-- small stone -->
 		<item id="2457" chance="6000"/><!-- steel helmet -->
 		<item id="2448" chance="5300"/><!-- studdedd club -->

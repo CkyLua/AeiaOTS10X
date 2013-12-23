@@ -36,7 +36,7 @@
 		<voice sentence="Orc arga Huummmak!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="10" chance="16000"/>   
+		<item id="2148" countmax="10" chance="16000"/><!-- gold coin -->
 		<item id="2666" countmax="3" chance="18000"/><!-- meat -->
 		<item id="2428" chance="26250"/><!-- orcish axe -->
 		<item id="2129" chance="10500"/><!-- wolf tooth chain -->

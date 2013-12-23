@@ -48,8 +48,8 @@
 		<voice sentence="Blup."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="100000"/>   
-		<item id="2148" countmax="40" chance="100000"/>   
+		<item id="2148" countmax="50" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="40" chance="100000"/><!-- gold coin -->
 		<item id="2401" chance="2857"/><!-- staff -->
 		<item id="2240" chance="10000"/><!-- fish remains -->
 		<item id="2670" countmax="5" chance="20000"/><!-- shrimp -->

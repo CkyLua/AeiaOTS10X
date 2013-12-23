@@ -66,7 +66,7 @@ if(NpcHandler == nil) then
 		talkStart = nil,
 		idleTime = 86400,
 		talkRadius = 3,
-		talkDelayTime = 1, -- Seconds to delay outgoing messages.
+		talkDelayTime = 0, -- Seconds to delay outgoing messages.
 		talkDelay = nil,
 		callbackFunctions = nil,
 		modules = nil,

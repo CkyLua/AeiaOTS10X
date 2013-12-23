@@ -65,8 +65,8 @@
 		<voice sentence="Anotherone to bite the dust!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="50000"/>   
-		<item id="2148" countmax="73" chance="50000"/>   
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="73" chance="50000"/><!-- gold coin -->
 		<item id="2197" chance="7000"/><!-- stone skin amulet -->
 		<item id="2430" chance="7000"/><!-- knight axe -->
 		<item id="2144" chance="7000"/><!-- black pearl -->

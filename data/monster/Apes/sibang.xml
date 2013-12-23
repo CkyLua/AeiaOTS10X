@@ -45,7 +45,7 @@
 		<voice sentence="Ahhuuaaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="35" chance="88790"/>
+		<item id="2148" countmax="35" chance="88790"/><!-- gold coin -->
 		<item id="2676" countmax="12" chance="30390"/><!-- banana -->
 		<item id="2678" countmax="3" chance="1960"/><!-- coconut -->
 		<item id="2675" countmax="5" chance="19860"/><!-- orange -->

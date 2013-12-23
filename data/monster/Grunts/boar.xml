@@ -25,7 +25,7 @@
 		<voice sentence="Grunt Grunt, Grunt"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="27" chance="20000"/>   
+		<item id="2148" countmax="27" chance="20000"/><!-- gold -->
 		<item id="2666" countmax="4" chance="15000"/><!-- meat -->
 	</loot>
 </monster>

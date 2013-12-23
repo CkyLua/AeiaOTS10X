@@ -54,8 +54,8 @@
 		<voice sentence="Annihilation!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/>   
-		<item id="2148" countmax="50" chance="100000"/>   
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="100000"/><!-- gold coin -->
 		<item id="2150" countmax="20" chance="5515"/><!-- small amethyst -->
 		<item id="2520" chance="7000"/><!-- fire axe -->
 		<item id="2158" chance="4300"/><!-- blue gem -->

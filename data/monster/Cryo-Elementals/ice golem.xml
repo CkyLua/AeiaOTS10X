@@ -48,7 +48,7 @@
 		<voice sentence="Chrr."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="53" chance="10000"/>   
+		<item id="2148" countmax="53" chance="10000"/><!-- gold coin -->
 		<item id="7441" chance="7000"/><!-- ice cube -->
 		<item id="2144" chance="2700"/><!-- black pearl -->
 		<item id="7588" chance="1500"/><!-- strong health potion -->

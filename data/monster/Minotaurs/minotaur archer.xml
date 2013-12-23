@@ -35,7 +35,7 @@
 		<voice sentence="Kaplar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="75430"/>   
+		<item id="2148" countmax="30" chance="75430"/><!-- gold coin -->
 		<item id="2543" countmax="20" chance="90430"/><!-- bolt -->
 		<item id="7363" countmax="4" chance="12250"/><!-- piercing bolt -->
 		<item id="2455" chance="840"/><!-- crossbow -->

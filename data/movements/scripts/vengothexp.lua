@@ -1,7 +1,7 @@
 function onStepIn(cid, item, position, fromPosition)
     tileback = {x=1061, y=963, z=10, stackpos=255}
 	
-	if (getPlayerStorageValue(cid,162) == 0) then
+	if (getPlayerStorageValue(cid,162) <= 0) then
 	        doTeleportThing(cid, tileback)
 			doSendMagicEffect(tileback,10)
             doPlayerSendTextMessage(cid,MESSAGE_EVENT_ADVANCE,"You have not completed the Vengoth quest.")

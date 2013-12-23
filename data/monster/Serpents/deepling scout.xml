@@ -43,7 +43,7 @@
 		<element deathPercent="-20"/>
 	</elements>
 	<loot>
-		<item id="2148" countmax="50" chance="31000"/>    
+		<item id="2148" countmax="50" chance="31000"/> <!-- gold coin -->
 		<item id="3965" countmax="3" chance="18000"/> <!-- hunting spear -->
 		<item id="2168" chance="6000"/> <!-- life ring -->
 		<item id="13838" chance="4500"/> <!-- heavy trident -->

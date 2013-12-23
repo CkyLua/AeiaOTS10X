@@ -37,9 +37,9 @@
 		<voice sentence="Come kiss the cook!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="40" chance="100000"/>   
+		<item id="2148" countmax="40" chance="100000"/><!-- gold coin -->
 		<item id="2666" countmax="2" chance="33333"/><!-- meat -->
-		<item id="2671" countmax="2" chance="33333"/>   
+		<item id="2671" countmax="2" chance="33333"/><!-- ham -->
 		<item id="2406" chance="25000"/><!-- short sword -->
 		<item id="2510" chance="5333"/><!-- plate shield -->
 		<item id="7441" chance="3444"/><!-- ice cube -->

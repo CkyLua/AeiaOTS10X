@@ -61,8 +61,8 @@
 		<voice sentence="Death and Decay!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="70" chance="225000"/>   
-		<item id="2148" countmax="50" chance="225000"/>   
+		<item id="2148" countmax="70" chance="225000"/><!-- gold coin -->
+		<item id="2148" countmax="50" chance="225000"/><!-- gold coin -->
 		<item id="2401" chance="15000"/><!-- staff -->
 		<item id="2175" chance="10000"/><!-- spell book -->
 		<item id="2144" chance="6500"/><!-- black pearl -->

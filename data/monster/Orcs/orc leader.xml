@@ -35,7 +35,7 @@
 		<voice sentence="Ulderek futgyr human!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="35" chance="17000"/>   
+		<item id="2148" countmax="35" chance="17000"/><!-- gold coin -->
 		<item id="2667" chance="29000"/><!-- fish -->
 		<item id="2379" chance="26500"/><!-- dagger -->
 		<item id="2410" countmax="4" chance="6250"/><!-- throwing knife -->

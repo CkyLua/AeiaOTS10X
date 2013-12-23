@@ -49,8 +49,8 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="90" chance="42000"/>   
-		<item id="2148" countmax="80" chance="42000"/>   
+		<item id="2148" countmax="90" chance="42000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="42000"/><!-- gold coin -->
 		<item id="7638" countmax="10" chance="5500"/><!-- flash arrow -->
 		<item id="2399" countmax="5" chance="5500"/><!-- throwing star -->
 		<item id="7620" chance="12000"/><!-- mana potion -->

@@ -39,7 +39,7 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="55" chance="26000"/>   
+		<item id="2148" countmax="55" chance="26000"/><!-- gold coin -->
 		<item id="2544" countmax="3" chance="4000"/><!-- arrow -->
 		<item id="2439" chance="500"/><!-- daramanian mace -->
 		<item id="2442" chance="375"/><!-- heavy machete -->

@@ -72,8 +72,8 @@
 		<voice sentence="ZATHROTH! LOOK AT THE DESTRUCTION I AM CAUSING IN YOUR NAME!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/>   
-		<item id="2148" countmax="90" chance="50000"/>   
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="50000"/><!-- gold coin -->
 		<item id="2143" countmax="5" chance="10000"/><!-- white pearl -->
 		<item id="2396" chance="19429"/><!-- ice rapier -->
 		<item id="2462" chance="20000"/><!-- devil helmet -->

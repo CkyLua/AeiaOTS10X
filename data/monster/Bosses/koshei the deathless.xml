@@ -71,7 +71,7 @@
 		<item id="2237" chance="10000"/> <!-- dirty cape -->
 		<item id="2148" countmax="12" chance1="80000" chancemax="0"/>
 		<item id="2175" chance="10000"/> <!-- spell book -->
-		<item id="2179" chance="900"/>    
+		<item id="2179" chance="900"/> <!-- gold ring -->
 		<item id="3961" chance="1000"/> <!-- liche staff -->
 	</loot>
 </monster>

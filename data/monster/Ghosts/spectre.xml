@@ -52,9 +52,9 @@
 		<voice sentence="Life...force! Feed me your... lifeforce!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="39000"/>   
-		<item id="2148" countmax="100" chance="39000"/>   
-		<item id="2148" countmax="100" chance="39000"/>   
+		<item id="2148" countmax="100" chance="39000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="39000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="39000"/><!-- gold coin -->
 		<item id="2260" chance="25000"/><!-- blank rune -->
 		<item id="2152" countmax="7" chance="2000"/><!-- platinum coin -->
 		<item id="2642" chance="21000"/><!-- sandals -->
@@ -67,9 +67,9 @@
 		<item id="7383" chance="950"/><!-- relic sword -->
 		<item id="2134" chance="1100"/><!-- silver brooch -->
 		<item id="5909" chance="4250"/><!-- white piece of cloth -->
-		<item id="6300" chance="1100"/>   
+		<item id="6300" chance="1100"/><!-- death ring -->
 		<item id="7590" chance="550"/><!-- great mana potion -->
-		<item id="2134" chance="200"/><!--    -->
+		<item id="2134" chance="200"/><!-- shadow sceptre -->
 		<item id="2136" chance="100"/><!--demonbone amulet -->
 	</loot>
 </monster>

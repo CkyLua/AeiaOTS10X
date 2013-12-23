@@ -45,8 +45,8 @@ function onLogin(cid)
 			doAddContainerItem(bag, 2152, 100) -- 50 platinum coins
 			doAddContainerItem(bag, 7620, 10) -- 10 mana potions
 			doAddContainerItem(bag, 7618, 10) -- 10 health potions
-			doAddContainerItem(cid, 2544, 100) -- 100 arrows
-			doAddContainerItem(cid, 2456, 1) -- bow
+			doAddContainerItem(bag, 2544, 100) -- 100 arrows
+			doAddContainerItem(bag, 2456, 1) -- bow
 		
 			doPlayerAddItem(cid, 2389, 1) -- spear
 			doPlayerAddItem(cid, 2525, 1) -- dwarven shield

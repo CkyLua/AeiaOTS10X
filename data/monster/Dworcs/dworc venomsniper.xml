@@ -37,7 +37,7 @@
 		<voice sentence="prek tars, dekklep zurk."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="14" chance="35000"/>   
+		<item id="2148" countmax="14" chance="35000"/><!-- gold coin -->
 		<item id="2229" countmax="3" chance="333"/><!-- skull -->
 		<item id="2467" chance="10000"/><!-- leather armor -->
 		<item id="2545" countmax="3" chance="3333"/><!-- poison arrow -->

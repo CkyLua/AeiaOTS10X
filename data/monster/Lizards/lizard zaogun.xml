@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lizard Zaogun" nameDescription="a lizard zaogun" race="blood" experience="1700" speed="420" manacost="0">
+<monster name="Lizard Zoagun" nameDescription="a lizard zoagun" race="blood" experience="1700" speed="420" manacost="0">
 	<health now="2955" max="2955"/>
 	<look type="343" corpse="11284"/>
 	<targetchange interval="5000" chance="8"/>
@@ -42,9 +42,9 @@
 	</immunities>
 	<loot>
 		<item id="7591" countmax="3" chance="4775" /><!-- great health potion -->
-		<item id="2148" countmax="100" chance="42375" />   
-		<item id="2148" countmax="100" chance="42375" />   
-		<item id="2148" countmax="89" chance="42375" />   
+		<item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="42375" /><!-- gold coin -->
+		<item id="2148" countmax="89" chance="42375" /><!-- gold coin -->
 		<item id="11330" chance="6150" /><!-- zaogun flag -->
 		<item id="5881" countmax="3" chance="7475" /><!-- lizard scale -->
 		<item id="11303" chance="1500" /><!-- zaoan shoes -->

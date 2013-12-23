@@ -36,7 +36,7 @@
 		<voice sentence="Zrp zrp!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="69" chance="31800" />    
+		<item id="2148" countmax="69" chance="31800" /> <!-- gold coin -->
 		<item id="7618" chance="4000" /> <!-- health potion -->
 		<item id="3964" chance="1200" /> <!-- ripper lance -->
 	</loot>

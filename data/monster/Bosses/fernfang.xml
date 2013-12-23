@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Fernfang" nameDescription="Fernfang" race="blood" experience="400" speed="240" manacost="0">
 	<health now="400" max="400"/>
-	<look type="206" corpse="6080"/>
+	<look type="206" corpse="20566"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -61,7 +61,7 @@
 		<voice sentence="Yoooohhuuuu!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="100000"/>   
+		<item id="2148" countmax="20" chance="100000"/><!-- gold coin -->
 		<item id="1949" chance="10000"/><!-- scroll -->
 		<item id="2467" chance="10000"/><!-- leather armor -->
 		<item id="2642" chance="6666"/><!-- sandals -->

@@ -35,7 +35,7 @@
 		<voice sentence="Groooowl"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="9750"/> 
+		<item id="2148" countmax="80" chance="9750"/> <!-- gold coin -->
 		<item id="13303" chance="3150"/> <!-- cavebear skull -->
 		<item id="13302" chance="2350"/> <!-- maxilla -->
 		<item id="13291" chance="900"/> <!-- maxilla maximus -->

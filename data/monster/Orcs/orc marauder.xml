@@ -42,7 +42,7 @@
 	</voices>
 	<loot>
 		<item id="2666" chance="24300"/> <!-- meat -->
-		<item id="2148" countmax="89" chance="7225"/>    
+		<item id="2148" countmax="89" chance="7225"/> <!-- gold coin -->
 		<item id="2456" chance="4625"/> <!-- bow -->
 		<item id="2425" chance="1075"/> <!-- obsidian lance -->
 		<item id="11324" chance="9475"/> <!-- shaggy tail -->

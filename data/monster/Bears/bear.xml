@@ -32,7 +32,7 @@
 	</voices>
 	<loot>
 		<item id="5896" chance="2000"/><!-- bear paw -->
-		<item id="2671" countmax="3" chance="25000"/>
+		<item id="2671" countmax="3" chance="25000"/><!-- ham -->
 		<item id="2666" countmax="4" chance="46750"/><!-- meat -->
 		<item id="5902" chance="1700"/><!-- honeycomb -->
 	</loot>

@@ -55,8 +55,8 @@
 		<voice sentence="For ze emperor!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="40625" />   
-		<item id="2148" countmax="100" chance="40625" />   
+		<item id="2148" countmax="100" chance="40625" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="40625" /><!-- gold coin -->
 		<item id="12617" chance="22300" /><!-- broken slicer -->
 		<item id="2666" chance="30175" /><!-- meat -->
 		<item id="2152" countmax="8" chance="28275" /><!-- platinum coin -->

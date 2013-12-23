@@ -54,7 +54,7 @@
 		<voice sentence="Chakka! Chakka!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="45" chance="82930"/>
+		<item id="2148" countmax="45" chance="82930"/><!-- gold coin -->
 		<item id="2676" countmax="12" chance="30340"/><!-- banana -->
 		<item id="2675" countmax="5" chance="1040"/><!-- orange -->
 		<item id="2188" chance="990"/><!-- wand of decay -->

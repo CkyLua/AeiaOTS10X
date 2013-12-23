@@ -54,8 +54,8 @@
 		<voice sentence="You can't escape death forever."/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="50000"/>   
-		<item id="2148" countmax="80" chance="50000"/>   
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
+		<item id="2148" countmax="80" chance="50000"/><!-- gold coin -->
 		<item id="2146" countmax="3" chance="7000"/><!-- small sapphire -->
 		<item id="7590" chance="7000"/><!-- great mana potion -->
 		<item id="2167" chance="7000"/><!-- energy ring -->

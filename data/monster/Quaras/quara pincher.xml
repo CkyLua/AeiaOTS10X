@@ -41,8 +41,8 @@
 		<voice sentence="Crrrk! Crrrk!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="65" chance="100000"/>   
-		<item id="2148" countmax="55" chance="100000"/>   
+		<item id="2148" countmax="65" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="55" chance="100000"/><!-- gold coin -->
 		<item id="2398" chance="5000"/><!-- mace -->
 		<item id="2394" chance="5000"/><!-- morning star -->
 		<item id="2381" chance="2222"/><!-- halberd -->

@@ -34,7 +34,7 @@
 		<voice sentence="Sluuuurp"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="45" chance="20750"/>    
+		<item id="2148" countmax="45" chance="20750"/> <!-- gold coin -->
 		<item id="3976" countmax="5" chance="50000"/> <!-- worm -->
 	</loot>
 </monster>

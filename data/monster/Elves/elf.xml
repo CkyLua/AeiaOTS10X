@@ -39,7 +39,7 @@
 		<voice sentence="Death to the defilers!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="25000"/>   
+		<item id="2148" countmax="30" chance="25000"/><!-- gold coin -->
 		<item id="2544" countmax="6" chance="2250"/><!-- arrow -->
 		<item id="2674" countmax="2" chance="15000"/><!-- red apple -->
 		<item id="2397" chance="12000"/><!-- longsword -->

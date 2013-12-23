@@ -3,7 +3,7 @@ setConditionParam(exhaust, CONDITION_PARAM_TICKS, 100) -- time in seconds x1000
 
 function onUse(cid, item, fromPosition, itemEx, toPosition)
 
-   if(hasCondition(cid, CONDITION_EXHAUST)) then
+   if(getCreatureCondition(cid, CONDITION_EXHAUST)) then
      doSendMagicEffect(getThingPos(cid), CONST_ME_POFF)
      doPlayerSendCancel(cid, "You are exhausted")
      return true

@@ -44,9 +44,9 @@
 	</summons>
 	<loot>
 		<item id="2478" chance="9000"/><!-- brass legs -->
-		<item id="2148" countmax="57" chance="23000"/>
-		<item id="2148" countmax="28" chance="23000"/>
-		<item id="2148" countmax="30" chance="23000"/>
+		<item id="2148" countmax="57" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="28" chance="23000"/><!-- gold coin -->
+		<item id="2148" countmax="30" chance="23000"/><!-- gold coin -->
 		<item id="2477" chance="600"/><!-- knight legs -->
 		<item id="2463" chance="8600"/><!-- plate armor -->
 		<item id="2545" countmax="12" chance="7500"/><!-- poison arrow -->

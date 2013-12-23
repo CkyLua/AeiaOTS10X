@@ -21,8 +21,8 @@
   <attacks>
 		<attack name="melee" interval="2000" min="-500" max="-1100"/>
     <attack name="lifedrain" interval="2000" chance="12" range="1" min="-360" max="-640"/>
-	 <attribute key="areaEffect" value="redshimmer"/>
-	  <attribute key="shootEffect" value="holy"/>
+	<!-- <attribute key="areaEffect" value="redshimmer"/>
+	  <attribute key="shootEffect" value="holy"/> -->
   </attacks>
   <defenses armor="21" defense="17">
     <defense name="healing" interval="2000" chance="13" min="400" max="650">

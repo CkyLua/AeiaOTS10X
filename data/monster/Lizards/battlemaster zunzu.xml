@@ -40,7 +40,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2152" countmax="3" chance="26800"/>    
+		<item id="2152" countmax="3" chance="26800"/> <!-- gold coin -->
 		<item id="11206" chance="100000"/> <!-- red lantern -->
 		<item id="11331" chance="100000"/> <!-- zaogun shoulderplates -->
 		<item id="11303" chance="3150"/> <!-- zaoan shoes -->

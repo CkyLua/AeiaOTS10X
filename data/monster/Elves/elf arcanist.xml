@@ -52,7 +52,7 @@
 		<voice sentence="Vihil Ealuel!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="49" chance="10000"/>   
+		<item id="2148" countmax="49" chance="10000"/><!-- gold coin -->
 		<item id="2544" countmax="3" chance="3000"/><!-- arrow -->
 		<item id="1949" chance="31000"/><!-- scroll -->
 		<item id="2260" chance="16000"/><!-- blank rune -->

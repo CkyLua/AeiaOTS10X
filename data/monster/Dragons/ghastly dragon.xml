@@ -68,9 +68,9 @@
 		<item id="11301" chance="1225" /><!-- zaoan armor -->
 		<item id="7591" chance="10700" /><!-- great health potion -->
 		<item id="11367" chance="21375" /><!-- undead heart -->
-		<item id="2148" countmax="100" chance="43725" />   
-		<item id="2148" countmax="100" chance="43725" />   
-		<item id="2148" countmax="68" chance="43725" />   
+		<item id="2148" countmax="100" chance="43725" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="43725" /><!-- gold coin -->
+		<item id="2148" countmax="68" chance="43725" /><!-- gold coin -->
 		<item id="6500" countmax="3" chance="9600" /><!-- demonic essence -->
 		<item id="9810" chance="3500" /><!-- rusty armor -->
 		<item id="11304" chance="1650" /><!-- zaoan legs -->

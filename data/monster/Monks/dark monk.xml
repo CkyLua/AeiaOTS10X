@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Dark Monk" nameDescription="a dark monk" race="blood" experience="145" speed="210" manacost="0">
 	<health now="190" max="190"/>
-	<look type="225" corpse="6080"/>
+	<look type="225" corpse="20562"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -45,7 +45,7 @@
 		<voice sentence="Your end has come!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="5" chance="34000"/>   
+		<item id="2148" countmax="5" chance="34000"/><!-- gold coin -->
 		<item id="2193" chance="1400"/><!-- ankh -->
 		<item id="2689" chance="20000"/><!-- bread -->
 		<item id="2015" chance="10000"/><!-- brown flask -->

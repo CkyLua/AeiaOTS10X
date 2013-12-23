@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Warlock" nameDescription="a warlock" race="blood" experience="4000" speed="220" manacost="0">
 	<health now="3500" max="3500"/>
-	<look type="130" head="19" body="71" legs="128" feet="128" addons="1" corpse="6080"/>
+	<look type="130" head="19" body="71" legs="128" feet="128" addons="1" corpse="20530"/>
 	<targetchange interval="5000" chance="30"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -69,8 +69,8 @@
 		<voice sentence="We don't like intruders!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="36500"/>   
-		<item id="2148" countmax="70" chance="3t6500"/>   
+		<item id="2148" countmax="80" chance="36500"/><!-- gold coin -->
+		<item id="2148" countmax="70" chance="3t6500"/><!-- gold coin -->
 		<item id="2679" countmax="5" chance="55000"/><!-- cherry -->
 		<item id="2689" chance="22500"/><!-- bread -->
 		<item id="2047" chance="15000"/><!-- candlestick -->
@@ -92,7 +92,7 @@
 		<item id="2197" chance="750"/><!-- stone skin amulet -->
 		<item id="7898" chance="450"/><!-- lightning robe -->
 		<item id="7895" chance="450"/><!-- lightning legs -->
-		<item id="2466" chance="375"/>   
+		<item id="2466" chance="375"/><!-- golden armor -->
 		<item id="2114" chance="100"/><!-- piggy bank -->
 	</loot>
 </monster>

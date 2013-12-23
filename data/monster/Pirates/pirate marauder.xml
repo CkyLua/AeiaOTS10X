@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Pirate Marauder" nameDescription="a pirate marauder" race="blood" experience="125" speed="230" manacost="490">
 	<health now="210" max="210"/>
-	<look type="93" corpse="6080"/>
+	<look type="93" corpse="20486"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -41,7 +41,7 @@
 		<voice sentence="Hiyaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="60" chance="20000"/>   
+		<item id="2148" countmax="60" chance="20000"/><!-- gold coin -->
 		<item id="2376" chance="9750"/><!-- sword -->
 		<item id="2050" chance="9250"/><!-- torch -->
 		<item id="2389" countmax="2" chance="4000"/><!-- spear -->

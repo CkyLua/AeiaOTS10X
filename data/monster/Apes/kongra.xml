@@ -38,7 +38,7 @@
 		<voice sentence="Huaauaauaauaa!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="40" chance="88080"/>
+		<item id="2148" countmax="40" chance="88080"/><!-- gold coin -->
 		<item id="2676" countmax="12" chance="30550"/><!-- banana -->
 		<item id="2463" chance="950"/><!-- plate armor -->
 		<item id="2200" subtype="250" chance="990"/><!-- protection amulet -->

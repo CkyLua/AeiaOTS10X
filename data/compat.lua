@@ -59,6 +59,19 @@ function getCreatureMaster(cid)
 	return false
 end
 
+function getCreatureSummons(cid)
+	local c = Creature(cid)
+	if c == nil then
+		return false
+	end
+
+	local result = {}
+	for _, summon in ipairs(c:getSummons()) do
+		result[#result + 1] = summon:getId()
+	end
+	return result
+end
+
 getCreaturePos = getCreaturePosition
 
 function doCreatureAddHealth(cid, health) local c = Creature(cid) return c ~= nil and c:addHealth(health) or false end
@@ -649,3 +662,5 @@ function setGlobalStorageValue(key, value)
 	Game.setStorageValue(key, value)
 	return true
 end
+
+getWorldType = Game.getWorldType

@@ -44,8 +44,8 @@
 		<voice sentence="Stomp STOMP"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="90" chance="27000"/>   
-		<item id="2148" countmax="90" chance="27000"/>   
+		<item id="2148" countmax="90" chance="27000"/><!-- gold coin -->
+		<item id="2148" countmax="90" chance="27000"/><!-- gold coin -->
 		<item id="5880" countmax="2" chance="800"/><!-- iron ore -->
 		<item id="8298" chance="9000"/><!-- natural soil -->
 		<item id="7732" chance="1600"/><!-- seeds -->
