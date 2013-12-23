@@ -50,6 +50,8 @@
   <ul class="dropdown-menu">
     <li>
       <a href="guilds.php">Guild list</a> 
+	  </li>
+	  <li>
 	  <a href="guildwar.php">Guild wars</a>
     </li>
   </ul>
