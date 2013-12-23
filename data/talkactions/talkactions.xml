@@ -37,17 +37,17 @@
 
 	<!-- Admin -->
 	<talkaction log="yes" words="/attr" access="6" event="function" value="thingProporties"/>
-	<talkaction log="yes" words="/serverdiag" access="6" event="function" value="diagnostics"/>
+<!-- 	<talkaction log="yes" words="/serverdiag" access="6" event="function" value="diagnostics"/> -->
 	<talkaction log="yes" words="/promote;/demote" access="6" event="script" value="promote.lua"/>
 	<talkaction log="yes" words="/shutdown" access="6" event="script" value="shutdown.lua"/>
-	<talkaction log="yes" words="/reload" access="6" event="script" value="reload.lua"/>
+<!--	<talkaction log="yes" words="/reload" access="6" event="script" value="reload.lua"/> -->
 
 	<!-- Gods -->
 	<talkaction log="yes" access="5" words="/mode" event="script" value="mode.lua"/>
 	
 	<!-- Community Managers -->
 	<talkaction log="yes" words="/n" access="4" event="script" value="creature.lua"/>
-	<talkaction log="yes" words="/raid" access="4" event="script" value="raid.lua"/>
+<!-- 	<talkaction log="yes" words="/raid" access="4" event="script" value="raid.lua"/> -->
 	<talkaction log="yes" words="/newtype;/o" access="4" event="script" value="newtype.lua"/>
 	<talkaction log="yes" words="/storage" access="4" event="script" value="storage.lua"/>
 	<talkaction log="yes" words="/config" access="4" event="script" value="configinfo.lua"/>
@@ -62,9 +62,9 @@
 	<talkaction log="yes" words="/cliport" access="3" event="script" value="gamemaster.lua"/>
 	<talkaction log="yes" words="/send" access="3" event="script" value="teleportsend.lua"/>
 	<talkaction log="yes" words="/save" access="3" event="script" value="save.lua"/>
-	<talkaction log="yes" words="/clean" access="3" event="script" value="clean.lua"/>
+<!--	<talkaction log="yes" words="/clean" access="3" event="script" value="clean.lua"/> -->
 	<talkaction log="yes" words="/reports" access="3" event="script" value="reports.lua"/>
-	<talkaction log="yes" words="/mc" access="3" event="script" value="multicheck.lua"/>
+<!-- 	<talkaction log="yes" words="/mc" access="3" event="script" value="multicheck.lua"/> -->
 	<talkaction log="yes" words="/mute" access="3" event="script" value="mute.lua"/>
 	<talkaction log="yes" access="3" words="/wp" event="script" value="waypoints.lua"/>
 
@@ -89,7 +89,7 @@
 
 	<!-- Houses -->
 	<talkaction words="!buyhouse;/buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
-	<talkaction words="!sellhouse" filter="word-spaced" event="function" value="houseSell"/>
+	<talkaction words="!sellhouse;/sellhouse" filter="word-spaced" event="function" value="houseSell"/>
 	<talkaction words="alana sio" filter="word-spaced" event="function" value="houseKick"/>
 	<talkaction words="aleta grav" filter="word-spaced" event="function" value="houseDoorList"/>
 	<talkaction words="aleta sio" filter="word-spaced" event="function" value="houseGuestList"/>
