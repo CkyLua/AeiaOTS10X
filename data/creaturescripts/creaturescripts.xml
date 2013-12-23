@@ -10,9 +10,6 @@
 	<event type="advance" name="10cc"  script="10cc.lua"/>
 	<event type="advance" name="remover"  script="remover.lua"/>
 	<event type="advance" name="bottrophy"  script="trophy.lua"/>
-	<event type="joinchannel" name="GuildMotd"  script="guildmotd.lua"/>
-	<event type="receivemail" name="Mail"  script="mail.lua"/>
-	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="think" name="SkullCheck"  script="skullcheck.lua"/>
 	<event type="login" name="VipCheck"  script="vipcheck.lua"/>
 	<event type="login" name="Antimagebomb"  script="Antimagebomb.lua"/>
