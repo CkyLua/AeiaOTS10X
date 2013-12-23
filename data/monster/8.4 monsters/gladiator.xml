@@ -37,16 +37,16 @@
 	<voice sentence="Fight!"/>
   </voices>
   <loot>
-    <item id="2148" countmax="20" chance1="100000" chancemax="0"/> --GP
-    <item id="8872" chance="6000"/> -- Belted cape   
-	<item id="2666" countmax="2" chance1="25000" chancemax="0"/>  --Meat
-    <item id="2465" chance="9500"/> --Brass armor	
-    <item id="1987" chance="100000"> --Bag
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/> 
+    <item id="8872" chance="6000"/>  
+	<item id="2666" countmax="2" chance1="25000" chancemax="0"/> 
+    <item id="2465" chance="9500"/> 	
+    <item id="1987" chance="100000"> 
 		<inside>
-			<item id="2398" chance="18000"/> --MAce
-			<item id="2459" chance="4500"/> -- Iron helmet
-			<item id="2510" chance="9500"/> -- Plate shield
-			<item id="2509" chance="15000"/> --Steel shield
+			<item id="2398" chance="18000"/> 
+			<item id="2459" chance="4500"/> 
+			<item id="2510" chance="9500"/> 
+			<item id="2509" chance="15000"/> 
 		</inside>
     </item>
   </loot>

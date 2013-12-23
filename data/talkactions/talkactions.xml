@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
-<!--TFS 1.0 talkactions-->
+	<!--TFS 1.0 talkactions-->
 
 	<talkaction words="/ban" separator=" " script="ban.lua" />
 	<talkaction words="/ipban" separator=" " script="ipban.lua" />
@@ -29,25 +29,21 @@
 	<talkaction words="/summon" separator=" " script="place_summon.lua" />
 	<talkaction words="/chameleon" separator=" " script="chameleon.lua" />
 	<talkaction words="/addskill" separator=" " script="add_skill.lua" />
-
-
+	
 	<!-- END OF TFS 1.0 TALKACTIONS-->
 
 
 
 	<!-- Admin -->
 	<talkaction log="yes" words="/attr" access="6" event="function" value="thingProporties"/>
-<!-- 	<talkaction log="yes" words="/serverdiag" access="6" event="function" value="diagnostics"/> -->
 	<talkaction log="yes" words="/promote;/demote" access="6" event="script" value="promote.lua"/>
 	<talkaction log="yes" words="/shutdown" access="6" event="script" value="shutdown.lua"/>
-<!--	<talkaction log="yes" words="/reload" access="6" event="script" value="reload.lua"/> -->
 
 	<!-- Gods -->
 	<talkaction log="yes" access="5" words="/mode" event="script" value="mode.lua"/>
 	
 	<!-- Community Managers -->
 	<talkaction log="yes" words="/n" access="4" event="script" value="creature.lua"/>
-<!-- 	<talkaction log="yes" words="/raid" access="4" event="script" value="raid.lua"/> -->
 	<talkaction log="yes" words="/newtype;/o" access="4" event="script" value="newtype.lua"/>
 	<talkaction log="yes" words="/storage" access="4" event="script" value="storage.lua"/>
 	<talkaction log="yes" words="/config" access="4" event="script" value="configinfo.lua"/>
@@ -62,9 +58,7 @@
 	<talkaction log="yes" words="/cliport" access="3" event="script" value="gamemaster.lua"/>
 	<talkaction log="yes" words="/send" access="3" event="script" value="teleportsend.lua"/>
 	<talkaction log="yes" words="/save" access="3" event="script" value="save.lua"/>
-<!--	<talkaction log="yes" words="/clean" access="3" event="script" value="clean.lua"/> -->
 	<talkaction log="yes" words="/reports" access="3" event="script" value="reports.lua"/>
-<!-- 	<talkaction log="yes" words="/mc" access="3" event="script" value="multicheck.lua"/> -->
 	<talkaction log="yes" words="/mute" access="3" event="script" value="mute.lua"/>
 	<talkaction log="yes" access="3" words="/wp" event="script" value="waypoints.lua"/>
 
@@ -86,7 +80,6 @@
 	<talkaction words="!serverinfo;/serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="!commands;/commands" event="script" value="commands.lua"/>
 	
-
 	<!-- Houses -->
 	<talkaction words="!buyhouse;/buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
 	<talkaction words="!sellhouse;/sellhouse" filter="word-spaced" event="function" value="houseSell"/>
@@ -99,10 +92,8 @@
 	<!-- Guilds -->
 	<talkaction words="!createguild;/createguild" event="function" value="guildCreate"/>
 	<talkaction words="!joinguild;/joinguild" event="function" value="guildJoin"/>
-<!--	<talkaction words="!guildmotd;/guildmotd" event="script" value="guildmotd.lua"/> --> <!-- not working, missing onSay function -->
 
 	<!-- New talkactions -->
-	
 	<talkaction words="!go" event="script" value="guildoutfit.lua"/>
 	<talkaction words="!spells" event="script" value="spellbook.lua" />
 	<talkaction words="!rank" script="ranks.lua" />
@@ -113,7 +104,6 @@
 	<talkaction words="/jail" script="jailing.lua" access="5" />
 	<talkaction words="/unjail" script="jailing.lua" access="5" />
 	<talkaction words="!saveme;/saveme" event="script" value="playersave.lua"/>
-	
 	<talkaction log="yes" words="/adddays" access="5" event="script" value="adddays.lua"/>
 	<talkaction log="yes" words="/removedays" access="5" event="script" value="removedays.lua"/>
 	<talkaction access="2" words="/vote" event="script" value="vote_system.lua"/>
@@ -121,14 +111,8 @@
 	<talkaction words="!shop" event="script" value="znoteshop.lua"/>
 	<talkaction words="/check" event="script" value="antibot.lua" access="3" log="yes"/>
 	
-	<talkaction words="/readme;!readme" event="function" value="readme" access="2" log="no"/>
-	
 	<!-- Deprecated commands -->
-	
 	<talkaction words="!bless" event="script" value="bless.lua"/>
-<!--   	<talkaction words="/all" access="3" event="script" value="say.lua"/>
-   	<talkaction words="/say" access="3" event="script" value="say.lua"/>
-   	<talkaction words="/target" access="0" event="script" value="say.lua"/> -->
 	<talkaction words="!aol" script="aol.lua" />
 	
 	</talkactions>

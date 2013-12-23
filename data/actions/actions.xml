@@ -2,6 +2,10 @@
 <actions>
 	<action itemid="5785" event="script" script="vipmedal.lua"/> 
 	
+	<!--quest chest system by zbizu-->
+	<action actionid="2000" script="quests/system.lua"/>
+	<action fromaid="2001" toaid="2006" script="quests/system.lua"/>
+	
 	<!-- Combined -->
 	<action uniqueid="3460" script="combined/boss.lua" />
 	<action uniqueid="3461" script="combined/boss.lua" />

@@ -4,8 +4,7 @@ local config = {
 
 function onAdvance(cid, skill, oldLevel, newLevel)
 	if(config.savePlayersOnAdvance) then
-		doPlayerSave(cid, true)
+		Player(cid):save()
 	end
-
 	return true
 end
