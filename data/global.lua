@@ -11,7 +11,6 @@ LUA_NO_ERROR = true
 ITEM_GOLD_INGOT = 9971
 db.executeQuery = db.query
 doBroadcastMessage = broadcastMessage
---db.getResult = db.storeQuery
 --custom end
 
 TILESTATE_NONE = 0
@@ -644,6 +643,8 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 
 --custom functions
+
+--FUNCTION BY LIMOS
 function db.getResult(query)
    if(type(query) ~= 'string') then
      return nil
@@ -653,6 +654,7 @@ function db.getResult(query)
    ret:create(query)
    return ret
 end
+--END OF FUNCTION BY LIMOS
 
 function getBooleanFromString(input)
     local tmp = type(input)
