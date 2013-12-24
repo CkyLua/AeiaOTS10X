@@ -11,6 +11,7 @@ LUA_NO_ERROR = true
 ITEM_GOLD_INGOT = 9971
 db.executeQuery = db.query
 doBroadcastMessage = broadcastMessage
+db.getResult = db.storeQuery
 --custom end
 
 TILESTATE_NONE = 0

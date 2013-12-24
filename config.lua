@@ -43,7 +43,7 @@ timeBetweenActions = 200
 timeBetweenExActions = 1000
 
 -- Map
-mapName = "evolutions"
+mapName = "aeia"
 mapAuthor = "Crypton, edited by dominique120"
 
 -- Market
