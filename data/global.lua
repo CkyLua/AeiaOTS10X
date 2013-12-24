@@ -11,7 +11,7 @@ LUA_NO_ERROR = true
 ITEM_GOLD_INGOT = 9971
 db.executeQuery = db.query
 doBroadcastMessage = broadcastMessage
-db.getResult = db.storeQuery
+--db.getResult = db.storeQuery
 --custom end
 
 TILESTATE_NONE = 0
@@ -645,16 +645,12 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 --custom functions
 function db.getResult(query)
-   if(stat:getID()) then
-	local info = stat:getDataInt("id")
-return info
-else
-return false
-end
+   if(type(query) ~= 'string') then
+     return nil
+   end
 
    local ret = Result:new()
    ret:create(query)
-   print(stat:getID())
    return ret
 end
 
@@ -699,14 +695,19 @@ function getExperienceForLevel(lv)
 	return ((50 * lv * lv * lv) - (150 * lv * lv) + (400 * lv)) / 3
 end
 
- function getPlayerMarriage(player)
-	local rows = db.getResult("SELECT `marriage` FROM `players` WHERE `id` = " .. player .. ";")
-	local marry = rows:getDataInt("marriage")
-	if marry ~= 0 then
-		return marry
-	else
-		return FALSE
-	end
+function getPlayerNameByGUID(guid)
+    local player = Player(guid)
+    if player ~= nil then
+        return player:getName()
+    end
+   
+    local resultId = db.storeQuery("SELECT `name` FROM `players` WHERE `id` = " .. guid)
+    if resultId ~= false then
+        local name = result.getDataString(resultId, "name")
+        result.free(resultId)
+        return name
+    end
+    return 0
 end
 
 function addMarryStatus(player,partner)
@@ -718,18 +719,6 @@ function doCancelMarryStatus(player)
 	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
 	return TRUE
 end
---[[
-function getMarryStatus(player)
-	local stat = db.getResult("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player .. ";")
-	if(stat:getID() == -1) then
-		return FALSE
-	else
-		local info = stat:getDataInt("id")
-		return info
-	end
-end
-]]
-
 
 function getMarryStatus(player)
     local stat = db.storeQuery("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player)
@@ -765,36 +754,6 @@ end
 
 --- Vip functions by Kekox
 
---[[
-function getPlayerVipDays(cid)
-	local Info = db.getResult("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid) .. " LIMIT 1")
-	if Info:getID() ~= LUA_ERROR then
-	local days= Info:getDataInt("vipdays")
-	Info:free()
-		return days
-	end
-		return LUA_ERROR
-end
-
-function doAddVipDays(cid, days)
-	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` + " .. days .. " WHERE `id` = " .. getPlayerAccountId(cid) .. ";")
-end
-
-function doRemoveVipDays(cid, days)
-	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getPlayerAccountId(cid) .. ";")
-end
-]]
---[[
-function getPlayerVipDays(cid)
-	local Info = db.getResult("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getAccountNumberByPlayerName(name) .. " LIMIT 1")
-	if Info:getID() ~= LUA_ERROR then
-	local days= Info:getDataInt("vipdays")
-	Info:free()
-		return days
-	end
-		return LUA_ERROR
-end
-]]
 
 function getPlayerVipDays(cid)
     local resultId = db.storeQuery("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid))
