@@ -644,6 +644,19 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 
 --custom functions
+function db.getResult(query)
+   if(stat:getID()) then
+	local info = stat:getDataInt("id")
+return info
+else
+return false
+end
+
+   local ret = Result:new()
+   ret:create(query)
+   print(stat:getID())
+   return ret
+end
 
 function getBooleanFromString(input)
     local tmp = type(input)
@@ -705,7 +718,7 @@ function doCancelMarryStatus(player)
 	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
 	return TRUE
 end
-
+--[[
 function getMarryStatus(player)
 	local stat = db.getResult("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player .. ";")
 	if(stat:getID() == -1) then
@@ -715,6 +728,19 @@ function getMarryStatus(player)
 		return info
 	end
 end
+]]
+
+
+function getMarryStatus(player)
+    local stat = db.storeQuery("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player)
+    if stat ~= false then
+        local info = result.getDataInt(stat, "id")
+        result.free(stat)
+        return info
+    end
+    return 0
+end
+
 
 function getOwnMarryStatus(player)
 	local stat = db.getResult("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player .. ";")

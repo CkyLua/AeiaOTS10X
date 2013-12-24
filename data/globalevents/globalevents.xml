@@ -13,5 +13,6 @@
 	<globalevent name="clean" interval="7200000"  script="clean.lua"/>
 	<globalevent name="VipDaysRemover" time="00:01"  script="daysremover.lua"/>
 	<globalevent name="worldtype" time="00:00"  script="worldtype.lua"/>
+	<globalevent name="signs" interval="3200"  script="signs.lua"/>
 	
 </globalevents>
