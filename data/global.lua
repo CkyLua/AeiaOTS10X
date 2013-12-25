@@ -644,7 +644,7 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 --custom functions
 
---FUNCTION BY LIMOS
+--marriage stuff
 function db.getResult(query)
    if(type(query) ~= 'string') then
      return nil
@@ -654,7 +654,56 @@ function db.getResult(query)
    ret:create(query)
    return ret
 end
---END OF FUNCTION BY LIMOS
+
+function getPlayerMarriage(player)
+	local rows = db.getResult("SELECT `marriage` FROM `players` WHERE `id` = " .. player .. ";")
+	local marry = rows:getDataInt("marriage")
+	if marry ~= 0 then
+		return marry
+	else
+		return 0
+	end
+end
+
+function addMarryStatus(player,partner)
+	db.executeQuery("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
+end
+
+function doCancelMarryStatus(player)
+	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
+end
+
+function getMarryStatus(player)
+	local stat = db.getResult("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player .. ";")
+	if(stat:getID() == -1) then
+		return 0
+	else
+		local info = stat:getDataInt("id")
+		return info
+	end
+end
+
+function getOwnMarryStatus(player)
+	local stat = db.getResult("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player .. ";")
+	if(stat:getID() == -1) then
+		return 0
+	else
+		local info = stat:getDataInt("marrystatus")
+		return info
+	end
+end
+
+function isOnline(player)
+	local rows = db.getResult("SELECT `online` FROM `players` WHERE `id` = " .. player .. ";")
+	local on = rows:getDataInt("online")
+	if on ~= 0 then
+		return 1
+	else
+		return 0
+	end
+end
+
+--end marry stuff
 
 function getBooleanFromString(input)
     local tmp = type(input)
@@ -697,66 +746,15 @@ function getExperienceForLevel(lv)
 	return ((50 * lv * lv * lv) - (150 * lv * lv) + (400 * lv)) / 3
 end
 
-function getPlayerNameByGUID(guid)
-    local player = Player(guid)
-    if player ~= nil then
-        return player:getName()
-    end
-   
-    local resultId = db.storeQuery("SELECT `name` FROM `players` WHERE `id` = " .. guid)
-    if resultId ~= false then
-        local name = result.getDataString(resultId, "name")
-        result.free(resultId)
-        return name
-    end
-    return 0
-end
-
-function addMarryStatus(player,partner)
-	db.executeQuery("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
-	return TRUE
-end
-
-function doCancelMarryStatus(player)
-	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
-	return TRUE
-end
-
-function getMarryStatus(player)
-    local stat = db.storeQuery("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player)
-    if stat ~= false then
-        local info = result.getDataInt(stat, "id")
-        result.free(stat)
-        return info
-    end
-    return 0
-end
-
-
-function getOwnMarryStatus(player)
-	local stat = db.getResult("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player .. ";")
-	if(stat:getID() == -1) then
-		return FALSE
-	else
-		local info = stat:getDataInt("marrystatus")
-		return info
+function getConfigValue(info)
+	if type(info) ~= "string" then
+		return nil
 	end
+	dofile('config.lua')
+	return _G[info]
 end
-
-function isOnline(player)
-	local rows = db.getResult("SELECT `online` FROM `players` WHERE `id` = " .. player .. ";")
-	local on = rows:getDataInt("online")
-	if on ~= 0 then
-		return TRUE
-	else
-		return FALSE
-	end
-end 
-
 
 --- Vip functions by Kekox
-
-
 function getPlayerVipDays(cid)
     local resultId = db.storeQuery("SELECT `vipdays` FROM `accounts` WHERE `id` = " .. getPlayerAccountId(cid))
     if resultId ~= false then
@@ -775,13 +773,6 @@ function doRemoveVipDays(cid, days)
 	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name) .. ";")
 end
 
-function getConfigValue(info)
-	if type(info) ~= "string" then
-		return nil
-	end
-	dofile('config.lua')
-	return _G[info]
-end
 
 
 --End custom funcs
