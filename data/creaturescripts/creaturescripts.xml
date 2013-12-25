@@ -12,7 +12,7 @@
 	<event type="advance" name="bottrophy"  script="trophy.lua"/>
 	<event type="think" name="SkullCheck"  script="skullcheck.lua"/>
 	<event type="login" name="VipCheck"  script="vipcheck.lua"/>
-	<event type="login" name="Antimagebomb"  script="Antimagebomb.lua"/>
+<!--	<event type="login" name="Antimagebomb"  script="Antimagebomb.lua"/>-->
 	<event type="login" name="Bless"  script="blesscheck.lua"/>
 	<event type="kill" name="CreateTeleport" script="skylar and dom.lua"/>
 	

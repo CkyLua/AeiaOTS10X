@@ -745,6 +745,16 @@ function createClass(parent)
    return newClass
 end
 
+function Result:create(_query)
+   self:setQuery(_query)
+   local _id = db.storeQuery(self:getQuery())
+   if(_id) then
+     self:setID(_id)
+   end
+
+   return self:getID()
+end
+
 Result = createClass(nil)
 --end marry stuff
 
