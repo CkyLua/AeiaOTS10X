@@ -1,5 +1,20 @@
 --Custom stuff
 function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
+
+function getPlayerNameByGUID(guid)
+    local player = Player(guid)
+    if player ~= nil then
+        return player:getName()
+    end
+ 
+    local resultId = db.storeQuery("SELECT `name` FROM `players` WHERE `id` = " .. guid)
+    if resultId ~= false then
+        local name = result.getDataString(resultId, "name")
+        result.free(resultId)
+        return name
+    end
+    return 0
+end
 --END custom stuff
 
 
