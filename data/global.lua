@@ -730,7 +730,7 @@ function isOnline(player)
 		return 0
 	end
 end
-
+--[[
 function Result:create(_query)
    self:setQuery(_query)
    local _id = db.storeQuery(self:getQuery())
@@ -740,8 +740,8 @@ function Result:create(_query)
 
    return self:getID()
 end
-
-Result = createClass(nil)
+]]
+--Result = createClass(nil)
 --end marry stuff
 
 function getBooleanFromString(input)
@@ -811,17 +811,6 @@ end
 function doRemoveVipDays(cid, days)
 	db.executeQuery("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name) .. ";")
 end
-
-function getPlayerNameByGUID(guid)
-     local name = 0
-     local resultId = db.getResult("SELECT `name` FROM `players` WHERE `id` = " .. guid)
-     if(resultId:getID() ~= -1) then
-           name = resultId.getDataString(resultId, "name")
-           resultId:free()
-     end
-     return name
-end
-
 
 --End custom funcs
 
