@@ -18,4 +18,4 @@ To find the Source Code go to https://github.com/otland/forgottenserver/
 To find the notes, todo, etc go to TXT/
 
 
-*MODS dont exist in TFS 1.0 so they are being moved to individual sscripts.
+*MODS dont exist in TFS 1.0 so they are being moved to individual scripts.
