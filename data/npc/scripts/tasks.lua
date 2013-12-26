@@ -24,7 +24,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35003) > 24) then
 setPlayerStorageValue(cid,360,1)
-doPlayerAddExperience(cid,120000)
+doPlayerAddExp(cid,120000)
 doPlayerAddItem(cid, 2160, 2)
 selfSay('Thanks!', cid)
 else
@@ -46,7 +46,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35004) > 19) then
 setPlayerStorageValue(cid,361,1)
-doPlayerAddExperience(cid,200000)
+doPlayerAddExp(cid,200000)
 doPlayerAddItem(cid, 2160, 5)
 selfSay('Good work!!!', cid)
 else
@@ -69,7 +69,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35005) > 9) then
 setPlayerStorageValue(cid,362,1)
-doPlayerAddExperience(cid,300000)
+doPlayerAddExp(cid,300000)
 doPlayerAddItem(cid, 2160, 5)
 selfSay('Thanks!', cid)
 else

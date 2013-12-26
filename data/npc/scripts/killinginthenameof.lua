@@ -188,7 +188,7 @@ if(tasks[t].rewards.enable) then
 if isInArray({"boss", "teleport", 1}, tasks[t].rewards.type) then
 doTeleportThing(cid, tasks[t].rewards.values)
 elseif isInArray({"exp", "experience", 2}, tasks[t].rewards.type) then
-doPlayerAddExperience(cid, tasks[t].rewards.values)
+doPlayerAddExp(cid, tasks[t].rewards.values)
 elseif isInArray({"item", 3}, tasks[t].rewards.type) then
 doPlayerAddItem(cid, v.rewards.values[1], tasks[t].rewards.values[2])
 elseif isInArray({"money", 4}, tasks[t].rewards.type) then

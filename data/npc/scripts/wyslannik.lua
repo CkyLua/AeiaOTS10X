@@ -25,7 +25,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35095) > 74) then
 setPlayerStorageValue(cid,140,1)
-doPlayerAddExperience(cid,1200000)
+doPlayerAddExp(cid,1200000)
 selfSay('Fchh! From now on, you can use the teleport leading to hell...', cid)
 else
 selfSay('Did you kill the {75 archangels}?', cid)

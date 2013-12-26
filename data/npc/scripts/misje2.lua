@@ -25,7 +25,7 @@ selfSay('You already completed this task.', cid)
 else
 if(doPlayerRemoveItem(cid, item1, 1) == TRUE) then
 setPlayerStorageValue(cid,160,1)
-doPlayerAddExperience(cid,50000)
+doPlayerAddExp(cid,50000)
 selfSay('Thank you very much for this leaf.', cid)
 else
 selfSay('You dont have what I asked for...', cid)
@@ -46,7 +46,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35297) > 19) then
 setPlayerStorageValue(cid,161,1)
-doPlayerAddExperience(cid,150000)
+doPlayerAddExp(cid,150000)
 doPlayerAddItem(cid, 2492, 1)
 selfSay('Gereat!', cid)
 else
@@ -69,7 +69,7 @@ selfSay('You already completed this task.', cid)
 else
 if (getPlayerStorageValue(cid,35095) > 9) then
 setPlayerStorageValue(cid,162,1)
-doPlayerAddExperience(cid,500000)
+doPlayerAddExp(cid,500000)
 doPlayerAddItem(cid, 11414, 1)
 selfSay('You have done well, here\'s your reward, as promised.', cid)
 else

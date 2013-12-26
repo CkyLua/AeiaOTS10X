@@ -22,7 +22,7 @@ function creatureSayCallback(cid, type, msg)
                 if (getPlayerStorageValue(cid,195) == 1) then
                         selfSay('Thank you very much!, Here\'s your reward.', cid)
                         doSendMagicEffect(getCreaturePosition(cid), CONST_ME_MAGIC_RED)
-                        doPlayerAddExperience(cid, 25000000)
+                        doPlayerAddExp(cid, 25000000)
 				doPlayerAddItem(cid,5741,1)
 				doPlayerAddItem(cid,2505,1)
                         talkState[talkUser] = 0

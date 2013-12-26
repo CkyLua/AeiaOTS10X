@@ -34,7 +34,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item1, 10) == TRUE) then
 setPlayerStorageValue(cid,100,1)
-doPlayerAddExperience(cid,5000)
+doPlayerAddExp(cid,5000)
 selfSay('Thank you very much for that meat.', cid)
 else
 selfSay('I need 10 pieces of meat..', cid)
@@ -55,7 +55,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item2, 5) == TRUE) then
 setPlayerStorageValue(cid,101,1)
-doPlayerAddExperience(cid,7000)
+doPlayerAddExp(cid,7000)
 selfSay('Thanks for the money.', cid)
 else
 selfSay('You dont have the money...', cid)
@@ -77,7 +77,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item3, 15) == TRUE) then
 setPlayerStorageValue(cid,102,1)
-doPlayerAddExperience(cid,10000)
+doPlayerAddExp(cid,10000)
 selfSay('Thanks!', cid)
 else
 selfSay('You dont have 15 fish..', cid)
@@ -99,7 +99,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item4, 1) == TRUE) then
 setPlayerStorageValue(cid,103,1)
-doPlayerAddExperience(cid,20000)
+doPlayerAddExp(cid,20000)
 selfSay('Thanks for the armor.)', cid)
 else
 selfSay('You dont have what I asked for...', cid)
@@ -121,7 +121,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item5, 1) == TRUE) then
 setPlayerStorageValue(cid,104,1)
-doPlayerAddExperience(cid,30000)
+doPlayerAddExp(cid,30000)
 doPlayerAddItem(cid, 2466, 1)
 doPlayerAddItem(cid, 5462, 1)
 selfSay('Oh thank you very much. Ready for more?', cid)
@@ -145,7 +145,7 @@ selfSay('You already helped me with this.', cid)
 else
 if (getPlayerStorageValue(cid,35004) > 29) then
 setPlayerStorageValue(cid,105,1)
-doPlayerAddExperience(cid,50000)
+doPlayerAddExp(cid,50000)
 doPlayerAddItem(cid, 2492, 1)
 selfSay('Thanks!', cid)
 else
@@ -168,7 +168,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item7, 1) == TRUE) then
 setPlayerStorageValue(cid,106,1)
-doPlayerAddExperience(cid,80000)
+doPlayerAddExp(cid,80000)
 doPlayerAddItem(cid, 2160, 5)
 selfSay('Thank you, this really comes in handy ;].', cid)
 else
@@ -191,7 +191,7 @@ selfSay('You already helped me with this.', cid)
 else
 if (getPlayerStorageValue(cid,35006) > 9) then
 setPlayerStorageValue(cid,107,1)
-doPlayerAddExperience(cid,100000)
+doPlayerAddExp(cid,100000)
 selfSay('Thanks!.', cid)
 else
 selfSay('You have not killed {10 demons}...', cid)
@@ -213,7 +213,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item9, 1) == TRUE) then
 setPlayerStorageValue(cid,108,1)
-doPlayerAddExperience(cid,200000)
+doPlayerAddExp(cid,200000)
 doPlayerAddItem(cid, 2160, 10)
 selfSay('Wow this is nice, thanks!', cid)
 else
@@ -236,7 +236,7 @@ selfSay('You already helped me with this.', cid)
 else
 if(doPlayerRemoveItem(cid, item10, 20) == TRUE) then
 setPlayerStorageValue(cid,109,1)
-doPlayerAddExperience(cid,300000)
+doPlayerAddExp(cid,300000)
 doPlayerAddItem(cid, 2160, 15)
 selfSay('Fantastic!', cid)
 else
