@@ -21,7 +21,7 @@ local function firstServerSaveWarning()
         addEvent(secondServerSaveWarning, 120000)
 end
 
-function onTime(interval)
+function onThink(interval)
         broadcastMessage("Server is saving game in 5 minutes. Please go to a safe place.", MESSAGE_STATUS_WARNING)
         Game.setGameState(GAME_STATE_STARTUP)
         addEvent(firstServerSaveWarning, 120000)

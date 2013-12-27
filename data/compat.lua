@@ -17,6 +17,65 @@ function getPlayerNameByGUID(guid)
 end
 --END custom stuff
 
+function getPlayerParty(cid)
+	local player = Player(cid)
+	if player == nil then
+		return false
+	end
+
+	local party = player:getParty()
+	if party == nil then
+		return nil
+	end
+	return party:getLeader():getId()
+end
+function doPlayerJoinParty(cid, leaderId)
+	local player = Player(cid)
+	if player == nil then
+		return false
+	end
+
+	if player:getParty() ~= nil then
+		player:sendTextMessage(MESSAGE_INFO_DESCR, "You are already in a party.")
+		return true
+	end
+
+	local leader = Player(leaderId)
+	if leader == nil then
+		return false
+	end
+
+	local party = leader:getParty()
+	if party == nil or party:getLeader() ~= leader then
+		return true
+	end
+
+	for _, invitee in ipairs(party:getInvitees()) do
+		if player ~= invitee then
+			return true
+		end
+	end
+
+	party:addMember(player)
+	return true
+end
+function getPartyMembers(cid)
+	local player = Player(cid)
+	if player == nil then
+		return false
+	end
+
+	local party = player:getParty()
+	if party == nil then
+		return false
+	end
+
+	local result = {party:getLeader():getId()}
+	for _, member in ipairs(party:getMembers()) do
+		result[#result + 1] = member:getId()
+	end
+	return result
+end
 
 function pushThing(thing)
 	local t = {uid = 0, itemid = 0, type = 0, actionid = 0}

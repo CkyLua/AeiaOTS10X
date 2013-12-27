@@ -133,10 +133,10 @@
     <monster name="Behemoth" x="1" y="0" z="1" spawntime="60"/>
   </spawn>
   <spawn centerx="798" centery="1146" centerz="1" radius="1">
-    <monster name="Medusa" x="1" y="0" z="1" spawntime="60"/>
+    <monster name="medusa" x="1" y="0" z="1" spawntime="60"/>
   </spawn>
   <spawn centerx="800" centery="1150" centerz="1" radius="1">
-    <monster name="Medusa" x="1" y="0" z="1" spawntime="60"/>
+    <monster name="medusa" x="1" y="0" z="1" spawntime="60"/>
   </spawn>
   <spawn centerx="819" centery="1153" centerz="1" radius="1">
     <monster name="Tarantula" x="1" y="0" z="1" spawntime="60"/>
@@ -1023,11 +1023,11 @@
   </spawn>
   <spawn centerx="914" centery="687" centerz="4" radius="30">
     <monster name="Frost Dragon" x="-1" y="-21" z="4" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="-1" y="-16" z="4" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-1" y="-16" z="4" spawntime="60"/>
     <monster name="Frost Dragon" x="-1" y="-11" z="4" spawntime="60"/>
     <monster name="Frost Dragon" x="0" y="-2" z="4" spawntime="50"/>
     <monster name="Frost Dragon" x="9" y="-2" z="4" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-3" y="3" z="4" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-3" y="3" z="4" spawntime="60"/>
     <monster name="Frost Dragon" x="0" y="6" z="4" spawntime="50"/>
   </spawn>
   <spawn centerx="696" centery="689" centerz="4" radius="30">
@@ -1815,8 +1815,8 @@
   </spawn>
   <spawn centerx="978" centery="610" centerz="5" radius="30"/>
   <spawn centerx="915" centery="670" centerz="5" radius="5">
-    <monster name="Frost Dragon Hatchling" x="4" y="-2" z="5" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="0" y="1" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="4" y="-2" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="691" centery="676" centerz="5" radius="10">
     <monster name="Demon" x="2" y="-10" z="5" spawntime="50"/>
@@ -1843,16 +1843,16 @@
   <spawn centerx="708" centery="702" centerz="5" radius="10"/>
   <spawn centerx="905" centery="724" centerz="5" radius="30">
     <monster name="Frost Dragon" x="3" y="-26" z="5" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="4" y="-22" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="4" y="-22" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="4" y="-17" z="5" spawntime="50"/>
     <monster name="Frost Dragon" x="-8" y="-14" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="-14" y="-13" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="2" y="-12" z="5" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="4" y="-9" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="4" y="-9" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="-11" y="-8" z="5" spawntime="50"/>
     <monster name="Frost Dragon" x="-14" y="-2" z="5" spawntime="50"/>
     <monster name="Frost Dragon" x="-4" y="-2" z="5" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="-6" y="-1" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-6" y="-1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="1321" centery="725" centerz="5" radius="5">
     <monster name="Hydra" x="-2" y="2" z="5" spawntime="60"/>
@@ -1913,11 +1913,11 @@
     <monster name="Frost Dragon" x="10" y="-14" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="-10" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="-3" y="-7" z="5" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="9" y="-7" z="5" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-1" y="-2" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="9" y="-7" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-1" y="-2" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="1" y="-2" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="-16" y="9" z="5" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-22" y="10" z="5" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-22" y="10" z="5" spawntime="60"/>
     <monster name="Frost Dragon" x="-24" y="11" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="1323" centery="758" centerz="5" radius="5">
@@ -3263,10 +3263,10 @@
     <monster name="Dragon Lord" x="6" y="10" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="916" centery="678" centerz="6" radius="30">
-    <monster name="Frost Dragon Hatchling" x="-12" y="-7" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="4" y="-4" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="0" y="6" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-2" y="9" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-12" y="-7" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="4" y="-4" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="6" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-2" y="9" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="3" y="9" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="698" centery="688" centerz="6" radius="30">
@@ -3293,23 +3293,23 @@
   <spawn centerx="915" centery="724" centerz="6" radius="30">
     <monster name="Frost Dragon" x="-17" y="-14" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-24" y="-12" z="6" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="-20" y="-12" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-20" y="-12" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="-10" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-13" y="-9" z="6" spawntime="50"/>
     <monster name="Frost Dragon" x="14" y="-8" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="23" y="-8" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="3" y="-7" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-15" y="-6" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="23" y="-8" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="3" y="-7" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-15" y="-6" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-12" y="-6" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="25" y="-6" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="-5" z="6" spawntime="50"/>
     <monster name="Frost Dragon" x="-2" y="0" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="18" y="3" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-8" y="4" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="18" y="3" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-8" y="4" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="7" y="4" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-12" y="5" z="6" spawntime="50"/>
     <monster name="Frost Dragon" x="-22" y="7" z="6" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="-28" y="8" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-28" y="8" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-29" y="9" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="1378" centery="726" centerz="6" radius="5">
@@ -3340,16 +3340,16 @@
   <spawn centerx="854" centery="740" centerz="6" radius="30">
     <monster name="Frost Dragon" x="5" y="-11" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-1" y="-8" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="27" y="-6" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="9" y="0" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="27" y="-6" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="9" y="0" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="0" y="1" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-14" y="2" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-14" y="2" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-12" y="5" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="19" y="5" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="19" y="5" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="3" y="7" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="19" y="10" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="0" y="13" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-26" y="25" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="13" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-26" y="25" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="1391" centery="740" centerz="6" radius="5">
     <monster name="Hydra" x="-1" y="-1" z="6" spawntime="60"/>
@@ -3386,13 +3386,13 @@
     <monster name="Hydra" x="-2" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="814" centery="766" centerz="6" radius="30">
-    <monster name="Frost Dragon Hatchling" x="9" y="-14" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-7" y="-11" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="9" y="-14" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-7" y="-11" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-8" y="-9" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-5" y="-8" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="-1" y="-6" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="4" y="5" z="6" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="15" y="9" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="4" y="5" z="6" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="15" y="9" z="6" spawntime="60"/>
     <monster name="Frost Dragon" x="11" y="14" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="1349" centery="766" centerz="6" radius="5">
@@ -3455,7 +3455,7 @@
     <monster name="Black Knight" x="5" y="19" z="6" spawntime="60"/>
     <monster name="Warlock" x="8" y="19" z="6" spawntime="30"/>
     <monster name="Nightmare" x="11" y="19" z="6" spawntime="60"/>
-    <monster name="Medusa" x="14" y="19" z="6" spawntime="60"/>
+    <monster name="medusa" x="14" y="19" z="6" spawntime="60"/>
     <monster name="Nightmare" x="17" y="19" z="6" spawntime="60"/>
     <monster name="Hellhound" x="-11" y="25" z="6" spawntime="60"/>
     <monster name="Hellhound" x="-8" y="25" z="6" spawntime="60"/>
@@ -6344,13 +6344,13 @@
     <monster name="Frost Dragon" x="-9" y="8" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="-15" y="14" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="-6" y="15" z="7" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="-17" y="24" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-13" y="24" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-17" y="24" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-13" y="24" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="916" centery="688" centerz="7" radius="30">
-    <monster name="Frost Dragon Hatchling" x="-23" y="25" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-23" y="25" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-18" y="26" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="24" y="29" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="24" y="29" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1057" centery="697" centerz="7" radius="30">
     <monster name="Master" x="13" y="-10" z="7" spawntime="50"/>
@@ -6579,29 +6579,29 @@
     <monster name="Frost Dragon" x="17" y="-9" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="26" y="-9" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-13" y="-7" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="20" y="-6" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="0" y="-5" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="20" y="-6" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="-5" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="5" y="-4" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-16" y="0" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-16" y="0" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-28" y="8" z="7" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="14" y="10" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="14" y="10" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="22" y="12" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="7" y="13" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-25" y="15" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="30" y="16" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="2" y="17" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="30" y="16" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="2" y="17" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="13" y="17" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-6" y="18" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="18" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="1" y="20" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="12" y="20" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="12" y="20" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-25" y="21" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-15" y="22" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="25" y="22" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-15" y="22" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="25" y="22" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="9" y="23" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="1" y="24" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="22" y="26" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-27" y="28" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-27" y="28" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="682" centery="730" centerz="7" radius="3"/>
   <spawn centerx="930" centery="730" centerz="7" radius="30"/>
@@ -6646,22 +6646,22 @@
     <monster name="Frost Dragon" x="0" y="-19" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-4" y="-16" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="6" y="-14" z="7" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="3" y="-11" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="3" y="-11" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="8" y="-5" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-19" y="0" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-25" y="3" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-25" y="3" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-21" y="5" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-10" y="8" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-10" y="8" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-22" y="9" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-17" y="9" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-17" y="9" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-1" y="11" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="1" y="14" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-2" y="19" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="1" y="14" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-2" y="19" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-23" y="21" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-28" y="24" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-28" y="24" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-13" y="24" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="14" y="25" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="9" y="26" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="14" y="25" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="9" y="26" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1360" centery="740" centerz="7" radius="30">
     <monster name="Hydra" x="-9" y="-8" z="7" spawntime="60"/>
@@ -6721,7 +6721,7 @@
     <monster name="Frost Dragon" x="6" y="22" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-15" y="24" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-10" y="27" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-19" y="29" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-19" y="29" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1375" centery="753" centerz="7" radius="5"/>
   <spawn centerx="1332" centery="754" centerz="7" radius="5"/>
@@ -6732,7 +6732,7 @@
     <monster name="Frost Dragon" x="4" y="-22" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="-22" y="-16" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-7" y="-10" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-25" y="-9" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-25" y="-9" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-27" y="-8" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-11" y="-7" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="12" y="-7" z="7" spawntime="50"/>
@@ -6740,14 +6740,14 @@
     <monster name="Frost Dragon" x="-9" y="-5" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-5" y="-3" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="12" y="2" z="7" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-17" y="3" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-17" y="3" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-16" y="7" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-15" y="10" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="-9" y="11" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="23" y="17" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-5" y="19" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="19" y="20" z="7" spawntime="50"/>
-    <monster name="Frost Dragon Hatchling" x="2" y="25" z="7" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="2" y="25" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="4" y="26" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="18" y="26" z="7" spawntime="50"/>
     <monster name="Frost Dragon" x="-2" y="27" z="7" spawntime="50"/>
@@ -6759,7 +6759,7 @@
     <monster name="Hand of Darkness" x="-7" y="-3" z="7" spawntime="60"/>
     <monster name="Frost Dragon" x="-4" y="-3" z="7" spawntime="30"/>
     <monster name="Martes 13" x="-10" y="3" z="7" spawntime="60"/>
-    <monster name="Medusa" x="-7" y="3" z="7" spawntime="60"/>
+    <monster name="medusa" x="-7" y="3" z="7" spawntime="60"/>
     <monster name="Wyrm" x="-4" y="3" z="7" spawntime="60"/>
     <monster name="Draken Warmaster" x="0" y="6" z="7" spawntime="60"/>
     <monster name="Azerus" x="5" y="6" z="7" spawntime="60"/>
@@ -7903,10 +7903,10 @@
     <monster name="Hunter" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Hunter" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="988" centery="998" centerz="7" radius="3">
-    <npc name="Alex" x="-1" y="0" z="7" spawntime="40"/>
-  </spawn>
   <spawn centerx="1167" centery="998" centerz="7" radius="5"/>
+  <spawn centerx="987" centery="999" centerz="7" radius="1">
+    <npc name="Alex" x="0" y="-1" z="7" spawntime="40"/>
+  </spawn>
   <spawn centerx="1190" centery="1000" centerz="7" radius="5"/>
   <spawn centerx="1179" centery="1001" centerz="7" radius="5"/>
   <spawn centerx="1030" centery="1003" centerz="7" radius="10">
@@ -12382,13 +12382,13 @@
     <monster name="Frost Dragon" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="909" centery="663" centerz="8" radius="1">
-    <monster name="Frost Dragon Hatchling" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="921" centery="665" centerz="8" radius="1">
     <monster name="Frost Dragon" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="915" centery="670" centerz="8" radius="1">
-    <monster name="Frost Dragon Hatchling" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="910" centery="674" centerz="8" radius="1">
     <monster name="Frost Dragon" x="0" y="0" z="8" spawntime="60"/>
@@ -12429,7 +12429,7 @@
     <monster name="Hellhound" x="8" y="26" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="922" centery="684" centerz="8" radius="1">
-    <monster name="Frost Dragon Hatchling" x="0" y="0" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="916" centery="686" centerz="8" radius="1">
     <monster name="Frost Dragon" x="0" y="0" z="8" spawntime="60"/>
@@ -12592,16 +12592,16 @@
     <monster name="Martes 13" x="-8" y="0" z="8" spawntime="60"/>
     <monster name="Master" x="1" y="0" z="8" spawntime="60"/>
     <monster name="Master" x="3" y="0" z="8" spawntime="60"/>
-    <monster name="Medusa" x="-20" y="1" z="8" spawntime="60"/>
+    <monster name="medusa" x="-20" y="1" z="8" spawntime="60"/>
     <monster name="Master" x="0" y="1" z="8" spawntime="60"/>
     <monster name="Master" x="4" y="1" z="8" spawntime="60"/>
     <monster name="Martes 13" x="-11" y="2" z="8" spawntime="60"/>
-    <monster name="Medusa" x="-19" y="3" z="8" spawntime="60"/>
+    <monster name="medusa" x="-19" y="3" z="8" spawntime="60"/>
     <monster name="Master" x="0" y="3" z="8" spawntime="60"/>
     <monster name="Master" x="4" y="3" z="8" spawntime="60"/>
     <monster name="Master" x="1" y="4" z="8" spawntime="60"/>
     <monster name="Master" x="3" y="4" z="8" spawntime="60"/>
-    <monster name="Medusa" x="-21" y="5" z="8" spawntime="60"/>
+    <monster name="medusa" x="-21" y="5" z="8" spawntime="60"/>
     <monster name="Cyrulik" x="-8" y="11" z="8" spawntime="60"/>
     <monster name="Pro Cyrulik" x="-20" y="12" z="8" spawntime="60"/>
     <monster name="Piece of Earth" x="3" y="12" z="8" spawntime="60"/>
@@ -12681,22 +12681,22 @@
   </spawn>
   <spawn centerx="888" centery="739" centerz="8" radius="30">
     <monster name="Frost Dragon" x="-14" y="-15" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="14" y="-15" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-16" y="-12" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="14" y="-15" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-16" y="-12" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-9" y="-12" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="25" y="-12" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-20" y="-10" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="16" y="-8" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="16" y="-8" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="-6" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-9" y="-5" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-17" y="-4" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-11" y="-3" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-11" y="-3" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="5" y="-1" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="20" y="1" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-1" y="2" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="20" y="1" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-1" y="2" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="21" y="6" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="6" y="8" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="11" y="8" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="11" y="8" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="14" y="12" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="22" y="14" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="14" y="18" z="8" spawntime="60"/>
@@ -12796,12 +12796,12 @@
     <monster name="Slime God" x="-2" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="946" centery="756" centerz="8" radius="30">
-    <monster name="Frost Dragon Hatchling" x="-6" y="-5" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-6" y="-5" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="2" y="-5" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-2" y="-4" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-2" y="-4" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-5" y="-1" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="5" y="-1" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="1" y="3" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="1" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1045" centery="757" centerz="8" radius="5">
     <monster name="Slime God" x="2" y="3" z="8" spawntime="60"/>
@@ -12811,23 +12811,23 @@
     <monster name="Slime God" x="3" y="0" z="8" spawntime="50"/>
   </spawn>
   <spawn centerx="816" centery="769" centerz="8" radius="30">
-    <monster name="Frost Dragon Hatchling" x="-19" y="-15" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-19" y="-15" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-21" y="-14" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-10" y="-14" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-13" y="-11" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-19" y="-9" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-14" y="-9" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="13" y="-9" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-13" y="-11" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-19" y="-9" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-14" y="-9" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="13" y="-9" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-2" y="-8" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="16" y="-8" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="-4" y="-5" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="-4" y="-5" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="-11" y="-4" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="13" y="-4" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="1" y="-2" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="6" y="-2" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="3" y="1" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="2" y="7" z="8" spawntime="60"/>
-    <monster name="Frost Dragon Hatchling" x="6" y="8" z="8" spawntime="60"/>
+    <monster name="frost dragon hatchling" x="6" y="8" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="12" y="10" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="8" y="15" z="8" spawntime="60"/>
     <monster name="Frost Dragon" x="10" y="18" z="8" spawntime="60"/>
@@ -18987,7 +18987,7 @@
     <monster name="Dragon Lord" x="5" y="-2" z="9" spawntime="30"/>
     <monster name="Mummy" x="-7" y="0" z="9" spawntime="30"/>
     <monster name="Braindeath" x="5" y="0" z="9" spawntime="60"/>
-    <monster name="Medusa" x="-7" y="4" z="9" spawntime="60"/>
+    <monster name="medusa" x="-7" y="4" z="9" spawntime="60"/>
     <monster name="Frost Dragon" x="5" y="4" z="9" spawntime="60"/>
     <monster name="Hydra" x="-1" y="5" z="9" spawntime="60"/>
     <monster name="Demon" x="-7" y="6" z="9" spawntime="60"/>
@@ -18998,7 +18998,7 @@
     <monster name="Giant Spider" x="-7" y="10" z="9" spawntime="60"/>
     <monster name="Wyrm" x="5" y="10" z="9" spawntime="30"/>
     <monster name="Hellhound" x="-6" y="15" z="9" spawntime="45"/>
-    <monster name="Medusa" x="3" y="15" z="9" spawntime="60"/>
+    <monster name="medusa" x="3" y="15" z="9" spawntime="60"/>
     <monster name="Dragon Lord" x="-6" y="17" z="9" spawntime="60"/>
     <monster name="Wyrm" x="3" y="17" z="9" spawntime="60"/>
     <monster name="Frost Dragon" x="-6" y="19" z="9" spawntime="30"/>
@@ -21942,14 +21942,14 @@
     <monster name="Lizard Zaogun" x="-27" y="-10" z="10" spawntime="60"/>
     <monster name="Lizard Dragon Priest" x="-19" y="-10" z="10" spawntime="60"/>
     <monster name="Draptor" x="-2" y="-10" z="10" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-15" y="-9" z="10" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="-15" y="-9" z="10" spawntime="60"/>
     <monster name="Draken Warmaster" x="21" y="-9" z="10" spawntime="60"/>
     <monster name="Dragon Lord" x="-8" y="-8" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="17" y="-8" z="10" spawntime="60"/>
     <monster name="Lizard Chosen" x="29" y="-8" z="10" spawntime="60"/>
     <monster name="Draken Warmaster" x="-6" y="-7" z="10" spawntime="60"/>
     <monster name="Draken Spellweaver" x="14" y="-7" z="10" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-29" y="-6" z="10" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="-29" y="-6" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="-9" y="-6" z="10" spawntime="60"/>
     <monster name="Draken Warmaster" x="29" y="-6" z="10" spawntime="60"/>
     <monster name="Draken Warmaster" x="-26" y="-5" z="10" spawntime="60"/>
@@ -21965,7 +21965,7 @@
     <monster name="Lizard Dragon Priest" x="-28" y="-2" z="10" spawntime="60"/>
     <monster name="Draken Elite" x="-25" y="-2" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="-22" y="-2" z="10" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="28" y="0" z="10" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="28" y="0" z="10" spawntime="60"/>
     <monster name="Lizard Dragon Priest" x="-4" y="2" z="10" spawntime="60"/>
     <monster name="Dragon Lord" x="1" y="3" z="10" spawntime="60"/>
     <monster name="Draken Elite" x="19" y="3" z="10" spawntime="60"/>
@@ -21991,8 +21991,8 @@
     <monster name="Draken Spellweaver" x="1" y="10" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="6" y="10" z="10" spawntime="60"/>
     <monster name="Lizard Dragon Priest" x="9" y="10" z="10" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-26" y="11" z="10" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-12" y="11" z="10" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="-26" y="11" z="10" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="-12" y="11" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="-7" y="11" z="10" spawntime="60"/>
     <monster name="Draken Spellweaver" x="18" y="11" z="10" spawntime="60"/>
     <monster name="Lizard Zaogun" x="-23" y="13" z="10" spawntime="60"/>
@@ -22092,7 +22092,7 @@
     <monster name="Magicthrower" x="9" y="-5" z="10" spawntime="60"/>
     <monster name="Magicthrower" x="-9" y="0" z="10" spawntime="60"/>
     <monster name="Magicthrower" x="9" y="0" z="10" spawntime="60"/>
-    <monster name="Hellgorak" x="0" y="2" z="10" spawntime="300"/>
+    <monster name="hellgorak" x="0" y="2" z="10" spawntime="300"/>
     <monster name="Magicthrower" x="-9" y="5" z="10" spawntime="60"/>
     <monster name="Magicthrower" x="9" y="5" z="10" spawntime="60"/>
     <monster name="Magicthrower" x="-7" y="7" z="10" spawntime="60"/>
@@ -22236,17 +22236,17 @@
   <spawn centerx="549" centery="712" centerz="10" radius="5"/>
   <spawn centerx="598" centery="712" centerz="10" radius="5"/>
   <spawn centerx="1303" centery="712" centerz="10" radius="30">
-    <monster name="Medusa" x="2" y="-15" z="10" spawntime="60"/>
+    <monster name="medusa" x="2" y="-15" z="10" spawntime="60"/>
     <monster name="Warlock" x="4" y="-14" z="10" spawntime="60"/>
     <monster name="Infernalist" x="2" y="-13" z="10" spawntime="60"/>
     <monster name="Infernalist" x="4" y="-12" z="10" spawntime="60"/>
-    <monster name="Medusa" x="1" y="-11" z="10" spawntime="60"/>
-    <monster name="Medusa" x="3" y="2" z="10" spawntime="60"/>
+    <monster name="medusa" x="1" y="-11" z="10" spawntime="60"/>
+    <monster name="medusa" x="3" y="2" z="10" spawntime="60"/>
     <monster name="Warlock" x="0" y="3" z="10" spawntime="60"/>
     <monster name="Infernalist" x="1" y="3" z="10" spawntime="60"/>
     <monster name="Warlock" x="5" y="3" z="10" spawntime="60"/>
     <monster name="Infernalist" x="3" y="4" z="10" spawntime="60"/>
-    <monster name="Medusa" x="2" y="6" z="10" spawntime="60"/>
+    <monster name="medusa" x="2" y="6" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="423" centery="714" centerz="10" radius="1">
     <monster name="Wyrm" x="1" y="0" z="10" spawntime="60"/>
@@ -24099,22 +24099,22 @@
     <monster name="Infernalist" x="0" y="-9" z="11" spawntime="60"/>
     <monster name="Warlock" x="3" y="-9" z="11" spawntime="60"/>
     <monster name="Infernalist" x="10" y="-9" z="11" spawntime="60"/>
-    <monster name="Medusa" x="9" y="-8" z="11" spawntime="60"/>
-    <monster name="Medusa" x="0" y="-6" z="11" spawntime="60"/>
+    <monster name="medusa" x="9" y="-8" z="11" spawntime="60"/>
+    <monster name="medusa" x="0" y="-6" z="11" spawntime="60"/>
     <monster name="Infernalist" x="8" y="-6" z="11" spawntime="60"/>
-    <monster name="Medusa" x="10" y="-6" z="11" spawntime="60"/>
+    <monster name="medusa" x="10" y="-6" z="11" spawntime="60"/>
     <monster name="Warlock" x="11" y="-4" z="11" spawntime="60"/>
     <monster name="Warlock" x="0" y="-3" z="11" spawntime="60"/>
     <monster name="Infernalist" x="0" y="-1" z="11" spawntime="60"/>
-    <monster name="Medusa" x="0" y="5" z="11" spawntime="60"/>
+    <monster name="medusa" x="0" y="5" z="11" spawntime="60"/>
     <monster name="Warlock" x="-1" y="8" z="11" spawntime="60"/>
-    <monster name="Medusa" x="8" y="8" z="11" spawntime="60"/>
+    <monster name="medusa" x="8" y="8" z="11" spawntime="60"/>
     <monster name="Infernalist" x="10" y="8" z="11" spawntime="60"/>
     <monster name="Infernalist" x="0" y="9" z="11" spawntime="60"/>
     <monster name="Warlock" x="10" y="10" z="11" spawntime="60"/>
-    <monster name="Medusa" x="0" y="11" z="11" spawntime="60"/>
+    <monster name="medusa" x="0" y="11" z="11" spawntime="60"/>
     <monster name="Infernalist" x="8" y="11" z="11" spawntime="60"/>
-    <monster name="Medusa" x="10" y="11" z="11" spawntime="60"/>
+    <monster name="medusa" x="10" y="11" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="398" centery="708" centerz="11" radius="1">
     <monster name="Wyrm" x="1" y="0" z="11" spawntime="60"/>
@@ -25338,32 +25338,32 @@
     <monster name="Hellfire Fighter" x="0" y="1" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="1275" centery="1291" centerz="11" radius="30">
-    <monster name="Medusa" x="1" y="-15" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-22" y="-13" z="11" spawntime="60"/>
+    <monster name="medusa" x="1" y="-15" z="11" spawntime="60"/>
+    <monster name="medusa" x="-22" y="-13" z="11" spawntime="60"/>
     <monster name="Serpent Spawn" x="10" y="-12" z="11" spawntime="60"/>
-    <monster name="Medusa" x="15" y="-9" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-25" y="-7" z="11" spawntime="50"/>
+    <monster name="medusa" x="15" y="-9" z="11" spawntime="60"/>
+    <monster name="medusa" x="-25" y="-7" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="21" y="-4" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-26" y="-1" z="11" spawntime="60"/>
+    <monster name="medusa" x="-26" y="-1" z="11" spawntime="60"/>
     <monster name="Serpent Spawn" x="-23" y="3" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-7" y="4" z="11" spawntime="50"/>
+    <monster name="medusa" x="-7" y="4" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="-10" y="5" z="11" spawntime="60"/>
-    <monster name="Medusa" x="1" y="5" z="11" spawntime="50"/>
+    <monster name="medusa" x="1" y="5" z="11" spawntime="50"/>
     <monster name="spider" x="2" y="5" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-21" y="7" z="11" spawntime="50"/>
+    <monster name="medusa" x="-21" y="7" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="11" y="7" z="11" spawntime="60"/>
-    <monster name="Medusa" x="4" y="8" z="11" spawntime="50"/>
+    <monster name="medusa" x="4" y="8" z="11" spawntime="50"/>
     <monster name="spider" x="7" y="8" z="11" spawntime="60"/>
-    <monster name="Medusa" x="16" y="8" z="11" spawntime="50"/>
+    <monster name="medusa" x="16" y="8" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="26" y="10" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-3" y="12" z="11" spawntime="60"/>
-    <monster name="Medusa" x="26" y="14" z="11" spawntime="60"/>
-    <monster name="Medusa" x="19" y="18" z="11" spawntime="50"/>
+    <monster name="medusa" x="-3" y="12" z="11" spawntime="60"/>
+    <monster name="medusa" x="26" y="14" z="11" spawntime="60"/>
+    <monster name="medusa" x="19" y="18" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="-2" y="19" z="11" spawntime="60"/>
-    <monster name="Medusa" x="10" y="20" z="11" spawntime="50"/>
+    <monster name="medusa" x="10" y="20" z="11" spawntime="50"/>
     <monster name="Serpent Spawn" x="18" y="20" z="11" spawntime="60"/>
-    <monster name="Medusa" x="-1" y="23" z="11" spawntime="50"/>
-    <monster name="Medusa" x="13" y="23" z="11" spawntime="60"/>
+    <monster name="medusa" x="-1" y="23" z="11" spawntime="50"/>
+    <monster name="medusa" x="13" y="23" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="857" centery="1292" centerz="11" radius="5">
     <monster name="Dragon Lord" x="-1" y="-1" z="11" spawntime="300"/>
@@ -25979,24 +25979,24 @@
   </spawn>
   <spawn centerx="1296" centery="707" centerz="12" radius="30">
     <monster name="Infernalist" x="1" y="-11" z="12" spawntime="60"/>
-    <monster name="Medusa" x="11" y="-10" z="12" spawntime="60"/>
+    <monster name="medusa" x="11" y="-10" z="12" spawntime="60"/>
     <monster name="Infernalist" x="9" y="-9" z="12" spawntime="60"/>
     <monster name="Warlock" x="-1" y="-8" z="12" spawntime="60"/>
     <monster name="Warlock" x="3" y="-6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="8" y="-6" z="12" spawntime="60"/>
+    <monster name="medusa" x="8" y="-6" z="12" spawntime="60"/>
     <monster name="Warlock" x="10" y="-6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-1" y="-5" z="12" spawntime="60"/>
+    <monster name="medusa" x="-1" y="-5" z="12" spawntime="60"/>
     <monster name="Infernalist" x="4" y="-1" z="12" spawntime="60"/>
-    <monster name="Medusa" x="6" y="-1" z="12" spawntime="60"/>
+    <monster name="medusa" x="6" y="-1" z="12" spawntime="60"/>
     <monster name="Infernalist" x="8" y="0" z="12" spawntime="60"/>
     <monster name="Warlock" x="4" y="2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="9" y="2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="0" y="5" z="12" spawntime="60"/>
+    <monster name="medusa" x="9" y="2" z="12" spawntime="60"/>
+    <monster name="medusa" x="0" y="5" z="12" spawntime="60"/>
     <monster name="Warlock" x="0" y="8" z="12" spawntime="60"/>
-    <monster name="Medusa" x="11" y="8" z="12" spawntime="60"/>
+    <monster name="medusa" x="11" y="8" z="12" spawntime="60"/>
     <monster name="Infernalist" x="0" y="9" z="12" spawntime="60"/>
     <monster name="Infernalist" x="8" y="9" z="12" spawntime="60"/>
-    <monster name="Medusa" x="8" y="10" z="12" spawntime="60"/>
+    <monster name="medusa" x="8" y="10" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1069" centery="712" centerz="12" radius="17"/>
   <spawn centerx="446" centery="720" centerz="12" radius="1">
@@ -26560,13 +26560,13 @@
     <monster name="Braindeath" x="-18" y="24" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="936" centery="866" centerz="12" radius="5">
-    <monster name="Medusa" x="1" y="1" z="12" spawntime="70"/>
-    <monster name="Medusa" x="4" y="2" z="12" spawntime="70"/>
+    <monster name="medusa" x="1" y="1" z="12" spawntime="70"/>
+    <monster name="medusa" x="4" y="2" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="970" centery="867" centerz="12" radius="4">
-    <monster name="Medusa" x="0" y="-3" z="12" spawntime="70"/>
-    <monster name="Medusa" x="4" y="0" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-2" y="2" z="12" spawntime="70"/>
+    <monster name="medusa" x="0" y="-3" z="12" spawntime="70"/>
+    <monster name="medusa" x="4" y="0" z="12" spawntime="60"/>
+    <monster name="medusa" x="-2" y="2" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="1114" centery="867" centerz="12" radius="14"/>
   <spawn centerx="2136" centery="868" centerz="12" radius="30">
@@ -26591,8 +26591,8 @@
     <monster name="Ancient Dragon" x="-20" y="30" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="992" centery="871" centerz="12" radius="4">
-    <monster name="Medusa" x="-2" y="-2" z="12" spawntime="70"/>
-    <monster name="Medusa" x="1" y="2" z="12" spawntime="70"/>
+    <monster name="medusa" x="-2" y="-2" z="12" spawntime="70"/>
+    <monster name="medusa" x="1" y="2" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="2079" centery="872" centerz="12" radius="30">
     <monster name="Ancient Dragon" x="-15" y="9" z="12" spawntime="60"/>
@@ -26611,18 +26611,18 @@
     <monster name="Ancient Dragon" x="11" y="30" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="948" centery="875" centerz="12" radius="20">
-    <monster name="Medusa" x="-9" y="0" z="12" spawntime="60"/>
-    <monster name="Medusa" x="0" y="1" z="12" spawntime="70"/>
-    <monster name="Medusa" x="-4" y="4" z="12" spawntime="70"/>
-    <monster name="Medusa" x="8" y="12" z="12" spawntime="60"/>
-    <monster name="Medusa" x="11" y="18" z="12" spawntime="60"/>
+    <monster name="medusa" x="-9" y="0" z="12" spawntime="60"/>
+    <monster name="medusa" x="0" y="1" z="12" spawntime="70"/>
+    <monster name="medusa" x="-4" y="4" z="12" spawntime="70"/>
+    <monster name="medusa" x="8" y="12" z="12" spawntime="60"/>
+    <monster name="medusa" x="11" y="18" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="988" centery="879" centerz="12" radius="20">
-    <monster name="Medusa" x="-15" y="2" z="12" spawntime="70"/>
-    <monster name="Medusa" x="5" y="5" z="12" spawntime="70"/>
-    <monster name="Medusa" x="8" y="11" z="12" spawntime="70"/>
-    <monster name="Medusa" x="6" y="18" z="12" spawntime="70"/>
-    <monster name="Medusa" x="-9" y="19" z="12" spawntime="70"/>
+    <monster name="medusa" x="-15" y="2" z="12" spawntime="70"/>
+    <monster name="medusa" x="5" y="5" z="12" spawntime="70"/>
+    <monster name="medusa" x="8" y="11" z="12" spawntime="70"/>
+    <monster name="medusa" x="6" y="18" z="12" spawntime="70"/>
+    <monster name="medusa" x="-9" y="19" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="948" centery="880" centerz="12" radius="5"/>
   <spawn centerx="308" centery="881" centerz="12" radius="30">
@@ -26651,7 +26651,7 @@
     <monster name="Warlock" x="1" y="2" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="995" centery="900" centerz="12" radius="4">
-    <monster name="Medusa" x="1" y="3" z="12" spawntime="70"/>
+    <monster name="medusa" x="1" y="3" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="2159" centery="900" centerz="12" radius="30">
     <monster name="Ancient Dragon" x="-1" y="0" z="12" spawntime="60"/>
@@ -26671,20 +26671,20 @@
     <monster name="Ancient Dragon" x="-9" y="27" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="981" centery="901" centerz="12" radius="4">
-    <monster name="Medusa" x="3" y="0" z="12" spawntime="70"/>
+    <monster name="medusa" x="3" y="0" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="937" centery="902" centerz="12" radius="5">
-    <monster name="Medusa" x="-2" y="-4" z="12" spawntime="70"/>
-    <monster name="Medusa" x="2" y="-4" z="12" spawntime="60"/>
-    <monster name="Medusa" x="1" y="2" z="12" spawntime="70"/>
+    <monster name="medusa" x="-2" y="-4" z="12" spawntime="70"/>
+    <monster name="medusa" x="2" y="-4" z="12" spawntime="60"/>
+    <monster name="medusa" x="1" y="2" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="970" centery="904" centerz="12" radius="20">
-    <monster name="Medusa" x="-7" y="-3" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-19" y="10" z="12" spawntime="70"/>
-    <monster name="Medusa" x="-1" y="11" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-18" y="12" z="12" spawntime="60"/>
-    <monster name="Medusa" x="14" y="13" z="12" spawntime="70"/>
-    <monster name="Medusa" x="-15" y="17" z="12" spawntime="70"/>
+    <monster name="medusa" x="-7" y="-3" z="12" spawntime="60"/>
+    <monster name="medusa" x="-19" y="10" z="12" spawntime="70"/>
+    <monster name="medusa" x="-1" y="11" z="12" spawntime="60"/>
+    <monster name="medusa" x="-18" y="12" z="12" spawntime="60"/>
+    <monster name="medusa" x="14" y="13" z="12" spawntime="70"/>
+    <monster name="medusa" x="-15" y="17" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="1292" centery="905" centerz="12" radius="5">
     <monster name="Warlock" x="0" y="-1" z="12" spawntime="60"/>
@@ -26714,9 +26714,9 @@
     <monster name="Ancient Dragon" x="6" y="29" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="996" centery="907" centerz="12" radius="20">
-    <monster name="Medusa" x="3" y="9" z="12" spawntime="70"/>
-    <monster name="Medusa" x="1" y="16" z="12" spawntime="70"/>
-    <monster name="Medusa" x="1" y="20" z="12" spawntime="60"/>
+    <monster name="medusa" x="3" y="9" z="12" spawntime="70"/>
+    <monster name="medusa" x="1" y="16" z="12" spawntime="70"/>
+    <monster name="medusa" x="1" y="20" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1282" centery="908" centerz="12" radius="5">
     <monster name="Warlock" x="-5" y="0" z="12" spawntime="60"/>
@@ -26726,7 +26726,7 @@
     <monster name="Warlock" x="-2" y="1" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="950" centery="912" centerz="12" radius="5">
-    <monster name="Medusa" x="-4" y="-4" z="12" spawntime="70"/>
+    <monster name="medusa" x="-4" y="-4" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="948" centery="913" centerz="12" radius="20"/>
   <spawn centerx="2060" centery="914" centerz="12" radius="30">
@@ -26763,13 +26763,13 @@
     <monster name="Warlock" x="4" y="2" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="972" centery="931" centerz="12" radius="20">
-    <monster name="Medusa" x="2" y="-6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="1" y="-2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-13" y="4" z="12" spawntime="60"/>
-    <monster name="Medusa" x="0" y="4" z="12" spawntime="70"/>
-    <monster name="Medusa" x="19" y="7" z="12" spawntime="60"/>
-    <monster name="Medusa" x="11" y="8" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-2" y="12" z="12" spawntime="60"/>
+    <monster name="medusa" x="2" y="-6" z="12" spawntime="60"/>
+    <monster name="medusa" x="1" y="-2" z="12" spawntime="60"/>
+    <monster name="medusa" x="-13" y="4" z="12" spawntime="60"/>
+    <monster name="medusa" x="0" y="4" z="12" spawntime="70"/>
+    <monster name="medusa" x="19" y="7" z="12" spawntime="60"/>
+    <monster name="medusa" x="11" y="8" z="12" spawntime="60"/>
+    <monster name="medusa" x="-2" y="12" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="996" centery="932" centerz="12" radius="20"/>
   <spawn centerx="1070" centery="933" centerz="12" radius="5">
@@ -26782,8 +26782,8 @@
     <monster name="Ancient Dragon" x="-3" y="17" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="949" centery="936" centerz="12" radius="4">
-    <monster name="Medusa" x="2" y="-2" z="12" spawntime="70"/>
-    <monster name="Medusa" x="-3" y="1" z="12" spawntime="70"/>
+    <monster name="medusa" x="2" y="-2" z="12" spawntime="70"/>
+    <monster name="medusa" x="-3" y="1" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="972" centery="936" centerz="12" radius="20"/>
   <spawn centerx="973" centery="936" centerz="12" radius="2"/>
@@ -26815,8 +26815,8 @@
     <monster name="Ancient Dragon" x="-20" y="-1" z="12" spawntime="40"/>
   </spawn>
   <spawn centerx="928" centery="947" centerz="12" radius="20">
-    <monster name="Medusa" x="5" y="-1" z="12" spawntime="70"/>
-    <monster name="Medusa" x="2" y="4" z="12" spawntime="70"/>
+    <monster name="medusa" x="5" y="-1" z="12" spawntime="70"/>
+    <monster name="medusa" x="2" y="4" z="12" spawntime="70"/>
   </spawn>
   <spawn centerx="932" centery="948" centerz="12" radius="4"/>
   <spawn centerx="1223" centery="968" centerz="12" radius="4">
@@ -27119,20 +27119,20 @@
     <monster name="Warlock" x="0" y="4" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1255" centery="1259" centerz="12" radius="10">
-    <monster name="Medusa" x="-5" y="-3" z="12" spawntime="50"/>
-    <monster name="Medusa" x="1" y="-3" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-2" y="1" z="12" spawntime="50"/>
-    <monster name="Medusa" x="-5" y="2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="2" y="6" z="12" spawntime="50"/>
-    <monster name="Medusa" x="9" y="10" z="12" spawntime="60"/>
+    <monster name="medusa" x="-5" y="-3" z="12" spawntime="50"/>
+    <monster name="medusa" x="1" y="-3" z="12" spawntime="60"/>
+    <monster name="medusa" x="-2" y="1" z="12" spawntime="50"/>
+    <monster name="medusa" x="-5" y="2" z="12" spawntime="60"/>
+    <monster name="medusa" x="2" y="6" z="12" spawntime="50"/>
+    <monster name="medusa" x="9" y="10" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1281" centery="1260" centerz="12" radius="10">
-    <monster name="Medusa" x="-7" y="-6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-2" y="-3" z="12" spawntime="60"/>
-    <monster name="Medusa" x="4" y="-2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-9" y="0" z="12" spawntime="50"/>
-    <monster name="Medusa" x="-10" y="4" z="12" spawntime="60"/>
-    <monster name="Medusa" x="3" y="4" z="12" spawntime="50"/>
+    <monster name="medusa" x="-7" y="-6" z="12" spawntime="60"/>
+    <monster name="medusa" x="-2" y="-3" z="12" spawntime="60"/>
+    <monster name="medusa" x="4" y="-2" z="12" spawntime="60"/>
+    <monster name="medusa" x="-9" y="0" z="12" spawntime="50"/>
+    <monster name="medusa" x="-10" y="4" z="12" spawntime="60"/>
+    <monster name="medusa" x="3" y="4" z="12" spawntime="50"/>
   </spawn>
   <spawn centerx="897" centery="1264" centerz="12" radius="5">
     <monster name="Destroyer" x="-3" y="-3" z="12" spawntime="60"/>
@@ -27156,8 +27156,8 @@
     <monster name="Warlock" x="4" y="4" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1258" centery="1270" centerz="12" radius="7">
-    <monster name="Medusa" x="-3" y="3" z="12" spawntime="50"/>
-    <monster name="Medusa" x="1" y="3" z="12" spawntime="50"/>
+    <monster name="medusa" x="-3" y="3" z="12" spawntime="50"/>
+    <monster name="medusa" x="1" y="3" z="12" spawntime="50"/>
   </spawn>
   <spawn centerx="536" centery="1272" centerz="12" radius="5">
     <monster name="Warlock" x="1" y="0" z="12" spawntime="60"/>
@@ -27203,10 +27203,10 @@
     <monster name="Warlock" x="-5" y="3" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1280" centery="1281" centerz="12" radius="10">
-    <monster name="Medusa" x="-10" y="-9" z="12" spawntime="50"/>
-    <monster name="Medusa" x="-8" y="-3" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-1" y="0" z="12" spawntime="60"/>
-    <monster name="Medusa" x="6" y="4" z="12" spawntime="60"/>
+    <monster name="medusa" x="-10" y="-9" z="12" spawntime="50"/>
+    <monster name="medusa" x="-8" y="-3" z="12" spawntime="60"/>
+    <monster name="medusa" x="-1" y="0" z="12" spawntime="60"/>
+    <monster name="medusa" x="6" y="4" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="903" centery="1282" centerz="12" radius="5">
     <monster name="Destroyer" x="1" y="-2" z="12" spawntime="60"/>
@@ -27235,9 +27235,9 @@
     <monster name="Warlock" x="0" y="5" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1255" centery="1285" centerz="12" radius="10">
-    <monster name="Medusa" x="0" y="-6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-5" y="-4" z="12" spawntime="50"/>
-    <monster name="Medusa" x="1" y="5" z="12" spawntime="50"/>
+    <monster name="medusa" x="0" y="-6" z="12" spawntime="60"/>
+    <monster name="medusa" x="-5" y="-4" z="12" spawntime="50"/>
+    <monster name="medusa" x="1" y="5" z="12" spawntime="50"/>
   </spawn>
   <spawn centerx="505" centery="1286" centerz="12" radius="5"/>
   <spawn centerx="859" centery="1286" centerz="12" radius="5">
@@ -27247,15 +27247,15 @@
     <monster name="Defiler" x="1" y="-1" z="12" spawntime="300"/>
   </spawn>
   <spawn centerx="1238" centery="1288" centerz="12" radius="10">
-    <monster name="Medusa" x="5" y="-3" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-4" y="2" z="12" spawntime="50"/>
-    <monster name="Medusa" x="-2" y="6" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-4" y="10" z="12" spawntime="50"/>
+    <monster name="medusa" x="5" y="-3" z="12" spawntime="60"/>
+    <monster name="medusa" x="-4" y="2" z="12" spawntime="50"/>
+    <monster name="medusa" x="-2" y="6" z="12" spawntime="60"/>
+    <monster name="medusa" x="-4" y="10" z="12" spawntime="50"/>
   </spawn>
   <spawn centerx="1299" centery="1288" centerz="12" radius="10">
-    <monster name="Medusa" x="2" y="-2" z="12" spawntime="60"/>
-    <monster name="Medusa" x="2" y="1" z="12" spawntime="60"/>
-    <monster name="Medusa" x="5" y="1" z="12" spawntime="60"/>
+    <monster name="medusa" x="2" y="-2" z="12" spawntime="60"/>
+    <monster name="medusa" x="2" y="1" z="12" spawntime="60"/>
+    <monster name="medusa" x="5" y="1" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="540" centery="1289" centerz="12" radius="5">
     <monster name="Warlock" x="-1" y="-3" z="12" spawntime="60"/>
@@ -27303,9 +27303,9 @@
     <monster name="Plaguesmith" x="-1" y="2" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1267" centery="1298" centerz="12" radius="10">
-    <monster name="Medusa" x="-5" y="-1" z="12" spawntime="60"/>
-    <monster name="Medusa" x="4" y="0" z="12" spawntime="50"/>
-    <monster name="Medusa" x="-1" y="2" z="12" spawntime="50"/>
+    <monster name="medusa" x="-5" y="-1" z="12" spawntime="60"/>
+    <monster name="medusa" x="4" y="0" z="12" spawntime="50"/>
+    <monster name="medusa" x="-1" y="2" z="12" spawntime="50"/>
   </spawn>
   <spawn centerx="871" centery="1300" centerz="12" radius="2">
     <monster name="Demon" x="1" y="0" z="12" spawntime="120"/>
@@ -27368,11 +27368,11 @@
     <monster name="Defiler" x="5" y="4" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1288" centery="1312" centerz="12" radius="10">
-    <monster name="Medusa" x="-10" y="-10" z="12" spawntime="60"/>
-    <monster name="Medusa" x="-3" y="-5" z="12" spawntime="60"/>
-    <monster name="Medusa" x="1" y="-4" z="12" spawntime="50"/>
-    <monster name="Medusa" x="7" y="-4" z="12" spawntime="60"/>
-    <monster name="Medusa" x="5" y="1" z="12" spawntime="60"/>
+    <monster name="medusa" x="-10" y="-10" z="12" spawntime="60"/>
+    <monster name="medusa" x="-3" y="-5" z="12" spawntime="60"/>
+    <monster name="medusa" x="1" y="-4" z="12" spawntime="50"/>
+    <monster name="medusa" x="7" y="-4" z="12" spawntime="60"/>
+    <monster name="medusa" x="5" y="1" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="912" centery="1313" centerz="12" radius="5">
     <monster name="Plaguesmith" x="2" y="-3" z="12" spawntime="768"/>
@@ -27391,8 +27391,8 @@
     <monster name="Defiler" x="0" y="2" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1253" centery="1314" centerz="12" radius="10">
-    <monster name="Medusa" x="2" y="2" z="12" spawntime="50"/>
-    <monster name="Medusa" x="10" y="4" z="12" spawntime="60"/>
+    <monster name="medusa" x="2" y="2" z="12" spawntime="50"/>
+    <monster name="medusa" x="10" y="4" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="532" centery="1316" centerz="12" radius="5">
     <monster name="Warlock" x="3" y="-1" z="12" spawntime="60"/>
@@ -27422,8 +27422,8 @@
     <monster name="Warlock" x="4" y="1" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="1265" centery="1326" centerz="12" radius="10">
-    <monster name="Medusa" x="0" y="-4" z="12" spawntime="60"/>
-    <monster name="Medusa" x="5" y="-1" z="12" spawntime="60"/>
+    <monster name="medusa" x="0" y="-4" z="12" spawntime="60"/>
+    <monster name="medusa" x="5" y="-1" z="12" spawntime="60"/>
   </spawn>
   <spawn centerx="554" centery="1328" centerz="12" radius="5">
     <monster name="Warlock" x="0" y="-1" z="12" spawntime="60"/>
@@ -27599,8 +27599,8 @@
     <monster name="Magicthrower" x="10" y="-3" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="-10" y="-1" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="10" y="-1" z="13" spawntime="60"/>
-    <monster name="Golgordan" x="-4" y="0" z="13" spawntime="300"/>
-    <monster name="Latrivan" x="3" y="0" z="13" spawntime="300"/>
+    <monster name="golgordan" x="-4" y="0" z="13" spawntime="300"/>
+    <monster name="latrivan" x="3" y="0" z="13" spawntime="300"/>
     <monster name="Magicthrower" x="-10" y="1" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="10" y="1" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="-10" y="3" z="13" spawntime="60"/>
@@ -28009,7 +28009,7 @@
     <monster name="Magicthrower" x="-2" y="-7" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="6" y="-7" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="9" y="-4" z="13" spawntime="60"/>
-    <monster name="Zugurosh" x="-1" y="0" z="13" spawntime="300"/>
+    <monster name="zugurosh" x="-1" y="0" z="13" spawntime="300"/>
     <monster name="Magicthrower" x="9" y="3" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="-5" y="6" z="13" spawntime="60"/>
     <monster name="Magicthrower" x="-2" y="6" z="13" spawntime="60"/>
@@ -28147,19 +28147,19 @@
     <monster name="Nightmare" x="-7" y="2" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="1302" centery="711" centerz="13" radius="5">
-    <monster name="Medusa" x="-3" y="1" z="13" spawntime="60"/>
-    <monster name="Medusa" x="4" y="2" z="13" spawntime="60"/>
-    <monster name="Medusa" x="-4" y="3" z="13" spawntime="60"/>
+    <monster name="medusa" x="-3" y="1" z="13" spawntime="60"/>
+    <monster name="medusa" x="4" y="2" z="13" spawntime="60"/>
+    <monster name="medusa" x="-4" y="3" z="13" spawntime="60"/>
     <monster name="Infernalist" x="-3" y="3" z="13" spawntime="60"/>
     <monster name="Infernalist" x="3" y="3" z="13" spawntime="60"/>
-    <monster name="Medusa" x="0" y="4" z="13" spawntime="60"/>
+    <monster name="medusa" x="0" y="4" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="1318" centery="713" centerz="13" radius="5">
-    <monster name="Medusa" x="-2" y="-4" z="13" spawntime="60"/>
-    <monster name="Medusa" x="4" y="-1" z="13" spawntime="60"/>
+    <monster name="medusa" x="-2" y="-4" z="13" spawntime="60"/>
+    <monster name="medusa" x="4" y="-1" z="13" spawntime="60"/>
     <monster name="Infernalist" x="-5" y="0" z="13" spawntime="60"/>
     <monster name="Warlock" x="-4" y="0" z="13" spawntime="60"/>
-    <monster name="Medusa" x="-1" y="5" z="13" spawntime="60"/>
+    <monster name="medusa" x="-1" y="5" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="1328" centery="713" centerz="13" radius="5">
     <monster name="Infernalist" x="0" y="-1" z="13" spawntime="60"/>
@@ -28355,22 +28355,22 @@
     <monster name="Nightmare" x="1" y="9" z="13" spawntime="50"/>
   </spawn>
   <spawn centerx="985" centery="872" centerz="13" radius="4">
-    <monster name="Medusa" x="-3" y="-2" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-3" y="1" z="13" spawntime="60"/>
-    <monster name="Medusa" x="2" y="2" z="13" spawntime="70"/>
+    <monster name="medusa" x="-3" y="-2" z="13" spawntime="70"/>
+    <monster name="medusa" x="-3" y="1" z="13" spawntime="60"/>
+    <monster name="medusa" x="2" y="2" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="986" centery="884" centerz="13" radius="20">
-    <monster name="Medusa" x="-11" y="1" z="13" spawntime="70"/>
-    <monster name="Medusa" x="10" y="2" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-1" y="4" z="13" spawntime="60"/>
-    <monster name="Medusa" x="-13" y="7" z="13" spawntime="70"/>
-    <monster name="Medusa" x="11" y="8" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-2" y="18" z="13" spawntime="70"/>
+    <monster name="medusa" x="-11" y="1" z="13" spawntime="70"/>
+    <monster name="medusa" x="10" y="2" z="13" spawntime="70"/>
+    <monster name="medusa" x="-1" y="4" z="13" spawntime="60"/>
+    <monster name="medusa" x="-13" y="7" z="13" spawntime="70"/>
+    <monster name="medusa" x="11" y="8" z="13" spawntime="70"/>
+    <monster name="medusa" x="-2" y="18" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="974" centery="887" centerz="13" radius="4"/>
   <spawn centerx="998" centery="888" centerz="13" radius="4"/>
   <spawn centerx="985" centery="904" centerz="13" radius="4">
-    <monster name="Medusa" x="4" y="3" z="13" spawntime="70"/>
+    <monster name="medusa" x="4" y="3" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="1325" centery="913" centerz="13" radius="30">
     <monster name="Agent" x="-7" y="-17" z="13" spawntime="60"/>
@@ -28411,13 +28411,13 @@
     <monster name="Agent" x="21" y="28" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="978" centery="918" centerz="13" radius="4">
-    <monster name="Medusa" x="2" y="-3" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-3" y="-2" z="13" spawntime="70"/>
+    <monster name="medusa" x="2" y="-3" z="13" spawntime="70"/>
+    <monster name="medusa" x="-3" y="-2" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="985" centery="918" centerz="13" radius="20">
-    <monster name="Medusa" x="0" y="-5" z="13" spawntime="60"/>
-    <monster name="Medusa" x="9" y="-5" z="13" spawntime="60"/>
-    <monster name="Medusa" x="4" y="1" z="13" spawntime="70"/>
+    <monster name="medusa" x="0" y="-5" z="13" spawntime="60"/>
+    <monster name="medusa" x="9" y="-5" z="13" spawntime="60"/>
+    <monster name="medusa" x="4" y="1" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="990" centery="921" centerz="13" radius="4"/>
   <spawn centerx="1362" centery="927" centerz="13" radius="30">
@@ -28447,13 +28447,13 @@
     <monster name="Fire Demon" x="4" y="13" z="13" spawntime="40"/>
   </spawn>
   <spawn centerx="930" centery="945" centerz="13" radius="4">
-    <monster name="Medusa" x="2" y="-3" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-2" y="-2" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-2" y="4" z="13" spawntime="60"/>
+    <monster name="medusa" x="2" y="-3" z="13" spawntime="70"/>
+    <monster name="medusa" x="-2" y="-2" z="13" spawntime="70"/>
+    <monster name="medusa" x="-2" y="4" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="958" centery="945" centerz="13" radius="4">
-    <monster name="Medusa" x="0" y="-3" z="13" spawntime="70"/>
-    <monster name="Medusa" x="4" y="2" z="13" spawntime="70"/>
+    <monster name="medusa" x="0" y="-3" z="13" spawntime="70"/>
+    <monster name="medusa" x="4" y="2" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="1325" centery="952" centerz="13" radius="30">
     <monster name="Agent" x="-17" y="-7" z="13" spawntime="60"/>
@@ -28487,18 +28487,18 @@
     <monster name="Agent" x="19" y="19" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="944" centery="956" centerz="13" radius="4">
-    <monster name="Medusa" x="1" y="-3" z="13" spawntime="70"/>
-    <monster name="Medusa" x="2" y="3" z="13" spawntime="70"/>
+    <monster name="medusa" x="1" y="-3" z="13" spawntime="70"/>
+    <monster name="medusa" x="2" y="3" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="943" centery="957" centerz="13" radius="20">
-    <monster name="Medusa" x="1" y="-10" z="13" spawntime="60"/>
-    <monster name="Medusa" x="-16" y="-1" z="13" spawntime="70"/>
-    <monster name="Medusa" x="18" y="0" z="13" spawntime="60"/>
-    <monster name="Medusa" x="-19" y="6" z="13" spawntime="70"/>
-    <monster name="Medusa" x="2" y="6" z="13" spawntime="60"/>
-    <monster name="Medusa" x="6" y="10" z="13" spawntime="70"/>
-    <monster name="Medusa" x="-13" y="11" z="13" spawntime="60"/>
-    <monster name="Medusa" x="1" y="13" z="13" spawntime="70"/>
+    <monster name="medusa" x="1" y="-10" z="13" spawntime="60"/>
+    <monster name="medusa" x="-16" y="-1" z="13" spawntime="70"/>
+    <monster name="medusa" x="18" y="0" z="13" spawntime="60"/>
+    <monster name="medusa" x="-19" y="6" z="13" spawntime="70"/>
+    <monster name="medusa" x="2" y="6" z="13" spawntime="60"/>
+    <monster name="medusa" x="6" y="10" z="13" spawntime="70"/>
+    <monster name="medusa" x="-13" y="11" z="13" spawntime="60"/>
+    <monster name="medusa" x="1" y="13" z="13" spawntime="70"/>
   </spawn>
   <spawn centerx="925" centery="960" centerz="13" radius="4"/>
   <spawn centerx="946" centery="970" centerz="13" radius="4"/>
@@ -30367,7 +30367,7 @@
   <spawn centerx="1344" centery="712" centerz="14" radius="5">
     <monster name="Infernalist" x="1" y="-1" z="14" spawntime="60"/>
     <monster name="Infernalist" x="-4" y="1" z="14" spawntime="60"/>
-    <monster name="Medusa" x="2" y="2" z="14" spawntime="60"/>
+    <monster name="medusa" x="2" y="2" z="14" spawntime="60"/>
     <monster name="Infernalist" x="1" y="4" z="14" spawntime="60"/>
   </spawn>
   <spawn centerx="1335" centery="713" centerz="14" radius="5">
@@ -31341,14 +31341,14 @@
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1431" centery="1364" centerz="15" radius="1">
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1446" centery="1364" centerz="15" radius="1">
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1486" centery="1365" centerz="15" radius="1">
     <monster name="Dragon Lord" x="-1" y="0" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1456" centery="1366" centerz="15" radius="1">
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
@@ -31358,11 +31358,11 @@
   </spawn>
   <spawn centerx="1425" centery="1369" centerz="15" radius="1">
     <monster name="Dragon Lord" x="1" y="-1" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1474" centery="1370" centerz="15" radius="1">
     <monster name="Dragon Lord" x="0" y="-1" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1445" centery="1374" centerz="15" radius="1">
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
@@ -31372,7 +31372,7 @@
   </spawn>
   <spawn centerx="1443" centery="1377" centerz="15" radius="1">
     <monster name="Dragon Lord" x="-1" y="0" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1441" centery="1378" centerz="15" radius="1">
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
@@ -31381,7 +31381,7 @@
     <monster name="Dragon Lord" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1489" centery="1381" centerz="15" radius="1">
-    <monster name="Dragon Lord Hatchling" x="0" y="0" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="0" y="0" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1451" centery="1382" centerz="15" radius="30">
     <monster name="Dragon Lord" x="9" y="-9" z="15" spawntime="60"/>
@@ -31389,21 +31389,21 @@
     <monster name="Dragon Lord" x="5" y="1" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-21" y="4" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-20" y="4" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="7" y="4" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="7" y="4" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="12" y="4" z="15" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="29" y="5" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="29" y="5" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="28" y="6" z="15" spawntime="30"/>
     <monster name="Dragon Lord" x="23" y="10" z="15" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="17" y="11" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="17" y="11" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="18" y="11" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="10" y="13" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="10" y="13" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="5" y="14" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-25" y="17" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-2" y="17" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-7" y="18" z="15" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="-23" y="19" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="-23" y="19" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-23" y="20" z="15" spawntime="30"/>
-    <monster name="Dragon Lord Hatchling" x="26" y="21" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="26" y="21" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="25" y="22" z="15" spawntime="30"/>
     <monster name="Dragon Lord" x="7" y="24" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-7" y="26" z="15" spawntime="30"/>
@@ -31432,7 +31432,7 @@
     <monster name="Dragon Lord" x="12" y="-4" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="-3" y="-2" z="15" spawntime="60"/>
     <monster name="Dragon Lord" x="19" y="1" z="15" spawntime="60"/>
-    <monster name="Dragon Lord Hatchling" x="15" y="3" z="15" spawntime="60"/>
+    <monster name="dragon lord hatchling" x="15" y="3" z="15" spawntime="60"/>
   </spawn>
   <spawn centerx="1492" centery="1416" centerz="15" radius="1"/>
   <spawn centerx="1488" centery="1418" centerz="15" radius="1"/>
