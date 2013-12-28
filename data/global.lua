@@ -11,6 +11,9 @@ LUA_NO_ERROR = true
 ITEM_GOLD_INGOT = 9971
 db.executeQuery = db.query
 doBroadcastMessage = broadcastMessage
+PROPOSED_STATUS = 1
+MARRIED_STATUS = 2
+LOOK_MARRIAGE_DESCR = TRUE
 --custom end
 
 TILESTATE_NONE = 0
@@ -643,106 +646,49 @@ ITEM_WILDGROWTH_SAFE = 11099
 
 
 --custom functions
-function getMarryStatus(player)
-    local stat = db.storeQuery("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player)
-    if stat ~= false then
-        local info = result.getDataInt(stat, "id")
-        result.free(stat)
-        return info
+function getPlayerSpouse(id)
+    local resultQuery = db.storeQuery("SELECT `marriage_spouse` FROM `players` WHERE `id` = " .. db.escapeString(id))
+    if resultQuery ~= false then
+        local ret = result.getDataInt(resultQuery, "marriage_spouse")
+        result.free(resultQuery)
+        return ret
     end
-    return 0
+    return -1
 end
 
-function getPlayerMarriage(player)
-    local rows = db.storeQuery("SELECT `marriage` FROM `players` WHERE `id` = " .. player)
-    if rows ~= false then 
-        local marry = result.getDataInt(rows, "marriage")
-        result.free(rows)
-        return marry
+function setPlayerSpouse(id, val)
+    db.query("UPDATE `players` SET `marriage_spouse` = " .. val .. " WHERE `id` = " .. id)
+end
+
+function getPlayerMarriageStatus(id)
+    local resultQuery = db.storeQuery("SELECT `marriage_status` FROM `players` WHERE `id` = " .. db.escapeString(id))
+    if resultQuery ~= false then
+        local ret = result.getDataInt(resultQuery, "marriage_status")
+        result.free(resultQuery)
+        return ret
     end
-    return 0
+    return -1
 end
 
-function addMarryStatus(player, partner)
-    db.query("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player)
-    return true
+function setPlayerMarriageStatus(id, val)
+    db.query("UPDATE `players` SET `marriage_status` = " .. val .. " WHERE `id` = " .. id)
 end
 
-function doCancelMarryStatus(player)
-    db.query("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player)
-    return true
-end
-
-function getOwnMarryStatus(player)
-    local stat = db.storeQuery("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player)
-    if stat ~= false then
-        local info = result.getDataInt(stat, "marrystatus")
-        result.free(stat)
-        return info
+function Player:getMarriageDescription(thing)
+    local descr = ""
+    if getPlayerMarriageStatus(thing:getGuid()) == MARRIED_STATUS then
+        playerSpouse = getPlayerSpouse(thing:getGuid())
+        if self == thing then
+            descr = descr .. " You are "
+        elseif thing:getSex() == PLAYERSEX_FEMALE then
+            descr = descr .. " She is "
+        else
+            descr = descr .. " He is "
+        end
+        descr = descr .. "married to " .. getPlayerNameById(playerSpouse) .. '.'
     end
-    return 0
+    return descr
 end
---[[marriage stuff
-function getPlayerMarriage(player)
-	local rows = db.getResult("SELECT `marriage` FROM `players` WHERE `id` = " .. player .. ";")
-	local marry = rows:getDataInt("marriage")
-	if marry ~= 0 then
-		return marry
-	else
-		return 0
-	end
-end
-
-function addMarryStatus(player,partner)
-	db.executeQuery("UPDATE `players` SET `marrystatus` = " .. partner .. " WHERE `id` = " .. player .. ";")
-end
-
-function doCancelMarryStatus(player)
-	db.executeQuery("UPDATE `players` SET `marrystatus` = 0 WHERE `id` = " .. player .. ";")
-end
-
-function getMarryStatus(player)
-	local stat = db.getResult("SELECT `id` FROM `players` WHERE `marrystatus` = " .. player .. ";")
-	if(stat:getID() == -1) then
-		return 0
-	else
-		local info = stat:getDataInt("id")
-		return info
-	end
-end
-
-function getOwnMarryStatus(player)
-	local stat = db.getResult("SELECT `marrystatus` FROM `players` WHERE `id` = " .. player .. ";")
-	if(stat:getID() == -1) then
-		return 0
-	else
-		local info = stat:getDataInt("marrystatus")
-		return info
-	end
-end
-]]
-function isOnline(player)
-	local rows = db.getResult("SELECT `online` FROM `players` WHERE `id` = " .. player .. ";")
-	local on = rows:getDataInt("online")
-	if on ~= 0 then
-		return 1
-	else
-		return 0
-	end
-end
---[[
-function Result:create(_query)
-   self:setQuery(_query)
-   local _id = db.storeQuery(self:getQuery())
-   if(_id) then
-     self:setID(_id)
-   end
-
-   return self:getID()
-end
-]]
---Result = createClass(nil)
---end marry stuff
 
 function getBooleanFromString(input)
     local tmp = type(input)
