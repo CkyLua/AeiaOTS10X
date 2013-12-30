@@ -43,7 +43,7 @@ function onUse(cid, item, frompos, itemEx, topos)
 		end
 		doCreatureAddMana(cid, rand)
 		doSendMagicEffect(topos, 14)
-		doSendAnimatedText(topos, rand, TEXTCOLOR_PURPLE)
+		doCreatureSay(topos, rand, TEXTCOLOR_PURPLE)
 		setPlayerStorageValue(cid, config.exhaustion_value, (os.time() + config.exhaustion))
 
 	return true

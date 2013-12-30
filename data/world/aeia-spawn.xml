@@ -3156,7 +3156,6 @@
     <monster name="Lizard Dragon Priest" x="26" y="7" z="6" spawntime="60"/>
     <monster name="Lizard High Guard" x="13" y="17" z="6" spawntime="60"/>
     <monster name="Draken Warmaster" x="27" y="17" z="6" spawntime="60"/>
-    <npc name="Captain Firethorn_onsea" x="-19" y="23" z="6" spawntime="60"/>
     <monster name="Lizard High Guard" x="29" y="27" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="123" centery="470" centerz="6" radius="30">

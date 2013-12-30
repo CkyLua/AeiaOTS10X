@@ -70,7 +70,6 @@ function onUse(cid, item, frompos, item2, topos)
         for i, v in ipairs(tbl) do
             doTeleportThing(v, config.npos[i])
             doSendMagicEffect(config.npos[i], 12)
-            doSendAnimatedText(config.npos[i], "Fight!", 192)
         end
         if(config.tylkoRazDziennie == "yes") then
             doTransformItem(item.uid,item.itemid+1)

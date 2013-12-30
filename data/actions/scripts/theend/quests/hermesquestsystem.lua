@@ -37,14 +37,14 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemNameById(questTable.itemReward) .. " and gained " .. questTable.experience .. " experience points.")
 					doPlayerAddItem(cid, questTable.itemReward, 1)
 					doPlayerAddExp(cid, questTable.experience)
-					doSendAnimatedText(getPlayerPosition(cid), '' .. questTable.experience .. '', 215)
+					
 				elseif(questTable.experience == 0) then
 					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemNameById(questTable.itemReward) .. ".")
 					doPlayerAddItem(cid, questTable.itemReward, 1)
 				elseif(questTable.itemReward == 0) then
 					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have gained " .. questTable.experience .. " experience points.")
 					doPlayerAddExp(cid, questTable.experience)
-					doSendAnimatedText(getPlayerPosition(cid), '' .. questTable.experience .. '', 215)
+					
 				end
 				setPlayerStorageValue(cid, questTable.uniqueId, 1)
 				return TRUE

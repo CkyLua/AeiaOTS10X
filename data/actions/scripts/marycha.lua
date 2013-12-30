@@ -1,6 +1,6 @@
 function onUse(cid, item, frompos, item2, topos)
 local lvl = getPlayerLevel(cid)
-doSendAnimatedText(frompos,"Buhhh",210)
+doCreatureSay(frompos,"Buhhh",210)
 doPlayerSendCancel(cid,"Buhhh... .")
 doSendMagicEffect(frompos,2)
 if item.type > 1 then
