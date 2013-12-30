@@ -1,6 +1,16 @@
 function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
 function doPlayerSave(cid) Player(cid):save() end
 
+function getPlayerEventType(cid)
+    local resultId = db.storeQuery("SELECT `event` FROM `players` WHERE `id` = " .. getPlayerGUID(cid))
+    if resultId ~= false then
+        local event = result.getDataInt(resultId, "event")
+        result.free(resultId)
+        return event
+    end
+    return 0
+end
+
 function getPlayerNameByGUID(guid)
     local player = Player(guid)
     if player ~= nil then
