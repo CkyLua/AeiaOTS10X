@@ -1,3 +1,12 @@
+ITEM_GOLD_INGOT = 9971
+db.executeQuery = db.query
+doBroadcastMessage = broadcastMessage
+PROPOSED_STATUS = 1
+MARRIED_STATUS = 2
+LOOK_MARRIAGE_DESCR = TRUE
+ITEM_WEDDING_RING = 2121
+ITEM_ENGRAVED_WEDDING_RING = 10502
+
 function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
 function doPlayerSave(cid) Player(cid):save() end
 
@@ -144,3 +153,31 @@ end
 function doRemoveVipDays(cid, days)
 	db.query("UPDATE `accounts` SET `vipdays` = `vipdays` - " .. days .. " WHERE `id` = " .. getAccountNumberByPlayerName(name))
 end
+
+function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
+
+function getPlayerNameByGUID(guid)
+    local player = Player(guid)
+    if player ~= nil then
+        return player:getName()
+    end
+ 
+    local resultId = db.storeQuery("SELECT `name` FROM `players` WHERE `id` = " .. guid)
+    if resultId ~= false then
+        local name = result.getDataString(resultId, "name")
+        result.free(resultId)
+        return name
+    end
+    return 0
+end
+
+function getPlayerNameById(id)
+    local resultName = db.storeQuery("SELECT `name` FROM `players` WHERE `id` = " .. db.escapeString(id))
+    if resultName ~= false then
+        local name = result.getDataString(resultName, "name")
+        result.free(resultName)
+        return name
+    end
+    return 0
+end
+
