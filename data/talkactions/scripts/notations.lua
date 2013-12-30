@@ -4,7 +4,7 @@ function onSay(cid, words, param, channel)
 		return true
 	end
 
-	local ret = getAccountIdByName(param)
+	local ret = getAccountNumberByPlayerName(param)
 	if(ret == 0) then
 		ret = getAccountIdByAccount(param)
 		if(ret == 0) then
