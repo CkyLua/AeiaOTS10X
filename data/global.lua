@@ -695,7 +695,7 @@ function isSorcerer(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({1, 5, 9}, player:getVocation():getId())  --Added promo 2
+	return isInArray({1, 5, 9}, player:getVocation():getId())
 end
 
 function isDruid(cid)
@@ -703,7 +703,7 @@ function isDruid(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({2, 6, 10}, player:getVocation():getId())  --Added promo 2
+	return isInArray({2, 6, 10}, player:getVocation():getId())
 end
 
 function isPaladin(cid)
@@ -711,7 +711,7 @@ function isPaladin(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({3, 7, 11}, player:getVocation():getId())  --Added promo 2
+	return isInArray({3, 7, 11}, player:getVocation():getId())
 end
 
 function isKnight(cid)
@@ -719,7 +719,7 @@ function isKnight(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({4, 8, 12}, player:getVocation():getId())  --Added promo 2
+	return isInArray({4, 8, 12}, player:getVocation():getId())
 end
 
 function getTibianTime()
@@ -754,6 +754,8 @@ function doForceSummonCreature(name, pos)
 	return creature
 end
 
+--
+
 if not globalStorageTable then
 	globalStorageTable = {}
 end
@@ -764,6 +766,17 @@ end
 
 function Game.setStorageValue(key, value)
 	globalStorageTable[key] = value
+end
+
+function Game.convertIpToString(ip)
+	local band = bit.band
+	local rshift = bit.rshift
+	return ("%d.%d.%d.%d"):format(
+		band(ip, 0xFF),
+		band(rshift(ip, 8), 0xFF),
+		band(rshift(ip, 16), 0xFF),
+		rshift(ip, 24)
+	)
 end
 
 function Position.getNextPosition(self, direction, steps)

@@ -38,7 +38,7 @@ local weapon = {
         crossbow = 11395 --Divine crossbow of the archangel
 }
 
-local playersOnline = getPlayersOnline()
+local playersOnline = getOnlinePlayers()
 
         for _, pid in ipairs(playersOnline) do
                 if isInArea(getCreaturePosition(pid), position.fromPosCastle1, position.toPosCastle1) then

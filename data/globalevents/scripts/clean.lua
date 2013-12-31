@@ -1,5 +1,5 @@
 function executeClean()
-	doCleanMap()
+	cleanMap()
 	doBroadcastMessage("Clean done. Next clean in 2 hours.")
 	return true
 end
