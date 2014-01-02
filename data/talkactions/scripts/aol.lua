@@ -1,10 +1,14 @@
+local cost = 50000
 function onSay(cid, words, param)
-if doPlayerRemoveMoney(cid, 10000) == TRUE then
-doPlayerAddItem(cid, 2173, 1)
-doPlayerSendTextMessage(cid, 19,"You bought an AOL for 10k.")
-doSendMagicEffect(getPlayerPosition(cid), 19)
-else
-doPlayerSendCancel(cid, "Sorry,Sorry, Aol is 10k.")
-doSendMagicEffect(getPlayerPosition(cid), CONST_ME_POFF)
-end
+	if isPlayerPzLocked(cid) == FALSE then
+		if doPlayerRemoveMoney(cid,cost) then
+			doPlayerAddItem(cid, 2173, 1) 
+			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You have bought amulet of loss!")	
+		else
+			doPlayerSendCancel(cid,"You need "..cost.." gold coins to buy amulet of loss.")
+		end
+	else
+		doPlayerSendCancel(cid,"You can't buy amulet of loss, when you are in a battle.")
+	end
+	return false
 end
