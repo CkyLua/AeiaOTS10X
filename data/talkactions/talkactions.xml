@@ -38,6 +38,21 @@
 	<talkaction words="!serverinfo" script="serverinfo.lua"/>
 	<talkaction words="!spells" script="spells.lua"/>
 	
+	<talkaction words="!z" separator=" " script="magiceffect.lua"/>
+	<talkaction words="!x" separator=" " script="animationeffect.lua"/>
+	
+	
+	<talkaction words="!buypremium" script="buyprem.lua"/>
+	<talkaction words="!buyhouse" script="buyhouse.lua"/>
+	<talkaction words="!leavehouse" script="leavehouse.lua"/>
+	<talkaction words="!changesex" script="changesex.lua"/>
+	<talkaction words="!uptime" script="uptime.lua"/>
+	<talkaction words="!deathlist" script="deathlist.lua"/>
+	<talkaction words="!kills" script="kills.lua"/>
+	<talkaction words="!online" script="online.lua"/>
+
+
+	
 	<!-- END OF TFS 1.0 TALKACTIONS-->
 
 
@@ -62,8 +77,8 @@
 	<talkaction log="yes" access="4" words="/mkick" event="script" script="masskick.lua"/>
 
 	<!-- Gamemasters -->
-	<talkaction log="yes" words="/squelch" access="3" event="script" script="gamemaster.lua"/>
-	<talkaction log="yes" words="/cliport" access="3" event="script" script="gamemaster.lua"/>
+<!--	<talkaction log="yes" words="/squelch" access="3" event="script" script="gamemaster.lua"/>
+	<talkaction log="yes" words="/cliport" access="3" event="script" script="gamemaster.lua"/> -->
 	<talkaction log="yes" words="/send" access="3" event="script" script="teleportsend.lua"/>
 	<talkaction log="yes" words="/save" access="3" event="script" script="save.lua"/>
 	<talkaction log="yes" words="/reports" access="3" event="script" script="reports.lua"/>
@@ -80,21 +95,12 @@
 	
 	<!-- Players -->
 	<talkaction words="!frags;/frags" event="script" script="frags.lua"/>
-	<talkaction words="!online;/online" event="script" script="online.lua"/>
-	<talkaction words="!uptime;/uptime" event="script" script="uptime.lua"/>
-	<talkaction words="!deathlist;/deathlist" event="script" script="deathlist.lua"/>
 	<talkaction words="!pvp;/pvp" event="script" script="pvp.lua"/>
 	<talkaction words="!q" event="script" script="money.lua"/>
 	<talkaction words="!commands;/commands" event="script" script="commands.lua"/>
 	
 	<!-- Houses -->
-	<talkaction words="!buyhouse;/buyhouse" filter="word-spaced" event="function" script="houseBuy"/>
 	<talkaction words="!sellhouse;/sellhouse" filter="word-spaced" event="function" script="houseSell"/>
-	<talkaction words="alana sio" filter="word-spaced" event="function" script="houseKick"/>
-	<talkaction words="aleta grav" filter="word-spaced" event="function" script="houseDoorList"/>
-	<talkaction words="aleta sio" filter="word-spaced" event="function" script="houseGuestList"/>
-	<talkaction words="aleta som" filter="word-spaced" event="function" script="houseSubOwnerList"/>
-	<talkaction words="alana som;/leavehouse;!leavehouse" filter="word-spaced" event="script" script="leavehouse.lua"/>
 
 	<!-- Guilds -->
 	<talkaction words="!createguild;/createguild" event="function" script="guildCreate"/>
