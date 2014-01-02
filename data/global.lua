@@ -695,7 +695,7 @@ function isSorcerer(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({1, 5, 9}, player:getVocation():getId())
+	return isInArray({1, 5}, player:getVocation():getId())
 end
 
 function isDruid(cid)
@@ -703,7 +703,7 @@ function isDruid(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({2, 6, 10}, player:getVocation():getId())
+	return isInArray({2, 6}, player:getVocation():getId())
 end
 
 function isPaladin(cid)
@@ -711,7 +711,7 @@ function isPaladin(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({3, 7, 11}, player:getVocation():getId())
+	return isInArray({3, 7}, player:getVocation():getId())
 end
 
 function isKnight(cid)
@@ -719,7 +719,7 @@ function isKnight(cid)
 	if player == nil then
 		return false
 	end
-	return isInArray({4, 8, 12}, player:getVocation():getId())
+	return isInArray({4, 8}, player:getVocation():getId())
 end
 
 function getTibianTime()
@@ -771,7 +771,7 @@ end
 function Game.convertIpToString(ip)
 	local band = bit.band
 	local rshift = bit.rshift
-	return ("%d.%d.%d.%d"):format(
+	return string.format("%d.%d.%d.%d",
 		band(ip, 0xFF),
 		band(rshift(ip, 8), 0xFF),
 		band(rshift(ip, 16), 0xFF),
@@ -803,10 +803,11 @@ function Creature.getClosestFreePosition(self, position, extended)
 	
 	local tile
 	for y = -length, length do
-		usePosition.y = position.y + y
 		for x = -length, length do
-			usePosition.x = position.x + x
-			if not(x == 0 and y == 0) then
+			if x ~= 0 or y ~= 0 then
+				usePosition.x = position.x + x
+				usePosition.y = position.y + y
+				
 				tile = usePosition:getTile()
 				if tile then
 					tiles[#tiles + 1] = tile
