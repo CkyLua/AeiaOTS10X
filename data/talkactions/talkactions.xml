@@ -58,7 +58,7 @@
 
 
 	<!-- Admin -->
-	<talkaction log="yes" words="/attr" access="6" event="function" script="thingProporties"/>
+	<talkaction log="yes" words="/attr" access="6" event="function" function="thingProporties"/>
 	<talkaction log="yes" words="/promote;/demote" access="6" event="script" script="promote.lua"/>
 	<talkaction log="yes" words="/shutdown" access="6" event="script" script="shutdown.lua"/>
 
@@ -72,7 +72,7 @@
 	<talkaction log="yes" words="/config" access="4" event="script" script="configinfo.lua"/>
 	<talkaction access="4" words="/z" event="script" script="magiceffect.lua"/>
 	<talkaction access="4" words="/x" event="script" script="animationeffect.lua"/>
-	<talkaction access="4" words="/y" event="script" script="animatedtext.lua"/>
+<!--	<talkaction access="4" words="/y" event="script" script="animatedtext.lua"/> -->
 	<talkaction log="yes" words="/bc" access="4" event="script" script="broadcastclass.lua"/>
 	<talkaction log="yes" access="4" words="/mkick" event="script" script="masskick.lua"/>
 
@@ -90,8 +90,8 @@
 	<talkaction log="yes" words="/gethouse" access="2" event="script" script="gethouse.lua"/>
 
 	<!-- Tutors -->
-	<talkaction log="yes" words="/baninfo;!baninfo" access="1" event="function" script="banishmentInfo"/>
-	<talkaction words="!software;/software" access="2" event="function" script="software"/>
+	<talkaction log="yes" words="/baninfo;!baninfo" access="1" event="function" function="banishmentInfo"/>
+	<talkaction words="!software;/software" access="2" event="function" function="software"/>
 	
 	<!-- Players -->
 	<talkaction words="!frags;/frags" event="script" script="frags.lua"/>
@@ -100,11 +100,11 @@
 	<talkaction words="!commands;/commands" event="script" script="commands.lua"/>
 	
 	<!-- Houses -->
-	<talkaction words="!sellhouse;/sellhouse" filter="word-spaced" event="function" script="houseSell"/>
+<!--	<talkaction words="!sellhouse;/sellhouse" filter="word-spaced" event="function" script="houseSell"/> -->
 
 	<!-- Guilds -->
-	<talkaction words="!createguild;/createguild" event="function" script="guildCreate"/>
-	<talkaction words="!joinguild;/joinguild" event="function" script="guildJoin"/>
+<!--	<talkaction words="!createguild;/createguild" event="function" script="guildCreate"/>
+	<talkaction words="!joinguild;/joinguild" event="function" script="guildJoin"/> -->
 
 	<!-- New talkactions -->
 	<talkaction words="!go" event="script" script="guildoutfit.lua"/>

@@ -3,6 +3,24 @@
 
 
 		<!-- NEW STUFF -->
+	<!--zbizu foods-->
+	<movevent event="StepIn" fromid="5406" toid="5410" script="drowning.lua"/>
+    <movevent event="StepOut" fromid="5406" toid="5410" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="5743" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="5744" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="5764" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="9671" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="9672" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="9673" script="drowning.lua"/>
+    <movevent event="StepIn" itemid="10019" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="5743" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="5744" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="5764" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="9671" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="9672" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="9673" script="drowning.lua"/>
+    <movevent event="StepOut" itemid="10019" script="drowning.lua"/>	
+	
 	<movevent event="DeEquip" itemid="2127" slot="ring" script="bangle.lua"/>
 	<movevent event="Equip" itemid="2127" slot="ring" script="bangle.lua"/>
 		

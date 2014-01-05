@@ -92,3 +92,4 @@ end
 function Player:onTurn(direction)
 	return true
 end
+end

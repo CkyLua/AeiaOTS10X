@@ -2,6 +2,12 @@
 <actions>
 	<action itemid="5785" event="script" script="vipmedal.lua"/> 
 	
+	<action fromid="9992" toid="10001" script="food_special.lua"/>
+   <action itemid="12540" script="food_special.lua"/>
+   <action itemid="12542" script="food_special.lua"/>
+   <action itemid="12543" script="food_special.lua"/>
+   <action itemid="12544" script="food_special.lua"/>
+	
 	<!--quest chest system by zbizu-->
 	<action actionid="2000" script="quests/system.lua"/>
 	<action fromaid="2001" toaid="2006" script="quests/system.lua"/>
