@@ -3,7 +3,8 @@
 
 
 		<!-- NEW STUFF -->
-		
+	<movevent event="DeEquip" itemid="2127" slot="ring" script="bangle.lua"/>
+	<movevent event="Equip" itemid="2127" slot="ring" script="bangle.lua"/>
 		
 	<!--donor stuff-->
 	<movevent event="StepIn" itemid="13060" script="godtile.lua"/>
