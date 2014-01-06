@@ -1,13 +1,13 @@
 
 function Player:onLook(thing, position, distance)
 	local description = "You see " .. thing:getDescription(distance)
-	function Player:onLook(thing, position, distance)
-    local description = "You see " .. thing:getDescription(distance)
+	
     if LOOK_MARRIAGE_DESCR and thing:isCreature() then
         if thing:isPlayer() then
             description = description .. self:getMarriageDescription(thing)
        end
     end
+	
 	if self:getGroup():getAccess() then
 		if thing:isItem() then
 			description = string.format("%s\nItemID: [%d]", description, thing:getId())
@@ -57,17 +57,16 @@ end
 function Player:onLookInBattleList(creature, distance)
 	local description = "You see " .. creature:getDescription(distance)
 	if self:getGroup():getAccess() then
-		local str = "\nHealth: [%d / %d]"
+		local str = "%s\nHealth: [%d / %d]"
 		if creature:getMaxMana() > 0 then
 			str = string.format("%s, Mana: [%d / %d]", str, creature:getMana(), creature:getMaxMana())
 		end
-		
+		description = string.format(str, description, creature:getHealth(), creature:getMaxHealth()) .. "."
+
 		local position = creature:getPosition()
 		description = string.format(
-			str .. "%s.\nPosition: [X: %d] [Y: %d] [Z: %d].",
-			description,
-			creature:getHealth(), creature:getMaxHealth(),
-			position.x, position.y, position.z
+			"%s\nPosition: [X: %d] [Y: %d] [Z: %d].",
+			description, position.x, position.y, position.z
 		)
 	end
 	self:sendTextMessage(MESSAGE_INFO_DESCR, description)
@@ -91,5 +90,4 @@ end
 
 function Player:onTurn(direction)
 	return true
-end
 end
