@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+﻿
 ###
 ### Functions to simplify stuff :)
 ###
