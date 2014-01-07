@@ -1,4 +1,5 @@
-﻿###Usage instructions:
+﻿
+## Usage instructions:
 ## git clone https://github.com/otland/forgottenserver
 ## cd forgottenserver
 ## bash ncompile.sh
@@ -57,7 +58,8 @@ genBuild() {
 }
 
 clean() {
-	mv *.cpp *.h src/ && mv *.o objs/
+	mkdir objs/
+	mv *.o objs/
 	echo "There might be a few leftover files."
 }
 
