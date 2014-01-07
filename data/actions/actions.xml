@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+
+ 	<!-- Taming Items -->
+	<action itemid="13941" script="other/cup of molten gold.lua"/>
+    <action itemid="5907" script="other/taming.lua"/>
+	<action itemid="13247" script="other/taming.lua"/>
+	<action itemid="13291" script="other/taming.lua"/>
+	<action itemid="13292" script="other/taming.lua"/>
+	<action itemid="13293" script="other/taming.lua"/>
+	<action itemid="13294" script="other/taming.lua"/>
+	<action itemid="13295" script="other/taming.lua"/>
+	<action itemid="13298" script="other/taming.lua"/>
+	<action itemid="13305" script="other/taming.lua"/>
+	<action itemid="13307" script="other/taming.lua"/>
+	<action itemid="13508" script="other/taming.lua"/>
+	<action itemid="13535" script="other/taming.lua"/>
+	<action itemid="13536" script="other/taming.lua"/>
+	<action itemid="13537" script="other/taming.lua"/>
+	<action itemid="13538" script="other/taming.lua"/>
+	<action itemid="13539" script="other/taming.lua"/>
+	<action itemid="13938" script="other/taming.lua"/>
+	<action itemid="13939" script="other/taming.lua"/>
+	<action itemid="13498" script="other/taming.lua"/>
+	<action itemid="15545" script="other/taming.lua"/>
+	<action itemid="15546" script="other/taming.lua"/>
+	
+
+
 	<action itemid="5785" event="script" script="vipmedal.lua"/> 
 	
 	<action fromid="9992" toid="10001" script="food_special.lua"/>

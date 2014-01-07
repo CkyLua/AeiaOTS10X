@@ -1,17 +1,30 @@
 local config = {
-	hardcoreManaSpent = getConfigValue("addManaSpentInPvPZone"),
 	manaCost = 300,
 	soulCost = 2,
 }
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	if(item.itemid == 2147 and itemEx.itemid == 2342) then
-		doTransformItem(itemEx.uid, 2343)
-		doDecayItem(itemEx.uid)
-		doRemoveItem(item.uid, 1)
+local spheres = {
+	[7759] = {3, 7},
+	[7760] = {1, 5},
+	[7761] = {2, 6},
+	[7762] = {4, 8}
+}
 
-		doSendMagicEffect(toPosition, CONST_ME_MAGIC_RED)
-		return true
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+	if (isInArray({33268, 33269}, toPosition.x) == TRUE and toPosition.y == 31830 and toPosition.z == 10 and getPlayerStorageValue(cid, 10000) >= 1) then
+		if isInArray(spheres[item.itemid], getPlayerVocation(cid)) ~= TRUE then
+			return FALSE
+		elseif isInArray({7915, 7916}, itemEx.itemid) == TRUE then
+			doCreatureSay(cid, 'Turn off the machine first.', TALKTYPE_ORANGE_1)
+			return TRUE
+		elseif (getPlayerStorageValue(cid, 10002) >= 20) then
+			return (doCreatureSay(cid, 'You can now use the machine!', TALKTYPE_ORANGE_1))		
+		else
+			setPlayerStorageValue(cid, 10002, math.max(1, getPlayerStorageValue(cid, 10002) + 1))
+			doSendMagicEffect(toPosition, CONST_ME_PURPLEENERGY)
+			doRemoveItem(item.uid, 1)
+			return TRUE
+		end
 	end
 
 	if(item.itemid == 7760 and isInArray({9934, 10022}, itemEx.itemid)) then
@@ -19,6 +32,14 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doRemoveItem(item.uid, 1)
 
 		doSendMagicEffect(toPosition, CONST_ME_MAGIC_RED)
+		return true
+	end
+
+	if(item.itemid == 7761 and isInArray({9949, 9954}, itemEx.itemid)) then
+		doTransformItem(itemEx.uid, itemEx.itemid - 1)
+		doRemoveItem(item.uid, 1)
+
+		doSendMagicEffect(toPosition, CONST_ME_MAGIC_GREEN)
 		return true
 	end
 
@@ -49,8 +70,8 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		doPlayerAddSoul(cid, -soul)
 
 		doTransformItem(item.uid, enchantedGems[a])
-		if(not getPlayerFlagValue(cid, PlayerFlag_NotGainMana) and (not getTileInfo(getThingPosition(cid)).hardcore or config.hardcoreManaSpent)) then
-			doPlayerAddSpentMana(cid, mana)
+		if(not getPlayerFlagValue(cid, PlayerFlag_NotGainMana)) then
+			doPlayerAddMana(cid, -mana)
 		end
 
 		doSendMagicEffect(fromPosition, CONST_ME_HOLYDAMAGE)
