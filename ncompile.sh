@@ -1,4 +1,18 @@
-﻿
+﻿###Usage instructions:
+## git clone https://github.com/otland/forgottenserver
+## cd forgottenserver
+## bash ncompile.sh
+## It is important to run with 'bash' and not 'sh' or as an executable(./file)
+## because the script is multiplatform so I did not include the shebang.
+
+## Script by dominique120
+## Few edits and fixes by fallen(decltype)
+## Idea from the compile.sh script that was packed with some TFS 0.4 revs.
+## Made for TFS 1.0
+## If you plan of editing try to keep the structure and conventions
+## Line enings must be LF only, not CRLF.
+
+
 ###
 ### Functions to simplify stuff :)
 ###
