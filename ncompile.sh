@@ -1,5 +1,4 @@
-﻿
-## Usage instructions:
+﻿## Usage instructions:
 ## git clone https://github.com/otland/forgottenserver
 ## cd forgottenserver
 ## bash ncompile.sh
@@ -87,7 +86,7 @@ genBuild() {
 				echo -e $redText"Answer y or n"$none
 			fi				
 }
-
+# Unused clean, I'm leaving it here in case we might need it in the future.
 clean() {
 	mkdir objs/
 	mv *.o objs/
@@ -105,10 +104,10 @@ if [[ $EUID -ne 0 ]]; then
 	exit 1
 fi
 #OS dependencies and other stuff
-echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD} "
+echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux} "
 read ans1 
 			
-if [[ $ans1 = "Fedora" ]] || [[ $nas1 = "CentOS" ]]; then
+if [[ $ans1 = "Fedora" ]] || [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
 	echo -n "Should the script install dependencies? y or n"
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
@@ -153,14 +152,4 @@ read ans1_2
 	else
 		echo "Answer y or n"
 	fi
-	
-echo "Should the folder be cleaned? y or n"
-	read ans1_3
-	if [[ $ans1_3 = "y" ]]; then
-		clean
-	elif [[ $ans1_3 = "n" ]]; then
-		echo "Exiting..."
-		exit 1
-	else
-		echo "Answer y or n"
-	fi
+
