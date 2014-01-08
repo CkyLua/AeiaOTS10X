@@ -1,16 +1,22 @@
 ﻿## Usage instructions:
+## yum/apt-get install git
 ## git clone https://github.com/otland/forgottenserver
 ## cd forgottenserver
 ## bash ncompile.sh
 ## It is important to run with 'bash' and not 'sh' or as an executable(./file)
-## because the script is multiplatform so I did not include the shebang.
+## because the script is multi-platform so I did not include the shebang.
 
 ## Script by dominique120
 ## Few edits and fixes by fallen(decltype)
 ## Idea from the compile.sh script that was packed with some TFS 0.4 revs.
 ## Made for TFS 1.0
 ## If you plan of editing try to keep the structure and conventions
-## Line enings must be LF only, not CRLF.
+## Line endings must be LF only, not CRLF.
+
+## TODO:
+## Add other operating systems (MacOSX)
+## Test the multicore build section
+## Add other optimizations to the make process (maybe use ccache?)
 
 ## Get CPU core count
 ## Still testing
@@ -28,12 +34,12 @@ none=$(tput sgr0)
 ###
 
 debianDeps() {
-	apt-get install git cmake build-essential liblua5.2-dev \
+	apt-get -y install cmake build-essential liblua5.2-dev \
 		libgmp3-dev libmysqlclient-dev libboost-system-dev
 }
 
 fedoraDeps() {
-	yum install git cmake gcc-c++ boost-devel \
+	yum -y install cmake gcc-c++ boost-devel \
 		gmp-devel community-mysql-devel lua-devel
 }
 
@@ -104,10 +110,10 @@ if [[ $EUID -ne 0 ]]; then
 	exit 1
 fi
 #OS dependencies and other stuff
-echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux} "
+echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux}" #Note for SL6, look below.
 read ans1 
 			
-if [[ $ans1 = "Fedora" ]] || [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
+if [[ $ans1 = "Fedora" ]] || [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then 
 	echo -n "Should the script install dependencies? y or n"
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
@@ -142,7 +148,6 @@ elif [[ $ans1 = "FreeBSD" ]]; then
 		fi
 		
 #Compiling here
-
 echo -n "Are we on FreeBSD? y or n"
 read ans1_2
 	if [[ $ans1_2 = "y" ]]; then
@@ -153,3 +158,5 @@ read ans1_2
 		echo "Answer y or n"
 	fi
 
+## Notes
+# 1: SL6 Latest version of CMAKE is 2.6.4 as of 1/7/2014(us), thus incompatible with TFS 1.0 building process.
