@@ -43,6 +43,11 @@ fedoraDeps() {
 		gmp-devel community-mysql-devel lua-devel
 }
 
+centDeps() {
+	yum -y install cmake gcc-c++ boost-devel \
+		gmp-devel mysql-devel lua-devel
+}
+
 bsdDeps() {
 	cd /usr/ports/shells/bash && make install clean BATCH=yes
 	cd /usr/ports/devel/git && make install clean BATCH=yes
@@ -110,10 +115,10 @@ if [[ $EUID -ne 0 ]]; then
 	exit 1
 fi
 #OS dependencies and other stuff
-echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux}" #Note for SL6, look below.
+echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux}" #Note for SL6 and CentOS, look below.
 read ans1 
 			
-if [[ $ans1 = "Fedora" ]] || [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then 
+if [[ $ans1 = "Fedora" ]]; then
 	echo -n "Should the script install dependencies? y or n"
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
@@ -123,6 +128,16 @@ if [[ $ans1 = "Fedora" ]] || [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Li
 	else
 		echo "Answer 'y' or 'n' "
 	fi
+elif [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
+	echo -n "Should the script install dependencies? y or n"
+	read ans1_1
+	if [[ $ans1_1 = "y" ]]; then
+		centDeps
+	elif [[ $ans1_1 = "n" ]]; then
+		break
+	else
+		echo "Answer 'y' or 'n' "
+	fi	
 elif [[ $ans1 = "Debian" ]] || [[ $ans1 = "Ubuntu" ]]; then
 	echo -n "Should the script install dependencies? y or n"
 	read ans1_1
@@ -159,4 +174,5 @@ read ans1_2
 	fi
 
 ## Notes
-# 1: SL6 Latest version of CMAKE is 2.6.4 as of 1/7/2014(us), thus incompatible with TFS 1.0 building process.
+# 1: SL6 and CentOS latest version of CMAKE is 2.6.4 as of 1/7/2014(us), thus incompatible with TFS 1.0 building process. It must be manually added, tutorial below:
+# https://github.com/jackywei/HOW-TO-BUILD-HHVM-WiKi/wiki/Build-&-Install-CMake-2.8.10.2-in-CentOS6.3
