@@ -13,7 +13,17 @@
 ## If you plan of editing try to keep the structure and conventions
 ## Line enings must be LF only, not CRLF.
 
+## Get CPU core count
+## Still testing
+cpuCores=$(nproc)
+## make processes to be spawned.
+coreBuild=$((cpuCores + 1))
 
+## Colors
+greenText=$(tput setab 0; tput setaf 2)
+redText=$(tput setab 0; tput setaf 1)
+blueText=$(tput setab 0; tput setaf 6)
+none=$(tput sgr0)
 ###
 ### Functions to simplify stuff :)
 ###
@@ -47,14 +57,35 @@ bsdBuild() {
 	echo "Building on FreeBSD"
 	mkdir build && cd build
 	CXX=g++47 cmake ..
-	make
+	echo "Build on $cpuCores threads with $coreBuild processes? (experimental but loads faster) y or n "
+		read ans1_4
+			if [[ $ans1_4 = "y" ]]; then
+				echo -e $greenText"Building on $cpuCores threads with $coreBuild processes."$none
+				make -j $coreBuild
+			elif [[ $ans1_4 = "n" ]]; then
+				echo -e $blueText"Building on a single thread."$none
+				make
+			else
+				echo "answer y or n"
+				echo -e $redText"Answer y or n"$none
+			fi
 }	
 
 genBuild() {
 	echo "Building..."
 	mkdir build && cd build
 	cmake ..
-	make
+		echo "Build on $cpuCores threads with $coreBuild processes? (experimental but loads faster) y or n "
+		read ans1_4
+			if [[ $ans1_4 = "y" ]]; then
+				echo -e $greenText"Building on $cpuCores threads with $coreBuild processes."$none
+				make -j $coreBuild
+			elif [[ $ans1_4 = "n" ]]; then
+				echo -e $blueText"Building on a single thread."$none
+				make
+			else
+				echo -e $redText"Answer y or n"$none
+			fi				
 }
 
 clean() {
