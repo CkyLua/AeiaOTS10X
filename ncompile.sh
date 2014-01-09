@@ -19,6 +19,7 @@
 ## Add other operating systems (MacOSX, Arch Linux)
 ## Test the multicore build section 
 ## Add other optimizations to the make process (maybe use ccache?)
+## Make it prettier?
 
 ## Get CPU core count
 ## Still testing
@@ -30,6 +31,7 @@ coreBuild=$((cpuCores + 1))
 greenText=$(tput setab 0; tput setaf 2)
 redText=$(tput setab 0; tput setaf 1)
 blueText=$(tput setab 0; tput setaf 6)
+yellowText=$(tput setab 0; tput setaf 3)
 none=$(tput sgr0)
 ###
 ### Functions to simplify stuff :)
@@ -116,7 +118,8 @@ if [[ $EUID -ne 0 ]]; then
 	exit 1
 fi
 #OS dependencies and other stuff
-echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS, FreeBSD, Scientific Linux}" #Note for SL6 and CentOS, look below.
+echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, FreeBSD."$yellowText" Not recommended->"$none " CentOS or Scientific Linux"
+#Note for SL6 and CentOS, look below.
 read ans1 
 			
 if [[ $ans1 = "Fedora" ]]; then
