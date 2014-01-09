@@ -1,4 +1,4 @@
-﻿#!
+﻿#!/usr/bin/env bash
 ## Usage instructions:
 ## yum/apt-get install git
 ## git clone https://github.com/otland/forgottenserver
@@ -125,17 +125,17 @@ if [[ $ans1 = "Fedora" ]]; then
 	if [[ $ans1_1 = "y" ]]; then
 		fedoraDeps
 	elif [[ $ans1_1 = "n" ]]; then
-		break
+		:
 	else
 		echo "Answer 'y' or 'n' "
 	fi
 elif [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
-	echo -n "Should the script install dependencies? y or n: " $blueText"*NOTE that versions of cmake and boost installed in this process are old, they should be installed manually by adding repositories or compiling them manually."$none
+	echo -n "Should the script install dependencies? y or n: " $redText"TFS 1.0 developers discourage the use of these distributions because they have outdated packages."$none $blueText"*NOTE that versions of cmake and boost installed in this process are old, they should be installed manually by adding repositories or compiling them manually."$none
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
 		centDeps
 	elif [[ $ans1_1 = "n" ]]; then
-		break
+		:
 	else
 		echo "Answer 'y' or 'n' "
 	fi	
@@ -145,7 +145,7 @@ elif [[ $ans1 = "Debian" ]] || [[ $ans1 = "Ubuntu" ]]; then
 	if [[ $ans1_1 = "y" ]]; then
 		debianDeps
 	elif [[ $ans1_1 = "n" ]]; then
-		break
+		:
 	else
 		echo "Answer 'y' or 'n' "
 	fi
@@ -155,7 +155,7 @@ elif [[ $ans1 = "FreeBSD" ]]; then
 		if [[ $ans1_1 = "y" ]]; then
 			bsdDeps
 		elif [[ $ans1_1 = "n" ]]; then
-			break
+			:
 		else
 			echo "Answer 'y' or 'n' "
 		fi				
