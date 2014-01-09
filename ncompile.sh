@@ -1,10 +1,12 @@
-﻿## Usage instructions:
+﻿#!
+## Usage instructions:
 ## yum/apt-get install git
 ## git clone https://github.com/otland/forgottenserver
 ## cd forgottenserver
 ## bash ncompile.sh
 ## It is important to run with 'bash' and not 'sh' or as an executable(./file)
-## because the script is multi-platform so I did not include the shebang.
+## because the script is multi-platform so I did not include the shebang
+## and old shell does not support a few things I did here
 
 ## Script by dominique120
 ## Few edits and fixes by fallen(decltype)
@@ -14,8 +16,8 @@
 ## Line endings must be LF only, not CRLF.
 
 ## TODO:
-## Add other operating systems (MacOSX)
-## Test the multicore build section
+## Add other operating systems (MacOSX, Arch Linux)
+## Test the multicore build section 
 ## Add other optimizations to the make process (maybe use ccache?)
 
 ## Get CPU core count
@@ -76,7 +78,6 @@ bsdBuild() {
 				echo -e $blueText"Building on a single thread."$none
 				make
 			else
-				echo "answer y or n"
 				echo -e $redText"Answer y or n"$none
 			fi
 }	
@@ -119,7 +120,7 @@ echo "Chose your Operating System. {Supported OS: Debian, Ubuntu, Fedora, CentOS
 read ans1 
 			
 if [[ $ans1 = "Fedora" ]]; then
-	echo -n "Should the script install dependencies? y or n"
+	echo -n "Should the script install dependencies? y or n: "
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
 		fedoraDeps
@@ -129,7 +130,7 @@ if [[ $ans1 = "Fedora" ]]; then
 		echo "Answer 'y' or 'n' "
 	fi
 elif [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
-	echo -n "Should the script install dependencies? y or n"
+	echo -n "Should the script install dependencies? y or n: " $blueText"*NOTE that versions of cmake and boost installed in this process are old, they should be installed manually by adding repositories or compiling them manually."$none
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
 		centDeps
@@ -139,7 +140,7 @@ elif [[ $ans1 = "CentOS" ]] || [[ $ans1 = "Scientific Linux" ]]; then
 		echo "Answer 'y' or 'n' "
 	fi	
 elif [[ $ans1 = "Debian" ]] || [[ $ans1 = "Ubuntu" ]]; then
-	echo -n "Should the script install dependencies? y or n"
+	echo -n "Should the script install dependencies? y or n: "
 	read ans1_1
 	if [[ $ans1_1 = "y" ]]; then
 		debianDeps
@@ -149,7 +150,7 @@ elif [[ $ans1 = "Debian" ]] || [[ $ans1 = "Ubuntu" ]]; then
 		echo "Answer 'y' or 'n' "
 	fi
 elif [[ $ans1 = "FreeBSD" ]]; then
-	echo -n "Should the script install dependencies? y or n"
+	echo -n "Should the script install dependencies? y or n: "
 	read ans1_1
 		if [[ $ans1_1 = "y" ]]; then
 			bsdDeps
@@ -163,7 +164,7 @@ elif [[ $ans1 = "FreeBSD" ]]; then
 		fi
 		
 #Compiling here
-echo -n "Are we on FreeBSD? y or n"
+echo -n "Are we on FreeBSD? y or n: "
 read ans1_2
 	if [[ $ans1_2 = "y" ]]; then
 		bsdbuild
@@ -176,3 +177,4 @@ read ans1_2
 ## Notes
 # 1: SL6 and CentOS latest version of CMAKE is 2.6.4 as of 1/7/2014(us), thus incompatible with TFS 1.0 building process. It must be manually added, tutorial below:
 # https://github.com/jackywei/HOW-TO-BUILD-HHVM-WiKi/wiki/Build-&-Install-CMake-2.8.10.2-in-CentOS6.3
+# And look at issue #391 for more details about old packages in SL6 and CentOS
