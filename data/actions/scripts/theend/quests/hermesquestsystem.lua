@@ -5,17 +5,17 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 	end
 	if isInArray({1990, 2400, 2431, 2494}, item.uid) == TRUE then
 		if getPlayerStorageValue(cid, 30015) < 0 then
-			if getPlayerFreeCap(cid) >= getItemWeightById(item.uid, 1, FALSE) then
+			if getPlayerFreeCap(cid) >= getItemWeight(item.uid, 1, FALSE) then
 				if item.uid == 1990 then
 					local container = doPlayerAddItem(cid, 1987, 1)
 					doAddContainerItem(container, 2326, 1)
 				else
 					doPlayerAddItem(cid, item.uid, 1)
 				end
-				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemNameById(item.uid) .. '.')
+				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemName(item.uid) .. '.')
 				setPlayerStorageValue(cid, 30015, 1)
 			else
-				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemNameById(item.uid) .. ' weighing ' .. getItemWeightById(item.uid, 1, FALSE) .. ' oz it\'s too heavy.')
+				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemName(item.uid) .. ' weighing ' .. getItemWeight(item.uid, 1, FALSE) .. ' oz it\'s too heavy.')
 			end
 		else
 			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "It is empty.")
@@ -28,18 +28,18 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 					doPlayerSendCancel(cid, "You need to have " .. questTable.neededLevel .. " level to open this chest")
 					return TRUE
 				end
-				local itemWeight = getItemWeightById(questTable.itemReward, 1, FALSE)
+				local itemWeight = getItemWeight(questTable.itemReward, 1, FALSE)
 				if(getPlayerFreeCap(cid) < itemWeight) then
-					doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemNameById(questTable.itemReward) .. ' weighing ' .. itemWeight .. ' oz it\'s too heavy.')
+					doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, 'You have found a ' .. getItemName(questTable.itemReward) .. ' weighing ' .. itemWeight .. ' oz it\'s too heavy.')
 					return TRUE
 				end
 				if(questTable.experience > 0 and questTable.itemReward > 0) then
-					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemNameById(questTable.itemReward) .. " and gained " .. questTable.experience .. " experience points.")
+					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemName(questTable.itemReward) .. " and gained " .. questTable.experience .. " experience points.")
 					doPlayerAddItem(cid, questTable.itemReward, 1)
 					doPlayerAddExp(cid, questTable.experience)
 					
 				elseif(questTable.experience == 0) then
-					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemNameById(questTable.itemReward) .. ".")
+					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have found " .. getItemArticleById(questTable.itemReward) .. " " .. getItemName(questTable.itemReward) .. ".")
 					doPlayerAddItem(cid, questTable.itemReward, 1)
 				elseif(questTable.itemReward == 0) then
 					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR, "You have gained " .. questTable.experience .. " experience points.")

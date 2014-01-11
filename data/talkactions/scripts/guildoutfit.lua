@@ -21,7 +21,7 @@ function onSay(cid, words, param)
                 return TRUE
         end
 
-        local players = getPlayersOnline()
+        local players = getOnlinePlayers()
         local outfit = getCreatureOutfit(cid)
         local message = "*Guild* Your outfit has been changed by leader. (" .. getCreatureName(cid) .. ")"
         local members = 0

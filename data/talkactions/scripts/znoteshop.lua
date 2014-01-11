@@ -24,11 +24,11 @@ function onSay(cid, words, param)
 			if q_type == 1 then
 				-- Get wheight
 				local playerCap = getPlayerFreeCap(cid)
-				local itemweight = getItemWeightById(q_itemid, q_count)
+				local itemweight = getItemWeight(q_itemid, q_count)
 					if playerCap >= itemweight then
 						db.executeQuery("DELETE FROM `znote_shop_orders` WHERE `id` = " .. q_id .. ";")
 						doPlayerAddItem(cid, q_itemid, q_count)
-						doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Congratulations! You have recieved ".. q_count .." "..getItemNameById(q_itemid).."(s)!")
+						doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Congratulations! You have recieved ".. q_count .." "..getItemName(q_itemid).."(s)!")
 					else
 						doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, "Need more CAP!")
 					end
@@ -75,7 +75,7 @@ function onSay(cid, words, param)
                         if q_type == 1 then
                                 -- Get wheight
                                 local playerCap = getPlayerFreeCap(cid)
-                                local itemweight = getItemWeightById(q_itemid, q_count)
+                                local itemweight = getItemWeight(q_itemid, q_count)
                                         if playerCap >= itemweight and getTileInfo(getCreaturePosition(cid)).protection then
                                                 --backpack check
                                                 local backpack = getPlayerSlotItem(cid, 3)
@@ -84,7 +84,7 @@ function onSay(cid, words, param)
                                                         local received = doAddContainerItem(getPlayerSlotItem(cid, 3).uid, q_itemid,q_count)
                                                         if(received ~= false) then
                                                                 db.executeQuery("DELETE FROM `znote_shop_orders` WHERE `id` = " .. q_id .. ";")
-                                                                doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Congratulations! You have recieved ".. q_count .." "..getItemNameById(q_itemid).."(s)!")
+                                                                doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Congratulations! You have recieved ".. q_count .." "..getItemName(q_itemid).."(s)!")
                                                                 gotItem = true
                                                         end
                                                 end

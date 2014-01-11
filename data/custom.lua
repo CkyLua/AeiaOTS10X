@@ -6,6 +6,7 @@ MARRIED_STATUS = 2
 LOOK_MARRIAGE_DESCR = TRUE
 ITEM_WEDDING_RING = 2121
 ITEM_ENGRAVED_WEDDING_RING = 10502
+getCreatureStorage = getPlayerStorageValue
 
 function getPlayerAccountId(cid) local p = Player(cid) return p ~= nil and p:getAccountId() or false end
 function doPlayerSave(cid) Player(cid):save() end

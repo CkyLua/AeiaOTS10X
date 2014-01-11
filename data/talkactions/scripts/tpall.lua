@@ -5,7 +5,7 @@ local config = {
           depo = { x = 1028, y = 996, z = 7 }
           };
  
-        for _, cid in ipairs(getPlayersOnline()) do
+        for _, cid in ipairs(getOnlinePlayers()) do
 
 if  (getPlayerGroupId(cid) == config.groupID) then
         if(param == '') then
@@ -14,7 +14,7 @@ if  (getPlayerGroupId(cid) == config.groupID) then
         return TRUE
 end
 
-for _, cid in ipairs(getPlayersOnline()) do
+for _, cid in ipairs(getOnlinePlayers()) do
 if  (getPlayerGroupId(cid) < config.groupID) then
                     if(param == 'carlin') then
                         doTeleportThing(cid, config.temple)

@@ -26,5 +26,8 @@ function onLogin(cid)
 	player:registerEvent("demonOakDeath")
 	player:registerEvent("CreateTeleport")
 	player:registerEvent("MoneyReward")
+	
+	player:registerEvent("KillingInTheNameOf")
+	player:registerEvent("taskw")
 	return true 
 end

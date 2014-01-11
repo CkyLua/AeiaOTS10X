@@ -1,5 +1,5 @@
 function onUse(cid, item, fromPosition, itemEx, toPosition)
-	local gatePosition = {x=1170, y=981, z=11, stackpos=1}
+	local gatePosition = {x=1170, y=981, z=11, stackpos=255}
 	local getGate = getThingFromPos(gatePosition)
 	if(item.uid == 10000) then
 		if(item.itemid == 1945 and getGate.itemid == 1355) then

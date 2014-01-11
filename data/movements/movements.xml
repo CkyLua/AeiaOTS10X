@@ -3,6 +3,13 @@
 
 
 		<!-- NEW STUFF -->
+	<!-- more zbizu stuff -->
+	<movevent event="StepIn" fromaid="7829" toaid="7832" script="enchanting/alterstp.lua" />
+	<movevent event="StepIn" actionid="15111" script="enchanting/ice.lua" />
+	<movevent event="StepIn" actionid="15112" script="enchanting/earth.lua" />
+	<movevent event="StepIn" actionid="15113" script="enchanting/energy.lua" />
+	<movevent event="StepIn" actionid="15114" script="enchanting/fire.lua" />
+	
 	<!--zbizu foods-->
 	<movevent event="StepIn" fromid="5406" toid="5410" script="drowning.lua"/>
     <movevent event="StepOut" fromid="5406" toid="5410" script="drowning.lua"/>

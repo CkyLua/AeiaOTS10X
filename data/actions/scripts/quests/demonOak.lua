@@ -60,7 +60,7 @@ local blockingTree =
                         return false
                 end
                 if onePerQuest then
-                local players = getPlayersOnline()
+                local players = getOnlinePlayers()
                         for _, pid in ipairs(players) do
                         if isInRange(getCreaturePosition(pid), areaPosition[1], areaPosition[2]) then
                                 doPlayerSendCancel(cid, "Wait until " .. getCreatureName(pid) .. " finishes the quest.")
@@ -71,16 +71,16 @@ local blockingTree =
                 doTransformItem(itemEx.uid, blockingTree[itemEx.itemid][2])
                 doSendMagicEffect(toPosition, CONST_ME_POFF)
                 doMoveCreature(cid, SOUTH)
-                doPlayerSetStorageValue(cid, storages.cutTree, 1)
+                setPlayerStorageValue(cid, storages.cutTree, 1)
                 return true
         elseif isInArray(demonOak, itemEx.itemid) then
                 local get = getPlayerStorageValue(cid, itemEx.itemid)
                 if get == -1 then
-                        doPlayerSetStorageValue(cid, itemEx.itemid, 1)
+                        setPlayerStorageValue(cid, itemEx.itemid, 1)
                 end
                 if(getPlayerStorageValue(cid, 8288) == 12 and getPlayerStorageValue(cid, 8289) == 12 and getPlayerStorageValue(cid, 8290) == 12 and getPlayerStorageValue(cid, 8291) == 12) then
                         doTeleportThing(cid, positions.kick)
-                        doPlayerSetStorageValue(cid, storages.done, 1)
+                        setPlayerStorageValue(cid, storages.done, 1)
                         return true
                 end
                 if getPlayerStorageValue(cid, itemEx.itemid) > 11 then
@@ -88,15 +88,15 @@ local blockingTree =
                         return true
                 end
                 if(math.random(100) <= 1) then
-                        doPlayerSetStorageValue(cid, itemEx.itemid, 12)
+                        setPlayerStorageValue(cid, itemEx.itemid, 12)
                         return true
                 end
                 if summons[get] then
                 for i = 1, #summons[get] do
-                        doCreateMonster(summons[get][i], positions.summon[i])
+                        doSummonCreature(summons[get][i], positions.summon[i])
                 end
                         doSendMagicEffect(toPosition, CONST_ME_DRAWBLOOD)
-                        doPlayerSetStorageValue(cid, itemEx.itemid, get + 1)
+                        setPlayerStorageValue(cid, itemEx.itemid, get + 1)
                         if math.random(100) >= 50 then
                                 doTargetCombatHealth(0, cid, COMBAT_EARTHDAMAGE, -270, -310, CONST_ME_BIGPLANTS)
                         end

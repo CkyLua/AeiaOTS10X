@@ -18,7 +18,7 @@ function onSay(cid, words, param, channel)
 	end
 
 	local list, ips = {}, {}
-	local players = getPlayersOnline()
+	local players = getOnlinePlayers()
 	for i, pid in ipairs(players) do
 		local ip = getPlayerIp(pid)
 		local tmp = table.find(ips, ip)

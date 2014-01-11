@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
+	<talkaction words="/save" separator=" " script="save.lua" />
+	<talkaction words="/mounts" separator=" " script="allmounts.lua"/>
+	<talkaction words="/addons" separator=" " script="alladdons.lua"/>
+	<talkaction words="/execute" separator=" " script="execute.lua" />
+
 	<!--TFS 1.0 talkactions-->
 
 	<talkaction words="/ban" separator=" " script="ban.lua" />
@@ -95,7 +100,7 @@
 	
 	<!-- Players -->
 	<talkaction words="!frags;/frags" event="script" script="frags.lua"/>
-	<talkaction words="!pvp;/pvp" event="script" script="pvp.lua"/>
+<!--	<talkaction words="!pvp;/pvp" event="script" script="pvp.lua"/> -->
 	<talkaction words="!q" event="script" script="money.lua"/>
 	<talkaction words="!commands;/commands" event="script" script="commands.lua"/>
 	

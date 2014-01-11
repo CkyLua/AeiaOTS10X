@@ -1,5 +1,5 @@
 function onSay(cid, words, param, channel)
-	local func = doCreateMonster
+	local func = doSummonCreature
 	if(words:sub(2, 2) == "n") then
 		func = doCreateNpc
 	end

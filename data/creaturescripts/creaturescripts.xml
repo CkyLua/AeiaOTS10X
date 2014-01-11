@@ -13,6 +13,9 @@
 	<event type="login" name="VipCheck" script="vipcheck.lua"/>
 	<event type="login" name="Bless" script="blesscheck.lua"/>
 	<event type="kill" name="CreateTeleport" script="skylar and dom.lua"/>
+	<event type="advance" name="SpellUp" script="spellup.lua"/>
+	<event type="kill" name="KillingInTheNameOf" script="task.lua"/>
+	<event type="modalwindow" name="taskw" script="task_window.lua"/>
 	
 	<event type="login" name="PlayerLogin" script="login.lua"/>
 	<event type="login" name="FirstItems" script="firstitems.lua"/>

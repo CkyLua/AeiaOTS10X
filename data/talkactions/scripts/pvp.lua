@@ -1,7 +1,7 @@
 local worlds = {
-	[WORLDTYPE_OPTIONAL] = "Optional PvP",
-	[WORLDTYPE_OPEN] = "Open PvP",
-	[WORLDTYPE_HARDCORE] = "Hardcore PvP"
+	WORLDTYPE_OPTIONAL = "Optional PvP",
+	WORLDTYPE_OPEN = "Open PvP",
+	WORLDTYPE_HARDCORE = "Hardcore PvP"
 }
 
 function onSay(cid, words, param, channel)

@@ -739,7 +739,7 @@ if(Modules == nil) then
 
 							module.npcHandler:say('It was a pleasure to dress you.', cid)
 							OUTFITMODULE_FUNCTION[1](cid, parent.outfit, parent.addon)
-							doPlayerSetStorageValue(cid, parent.storageId, storage)
+							setPlayerStorageValue(cid, parent.storageId, storage)
 						else
 							module.npcHandler:say('You don\'t have these items!', cid)
 						end
@@ -1007,7 +1007,7 @@ if(Modules == nil) then
 	--	itemid = The itemid of the buyable item
 	--	cost = The price of one single item
 	--	subType - The subType of each rune or fluidcontainer item. Can be left out if it is not a rune/fluidcontainer. Default value is 1.
-	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemNameById will be used)
+	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemName will be used)
 	function ShopModule:addBuyableItem(names, itemid, cost, subType, realName)
 		if(SHOPMODULE_MODE ~= SHOPMODULE_MODE_TALK) then
 			local item = {
@@ -1015,7 +1015,7 @@ if(Modules == nil) then
 				buy = cost,
 				sell = -1,
 				subType = subType or 1,
-				name = realName or getItemNameById(itemid)
+				name = realName or getItemName(itemid)
 			}
 
 			for i, shopItem in ipairs(self.npcHandler.shopItems) do
@@ -1041,7 +1041,7 @@ if(Modules == nil) then
 				cost = cost,
 				eventType = SHOPMODULE_BUY_ITEM,
 				module = self,
-				realName = realName or getItemNameById(itemid),
+				realName = realName or getItemName(itemid),
 				subType = subType or 1
 			}
 
@@ -1063,7 +1063,7 @@ if(Modules == nil) then
 	--	itemid = The itemid of the buyable item
 	--	cost = The price of one single item
 	--	subType - The subType of each rune or fluidcontainer item. Can be left out if it is not a rune/fluidcontainer. Default value is 1.
-	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemNameById will be used)
+	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemName will be used)
 	function ShopModule:addBuyableItemContainer(names, container, itemid, cost, subType, realName)
 		if(names ~= nil) then
 			local parameters = {
@@ -1072,7 +1072,7 @@ if(Modules == nil) then
 				cost = cost,
 				eventType = SHOPMODULE_BUY_ITEM_CONTAINER,
 				module = self,
-				realName = realName or getItemNameById(itemid),
+				realName = realName or getItemName(itemid),
 				subType = subType or 1
 			}
 
@@ -1092,7 +1092,7 @@ if(Modules == nil) then
 	--	names = A table containing one or more strings of alternative names to this item. Used only by old buy/sell system.
 	--	itemid = The itemid of the sellable item
 	--	cost = The price of one single item
-	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemNameById will be used)
+	--	realName - The real, full name for the item. Will be used as ITEMNAME in MESSAGE_ONBUY and MESSAGE_ONSELL if defined. Default value is nil (getItemName will be used)
 	function ShopModule:addSellableItem(names, itemid, cost, realName)
 		if(SHOPMODULE_MODE ~= SHOPMODULE_MODE_TALK) then
 			local item = {
@@ -1100,7 +1100,7 @@ if(Modules == nil) then
 				buy = -1,
 				sell = cost,
 				subType = 1,
-				name = realName or getItemNameById(itemid)
+				name = realName or getItemName(itemid)
 			}
 
 			for i, shopItem in ipairs(self.npcHandler.shopItems) do
@@ -1126,7 +1126,7 @@ if(Modules == nil) then
 				cost = cost,
 				eventType = SHOPMODULE_SELL_ITEM,
 				module = self,
-				realName = realName or getItemNameById(itemid)
+				realName = realName or getItemName(itemid)
 			}
 
 			for i, name in pairs(names) do

@@ -24,7 +24,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
         else
             local newId = rustyItems[itemEx.itemid][math.random(#rustyItems[itemEx.itemid])]
             doTransformItem(itemEx.uid,newId)
-            doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You removed the rust, revealing a "..getItemNameById(newId))
+            doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You removed the rust, revealing a "..getItemName(newId))
         end
         doRemoveItem(item.uid,1)
         return TRUE

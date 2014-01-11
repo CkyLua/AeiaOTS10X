@@ -1,9 +1,9 @@
 -- Script orgiginally by: 
 -- Script remade by: WibbenZ @ OTLand
 local config = {
-	coinItemId = 2152, -- ID of the coin that the spell will use (2148 = gold coin, 2152 = platinum coin, 2160 = crystal coin)
-	intervalRemovalOfCoins = 2000, -- Coin wasting interval (miliseconds)
-	removeCoinsPerInterval = 2, -- Number of coins to use during the interval
+	coinItemId = 2148, -- ID of the coin that the spell will use (2148 = gold coin, 2152 = platinum coin, 2160 = crystal coin)
+	intervalRemovalOfCoins = 20000, -- Coin wasting interval (miliseconds)
+	removeCoinsPerInterval = 1, -- Number of coins to use during the interval
 	minCoinsToInitTransformation = 10, -- Number of coins needed to trigger the transformation
 	minCoinsToInitRing = 20, -- Number of coins needed to execute script (must be higher than the minCoinsToInitTransformation variable)
 	warnPlayerLowAmount = true, -- Warn player when runing short on coins, true or false

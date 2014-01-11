@@ -4,7 +4,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
                     doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You found the addons for the wamaster outfit!")
 					doPlayerAddOutfit(cid,335, 3)
 					doPlayerAddOutfit(cid,336, 3)
-                    doPlayerSetStorageValue(cid, 22457, 1)
+                    setPlayerStorageValue(cid, 22457, 1)
                 else
                         doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Nothing here")
                 end

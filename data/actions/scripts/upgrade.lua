@@ -102,7 +102,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
               doSendMagicEffect(toPosition, 2)
               return doPlayerSendTextMessage(cid, 24,"Your item is already at the maximum level.")
            else
-              setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..' +'..(level+1))
+              setItemName(itemEx.uid, getItemName(itemEx.itemid)..' +'..(level+1))
               doPlayerSendTextMessage(cid, 24,"Upgraded to +"..(level+1)..".")
               doSendMagicEffect(toPosition, 12)
               if isArmor(itemEx) == TRUE then
@@ -125,10 +125,10 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
                   return doPlayerSendTextMessage(cid, 24,"Your item is already at the maximum level.")
            elseif level > 0 then
                if level == 1 then
-                   setItemName(itemEx.uid, getItemNameById(itemEx.itemid))
+                   setItemName(itemEx.uid, getItemName(itemEx.itemid))
                    doPlayerSendTextMessage(cid, 24,"Your item back to normal.")
                else
-                   setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..' +'..(level-1))
+                   setItemName(itemEx.uid, getItemName(itemEx.itemid)..' +'..(level-1))
                    doPlayerSendTextMessage(cid, 24,"Your item back to +"..(level-1)..".")
                end
               if isArmor(itemEx) == TRUE then

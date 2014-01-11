@@ -1974,6 +1974,7 @@
 	</item>
 	<item id="2127" article="an" name="emerald bangle">
 		<attribute key="weight" value="170" />
+		<attribute key="slotType" value="ring" />
 	</item>
 	<item id="2128" article="a" name="crown">
 		<attribute key="weight" value="1900" />

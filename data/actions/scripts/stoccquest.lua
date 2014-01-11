@@ -4,7 +4,7 @@
                 if queststatus < 1 then
                         doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You found 100cc.")
                         doPlayerAddItem(cid, 2160, 100)
-                        doPlayerSetStorageValue(cid, 2160, 1)
+                        setPlayerStorageValue(cid, 2160, 1)
                 else
                         doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Empty.")
                 end

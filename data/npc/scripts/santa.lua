@@ -45,7 +45,7 @@ function santaNPC(cid, message, keywords, parameters, node)
             end
             doPlayerAddItem(cid, reward, subType)
             setPlayerStorageValue(cid, PRESENT_STORAGE, 1)
-            npcHandler:say('HO HO HO! You were good like a little elf this year! I got ' .. count .. getItemNameById(reward) .. ' for you.', cid)
+            npcHandler:say('HO HO HO! You were good like a little elf this year! I got ' .. count .. getItemName(reward) .. ' for you.', cid)
         else
             npcHandler:say('I gave you a present already.', cid)
         end
