@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Enlightened Of The Cult" nameDescription="a enlightened of the cult" race="blood" experience="500" speed="220" manacost="0">
+<monster name="Enlightened of the Cult" nameDescription="a enlightened of the cult" race="blood" experience="500" speed="220" manacost="0">
 	<health now="700" max="700"/>
-	<look type="193" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+	<look type="193" corpse="20391"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-30" max="-120"/>
+		<attack name="melee" interval="2000" skill="30" attack="50"/>
 		<attack name="lifedrain" interval="2000" chance="17" range="7" radius="1" target="1" min="-30" max="-140">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
@@ -49,30 +49,22 @@
 		<summon name="Crypt Shambler" interval="2000" chance="10000"/>
 		<summon name="Ghost" interval="2000" chance="10000"/>
 	</summons>
-	<voices interval="5000" chance="10">
-		<voice sentence="Praise to my master Urgith!"/>
-		<voice sentence="You will rise as my servant!"/>
-		<voice sentence="Praise to my masters! Long live the triangle!"/>
-		<voice sentence="You will die in the name of the triangle!"/>
-	</voices>
 	<loot>
-		<item id="2148" countmax="82" chance1="47831" chancemax="1032"/>
-		<item id="2654" chance="5000"/>
-		<item id="2187" chance="1111" />    
-		<item id="5801" chance="909"/>
-		<item id="2167" chance="1000"/>
-		<item id="2171" chance="909"/>
-		<item id="2656" chance="400"/>
-		<item id="1987" chance="100000">
-			<inside>
-				<item id="2114" chance="1333"/>
-				<item id="6087" chance="1428"/>
-				<item id="5810" chance="555"/>
-				<item id="2146" countmax="2" chance1="1538" chancemax="0"/>
-				<item id="2436" chance="500"/>
-				<item id="2200" chance="1000"/>
-				<item id="5669" chance="400"/>
-			</inside>
-		</item>
+		<item id="2148" countmax="80" chance="20000"/><!-- gold coin -->
+		<item id="2654" chance="15000"/><!-- cape -->
+		<item id="2200" chance="3000"/><!-- protection amulet -->
+		<item id="2146" chance="2000"/><!-- small sapphire -->
+		<item id="5810" chance="800"/><!-- pirate voodoo doll -->
+		<item id="6090" chance="700"/><!-- music sheet 4th verse -->
+		<item id="2167" chance="2500"/><!-- energy ring -->
+		<item id="7589" chance="1000"/><!-- strong mana potion -->
+		<item id="2187" chance="900"/><!-- wand of inferno -->
+		<item id="2436" chance="750"/><!-- skull staff -->
+		<item id="2171" chance="800"/><!-- platinum amulet -->
+		<item id="2114" chance="100"/><!-- piggy bank -->
+		<item id="2656" chance="150"/><!-- blue robe -->
+		<item id="5801" chance="50"/><!-- key ring -->
+		<item id="5669" chance="100"/><!-- mysterious voodoo skull -->
+		<item id="7426" chance="50"/><!-- amber staff -->
 	</loot>
 </monster>
