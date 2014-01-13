@@ -1395,11 +1395,11 @@
 		<attribute key="maxTextLen" value="1023" />
 		<attribute key="weight" value="200" />
 	</item>
-	<item id="1968" article="a" name="document">
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="1023" />
+	<item id="1968" article="a" name="Blood castle invitation">
 		<attribute key="weight" value="150" />
+		<attribute key="description" value="Used to enter the Blood Castle."/>
 	</item>
+
 	<item id="1969" article="a" name="parchment">
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="1023" />
@@ -1957,8 +1957,12 @@
 		<attribute key="weight" value="100" />
 	</item>
 	<item id="2123" article="a" name="ring of the sky">
-		<attribute key="weight" value="40" />
-		<attribute key="slotType" value="ring" />
+		<attribute key="weight" value="40"/>
+		<attribute key="skillAxe" value="15"/>
+		<attribute key="skillClub" value="15"/>
+		<attribute key="skillSword" value="15"/>
+		<attribute key="slotType" value="ring"/>
+		<attribute key="description" value="Increases knight skills."/>
 	</item>
 	<item id="2124" article="a" name="crystal ring">
 		<attribute key="weight" value="90" />
@@ -2631,7 +2635,7 @@
 		<attribute key="weight" value="105" />
 		<attribute key="charges" value="2" />
 	</item>
-	<item id="2270" article="a" name="spell rune">
+	<item id="2270" article="a" name="Mana rune">
 		<attribute key="type" value="rune" />
 		<attribute key="weight" value="120" />
 	</item>
@@ -2679,7 +2683,15 @@
 		<attribute key="weight" value="52" />
 		<attribute key="charges" value="4" />
 	</item>
-	<item fromid="2280" toid="2284" article="a" name="spell rune">
+	<item fromid="2280" toid="2282" article="a" name="spell rune">
+		<attribute key="type" value="rune" />
+		<attribute key="weight" value="120" />
+	</item>
+	<item id="2283" article="a" name="master promotion rune">
+		<attribute key="type" value="rune" />
+		<attribute key="weight" value="120" />
+	</item>
+	<item id="2284" article="a" name="spell rune">
 		<attribute key="type" value="rune" />
 		<attribute key="weight" value="120" />
 	</item>
@@ -2747,7 +2759,15 @@
 		<attribute key="weight" value="42" />
 		<attribute key="charges" value="5" />
 	</item>
-	<item fromid="2296" toid="2300" article="a" name="spell rune">
+	<item id="2297" article="a" name="drunk rune">
+		<attribute key="type" value="rune" />
+		<attribute key="weight" value="120" />
+	</item>
+	<item id="2298" article="an" name="Intense Mana rune">
+		<attribute key="type" value="rune" />
+		<attribute key="weight" value="120" />
+	</item>
+	<item id="2307" article="an" name="Ultimate Mana rune">
 		<attribute key="type" value="rune" />
 		<attribute key="weight" value="120" />
 	</item>
@@ -2781,7 +2801,7 @@
 		<attribute key="weight" value="105" />
 		<attribute key="charges" value="2" />
 	</item>
-	<item fromid="2306" toid="2307" article="a" name="spell rune">
+	<item id="2306" article="a" name="spell rune">
 		<attribute key="type" value="rune" />
 		<attribute key="weight" value="120" />
 	</item>
@@ -2851,8 +2871,8 @@
 		<attribute key="attack" value="24" />
 		<attribute key="weaponType" value="club" />
 	</item>
-	<item id="2322" article="a" name="voodoo doll">
-		<attribute key="description" value="It looks like a little king." />
+	<item id="2322" article="a" name="Stamina doll">
+		<attribute key="description" value="It will regenerate your stamina." />
 		<attribute key="weight" value="650" />
 	</item>
 	<item id="2323" article="a" name="hat of the mad">
@@ -9074,7 +9094,7 @@
 	<item fromid="5775" toid="5776" name="" />
 	<item fromid="5777" toid="5778" article="a" name="target board" />
 	<item fromid="5779" toid="5784" article="a" name="stuck arrow" />
-	<item id="5785" article="a" name="medal of honour">
+	<item id="5785" article="a" name="VIP token">
 		<attribute key="weight" value="1000" />
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="128" />
@@ -11358,7 +11378,7 @@
 		<attribute key="weight" value="50" />
 		<attribute key="showcount" value="0" />
 	</item>
-	<item id="6548" article="a" name="violet sulphur">
+	<item id="6548" article="a" name="demonic stone" plural="demonic stones">
 		<attribute key="weight" value="750" />
 	</item>
 	<item id="6549" article="a" name="green sulphur">
@@ -12690,7 +12710,7 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7426" article="an" name="amber staff">
+	<item id="7426" article="" name="Gandalf the Gray's staff">
 		<attribute key="weight" value="3500" />
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="43" />
@@ -12978,8 +12998,9 @@
 	<item id="7490" article="a" name="magical inkwell">
 		<attribute key="weight" value="200" />
 	</item>
-	<item id="7491" article="a" name="signed contract">
+	<item id="7491" article="a" name="experience ticked">
 		<attribute key="weight" value="200" />
+		<attribute key="description" value="This experience ticket is for level 10 and above."/>
 	</item>
 	<item id="7492" article="a" name="contract">
 		<attribute key="weight" value="200" />
@@ -13308,9 +13329,12 @@
 	<item id="7696" article="a" name="parchment">
 		<attribute key="weight" value="120" />
 	</item>
-	<item id="7697" article="a" name="signet ring">
-		<attribute key="weight" value="80" />
-		<attribute key="slotType" value="ring" />
+	<item id="7697" article="an" name="exp ring">
+        <attribute key="weight" value="80"/>
+        <attribute key="slotType" value="ring"/>
+		<attribute key="transformEquipTo" value="7708"/>
+		<attribute key="stopduration" value="1"/>
+		<attribute key="showduration" value="1"/>
 	</item>
 	<item id="7698" article="a" name="case of rust bugs">
 		<attribute key="weight" value="170" />
@@ -13343,9 +13367,11 @@
 	<item id="7707" article="a" name="weapons crate">
 		<attribute key="weight" value="7500" />
 	</item>
-	<item id="7708" article="a" name="signet ring">
+	<item id="7708" article="an" name="exp ring">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
+		<attribute key="decayTo" value="0"/>
+        <attribute key="duration" value="1800"/>
 	</item>
 	<item fromid="7709" toid="7710" name="grass" />
 	<item id="7711" article="a" name="waterball" />
@@ -15891,7 +15917,7 @@
 		<attribute key="defense" value="12" />
 		<attribute key="weaponType" value="shield" />
 	</item>
-	<item id="8905" article="a" name="rainbow shield">
+	<item id="8905" article="a" name="combined rainbow shield">
 		<attribute key="description" value="Strange elemental magic flows over this shield." />
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="30" />
@@ -15902,8 +15928,6 @@
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="36" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="duration" value="1200" />
-		<attribute key="decayTo" value="8905" />
 		<attribute key="skillShield" value="3" />
 	</item>
 	<item id="8907" article="an" name="icy rainbow shield">
@@ -15911,25 +15935,19 @@
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="39" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="duration" value="1200" />
-		<attribute key="decayTo" value="8905" />
 	</item>
-	<item id="8908" article="a" name="sparking rainbow shield">
+	<item id="8908" article="an" name="energetic rainbow shield">
 		<attribute key="description" value="It has been temporarily imbued with energy magic and increases your speed." />
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="36" />
 		<attribute key="weaponType" value="shield" />
 		<attribute key="duration" value="1200" />
-		<attribute key="decayTo" value="8905" />
-		<attribute key="speed" value="20" />
 	</item>
 	<item id="8909" article="a" name="terran rainbow shield">
 		<attribute key="description" value="It has been temporarily imbued with earth magic and boosts your regeneration." />
 		<attribute key="weight" value="6900" />
 		<attribute key="defense" value="37" />
 		<attribute key="weaponType" value="shield" />
-		<attribute key="duration" value="1200" />
-		<attribute key="decayTo" value="8905" />
 		<attribute key="healthGain" value="1" />
 		<attribute key="healthTicks" value="3000" />
 		<attribute key="manaGain" value="4" />
@@ -16303,8 +16321,8 @@
 		<attribute key="decayTo" value="8974" />
 		<attribute key="duration" value="3" />
 	</item>
-	<item id="8976" article="a" name="golden falcon">
-		<attribute key="description" value="It is a token of honour granted only by TibiaBR." />
+	<item id="8976" article="a" name="frag falcon">
+		<attribute key="description" value="It will remove all your frags." />
 		<attribute key="weight" value="2000" />
 	</item>
 	<item id="8977" article="a" name="Tibiacity Encyclopedia">
@@ -17285,9 +17303,12 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="9927" article="a" name="flower wreath">
-		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="500" />
+	<item id="9927" article="a" name="wreath of invisiblity">
+		<attribute key="description" value="Made with invisibility material."/>
+		<attribute key="weight" value="2200"/>
+		<attribute key="armor" value="14"/>
+		<attribute key="slotType" value="head"/>
+		<attribute key="invisible" value="1"/> 
 	</item>
 	<item id="9928" article="a" name="leaf legs">
 		<attribute key="weight" value="1200" />
@@ -17753,8 +17774,8 @@
 	<item id="10062" name="Amarie's favourite book">
 		<attribute key="weight" value="800" />
 	</item>
-	<item fromid="10063" toid="10064" article="an" name="Epaminondas doll">
-		<attribute key="description" value="He talks, moves and sings just like a real person." />
+	<item fromid="10063" toid="10064" article="an" name="Outfit swapper!">
+		<attribute key="description" value="He talks, moves sings and swaps outfits just like a real person!" />
 		<attribute key="weight" value="777" />
 	</item>
 	<item id="10066" article="a" name="dark essence">
@@ -17886,10 +17907,11 @@
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="128" />
 	</item>
-	<item id="10127" article="a" name="golden warrior trophy">
+	<item id="10127" article="a" name="botter trophy">
 		<attribute key="weight" value="1900" />
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="128" />
+		<attribute key="description" value="You reached level 1500! Congrats!"/>
 	</item>
 	<item id="10128" article="a" name="silver warrior trophy">
 		<attribute key="weight" value="1850" />
@@ -17943,8 +17965,7 @@
 	</item>
 	<item id="10138" article="a" name="hero's medal">
 		<attribute key="weight" value="1670" />
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="128" />
+		<attribute key="description" value="It gives you access to new hunting grounds."/>
 	</item>
 	<item id="10139" article="a" name="laurel wreath">
 		<attribute key="weight" value="900" />
@@ -17961,10 +17982,9 @@
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="128" />
 	</item>
-	<item id="10142" article="a" name="eleven trophy">
+	<item id="10142" article="a" name="frag remover">
 		<attribute key="weight" value="900" />
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="128" />
+		<attribute key="description" value="Removes all your frags."/>
 	</item>
 	<item id="10143" article="a" name="cherry blossom tree" />
 	<item id="10144" article="a" name="honey flower">
@@ -18047,7 +18067,7 @@
 	<item id="10170" article="an" name="old power core">
 		<attribute key="weight" value="780" />
 	</item>
-	<item id="10173" article="a" name="golem head">
+	<item id="10173" article="a" name="01100010 01101111 01110100">
 		<attribute key="weight" value="3000" />
 	</item>
 	<item id="10176" name="dirt" />
