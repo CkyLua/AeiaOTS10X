@@ -41,22 +41,22 @@ local weapon = {
 local playersOnline = getOnlinePlayers()
 
         for _, pid in ipairs(playersOnline) do
-                if isInArea(getCreaturePosition(pid), position.fromPosCastle1, position.toPosCastle1) then
+                if isInRange(getCreaturePosition(pid), position.fromPosCastle1, position.toPosCastle1) then
                         doTeleportThing(pid, position.newPos)
                         doPlayerRemoveItem(pid, weapon.sword, getPlayerItemCount(pid, weapon.sword))
                         doPlayerRemoveItem(pid, weapon.staff, getPlayerItemCount(pid, weapon.staff))
                         doPlayerRemoveItem(pid, weapon.crossbow, getPlayerItemCount(pid, weapon.crossbow))
-                elseif isInArea(getCreaturePosition(pid), position.fromPosCastle2, position.toPosCastle2) then
+                elseif isInRange(getCreaturePosition(pid), position.fromPosCastle2, position.toPosCastle2) then
                         doTeleportThing(pid, position.newPos)
                         doPlayerRemoveItem(pid, weapon.sword, getPlayerItemCount(pid, weapon.sword))
                         doPlayerRemoveItem(pid, weapon.staff, getPlayerItemCount(pid, weapon.staff))
                         doPlayerRemoveItem(pid, weapon.crossbow, getPlayerItemCount(pid, weapon.crossbow))
-                elseif isInArea(getCreaturePosition(pid), position.fromPosCastle3, position.toPosCastle3) then
+                elseif isInRange(getCreaturePosition(pid), position.fromPosCastle3, position.toPosCastle3) then
                         doTeleportThing(pid, position.newPos)
                         doPlayerRemoveItem(pid, weapon.sword, getPlayerItemCount(pid, weapon.sword))
                         doPlayerRemoveItem(pid, weapon.staff, getPlayerItemCount(pid, weapon.staff))
                         doPlayerRemoveItem(pid, weapon.crossbow, getPlayerItemCount(pid, weapon.crossbow))
-                elseif isInArea(getCreaturePosition(pid), position.fromPosCastle4, position.toPosCastle4) then
+                elseif isInRange(getCreaturePosition(pid), position.fromPosCastle4, position.toPosCastle4) then
                         doTeleportThing(pid, position.newPos)
                         doPlayerRemoveItem(pid, weapon.sword, getPlayerItemCount(pid, weapon.sword))
                         doPlayerRemoveItem(pid, weapon.staff, getPlayerItemCount(pid, weapon.staff))
