@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <weapons>
-
-<!--Custom-->
-
-	<wand id="7735" level="45" mana="35" min="350" max="650" event="function" value="default"> <!-- New wand -->
-		<vocation id="2"/>
-		<vocation id="1"/>
-	</wand>
-
-	<wand id="12648" level="5" mana="10" min="800" max="1000" event="function" value="default"> <!-- Newer donor wand -->
-	</wand>
-	
-
 	<!-- Rods -->
 	<wand id="2182" level="7" mana="2" min="8" max="18" type="earth" function="default"> <!-- Snakebit Rod -->
 		<vocation name="Druid"/>
@@ -366,7 +354,11 @@
 	<melee id="15451" level="40" unproperly="1" function="default"/>
 	<melee id="15454" level="50" unproperly="1" function="default"/>
 	<melee id="15492" level="70" unproperly="1" function="default"/>
-		<melee id="22405" level="120" unproperly="1" function="default">
+	<melee id="22404" level="75" unproperly="1" function="default">
+		<vocation name="Knight"/>
+		<vocation name="Elite Knight" showInDescription="0"/>
+	</melee>
+	<melee id="22405" level="120" unproperly="1" function="default">
 		<vocation name="Knight"/>
 		<vocation name="Elite Knight" showInDescription="0"/>
 	</melee>
@@ -386,7 +378,6 @@
 		<vocation name="Knight"/>
 		<vocation name="Elite Knight" showInDescription="0"/>
 	</melee>
-
 
 	<!--Clubs -->
 	<!-- <melee id="2423" level="20" unproperly="1" function="default"/> -->
@@ -490,7 +481,6 @@
 	<melee id="15400" level="38" unproperly="1" function="default"/>
 	<melee id="15414" level="90" unproperly="1" function="default"/>
 	<melee id="15647" level="48" unproperly="1" function="default"/>
-	
 	<melee id="22410" level="75" unproperly="1" function="default">
 		<vocation name="Knight"/>
 		<vocation name="Elite Knight" showInDescription="0"/>
@@ -585,6 +575,11 @@
 		<vocation name="Paladin"/>
 		<vocation name="Royal Paladin" showInDescription="0"/>
 	</distance>
+	<distance id="21690" level="70" unproperly="1" function="default"> <!-- Triple Bolt Crossbow -->
+		<vocation name="Paladin"/>
+		<vocation name="Royal Paladin" showInDescription="0"/>
+	</distance>
+	<distance id="21696" unproperly="1" function="default"/> <!-- Icicle Bow -->
 	<distance id="22416" level="75" unproperly="1" function="default"> <!-- Crude Umbral Bow -->
 		<vocation name="Paladin"/>
 		<vocation name="Royal Paladin" showInDescription="0"/>

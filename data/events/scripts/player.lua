@@ -11,7 +11,13 @@ function Player:onLook(thing, position, distance)
 	if self:getGroup():getAccess() then
 		if thing:isItem() then
 			description = string.format("%s\nItemID: [%d]", description, thing:getId())
-
+		
+			if LOOK_MARRIAGE_DESCR and thing:isCreature() then
+				if thing:isPlayer() then
+					description = description .. self:getMarriageDescription(thing)
+				end
+			end
+			
 			local actionId = thing:getActionId()
 			if actionId ~= 0 then
 				description = string.format("%s, ActionID: [%d]", description, actionId)

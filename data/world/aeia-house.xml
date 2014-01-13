@@ -283,25 +283,25 @@
   <house name="Topaz House IV" houseid="1880" entryx="1189" entryy="1447" entryz="7" rent="5000" townid="95" size="14"/>
   <house name="Topaz House V" houseid="1881" entryx="1187" entryy="1453" entryz="7" rent="5000" townid="95" size="26"/>
   <house name="Topaz House VI" houseid="1882" entryx="1140" entryy="1459" entryz="7" rent="5000" townid="95" size="26"/>
-  <house name="Topaz House VII" houseid="1883" entryx="1196" entryy="1500" entryz="7" rent="5000" townid="95" size="41"/>
-  <house name="Golden House I" houseid="1884" entryx="1306" entryy="1304" entryz="7" rent="5000" townid="94" size="90"/>
-  <house name="Golden House II" houseid="1885" entryx="1317" entryy="1293" entryz="7" rent="5000" townid="94" size="51"/>
-  <house name="Golden House III" houseid="1886" entryx="1294" entryy="1277" entryz="7" rent="5000" townid="94" size="12"/>
-  <house name="Golden House IV" houseid="1887" entryx="1299" entryy="1289" entryz="7" rent="5000" townid="94" size="18"/>
-  <house name="Golden House V" houseid="1888" entryx="1296" entryy="1272" entryz="7" rent="5000" townid="94" size="51"/>
-  <house name="Golden House VI" houseid="1889" entryx="1311" entryy="1266" entryz="7" rent="5000" townid="94" size="22"/>
-  <house name="Golden House VII" houseid="1890" entryx="1316" entryy="1279" entryz="7" rent="5000" townid="94" size="56"/>
-  <house name="Golden House VIII" houseid="1891" entryx="1323" entryy="1272" entryz="7" rent="5000" townid="94" size="15"/>
-  <house name="Golden House XIX" houseid="1892" entryx="1326" entryy="1266" entryz="7" rent="5000" townid="94" size="20"/>
-  <house name="Golden House X" houseid="1893" entryx="1339" entryy="1268" entryz="7" rent="5000" townid="94" size="30"/>
-  <house name="Golden House XI" houseid="1894" entryx="1342" entryy="1271" entryz="7" rent="5000" townid="94" size="6"/>
-  <house name="Golden House XII" houseid="1895" entryx="1342" entryy="1274" entryz="7" rent="5000" townid="94" size="6"/>
-  <house name="Golden House XIII" houseid="1896" entryx="1342" entryy="1277" entryz="7" rent="5000" townid="94" size="6"/>
-  <house name="Golden House XIV" houseid="1897" entryx="1343" entryy="1295" entryz="7" rent="5000" townid="94" size="15"/>
-  <house name="Villa I" houseid="1898" entryx="655" entryy="1256" entryz="7" rent="5000" townid="6" size="229"/>
-  <house name="Villa II" houseid="1899" entryx="649" entryy="1269" entryz="7" rent="5000" townid="6" size="99"/>
-  <house name="Villa III" houseid="1900" entryx="637" entryy="1277" entryz="7" rent="5000" townid="6" size="195"/>
-  <house name="West House I" houseid="1901" entryx="842" entryy="1044" entryz="7" rent="5000" townid="8" size="35"/>
+  <house name="Topaz House VII" houseid="1883" entryx="1196" entryy="1500" entryz="7" rent="5000" townid="95" size="153"/>
+  <house name="Golden House I" houseid="1884" entryx="1306" entryy="1304" entryz="7" rent="5000" townid="94" size="203"/>
+  <house name="Golden House II" houseid="1885" entryx="1317" entryy="1293" entryz="7" rent="5000" townid="94" size="165"/>
+  <house name="Golden House III" houseid="1886" entryx="1294" entryy="1277" entryz="7" rent="5000" townid="94" size="91"/>
+  <house name="Golden House IV" houseid="1887" entryx="1299" entryy="1289" entryz="7" rent="5000" townid="94" size="253"/>
+  <house name="Golden House V" houseid="1888" entryx="1296" entryy="1272" entryz="7" rent="5000" townid="94" size="181"/>
+  <house name="Golden House VI" houseid="1889" entryx="1311" entryy="1266" entryz="7" rent="5000" townid="94" size="155"/>
+  <house name="Golden House VII" houseid="1890" entryx="1316" entryy="1279" entryz="7" rent="5000" townid="94" size="184"/>
+  <house name="Golden House VIII" houseid="1891" entryx="1323" entryy="1272" entryz="7" rent="5000" townid="94" size="162"/>
+  <house name="Golden House XIX" houseid="1892" entryx="1326" entryy="1266" entryz="7" rent="5000" townid="94" size="163"/>
+  <house name="Golden House X" houseid="1893" entryx="1339" entryy="1268" entryz="7" rent="5000" townid="94" size="148"/>
+  <house name="Golden House XI" houseid="1894" entryx="1342" entryy="1271" entryz="7" rent="5000" townid="94" size="179"/>
+  <house name="Golden House XII" houseid="1895" entryx="1342" entryy="1274" entryz="7" rent="5000" townid="94" size="126"/>
+  <house name="Golden House XIII" houseid="1896" entryx="1342" entryy="1277" entryz="7" rent="5000" townid="94" size="93"/>
+  <house name="Golden House XIV" houseid="1897" entryx="1343" entryy="1295" entryz="7" rent="5000" townid="94" size="127"/>
+  <house name="Villa I" houseid="1898" entryx="655" entryy="1256" entryz="7" rent="5000" townid="6" size="405"/>
+  <house name="Villa II" houseid="1899" entryx="649" entryy="1269" entryz="7" rent="5000" townid="6" size="548"/>
+  <house name="Villa III" houseid="1900" entryx="637" entryy="1277" entryz="7" rent="5000" townid="6" size="610"/>
+  <house name="West House I" houseid="1901" entryx="842" entryy="1044" entryz="7" rent="5000" townid="8" size="349"/>
   <house name="Villa IV" houseid="1902" entryx="628" entryy="1264" entryz="7" rent="5000" townid="6" size="235"/>
   <house name="Small House I" houseid="1903" entryx="963" entryy="1007" entryz="7" rent="0" townid="1" size="10"/>
   <house name="Enigma Plaza V" houseid="1904" entryx="985" entryy="1017" entryz="6" rent="5000" townid="1" size="37"/>
@@ -343,9 +343,9 @@
   <house name="Wooden House XXIV" houseid="1965" entryx="1068" entryy="908" entryz="7" rent="5000" townid="1" size="37"/>
   <house name="Wooden House XXV" houseid="1966" entryx="1073" entryy="910" entryz="7" rent="5000" townid="1" size="25"/>
   <house name="Wooden House XXVI" houseid="1967" entryx="1068" entryy="898" entryz="7" rent="5000" townid="1" size="39"/>
-  <house name="Wooden House XXVII" houseid="1968" entryx="1066" entryy="896" entryz="7" rent="5000" townid="1" size="30"/>
-  <house name="Wooden House XXVIII" houseid="1969" entryx="1058" entryy="896" entryz="7" rent="5000" townid="1" size="18"/>
-  <house name="Wooden House XXIX" houseid="1970" entryx="1049" entryy="901" entryz="7" rent="5000" townid="1" size="22"/>
+  <house name="Wooden House XXVII" houseid="1968" entryx="1066" entryy="896" entryz="7" rent="5000" townid="1" size="4"/>
+  <house name="Wooden House XXVIII" houseid="1969" entryx="1055" entryy="898" entryz="7" rent="5000" townid="1" size="18"/>
+  <house name="Wooden House XXIX" houseid="1970" entryx="1049" entryy="901" entryz="7" rent="5000" townid="1" size="23"/>
   <house name="Wooden House XXX" houseid="1971" entryx="1057" entryy="901" entryz="7" rent="5000" townid="1" size="21"/>
   <house name="Wooden House XXXI" houseid="1972" entryx="1049" entryy="914" entryz="7" rent="5000" townid="1" size="30"/>
   <house name="Wooden House XXXII" houseid="1973" entryx="1053" entryy="914" entryz="7" rent="5000" townid="1" size="27"/>
@@ -387,7 +387,7 @@
   <house name="House Lane XXVIII" houseid="2009" entryx="595" entryy="823" entryz="7" rent="5000" townid="93" size="23"/>
   <house name="House Lane XXIX" houseid="2010" entryx="609" entryy="817" entryz="7" rent="5000" townid="93" size="23"/>
   <house name="House Lane XXX" houseid="2011" entryx="609" entryy="823" entryz="7" rent="50" townid="93" size="23"/>
-  <house name="House Lane XXXI" houseid="2012" entryx="601" entryy="833" entryz="7" rent="500" townid="93" size="22"/>
+  <house name="House Lane XXXI" houseid="2012" entryx="601" entryy="833" entryz="7" rent="500" townid="93" size="24"/>
   <house name="House Lane XXXII" houseid="2013" entryx="602" entryy="836" entryz="7" rent="5000" townid="93" size="32"/>
   <house name="House Lane XXXIII" houseid="2014" entryx="604" entryy="833" entryz="7" rent="50" townid="93" size="22"/>
   <house name="House Lane XXXIV" houseid="2015" entryx="611" entryy="822" entryz="7" rent="50" townid="93" size="13"/>
@@ -412,5 +412,6 @@
   <house name="House Lane LIII" houseid="2034" entryx="602" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="House Lane LIV" houseid="2035" entryx="607" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="House Lane LV" houseid="2036" entryx="612" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
-  <house name="Gods House" houseid="2037" entryx="1000" entryy="928" entryz="7" rent="0" townid="1" size="193"/>
+  <house name="Staff House" houseid="2037" entryx="1000" entryy="928" entryz="7" rent="0" townid="1" size="193"/>
+  <house name="Unnamed House #2038" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="85"/>
 </houses>

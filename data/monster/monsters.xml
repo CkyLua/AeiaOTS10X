@@ -7,7 +7,15 @@
 		-->
 		
 		<!-- IF YOU WANT TO ADD SOMETHING NEW, DO IT HERE AT THE TOP OF THE DOCUMENT -->
+	<monster name="Inky" file="Bosses/inky.xml"/>
+	<monster name="Yielothax" file="Demons/yielothax.xml"/>
+	<monster name="Sharptooth" file="Bosses/sharptooth.xml"/>
+	<monster name="Diseased Dan" file="Misc/Misc Others/diseased dan.xml"/>
+	<monster name="Armenius" file="Insects/armenius.xml"/>
 
+
+	
+	
 	<monster name="Mad King Cow" file="/Giants/Mad Cow King.xml"/>
 	<monster name="Zakarius" file="Zakarius.xml"/>
 	<monster name="Dominique" file="Dominique.xml"/>
