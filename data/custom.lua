@@ -182,3 +182,4 @@ function getPlayerNameById(id)
     return 0
 end
 
+setWorldType = Game.setWorldType
