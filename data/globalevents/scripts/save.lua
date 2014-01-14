@@ -26,7 +26,6 @@ end
 
 function onThink(interval)
     broadcastMessage("Server is saving game in 5 minutes. Please go to a safe place.", MESSAGE_STATUS_WARNING)
-    Game.setGameState(GAME_STATE_STARTUP)
     addEvent(firstServerSaveWarning, 120000)
     return not shutdownAtServerSave
 end
