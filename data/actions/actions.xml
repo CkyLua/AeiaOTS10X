@@ -76,7 +76,7 @@
 	<action fromuid="1900" touid="1906" script="vengoth.lua" />
 
 	<!-- Wyspy Zywiolow -->
-	<action itemid="12666" event="script" script="other/glaukhosdoll.lua"/>
+	<action itemid="12666" script="other/glaukhosdoll.lua"/>
 
 	<action uniqueid="2378" script="premiumtokens.lua" />
 	<action fromuid="7004" touid="7007" script="wyspydzwignie.lua" />
@@ -87,7 +87,7 @@
 	<action itemid="2264" script="punkty.lua"/>    
 
 	<action uniqueid="2160" script="stoccquest.lua" />
-    <action uniqueid="8924" event="script" script="car.lua"/>
+    <action uniqueid="8924" script="car.lua"/>
   	<action uniqueid="3456" script="kasyno.lua" />
 	<action uniqueid="3457" script="ticket.lua" />
     <action itemid="10063" script="lalka.lua"/>
