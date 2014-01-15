@@ -1,34 +1,20 @@
- function onUse(cid, item, fromPosition, itemEx, toPosition)
-        if item.uid == 9000 then
-                queststatus = getPlayerStorageValue(cid, 9000)
-                if queststatus < 1 then
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You found a Demon Armor.")
-                        doPlayerAddItem(cid, 2494, 1)
-                        setPlayerStorageValue(cid, 9000, 1)
-                else
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Empty.")
-                end
+local config = {
+	[9000] = {9000, 2494},
+	[9001] = {9001, 2400},
+	[9002] = {9002, 2431}
+}
 
-        elseif item.uid == 9001 then
-                queststatus = getPlayerStorageValue(cid, 9000)
-                if queststatus < 1 then
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You found a Magic Sword.")
-                        doPlayerAddItem(cid, 2400, 1)
-                        setPlayerStorageValue(cid, 9000, 1)
-                else
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Empty.")
-                end
-
-        elseif item.uid == 9002 then
-                queststatus = getPlayerStorageValue(cid, 9000)
-                if queststatus < 1 then
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You found a Stonecutter's Axe.")
-                        doPlayerAddItem(cid, 2431, 1)
-                        setPlayerStorageValue(cid, 9000, 1)
-                else
-                        doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Empty.")
-                end
-
-    return true
-end
+function onUse(cid, item, fromPosition, itemEx, toPosition)
+	local player = Player(cid)
+	local v = config[item.uid]
+	if v then
+		if v[1] < 1 then
+			player:sendTextMessage(MESSAGE_INFO_DESCR, "You found a " .. ItemType(v[2]):getName() .. ".")
+			player:addItem(v[2], 1)
+			player:setStorageValue(v[1], 1)
+		else
+			player:sendTextMessage(MESSAGE_INFO_DESCR, "Empty.")
+		end
+	end
+	return true
 end
