@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 
-<!-- In Service Of Yalahar Quest -->
+	<!-- In Service Of Yalahar Quest -->
 	<action uniqueid="3078" script="in service of yalahar quest/inServiceOfYalaharQuestAzerusNotes.lua"/>
 	<action actionid="7801" script="in service of yalahar quest/inServiceOfYalaharQuestBogDoor.lua"/>
 	<action uniqueid="3079" script="in service of yalahar quest/inServiceOfYalaharQuestBogDoorReward.lua"/>
@@ -15,33 +15,16 @@
 	<action actionid="7807" script="in service of yalahar quest/inServiceOfYalaharQuestLastDoor.lua"/>
 	<action uniqueid="3086" script="in service of yalahar quest/inServiceOfYalaharQuestLastFight.lua"/>
 	<action actionid="7806" script="in service of yalahar quest/inServiceOfYalaharQuestMachineDoor.lua"/>
-	<action itemid="9744" script="in service of yalahar quest/inServiceOfYalaharQuestMatrix.lua"/>
-	<action itemid="9743" script="in service of yalahar quest/inServiceOfYalaharQuestMatrix.lua"/>
+	<action fromid="9743" toid="9744" script="in service of yalahar quest/inServiceOfYalaharQuestMatrix.lua"/>
 	<action actionid="7805" script="in service of yalahar quest/inServiceOfYalaharQuestMatrixDoor.lua"/>
-	<action uniqueid="3084" script="in service of yalahar quest/inServiceOfYalaharQuestMatrixReward.lua"/>
-	<action uniqueid="3085" script="in service of yalahar quest/inServiceOfYalaharQuestMatrixReward.lua"/>
-	<action uniqueid="3091" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3092" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3093" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3094" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3095" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3096" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3097" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3098" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3099" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3100" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3101" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="3102" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="9235" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
-	<action uniqueid="9236" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
+	<action fromuid="3084" touid="3085" script="in service of yalahar quest/inServiceOfYalaharQuestMatrixReward.lua"/>
+	<action fromuid="3091" touid="3102" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
+	<action fromuid="9235" touid="9236" script="in service of yalahar quest/inServiceOfYalaharQuestMechanism.lua"/>
 	<action uniqueid="7801" script="in service of yalahar quest/inServiceOfYalaharQuestMorikDoor.lua"/>
-	<action uniqueid="3081" script="in service of yalahar quest/inServiceOfYalaharQuestMrWestDoor.lua"/>
-	<action uniqueid="3082" script="in service of yalahar quest/inServiceOfYalaharQuestMrWestDoor.lua"/>
+	<action fromuid="3081" touid="3082" script="in service of yalahar quest/inServiceOfYalaharQuestMrWestDoor.lua"/>
 	<action uniqueid="3076" script="in service of yalahar quest/inServiceOfYalaharQuestPalimuthNotes.lua"/>
 	<action actionid="7804" script="in service of yalahar quest/inServiceOfYalaharQuestQuaraDoor.lua"/>
-	<action uniqueid="3088" script="in service of yalahar quest/inServiceOfYalaharQuestReward.lua"/>
-	<action uniqueid="3089" script="in service of yalahar quest/inServiceOfYalaharQuestReward.lua"/>
-	<action uniqueid="3090" script="in service of yalahar quest/inServiceOfYalaharQuestReward.lua"/>
+	<action fromuid="3088" touid="3090"script="in service of yalahar quest/inServiceOfYalaharQuestReward.lua"/>
 	<action actionid="7811" script="in service of yalahar quest/inServiceOfYalaharQuestRewardDoor.lua"/>
 	<action uniqueid="9012" script="in service of yalahar quest/inServiceOfYalaharQuestTamerinDoor.lua"/>
 	<action uniqueid="9013" script="in service of yalahar quest/inServiceOfYalaharQuestMorikSummon.lua"/>
@@ -51,45 +34,28 @@
 	<action itemid="13941" script="other/cup of molten gold.lua"/>
     <action itemid="5907" script="other/taming.lua"/>
 	<action itemid="13247" script="other/taming.lua"/>
-	<action itemid="13291" script="other/taming.lua"/>
-	<action itemid="13292" script="other/taming.lua"/>
-	<action itemid="13293" script="other/taming.lua"/>
-	<action itemid="13294" script="other/taming.lua"/>
-	<action itemid="13295" script="other/taming.lua"/>
+	<action fromid="13291" toid="13295" script="other/taming.lua"/>
 	<action itemid="13298" script="other/taming.lua"/>
 	<action itemid="13305" script="other/taming.lua"/>
 	<action itemid="13307" script="other/taming.lua"/>
 	<action itemid="13508" script="other/taming.lua"/>
-	<action itemid="13535" script="other/taming.lua"/>
-	<action itemid="13536" script="other/taming.lua"/>
-	<action itemid="13537" script="other/taming.lua"/>
-	<action itemid="13538" script="other/taming.lua"/>
-	<action itemid="13539" script="other/taming.lua"/>
-	<action itemid="13938" script="other/taming.lua"/>
-	<action itemid="13939" script="other/taming.lua"/>
+	<action fromid="13535" toid="13539" script="other/taming.lua"/>
+	<action fromid="13938" toid="13939" script="other/taming.lua"/>
 	<action itemid="13498" script="other/taming.lua"/>
-	<action itemid="15545" script="other/taming.lua"/>
-	<action itemid="15546" script="other/taming.lua"/>
+	<action fromid="15545" toid="15546" script="other/taming.lua"/>
 	
-
-
-	<action itemid="5785" event="script" script="vipmedal.lua"/> 
+	<action itemid="5785" script="vipmedal.lua"/> 
 	
 	<action fromid="9992" toid="10001" script="food_special.lua"/>
-   <action itemid="12540" script="food_special.lua"/>
-   <action itemid="12542" script="food_special.lua"/>
-   <action itemid="12543" script="food_special.lua"/>
-   <action itemid="12544" script="food_special.lua"/>
+	<action itemid="12540" script="food_special.lua"/>
+	<action fromid="12542" toid="12544" script="food_special.lua"/>
 	
 	<!--quest chest system by zbizu-->
 	<action actionid="2000" script="quests/system.lua"/>
 	<action fromaid="2001" toaid="2006" script="quests/system.lua"/>
 	
 	<!-- Combined -->
-	<action uniqueid="3460" script="combined/boss.lua" />
-	<action uniqueid="3461" script="combined/boss.lua" />
-	<action uniqueid="3462" script="combined/boss.lua" />
-	<action uniqueid="3463" script="combined/boss.lua" />
+	<action fromuid="3460" touid="3463" script="combined/boss.lua" />
 	<action uniqueid="3464" script="combined/maszyna.lua" />
 	<action uniqueid="3465" script="combined/maszyna.lua" />
 	<action uniqueid="3466" script="combined/laczenie.lua" />
@@ -97,9 +63,7 @@
 	<action uniqueid="3468" script="combined/platnyexp.lua" />
 	
 	<!-- Pieklo -->
-	<action uniqueid="1910" script="pieklo.lua" />
-	<action uniqueid="1911" script="pieklo.lua" />
-	<action uniqueid="1912" script="pieklo.lua" />
+	<action fromuid="1910" touid="1912" script="pieklo.lua" />
 
  	<!-- Tool Squeezings -->
     <action fromid="10511" toid="10516" script="tools/squeezings.lua"/>
@@ -109,27 +73,15 @@
 	<action uniqueid="1909" script="demonc.lua" />
 
 	<!-- Vengoth -->
-	<action uniqueid="1900" script="vengoth.lua" />
-	<action uniqueid="1901" script="vengoth.lua" />
-	<action uniqueid="1902" script="vengoth.lua" />
-	<action uniqueid="1903" script="vengoth.lua" />
-	<action uniqueid="1904" script="vengoth.lua" />
-	<action uniqueid="1905" script="vengoth.lua" />
-	<action uniqueid="1906" script="vengoth.lua" />
+	<action fromuid="1900" touid="1906" script="vengoth.lua" />
 
 	<!-- Wyspy Zywiolow -->
 	<action itemid="12666" event="script" script="other/glaukhosdoll.lua"/>
 
 	<action uniqueid="2378" script="premiumtokens.lua" />
-	<action uniqueid="7004" script="wyspydzwignie.lua" />
-	<action uniqueid="7005" script="wyspydzwignie.lua" />
-	<action uniqueid="7006" script="wyspydzwignie.lua" />
-	<action uniqueid="7007" script="wyspydzwignie.lua" />
+	<action fromuid="7004" touid="7007" script="wyspydzwignie.lua" />
 
-	<action uniqueid="6000" script="wyspychests.lua" />
-	<action uniqueid="6001" script="wyspychests.lua" />
-	<action uniqueid="6002" script="wyspychests.lua" />
-	<action uniqueid="6003" script="wyspychests.lua" />
+	<action fromuid="6000" touid="6003" script="wyspychests.lua" />
 
 	<!-- Inne -->
 	<action itemid="2264" script="punkty.lua"/>    
@@ -152,9 +104,9 @@
 	<action itemid="2283" script="promoterune.lua" />
 
 	<!-- Demon Oak -->
-    <action itemid="8293" event="script" script="quests/demonOak.lua"/>
-    <action fromuid="12901" touid ="12904" event="script" script="quests/demonOakChests.lua"/>
-    <action uniqueid="55100" event="script" script="quests/demonOakGravestone.lua" />  
+    <action itemid="8293" script="quests/demonOak.lua"/>
+    <action fromuid="12901" touid ="12904" script="quests/demonOakChests.lua"/>
+    <action uniqueid="55100" script="quests/demonOakGravestone.lua" />  
 
 	<!-- Inquisition -->
 	<action uniqueid="4073" script="quests/inquisition_seal.lua" />
@@ -163,34 +115,19 @@
 	<action uniqueid="4079" script="quests/inquisition_seal.lua" />
 	<action uniqueid="4081" script="quests/inquisition_seal.lua" />
 
-	<action uniqueid="8560" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8561" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8562" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8563" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8564" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8565" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8566" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8567" script="quests/inquisition_chest.lua" />
-	<action uniqueid="8568" script="quests/inquisition_chest.lua" />
+	<action fromuid="8560" touid="8568" script="quests/inquisition_chest.lua" />
 	<action uniqueid="5906" script="quests/inquisition_nexus.lua"/>
 
  	<!-- ANNI WORK -->
-	<action uniqueid="9000" script="annichests.lua" />
-	<action uniqueid="9001" script="annichests.lua" />
-	<action uniqueid="9002" script="annichests.lua" />
+	<action fromuid="9000" touid="9002" script="annichests.lua" />
 
 	<action uniqueid="4354" script="orshabaalator.lua" />
 
 	<action uniqueid="4353" script="anihilator.lua" />
-	<action uniqueid="8000" script="anihilator.lua" />
-	<action uniqueid="8001" script="anihilator.lua" />
-	<action uniqueid="8002" script="anihilator.lua" />
-	<action uniqueid="8003" script="anihilator.lua" />
+	<action fromuid="8000" touid="8003" script="anihilator.lua" />
 
     <action itemid="1740" script="quest.lua" />
-    <action itemid="1747" script="quest.lua" />
-    <action itemid="1748" script="quest.lua" />
-    <action itemid="1749" script="quest.lua" />
+    <action fromid="1747" toid="1749 "script="quest.lua" />
     <action itemid="1770" script="quest.lua" />  
  
 	<action uniqueid="1750" script="start.lua" />
@@ -222,66 +159,60 @@
 	<action itemid="6569" script="other/expcandy.lua"/>
 	<action itemid="9930" script="other/rustremover.lua"/>
 
-<!--	<action itemid="5785" script="vip/vipaccess.lua" /> -->
+	<!-- <action itemid="5785" script="vip/vipaccess.lua" /> -->
 	<action actionid="2075" script="vip/vipdoor.lua"/>
 	
-	<action uniqueid="10000" event="script" value="theend/demonhelmetquest/demonhelmetquest.lua" />
+	<action uniqueid="10000" script="theend/demonhelmetquest/demonhelmetquest.lua" />
 	
 	
 	<!-- Pits of Inferno -->
-	<action uniqueid="10200" event="script" value="theend/pitsofinferno/poientrance.lua" />
-	<action uniqueid="10201" event="script" value="theend/pitsofinferno/key.lua" />
-	<action uniqueid="10203" event="script" value="theend/pitsofinferno/oillever.lua" />
-	<action uniqueid="10204" event="script" value="theend/pitsofinferno/lever1.lua" />
-	<action uniqueid="10205" event="script" value="theend/pitsofinferno/lever2.lua" />
-	<action uniqueid="10206" event="script" value="theend/pitsofinferno/lever3.lua" />
-	<action uniqueid="10207" event="script" value="theend/pitsofinferno/lever4.lua" />
-	<action uniqueid="10224" event="script" value="theend/pitsofinferno/bridge1.lua" />
-	<action uniqueid="10254" event="script" value="theend/pitsofinferno/bridge2.lua" />
-	<action uniqueid="10255" event="script" value="theend/pitsofinferno/removestonemagicthrowers.lua" />
-	<action uniqueid="10256" event="script" value="theend/pitsofinferno/removestonekey.lua" />
-	<action uniqueid="10257" event="script" value="theend/pitsofinferno/removestone.lua" />
-	<action uniqueid="10287" event="script" value="theend/pitsofinferno/removestone.lua" />
-	<action fromuid="10260" touid="10270" event="script" value="theend/pitsofinferno/bazirlevers.lua" />
-	<action uniqueid="10272" event="script" value="theend/pitsofinferno/bazirchest.lua" />
-	<action uniqueid="10273" event="script" value="theend/pitsofinferno/bazirmirror.lua" />
-	<action uniqueid="10282" event="script" value="theend/pitsofinferno/skeleton.lua" />
-	<action actionid="10283" event="script" value="theend/pitsofinferno/15levers.lua" />
-	<action uniqueid="10284" event="script" value="theend/pitsofinferno/bpreward.lua" />
-	<action uniqueid="10285" event="script" value="theend/pitsofinferno/lavalever.lua" />
-	<action uniqueid="10286" event="script" value="theend/pitsofinferno/mazestone.lua" />
-	<action uniqueid="10281" event="script" value="theend/pitsofinferno/storagedoor.lua" />
-	<action fromuid="9500" touid="9502" event="script" value="theend/pitsofinferno/poichest.lua" />
+	<action uniqueid="10200" script="theend/pitsofinferno/poientrance.lua" />
+	<action uniqueid="10201" script="theend/pitsofinferno/key.lua" />
+	<action uniqueid="10203" script="theend/pitsofinferno/oillever.lua" />
+	<action uniqueid="10204" script="theend/pitsofinferno/lever1.lua" />
+	<action uniqueid="10205" script="theend/pitsofinferno/lever2.lua" />
+	<action uniqueid="10206" script="theend/pitsofinferno/lever3.lua" />
+	<action uniqueid="10207" script="theend/pitsofinferno/lever4.lua" />
+	<action uniqueid="10224" script="theend/pitsofinferno/bridge1.lua" />
+	<action uniqueid="10254" script="theend/pitsofinferno/bridge2.lua" />
+	<action uniqueid="10255" script="theend/pitsofinferno/removestonemagicthrowers.lua" />
+	<action uniqueid="10256" script="theend/pitsofinferno/removestonekey.lua" />
+	<action uniqueid="10257" script="theend/pitsofinferno/removestone.lua" />
+	<action uniqueid="10287" script="theend/pitsofinferno/removestone.lua" />
+	<action fromuid="10260" touid="10270" script="theend/pitsofinferno/bazirlevers.lua" />
+	<action uniqueid="10272" script="theend/pitsofinferno/bazirchest.lua" />
+	<action uniqueid="10273" script="theend/pitsofinferno/bazirmirror.lua" />
+	<action uniqueid="10282" script="theend/pitsofinferno/skeleton.lua" />
+	<action actionid="10283" script="theend/pitsofinferno/15levers.lua" />
+	<action uniqueid="10284" script="theend/pitsofinferno/bpreward.lua" />
+	<action uniqueid="10285" script="theend/pitsofinferno/lavalever.lua" />
+	<action uniqueid="10286" script="theend/pitsofinferno/mazestone.lua" />
+	<action uniqueid="10281" script="theend/pitsofinferno/storagedoor.lua" />
+	<action fromuid="9500" touid="9502" script="theend/pitsofinferno/poichest.lua" />
 	
 	<!-- PVP arena lever -->
-	<action uniqueid="7001" event="script" value="new/arenapvp.lua" />
+	<action uniqueid="7001" script="new/arenapvp.lua" />
 	
 	<!-- Fixme? -->
-	<action uniqueid="7002" event="script" value="theend/walllever.lua" />
-	<action uniqueid="7003" event="script" value="theend/walllever2.lua" />
+	<action uniqueid="7002" script="theend/walllever.lua" />
+	<action uniqueid="7003" script="theend/walllever2.lua" />
 
 	<!-- Weapons enchanting (Gems) -->
-	<action itemid="2146" event="script" value="other/enchanting.lua"/>
-	<action itemid="2147" event="script" value="other/enchanting.lua"/>
-	<action itemid="2150" event="script" value="other/enchanting.lua"/>
-	<action itemid="2149" event="script" value="other/enchanting.lua"/>
-	<action itemid="7759" event="script" value="other/enchanting.lua"/>
-	<action itemid="7760" event="script" value="other/enchanting.lua"/>
-	<action itemid="7761" event="script" value="other/enchanting.lua"/>
-	<action itemid="7762" event="script" value="other/enchanting.lua"/>
+	<action fromid="2146" toid="2147" script="other/enchanting.lua"/>
+	<action fromid="2149" toid="2150" script="other/enchanting.lua"/>
+	<action fromid="7759" toid="7762" script="other/enchanting.lua"/>
 
-	
 	<!-- Tools -->
-	<action itemid="2420" event="script" value="tools/machete.lua"/>
-	<action itemid="2442" event="script" value="tools/machete.lua"/>
-	<action itemid="2550" event="script" value="tools/scythe.lua"/>
-	<action itemid="2580" event="script" value="tools/fishing.lua" allowfaruse="1"/>
-	<action itemid="10223" event="script" value="tools/fishing.lua" allowfaruse="1"/>
-	<action itemid="2554" event="script" value="tools/shovel.lua"/>
-	<action itemid="5710" event="script" value="tools/shovel.lua"/>
-	<action itemid="2120" event="script" value="tools/rope.lua"/>
-	<action itemid="7731" event="script" value="tools/rope.lua"/>
-	<action itemid="5908;5942" event="script" value="tools/skinning.lua"/>
+	<action itemid="2420" script="tools/machete.lua"/>
+	<action itemid="2442" script="tools/machete.lua"/>
+	<action itemid="2550" script="tools/scythe.lua"/>
+	<action itemid="2580" script="tools/fishing.lua" allowfaruse="1"/>
+	<action itemid="10223" script="tools/fishing.lua" allowfaruse="1"/>
+	<action itemid="2554" script="tools/shovel.lua"/>
+	<action itemid="5710" script="tools/shovel.lua"/>
+	<action itemid="2120" script="tools/rope.lua"/>
+	<action itemid="7731" script="tools/rope.lua"/>
+	<action itemid="5908;5942" script="tools/skinning.lua"/>
 
 	<!-- Increase/Decrease ItemId -->
 	<action itemid="1873" function="increaseItemId"/>
@@ -362,44 +293,33 @@
 	
 	
 	<!-- Liquids -->
-	<action itemid="1775" event="script" value="liquids/containers.lua"/>
-	<action itemid="2005" event="script" value="liquids/containers.lua"/>
-	<action itemid="2006" event="script" value="liquids/containers.lua"/>
-	<action itemid="2007" event="script" value="liquids/containers.lua"/>
-	<action itemid="2008" event="script" value="liquids/containers.lua"/>
-	<action itemid="2009" event="script" value="liquids/containers.lua"/>
-	<action itemid="2011" event="script" value="liquids/containers.lua"/>
-	<action itemid="2012" event="script" value="liquids/containers.lua"/>
-	<action itemid="2013" event="script" value="liquids/containers.lua"/>
-	<action itemid="2014" event="script" value="liquids/containers.lua"/>
-	<action itemid="2015" event="script" value="liquids/containers.lua"/>
-	<action itemid="2023" event="script" value="liquids/containers.lua"/>
-	<action itemid="2031" event="script" value="liquids/containers.lua"/>
-	<action itemid="2032" event="script" value="liquids/containers.lua"/>
-	<action itemid="2033" event="script" value="liquids/containers.lua"/>
-	<action itemid="2034" event="script" value="liquids/containers.lua"/>
-	<action itemid="2562" event="script" value="liquids/containers.lua"/>
-	<action itemid="2574" event="script" value="liquids/containers.lua"/>
-	<action itemid="2575" event="script" value="liquids/containers.lua"/>
-	<action itemid="2576" event="script" value="liquids/containers.lua"/>
-	<action itemid="2577" event="script" value="liquids/containers.lua"/>
-	<action itemid="3941" event="script" value="liquids/containers.lua"/>
-	<action itemid="3942" event="script" value="liquids/containers.lua"/>
-	<action itemid="5553" event="script" value="liquids/containers.lua"/>
-	<action itemid="6558" event="script" value="liquids/demonic_blood.lua"/>
-	<action itemid="10150" event="script" value="liquids/containers.lua"/>
+	<action itemid="1775" script="liquids/containers.lua"/>
+	<action fromid="2005" toid="2009" script="liquids/containers.lua"/>
+	<action itemid="2011" toid="2015" script="liquids/containers.lua"/>
+	<action itemid="2023" script="liquids/containers.lua"/>
+	<action itemid="2031" toid="2034" script="liquids/containers.lua"/>
+	<action itemid="2562" script="liquids/containers.lua"/>
+	<action itemid="2574" toid="2577" script="liquids/containers.lua"/>
+	<action itemid="3941" toid="3942" script="liquids/containers.lua"/>
+	<action itemid="5553" script="liquids/containers.lua"/>
+	<action itemid="6558" script="liquids/demonic_blood.lua"/>
+	<action itemid="10150" script="liquids/containers.lua"/>
 
 	<!-- Potions -->
-	<action itemid="7588-7591;8472-8473;7618;7620;8704" event="script" value="liquids/potions.lua" allowfaruse="1"/>
-	<action itemid="7439" event="script" value="liquids/berserk_potion.lua" allowfaruse="1"/>
-	<action itemid="7440" event="script" value="liquids/mastermind_potion.lua" allowfaruse="1"/>
-	<action itemid="7443" event="script" value="liquids/bullseye_potion.lua" allowfaruse="1"/>
-	<action itemid="8474" event="script" value="liquids/antidote_potion.lua" allowfaruse="1"/>
+	<action fromid="7588" toid="7591" script="liquids/potions.lua"/>
+	<action fromid="8472" toid="8473" script="liquids/potions.lua"/>
+	<action itemid="7618" script="liquids/potions.lua"/>
+	<action itemid="7620" script="liquids/potions.lua"/>
+	<action itemid="8704" script="liquids/potions.lua"/>
+	<action itemid="7439" script="liquids/berserk_potion.lua"/>
+	<action itemid="7440" script="liquids/mastermind_potion.lua"/>
+	<action itemid="7443" script="liquids/bullseye_potion.lua"/>
+	<action itemid="8474" script="liquids/antidote_potion.lua"/>
 
 	
 	
-	<action itemid="2328" event="script" value="foods/food.lua"/>
-	<action itemid="2362" event="script" value="foods/food.lua"/>
+	<action itemid="2328" script="foods/food.lua"/>
+	<action itemid="2362" script="foods/food.lua"/>
 	<action fromid="2666" toid="2691" script="other/food.lua"/>
 	<action fromid="2695" toid="2696" script="other/food.lua"/>
 	<action fromid="2787" toid="2796" script="other/food.lua"/>
@@ -414,35 +334,28 @@
 	<action itemid="7158" script="other/food.lua"/>
 	<action itemid="7159" script="other/food.lua"/>
 	<action fromid="7372" toid="7377" script="other/food.lua"/>
-	<action itemid="5678" event="script" value="foods/food.lua"/>
-	<action itemid="6280" event="script" value="foods/food.lua"/>
-	<action itemid="6393" event="script" value="foods/food.lua"/>
-	<action itemid="6541" event="script" value="foods/food.lua"/>
-	<action itemid="6542" event="script" value="foods/food.lua"/>
-	<action itemid="6545" event="script" value="foods/food.lua"/>
-	<action itemid="7963" event="script" value="foods/food.lua"/>
-	<action itemid="8838" event="script" value="foods/food.lua"/>
-	<action itemid="8839" event="script" value="foods/food.lua"/>
-	<action itemid="8840" event="script" value="foods/food.lua"/>
-	<action itemid="8841" event="script" value="foods/food.lua"/>
-	<action itemid="8842" event="script" value="foods/food.lua"/>
-	<action itemid="8843" event="script" value="foods/food.lua"/>
-	<action itemid="8844" event="script" value="foods/food.lua"/>
-	<action itemid="8845" event="script" value="foods/food.lua"/>
-	<action itemid="8847" event="script" value="foods/food.lua"/>
-	<action itemid="8868" event="script" value="foods/food.lua"/>
-	<action itemid="9005" event="script" value="foods/food.lua"/>
-	<action itemid="10454" event="script" value="foods/food.lua"/>
-	<action itemid="9992" event="script" value="foods/rotworm_stew.lua"/>
-	<action itemid="9993" event="script" value="foods/hydra_tongue_salad.lua"/>
-	<action itemid="9994" event="script" value="foods/roasted_dragon_wings.lua"/>
-	<action itemid="9995" event="script" value="foods/fried_tropical_terrorbird.lua"/>
-	<action itemid="9996" event="script" value="foods/food.lua"/>
-	<action itemid="9997" event="script" value="foods/veggie_casserole.lua"/>
-	<action itemid="9998" event="script" value="foods/filled_jalapeno_peppers.lua"/>
-	<action itemid="9999" event="script" value="foods/blessed_steak.lua"/>
-	<action itemid="10000" event="script" value="foods/carrot_cake.lua"/>
-	<action itemid="10001" event="script" value="foods/northern_fishburger.lua"/>
+	<action itemid="5678" script="foods/food.lua"/>
+	<action itemid="6280" script="foods/food.lua"/>
+	<action itemid="6393" script="foods/food.lua"/>
+	<action itemid="6541" script="foods/food.lua"/>
+	<action itemid="6542" script="foods/food.lua"/>
+	<action itemid="6545" script="foods/food.lua"/>
+	<action itemid="7963" script="foods/food.lua"/>
+	<action fromid="8838" toid="8845" script="foods/food.lua"/>
+	<action itemid="8847" script="foods/food.lua"/>
+	<action itemid="8868" script="foods/food.lua"/>
+	<action itemid="9005" script="foods/food.lua"/>
+	<action itemid="10454" script="foods/food.lua"/>
+	<action itemid="9992" script="foods/rotworm_stew.lua"/>
+	<action itemid="9993" script="foods/hydra_tongue_salad.lua"/>
+	<action itemid="9994" script="foods/roasted_dragon_wings.lua"/>
+	<action itemid="9995" script="foods/fried_tropical_terrorbird.lua"/>
+	<action itemid="9996" script="foods/food.lua"/>
+	<action itemid="9997" script="foods/veggie_casserole.lua"/>
+	<action itemid="9998" script="foods/filled_jalapeno_peppers.lua"/>
+	<action itemid="9999" script="foods/blessed_steak.lua"/>
+	<action itemid="10000" script="foods/carrot_cake.lua"/>
+	<action itemid="10001" script="foods/northern_fishburger.lua"/>
 
 	<!-- Spellbooks -->
 	<action itemid="2175" script="other/spellbook.lua"/>
@@ -583,14 +496,14 @@
 	<action fromid="18488" toid="18492" script="other/skilltrainer.lua" />
 
 	<!-- donor stuff -->
-	<action itemid="2270" event="script" script="mana_runes/mana rune.lua"/>
+	<action itemid="2270" script="mana_runes/mana rune.lua"/>
 	
 	<!--mana runes-->
-	<action itemid="2298" event="script" script="mana_runes/intense mana rune.lua"/>
-	<action itemid="2307" event="script" script="mana_runes/ultimate mana rune.lua"/>
-	<action itemid="2306" event="script" script="mana_runes/donor mana rune.lua"/>	
+	<action itemid="2298" script="mana_runes/intense mana rune.lua"/>
+	<action itemid="2307" script="mana_runes/ultimate mana rune.lua"/>
+	<action itemid="2306" script="mana_runes/donor mana rune.lua"/>	
 	
-	<action itemid="2300" event="script" script="mana_runes/donor health rune.lua"/>		
+	<action itemid="2300" script="mana_runes/donor health rune.lua"/>		
 	
 	<!--rune levers  -->
 	<action uniqueid="13001" script="bpt/ultimatemanarune.lua" />
