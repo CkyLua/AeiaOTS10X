@@ -254,7 +254,7 @@
 	<action fromuid="9500" touid="9502" event="script" value="theend/pitsofinferno/poichest.lua" />
 	
 	<!-- PVP arena lever -->
-	<action uniqueid="7001" event="script" value="theend/pvparena/arenalever.lua" />
+	<action uniqueid="7001" event="script" value="new/arenapvp.lua" />
 	
 	<!-- Fixme? -->
 	<action uniqueid="7002" event="script" value="theend/walllever.lua" />

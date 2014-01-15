@@ -5,5 +5,5 @@ local newposition = {x=847, y=1280, z=9}
 		doTeleportThing(cid, newposition)
 		doSendMagicEffect(newposition, 10)
 	end
-return TRUE
+return true
 end  

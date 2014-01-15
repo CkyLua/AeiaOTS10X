@@ -1,6 +1,6 @@
 function onSay(cid, words, param)
         local player = Player(cid)
-        if (not player:getGroup():getAccess()) or tostring(getPlayerName(cid)) ~= "Faith" then
+        if (not player:getGroup():getAccess()) or tostring(getPlayerName(cid)) ~= "Dominique" then
                return false
         end
 
