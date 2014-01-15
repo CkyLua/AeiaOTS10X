@@ -1,11 +1,11 @@
 -- Credits: Synthetic @ OTFans & OTLand
 
-    function onAdvance(cid, skill, oldlevel, newlevel)
-local pPos = getPlayerPosition(cid)
-         if skill == 8 then
-    doSendMagicEffect(pPos, 28)    
-    doCreatureAddHealth(cid, getPlayerMaxMana(cid))
-    doPlayerAddMana(cid, getCreatureMaxHealth(cid))    
-        end
-         return TRUE
+function onAdvance(cid, skill, oldlevel, newlevel)
+	local player = Player(cid)
+    if skill == SKILL_LEVEL then
+		player:getPosition():sendMagicEffect(CONST_ME_FIREWORK_YELLOW)    
+		player:addHealth(player:getMaxHealth())
+		player:addMana(player:getMaxMana())
+    end
+    return true
 end
