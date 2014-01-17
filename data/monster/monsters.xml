@@ -7,6 +7,20 @@
 		-->
 		
 		<!-- IF YOU WANT TO ADD SOMETHING NEW, DO IT HERE AT THE TOP OF THE DOCUMENT -->
+		
+		<!-- Moved from Mods -->
+	<monster name="Training Monk" file="0_mods/training monk.xml"/>
+	<monster name="Target Dummy" file="0_mods/target dummy.xml"/>
+	
+	<!-- Display Only -->
+	<monster name="Chocolate Scorpion" file="0_mounts/Chocolate Scorpion.xml"/>
+	<monster name="Crimson Ray" file="0_mounts/Crimson Ray.xml"/>
+	<monster name="Crystal Cavebear" file="0_mounts/Crystal Cavebear.xml"/>
+	<monster name="Firemane War Horse" file="0_mounts/Firemane War Horse.xml"/>
+	<monster name="Shadow Draptor" file="0_mounts/Shadow Draptor.xml"/>
+	<monster name="Steelbeak" file="0_mounts/Steelbeak.xml"/>	
+	
+	
 	<monster name="Inky" file="Bosses/inky.xml"/>
 	<monster name="Yielothax" file="Demons/yielothax.xml"/>
 	<monster name="Sharptooth" file="Bosses/sharptooth.xml"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Target Dummy" nameDescription="a target dummy" race="undead" experience="20" speed="0" manacost="0">
+	<health now="150000" max="150000"/>
+	<look type="304" corpse="9801"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="0" defense="5"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<defenses armor="12" defense="13">
+		<defense name="healing" interval="10000" chance="100" min="20000" max="50000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+	</loot>
+	<voices interval="10000" chance="10">
+		<voice sentence="I hope you are enjoying your sparring Sir or Ma'am!"/>
+		<voice sentence="Threat level rising!"/>
+		<voice sentence="Engaging in hostile interaction!"/>
+		<voice sentence="Rrrtttarrrttarrrtta"/>
+		<voice sentence="Please feel free to hit me Sir or Ma'am!"/>
+		<voice sentence="klonk klonk klonk"/>
+		<voice sentence="Self-diagnosis running."/>
+		<voice sentence="Battle simulation proceeding."/>
+		<voice sentence="Repairs initiated!"/>
+	</voices>
+</monster>

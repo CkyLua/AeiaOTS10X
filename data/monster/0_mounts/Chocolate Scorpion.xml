@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chocolate Scorpion" nameDescription="the Chocolate Scorpion" race="blood" experience="150" speed="190" manacost="0">
+	<health now="100" max="100"/>
+	<look type="546"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="0"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+	</flags>
+</monster>

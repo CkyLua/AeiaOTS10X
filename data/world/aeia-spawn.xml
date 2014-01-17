@@ -23637,6 +23637,17 @@
     <monster name="Ghastly Dragon" x="-2" y="4" z="10" spawntime="13"/>
     <monster name="Hellhound" x="4" y="4" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="1103" centery="953" centerz="10" radius="10">
+    <monster name="Wyvern" x="-4" y="-10" z="10" spawntime="60"/>
+    <monster name="Toad" x="3" y="-10" z="10" spawntime="60"/>
+    <monster name="Firemane War Horse" x="-7" y="-6" z="10" spawntime="60"/>
+    <monster name="Steelbeak" x="8" y="-5" z="10" spawntime="60"/>
+    <monster name="Crimson Ray" x="-8" y="-1" z="10" spawntime="60"/>
+    <monster name="Nightmare" x="8" y="0" z="10" spawntime="60"/>
+    <monster name="Chocolate Scorpion" x="-7" y="4" z="10" spawntime="60"/>
+    <monster name="Crystal Cavebear" x="-3" y="9" z="10" spawntime="60"/>
+    <monster name="Shadow Draptor" x="3" y="9" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="1184" centery="954" centerz="10" radius="5">
     <monster name="Fire Elemental" x="-1" y="1" z="10" spawntime="60"/>
     <monster name="Demon" x="3" y="2" z="10" spawntime="60"/>
