@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+<!-- NEW TESTING STUFF -->
+	<action fromid="9992" toid="10001" script="food_special.lua"/>
+	<action itemid="12540" script="food_special.lua"/>
+	<action itemid="12542" script="food_special.lua"/>
+	<action itemid="12543" script="food_special.lua"/>
+	<action itemid="12544" script="food_special.lua"/>
+	<action itemid="6561" script="other/blessings.lua"/>
+	<action itemid="12424" script="other/blessings.lua"/>
+	<action itemid="5080" script="other/dolls.lua"/>
+	<action itemid="5669" script="other/dolls.lua"/>
+	<action itemid="5791" script="other/dolls.lua"/>
+	<action itemid="6568" script="other/dolls.lua"/>
+	<action itemid="6512" script="other/dolls.lua"/>
+	<action itemid="6388" script="other/dolls.lua"/>
+	<action itemid="8974" script="other/dolls.lua"/>
+	<action itemid="8977" script="other/dolls.lua"/>
+	<action itemid="8981" script="other/dolls.lua"/>
+	<action itemid="8982" script="other/dolls.lua"/>
+	<action itemid="2146" script="other/enchanting.lua"/>
+	<action itemid="2147" script="other/enchanting.lua"/>
+	<action itemid="2150" script="other/enchanting.lua"/>
+	<action itemid="2149" script="other/enchanting.lua"/>
+	<action itemid="7759" script="other/enchanting.lua"/>
+	<action itemid="7760" script="other/enchanting.lua"/>
+	<action itemid="7761" script="other/enchanting.lua"/>
+	<action itemid="7762" script="other/enchanting.lua"/>
+	
+	<action itemid="13295" script="other/taming.lua"/> <!-- reins -->
+	<action itemid="13294" script="other/taming.lua"/> <!-- harness -->
+	<action itemid="13293" script="other/taming.lua"/> <!-- leather whip -->
+	<action itemid="13298" script="other/taming.lua"/> <!-- carrot on a stick -->
+	<action itemid="13247" script="other/taming.lua"/> <!-- hunting horn -->
+	<action itemid="13305" script="other/taming.lua"/> <!-- giant shrimp -->
+	<action itemid="13291" script="other/taming.lua"/> <!-- maxilla maximus -->
+	<action itemid="5907" script="other/taming.lua"/> <!-- slingshot -->
+	<action itemid="13307" script="other/taming.lua"/> <!-- sweet smelling bait -->
+	<action itemid="13292" script="other/taming.lua"/> <!-- tin key -->
+	<action itemid="13938" script="other/taming.lua"/> <!-- golden can of oil -->
+	<action itemid="13939" script="other/taming.lua"/> <!-- sugar oat -->
+	<action itemid="13508" script="other/taming.lua"/> <!-- slug drug -->
+	<action itemid="13535" script="other/taming.lua"/> <!-- fist on a stick -->
+	<action itemid="13536" script="other/taming.lua"/> <!-- diapason -->
+	<action itemid="13537" script="other/taming.lua"/> <!-- bag of apple slices -->
+	<action itemid="13538" script="other/taming.lua"/> <!-- bamboo leaves -->
+	<action itemid="13539" script="other/taming.lua"/> <!-- golden fir cone -->
+	<action itemid="13498" script="other/taming.lua"/> <!-- scorpion sceptre -->
+	<action itemid="15545" script="other/taming.lua"/> <!-- foxtail -->
+	<action itemid="15546" script="other/taming.lua"/> <!-- four-leaf clover -->
+	<action itemid="18447" script="other/taming.lua"/> <!-- loadstone -->
+	<action itemid="18448" script="other/taming.lua"/> <!-- glow wine -->
+	<action itemid="18449" script="other/taming.lua"/> <!-- deco ribbon -->
+	<action itemid="18516" script="other/taming.lua"/> <!-- golem wrench -->
+	<action itemid="20138" script="other/taming.lua"/> <!-- leech -->
+	<action itemid="21452" script="other/taming.lua"/> <!-- nail case -->
+
+
+
 <!--Shop-->
 	<action fromaid="5556" toaid="5650" script="shop.lua"/>
+	
+	<action itemid="8300" script="slot.lua"/>
+	<action itemid="8299" script="slotremove.lua"/> 
 
 		<!-- donor stuff -->
 		<action itemid="2270" script="mana_runes/mana rune.lua"/>
@@ -52,7 +112,7 @@
         <action uniqueid="3083" script="in service of yalahar quest/inServiceOfYalaharQuestMorikDoor.lua"/>
  
         <!-- Taming Items -->
-        <action itemid="13941" script="other/cup of molten gold.lua"/>
+ <!--       <action itemid="13941" script="other/cup of molten gold.lua"/>
 		<action itemid="5907" script="other/taming.lua"/>
         <action itemid="13247" script="other/taming.lua"/>
         <action fromid="13291" toid="13295" script="other/taming.lua"/>
@@ -64,12 +124,12 @@
         <action fromid="13938" toid="13939" script="other/taming.lua"/>
         <action itemid="13498" script="other/taming.lua"/>
         <action fromid="15545" toid="15546" script="other/taming.lua"/>
-       
+ -->      
         <action itemid="5785" script="vipmedal.lua"/>
        
-        <action fromid="9992" toid="10001" script="food_special.lua"/>
+  <!--      <action fromid="9992" toid="10001" script="food_special.lua"/>
         <action itemid="12540" script="food_special.lua"/>
-        <action fromid="12542" toid="12544" script="food_special.lua"/>
+        <action fromid="12542" toid="12544" script="food_special.lua"/> -->
        
         <!--quest chest system by zbizu-->
         <action actionid="2000" script="quests/system.lua"/>
@@ -217,9 +277,9 @@
         <action uniqueid="7003" script="theend/walllever2.lua" />
  
         <!-- Weapons enchanting (Gems) -->
-        <action fromid="2146" toid="2147" script="other/enchanting.lua"/>
+<!--        <action fromid="2146" toid="2147" script="other/enchanting.lua"/>
        <action fromid="2149" toid="2150" script="other/enchanting.lua"/>
-       <action fromid="7759" toid="7762" script="other/enchanting.lua"/>
+       <action fromid="7759" toid="7762" script="other/enchanting.lua"/> -->
 
 <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\default\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\

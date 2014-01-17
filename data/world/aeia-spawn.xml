@@ -12153,9 +12153,6 @@
     <monster name="Strong Hellhound" x="-11" y="22" z="7" spawntime="50"/>
     <monster name="Strong Hellhound" x="-2" y="22" z="7" spawntime="50"/>
   </spawn>
-  <spawn centerx="2528" centery="2453" centerz="7" radius="2">
-    <monster name="Testboss" x="0" y="-1" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="1090" centery="177" centerz="8" radius="2">
     <monster name="Hairman The Huge" x="-2" y="1" z="8" spawntime="60"/>
   </spawn>

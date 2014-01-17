@@ -4,13 +4,6 @@ TALKTYPE_MONSTER = 34
 TALKTYPE_MONSTER_SAY = 34
 TALKTYPE_MONSTER_YELL = 35
 MESSAGE_LOOT = 20
-getCreatureStorage = getPlayerStorageValue
-doCreatureSetStorage = setPlayerStorageValue
-
-function doPlayerAddExperience(cid, xp)
-Player(cid):addExperience(xp, true, true)
-return true
-end
 
 table.find = function(table, value)
 	for i, v in pairs(table) do
@@ -45,6 +38,10 @@ end
  tmp = str:sub(pos):trim()
  table.insert(t, tmp)
  return t
+end
+
+function isSummon(uid)
+return Creature(uid):getMaster() ~= nil
 end
 
 exhaustion =
@@ -88,17 +85,6 @@ exhaustion =
 	end
 }
 
-function getArea(pos, x, y)
-t = {}
-f_area_i = 1
-	for p = -x, x do
-	for q = -y, y do
-		f_area_i = f_area_i + 1
-		t[f_area_i] = {x = pos.x + p, y = pos.y + q, z = pos.z}
-	end
-	end
-	return t
-end
 
 	function getItemAttack(uid) return ItemType(getThing(uid).itemid):getAttack() end
 	function getItemDefense(uid) return ItemType(getThing(uid).itemid):getDefense() end

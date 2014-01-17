@@ -413,5 +413,5 @@
   <house name="House Lane LIV" houseid="2035" entryx="607" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="House Lane LV" houseid="2036" entryx="612" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="Staff House" houseid="2037" entryx="1000" entryy="928" entryz="7" rent="0" townid="1" size="193"/>
-  <house name="Unnamed House #2038" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="85"/>
+  <house name="Unnamed House #2038" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="83"/>
 </houses>

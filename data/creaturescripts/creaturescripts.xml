@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<event type="login" name="SlotLogin" script="slot.lua"/>
+
 	<event type="logout" name="demonOakLogout" script="demonOakLogout.lua"/>
 	<event type="death" name="demonOakDeath" script="demonOakDeath.lua"/>  
 	<event type="death" name="inquisitionPortals" script="inquisitionPortals.lua"/>
