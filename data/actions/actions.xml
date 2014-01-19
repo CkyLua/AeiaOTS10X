@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+
+ <action itemid="2146" script="other/enchanting.lua"/>
+ <action itemid="2147" script="other/enchanting.lua"/>
+ <action itemid="2150" script="other/enchanting.lua"/>
+ <action itemid="2149" script="other/enchanting.lua"/>
+ <action itemid="7759" script="other/enchanting.lua"/>
+ <action itemid="7760" script="other/enchanting.lua"/>
+ <action itemid="7761" script="other/enchanting.lua"/>
+ <action itemid="7762" script="other/enchanting.lua"/>
+
 <!-- NEW TESTING STUFF -->
 	<action fromid="9992" toid="10001" script="food_special.lua"/>
 	<action itemid="12540" script="food_special.lua"/>
