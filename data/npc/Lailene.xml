@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lailene" script="lailene.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="279" head="114" body="94" legs="113" feet="114" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="shop_buyable" value="robe,8819,450;ethno coat,8892,750;spirit cloak,8870,1000;"/>
+<parameter key="shop_sellable" value="batwing hat,10016,8000;ethno coat,8892,200;focus cape,8871,6000;spirit cloak,8870,350;spellbook of vilgilance,18401,20000;spellbook of ancient arcana,16112,500000;enchanted chain armor,2508,240000;dark lord cape,8865,350000;robe of the ice queen,8866,500000;velvet mantle,8868,500000;dragon robe,8867,500000;robe of the underworld,8890,350000;greenwood coat,8869,350000;witchhunters cloak,8821,12000;spellbook of warding,8901,8000;spellbook of mind control,8902,13000;spellbook of lost souls,8903,25000;spellweaves robe,11355,12000;spellscroll of prophecies,8904,40000;spellbook of dark mysteries,8918,350000;gill coat,18399,450000;gill gugel,18398,20000;jade hat,11368,8000;zaoan robe,11356,12000;gill legs,18400,35000;"/>
+</parameters>
+</npc>

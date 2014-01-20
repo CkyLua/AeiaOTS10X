@@ -413,5 +413,13 @@
   <house name="House Lane LIV" houseid="2035" entryx="607" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="House Lane LV" houseid="2036" entryx="612" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="Staff House" houseid="2037" entryx="1000" entryy="928" entryz="7" rent="0" townid="1" size="193"/>
-  <house name="Unnamed House #2038" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="83"/>
+  <house name="Dominique's House" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="83"/>
+  <house name="Enigma apartment #1" houseid="2039" entryx="1029" entryy="1007" entryz="7" rent="2000" townid="1" size="26"/>
+  <house name="Enigma apartment #2" houseid="2041" entryx="1033" entryy="1007" entryz="7" rent="2000" townid="1" size="26"/>
+  <house name="Enigma apartment #3" houseid="2042" entryx="1029" entryy="1009" entryz="6" rent="2000" townid="1" size="26"/>
+  <house name="Enigma apartment #4" houseid="2043" entryx="1032" entryy="1009" entryz="6" rent="2000" townid="1" size="33"/>
+  <house name="Enigma apartment #5" houseid="2044" entryx="1029" entryy="1006" entryz="5" rent="2000" townid="1" size="26"/>
+  <house name="Enigma apartment #6" houseid="2045" entryx="1031" entryy="1006" entryz="5" rent="2000" townid="1" size="40"/>
+  <house name="Enigma apartment #7" houseid="2046" entryx="1029" entryy="1008" entryz="4" rent="2000" townid="1" size="26"/>
+  <house name="Enigma apartment #8" houseid="2047" entryx="1031" entryy="1008" entryz="4" rent="2000" townid="1" size="40"/>
 </houses>
