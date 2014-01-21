@@ -10,10 +10,7 @@
   <house name="Enigma Plaza II" houseid="11" entryx="985" entryy="1021" entryz="7" rent="1450" townid="1" size="30"/>
   <house name="Enigma Plaza III" houseid="12" entryx="988" entryy="1022" entryz="7" rent="1100" townid="1" size="26"/>
   <house name="Enigma Plaza IV" houseid="13" entryx="996" entryy="1021" entryz="7" rent="1750" townid="1" size="38"/>
-  <house name="Boat Lane I" houseid="14" entryx="959" entryy="981" entryz="7" rent="6300" townid="1" size="119"/>
-  <house name="Boat Lane II" houseid="15" entryx="977" entryy="979" entryz="7" rent="4000" townid="1" size="78"/>
   <house name="Western Flat I" houseid="16" entryx="993" entryy="972" entryz="7" rent="1600" townid="1" size="28"/>
-  <house name="Western Flat II" houseid="17" entryx="1003" entryy="972" entryz="7" rent="1600" townid="1" size="28"/>
   <house name="Western Flat III" houseid="18" entryx="997" entryy="968" entryz="6" rent="1550" townid="1" size="30"/>
   <house name="Western Flat IV" houseid="19" entryx="999" entryy="968" entryz="6" rent="1550" townid="1" size="30"/>
   <house name="Western Flat V" houseid="20" entryx="996" entryy="968" entryz="5" rent="1550" townid="1" size="30"/>
@@ -44,8 +41,8 @@
   <house name="Wizard's House III" houseid="47" entryx="974" entryy="1000" entryz="6" rent="1250" townid="1" size="24"/>
   <house name="Mystical House" houseid="48" entryx="973" entryy="987" entryz="7" rent="0" townid="1" size="69"/>
   <house name="Guildhouse of the River" houseid="49" entryx="972" entryy="1017" entryz="7" rent="11400" townid="1" size="211"/>
-  <house name="Depo I" houseid="51" entryx="1026" entryy="1017" entryz="7" rent="51" townid="1" size="86"/>
-  <house name="Depo II" houseid="52" entryx="1034" entryy="1017" entryz="7" rent="52" townid="1" size="76"/>
+  <house name="Depo I" houseid="51" entryx="1026" entryy="1017" entryz="7" rent="51" townid="1" size="52"/>
+  <house name="Depo II" houseid="52" entryx="1034" entryy="1017" entryz="7" rent="52" townid="1" size="42"/>
   <house name="Temple House I" houseid="1634" entryx="994" entryy="990" entryz="7" rent="0" townid="1" size="74"/>
   <house name="Temple House II" houseid="1635" entryx="1008" entryy="990" entryz="7" rent="0" townid="1" size="69"/>
   <house name="Temple House III" houseid="1636" entryx="1012" entryy="990" entryz="7" rent="0" townid="1" size="48"/>
@@ -343,12 +340,11 @@
   <house name="Wooden House XXIV" houseid="1965" entryx="1068" entryy="908" entryz="7" rent="5000" townid="1" size="37"/>
   <house name="Wooden House XXV" houseid="1966" entryx="1073" entryy="910" entryz="7" rent="5000" townid="1" size="25"/>
   <house name="Wooden House XXVI" houseid="1967" entryx="1068" entryy="898" entryz="7" rent="5000" townid="1" size="39"/>
-  <house name="Wooden House XXVII" houseid="1968" entryx="1066" entryy="896" entryz="7" rent="5000" townid="1" size="4"/>
+  <house name="Wooden House XXVII" houseid="1968" entryx="1066" entryy="896" entryz="7" rent="5000" townid="1" size="0"/>
   <house name="Wooden House XXVIII" houseid="1969" entryx="1055" entryy="898" entryz="7" rent="5000" townid="1" size="18"/>
   <house name="Wooden House XXIX" houseid="1970" entryx="1049" entryy="901" entryz="7" rent="5000" townid="1" size="23"/>
   <house name="Wooden House XXX" houseid="1971" entryx="1057" entryy="901" entryz="7" rent="5000" townid="1" size="21"/>
-  <house name="Wooden House XXXI" houseid="1972" entryx="1049" entryy="914" entryz="7" rent="5000" townid="1" size="30"/>
-  <house name="Wooden House XXXII" houseid="1973" entryx="1053" entryy="914" entryz="7" rent="5000" townid="1" size="27"/>
+  <house name="Wooden House XXXI" houseid="1972" entryx="1049" entryy="914" entryz="7" rent="5000" townid="1" size="41"/>
   <house name="Villa V" houseid="1974" entryx="629" entryy="1254" entryz="7" rent="5000" townid="6" size="281"/>
   <house name="Villa VI" houseid="1975" entryx="617" entryy="1253" entryz="7" rent="5000" townid="6" size="238"/>
   <house name="Villa VII" houseid="1976" entryx="615" entryy="1242" entryz="7" rent="5000" townid="6" size="368"/>
@@ -414,12 +410,9 @@
   <house name="House Lane LV" houseid="2036" entryx="612" entryy="788" entryz="7" rent="500" townid="93" size="10"/>
   <house name="Staff House" houseid="2037" entryx="1000" entryy="928" entryz="7" rent="0" townid="1" size="193"/>
   <house name="Dominique's House" houseid="2038" entryx="1061" entryy="856" entryz="5" rent="0" townid="1" size="83"/>
-  <house name="Enigma apartment #1" houseid="2039" entryx="1029" entryy="1007" entryz="7" rent="2000" townid="1" size="26"/>
-  <house name="Enigma apartment #2" houseid="2041" entryx="1033" entryy="1007" entryz="7" rent="2000" townid="1" size="26"/>
-  <house name="Enigma apartment #3" houseid="2042" entryx="1029" entryy="1009" entryz="6" rent="2000" townid="1" size="26"/>
-  <house name="Enigma apartment #4" houseid="2043" entryx="1032" entryy="1009" entryz="6" rent="2000" townid="1" size="33"/>
-  <house name="Enigma apartment #5" houseid="2044" entryx="1029" entryy="1006" entryz="5" rent="2000" townid="1" size="26"/>
-  <house name="Enigma apartment #6" houseid="2045" entryx="1031" entryy="1006" entryz="5" rent="2000" townid="1" size="40"/>
-  <house name="Enigma apartment #7" houseid="2046" entryx="1029" entryy="1008" entryz="4" rent="2000" townid="1" size="26"/>
-  <house name="Enigma apartment #8" houseid="2047" entryx="1031" entryy="1008" entryz="4" rent="2000" townid="1" size="40"/>
+  <house name="Fighter Flat #6" houseid="2048" entryx="0" entryy="0" entryz="0" rent="3000" townid="1" size="119"/>
+  <house name="Fighter Flat #7" houseid="2049" entryx="0" entryy="0" entryz="0" rent="3000" townid="1" size="78"/>
+  <house name="Wooden House " houseid="2050" entryx="0" entryy="0" entryz="0" rent="500" townid="1" size="27"/>
+  <house name="Wooden House 2" houseid="2051" entryx="0" entryy="0" entryz="0" rent="500" townid="1" size="30"/>
+  <house name="Plaza Flat #1" houseid="2052" entryx="0" entryy="0" entryz="0" rent="300" townid="1" size="17"/>
 </houses>

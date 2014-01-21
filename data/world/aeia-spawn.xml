@@ -1396,23 +1396,19 @@
     <monster name="Defiler" x="12" y="12" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="1184" centery="987" centerz="4" radius="1"/>
-  <spawn centerx="1030" centery="999" centerz="4" radius="10">
-    <npc name="Yaman" x="-1" y="-2" z="4" spawntime="60"/>
-    <npc name="The Forgotten King" x="0" y="-2" z="4" spawntime="60"/>
-    <npc name="Riona" x="1" y="-2" z="4" spawntime="60"/>
-    <npc name="Eryn" x="-1" y="-1" z="4" spawntime="60"/>
-    <npc name="Aol Seller" x="0" y="-1" z="4" spawntime="60"/>
-    <npc name="Tyoric" x="1" y="-1" z="4" spawntime="60"/>
-    <npc name="Lowca" x="-1" y="0" z="4" spawntime="50"/>
-    <npc name="Soya" x="0" y="0" z="4" spawntime="60"/>
-    <npc name="Rashid" x="1" y="0" z="4" spawntime="60"/>
-    <npc name="Donald" x="-1" y="1" z="4" spawntime="60"/>
-    <npc name="Varkhal" x="0" y="1" z="4" spawntime="60"/>
-    <npc name="Lola" x="1" y="1" z="4" spawntime="60"/>
-    <npc name="Aldo" x="-1" y="2" z="4" spawntime="60"/>
-    <npc name="guide" x="0" y="2" z="4" spawntime="60"/>
-    <npc name="Aledr" x="1" y="2" z="4" spawntime="360"/>
-    <npc name="Tormir" x="0" y="3" z="4" spawntime="60"/>
+  <spawn centerx="1027" centery="999" centerz="4" radius="3">
+    <npc name="Princess Estalice" x="-1" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="996" centery="1001" centerz="4" radius="10">
+    <npc name="Yaman" x="-2" y="-2" z="4" spawntime="60"/>
+    <npc name="The Forgotten King" x="-1" y="-2" z="4" spawntime="60"/>
+    <npc name="Aol Seller" x="-1" y="-1" z="4" spawntime="60"/>
+    <npc name="Tyoric" x="0" y="-1" z="4" spawntime="60"/>
+    <npc name="Lowca" x="-2" y="0" z="4" spawntime="50"/>
+    <npc name="Donald" x="-2" y="1" z="4" spawntime="60"/>
+    <npc name="Varkhal" x="-1" y="1" z="4" spawntime="60"/>
+    <npc name="Aldo" x="-2" y="2" z="4" spawntime="60"/>
+    <npc name="Aledr" x="0" y="2" z="4" spawntime="360"/>
   </spawn>
   <spawn centerx="1162" centery="1064" centerz="4" radius="16">
     <monster name="Dragon Lord" x="10" y="-15" z="4" spawntime="40"/>
@@ -4219,6 +4215,12 @@
     <monster name="Plaguesmith" x="0" y="11" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="1171" centery="974" centerz="6" radius="30"/>
+  <spawn centerx="1022" centery="987" centerz="6" radius="5">
+    <npc name="Tormir" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1025" centery="998" centerz="6" radius="2">
+    <npc name="Charles" x="0" y="-1" z="6" spawntime="180"/>
+  </spawn>
   <spawn centerx="1214" centery="998" centerz="6" radius="18">
     <monster name="Dragon" x="-8" y="-1" z="6" spawntime="60"/>
     <monster name="Dragon" x="3" y="5" z="6" spawntime="60"/>
@@ -8683,9 +8685,15 @@
     <monster name="Hunter" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Hunter" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="1037" centery="996" centerz="7" radius="2">
+    <npc name="Arkulius" x="0" y="1" z="7" spawntime="180"/>
+  </spawn>
   <spawn centerx="1167" centery="998" centerz="7" radius="5"/>
   <spawn centerx="987" centery="999" centerz="7" radius="1">
     <npc name="Alex" x="0" y="-1" z="7" spawntime="40"/>
+  </spawn>
+  <spawn centerx="1026" centery="999" centerz="7" radius="2">
+    <npc name="Leo" x="-1" y="0" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="1190" centery="1000" centerz="7" radius="5"/>
   <spawn centerx="1179" centery="1001" centerz="7" radius="5"/>
@@ -8744,6 +8752,9 @@
     <monster name="Frost Dragon" x="-3" y="29" z="7" spawntime="60"/>
     <monster name="Ice Witch" x="4" y="29" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="1033" centery="1006" centerz="7" radius="1">
+    <npc name="Julius" x="-1" y="0" z="7" spawntime="180"/>
+  </spawn>
   <spawn centerx="664" centery="1008" centerz="7" radius="1">
     <monster name="Wasp" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
@@ -8766,6 +8777,9 @@
   <spawn centerx="1204" centery="1011" centerz="7" radius="5">
     <monster name="Hunter" x="-1" y="-1" z="7" spawntime="60"/>
     <monster name="Hunter" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1027" centery="1012" centerz="7" radius="2">
+    <npc name="Tom" x="-1" y="0" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="1233" centery="1013" centerz="7" radius="5">
     <monster name="Hunter" x="-1" y="-2" z="7" spawntime="60"/>
@@ -15009,6 +15023,7 @@
     <monster name="Ferumbras" x="26" y="13" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-30" y="14" z="8" spawntime="768"/>
     <monster name="Rotworm" x="-29" y="14" z="8" spawntime="768"/>
+    <npc name="Esrik" x="2" y="14" z="8" spawntime="60"/>
     <monster name="Rotworm" x="-26" y="15" z="8" spawntime="59"/>
     <monster name="Piece of Earth" x="19" y="15" z="8" spawntime="60"/>
     <monster name="Black Knight" x="26" y="15" z="8" spawntime="60"/>
@@ -15102,7 +15117,7 @@
     <monster name="Rotworm Queen" x="1" y="0" z="8" spawntime="60"/>
     <monster name="Rotworm" x="2" y="1" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="1026" centery="986" centerz="8" radius="5"/>
+  <spawn centerx="1025" centery="986" centerz="8" radius="5"/>
   <spawn centerx="1551" centery="986" centerz="8" radius="1"/>
   <spawn centerx="887" centery="987" centerz="8" radius="5">
     <monster name="Blood Crab" x="0" y="0" z="8" spawntime="60"/>
@@ -15275,6 +15290,7 @@
     <monster name="Rotworm" x="1" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1570" centery="988" centerz="8" radius="1"/>
+  <spawn centerx="1043" centery="989" centerz="8" radius="5"/>
   <spawn centerx="1481" centery="989" centerz="8" radius="1"/>
   <spawn centerx="629" centery="990" centerz="8" radius="1">
     <monster name="Rotworm" x="1" y="0" z="8" spawntime="60"/>

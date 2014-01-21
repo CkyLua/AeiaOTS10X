@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Luke" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="130" head="28" body="94" legs="95" feet="96" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello."/>
+        <parameter key="message_farewell" value="Bye."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="music;job;life;instruments;play;help;" />
+        <parameter key="keyword_reply1" value="It's a part of my {life}. I don't {play} the {instruments}, but I sell them" />
+        <parameter key="keyword_reply2" value="I am {music} {instruments} shop owner." />
+        <parameter key="keyword_reply3" value="Boring reality from day to day. {Music} is helpful." />
+        <parameter key="keyword_reply4" value="Of course I sell them. Ask me for {Trade}." />
+        <parameter key="keyword_reply5" value="No. First buy any." />
+        <parameter key="keyword_reply6" value="I cant help you. Buy whatever you want to." />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="flute,2070,150;lyre,2071,80;lute,2072,100;drum,2073,130;panpipes,2074,70;simple fanfare,2075,20;fanfare,2076,120;exotic drum,3951,3000;didgeridoo,3952,8000;war drum,3953,5000;war horn,3957,3000;"/>
+        <parameter key="shop_sellable" value="exotic drum,3951,2000;didgeridoo,3952,7000;war drum,3953,4000;war horn,3957,2000;" />
+    </parameters>
+</npc>
