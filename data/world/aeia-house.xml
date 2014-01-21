@@ -41,8 +41,8 @@
   <house name="Wizard's House III" houseid="47" entryx="974" entryy="1000" entryz="6" rent="1250" townid="1" size="24"/>
   <house name="Mystical House" houseid="48" entryx="973" entryy="987" entryz="7" rent="0" townid="1" size="69"/>
   <house name="Guildhouse of the River" houseid="49" entryx="972" entryy="1017" entryz="7" rent="11400" townid="1" size="211"/>
-  <house name="Depo I" houseid="51" entryx="1026" entryy="1017" entryz="7" rent="51" townid="1" size="52"/>
-  <house name="Depo II" houseid="52" entryx="1034" entryy="1017" entryz="7" rent="52" townid="1" size="42"/>
+  <house name="Depo I" houseid="51" entryx="1026" entryy="1018" entryz="7" rent="51" townid="1" size="86"/>
+  <house name="Depo II" houseid="52" entryx="1034" entryy="1018" entryz="7" rent="52" townid="1" size="76"/>
   <house name="Temple House I" houseid="1634" entryx="994" entryy="990" entryz="7" rent="0" townid="1" size="74"/>
   <house name="Temple House II" houseid="1635" entryx="1008" entryy="990" entryz="7" rent="0" townid="1" size="69"/>
   <house name="Temple House III" houseid="1636" entryx="1012" entryy="990" entryz="7" rent="0" townid="1" size="48"/>

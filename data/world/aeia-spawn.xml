@@ -8752,7 +8752,7 @@
     <monster name="Frost Dragon" x="-3" y="29" z="7" spawntime="60"/>
     <monster name="Ice Witch" x="4" y="29" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1033" centery="1006" centerz="7" radius="1">
+  <spawn centerx="1035" centery="1006" centerz="7" radius="1">
     <npc name="Julius" x="-1" y="0" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="664" centery="1008" centerz="7" radius="1">
@@ -8778,7 +8778,7 @@
     <monster name="Hunter" x="-1" y="-1" z="7" spawntime="60"/>
     <monster name="Hunter" x="0" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="1027" centery="1012" centerz="7" radius="2">
+  <spawn centerx="1029" centery="1012" centerz="7" radius="2">
     <npc name="Tom" x="-1" y="0" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="1233" centery="1013" centerz="7" radius="5">
@@ -20116,6 +20116,9 @@
   <spawn centerx="603" centery="1001" centerz="9" radius="1"/>
   <spawn centerx="905" centery="1003" centerz="9" radius="5">
     <monster name="Young Sea Serpent" x="0" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1042" centery="1003" centerz="9" radius="2">
+    <npc name="Varkhal" x="0" y="-1" z="9" spawntime="180"/>
   </spawn>
   <spawn centerx="1530" centery="1003" centerz="9" radius="1">
     <monster name="Grim Reaper" x="0" y="0" z="9" spawntime="60"/>
