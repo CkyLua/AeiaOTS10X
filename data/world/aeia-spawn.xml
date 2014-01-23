@@ -1396,17 +1396,11 @@
     <monster name="Defiler" x="12" y="12" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="1184" centery="987" centerz="4" radius="1"/>
-  <spawn centerx="1027" centery="999" centerz="4" radius="3">
-    <npc name="Princess Estalice" x="-1" y="2" z="4" spawntime="60"/>
-  </spawn>
   <spawn centerx="996" centery="1001" centerz="4" radius="10">
-    <npc name="Yaman" x="-2" y="-2" z="4" spawntime="60"/>
-    <npc name="The Forgotten King" x="-1" y="-2" z="4" spawntime="60"/>
     <npc name="Aol Seller" x="-1" y="-1" z="4" spawntime="60"/>
     <npc name="Tyoric" x="0" y="-1" z="4" spawntime="60"/>
     <npc name="Lowca" x="-2" y="0" z="4" spawntime="50"/>
     <npc name="Donald" x="-2" y="1" z="4" spawntime="60"/>
-    <npc name="Varkhal" x="-1" y="1" z="4" spawntime="60"/>
     <npc name="Aldo" x="-2" y="2" z="4" spawntime="60"/>
     <npc name="Aledr" x="0" y="2" z="4" spawntime="360"/>
   </spawn>
@@ -2459,6 +2453,9 @@
   <spawn centerx="1184" centery="975" centerz="5" radius="6"/>
   <spawn centerx="1161" centery="983" centerz="5" radius="1"/>
   <spawn centerx="1174" centery="986" centerz="5" radius="5"/>
+  <spawn centerx="1027" centery="999" centerz="5" radius="5">
+    <npc name="Luke" x="-2" y="0" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="1223" centery="1002" centerz="5" radius="1">
     <monster name="Giant Spider" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
@@ -4218,6 +4215,9 @@
   <spawn centerx="1022" centery="987" centerz="6" radius="5">
     <npc name="Tormir" x="-1" y="0" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="1000" centery="994" centerz="6" radius="3">
+    <npc name="Princess Estalice" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="1025" centery="998" centerz="6" radius="2">
     <npc name="Charles" x="0" y="-1" z="6" spawntime="180"/>
   </spawn>
@@ -4238,6 +4238,9 @@
   </spawn>
   <spawn centerx="1238" centery="1006" centerz="6" radius="5">
     <monster name="Giant Spider" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="1029" centery="1010" centerz="6" radius="2">
+    <npc name="Sandra" x="0" y="1" z="6" spawntime="180"/>
   </spawn>
   <spawn centerx="1058" centery="1032" centerz="6" radius="10">
     <monster name="Troll" x="-5" y="-3" z="6" spawntime="60"/>
@@ -8662,7 +8665,7 @@
     <monster name="The Imperor" x="-26" y="29" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1022" centery="987" centerz="7" radius="2">
-    <npc name="Linda" x="0" y="1" z="7" spawntime="180"/>
+    <npc name="Linda" x="-1" y="-1" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="1211" centery="988" centerz="7" radius="5">
     <monster name="Hunter" x="1" y="0" z="7" spawntime="60"/>
@@ -15014,6 +15017,8 @@
     <monster name="Small Hellhound" x="29" y="-5" z="8" spawntime="50"/>
     <monster name="Pro Cyrulik" x="2" y="1" z="8" spawntime="60"/>
     <monster name="Chuck Norris" x="29" y="1" z="8" spawntime="50"/>
+    <npc name="Anna" x="-20" y="5" z="8" spawntime="60"/>
+    <npc name="Lailene" x="-7" y="5" z="8" spawntime="60"/>
     <monster name="Ghastly Dragon" x="18" y="9" z="8" spawntime="60"/>
     <monster name="Draken Warmaster" x="19" y="9" z="8" spawntime="60"/>
     <monster name="Wator" x="19" y="11" z="8" spawntime="60"/>
