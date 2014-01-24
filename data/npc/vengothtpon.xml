@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Firethorn" script="firethornsea.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="151" head="115" body="124" legs="115" feet="114" addons="3"/>
+	<parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="module_shop" value="1"/>
+        <parameter key="travel_destinations" value="back,236,214,6,0"/>
+		<parameter key="message_farewell" value="Hope you will have more luck than me."/>
+		<parameter key="message_walkaway" value="..." />
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="boat;help;hunt;route;job;helmet;dive;guide;cave;enigma;sail;boat;captain;ship;pirate;alice;lizards;Jeremia" />
+		<parameter key="keyword_reply1" value="Jeremia-9 is my jewel. I don't show in docks with her often." />
+		<parameter key="keyword_reply2" value="If you want to {dive} you need a special helmet. You may borrow it, but I want to be sure that you return it, just say {trade}." />
+		<parameter key="keyword_reply3" value="Sometimes I use that ship for hunting purpose. This {cave} looks perfect to {dive}" />
+		<parameter key="keyword_reply4" value="To estabilish new routes I need to find areas to trade first." />
+		<parameter key="keyword_reply5" value="I am ship {captain}." />
+		<parameter key="keyword_reply6" value="Helmet of the Deep allows you to {dive} in deepest corners of the sea." />
+		<parameter key="keyword_reply7" value="This place should be great for exploring and hunting." />
+		<parameter key="keyword_reply8" value="If you need someone who knows {Enigma} City ask {Alice} for help. She will wait for you in temple." />
+		<parameter key="keyword_reply9" value="This place should be great for exploring and hunting." />
+		<parameter key="keyword_reply10" value="My hometown and harbour in life journey. Where else can I go?" />
+		<parameter key="keyword_reply11" value="I can sail you {back} to {enigma city}." />
+		<parameter key="keyword_reply12" value="Small boats and their owners are located all around the bay." />
+		<parameter key="keyword_reply13" value="I am owner of that {ship} as long as I wear this hat and water is wet." />
+		<parameter key="keyword_reply14" value="Jeremia-9 is my jewel. I don't show in docks with her often." />
+		<parameter key="keyword_reply15" value="Some bad guys ruined our trades by attacking our {ships} and conquering transactions. All {races} blamed each other for that, but the truth is that they don't belong to any, they're mix of bandits who had to run for their freedom and lives." />
+		<parameter key="keyword_reply16" value="Many years ago she wanted me to become a {pirate} and take her from here, but she decided to help people here instead." />
+		<parameter key="keyword_reply17" value="The race known for good armors and unbeatable war technology and for cheap rice also. We gave them some potions, fruits and gold back." />
+		<parameter key="keyword_reply18" value="Sometimes I use that ship for hunting purpose. I can sail you to {Frohin}." />
+		<parameter key="shop_sellable" value="helmet of the deep,5461,5000;"/>
+		<parameter key="shop_buyable" value="helmet of the deep,5461,5000;"/>
+	</parameters>
+	</npc>
