@@ -413,6 +413,6 @@
   <house name="Fighter Flat #6" houseid="2048" entryx="959" entryy="981" entryz="7" rent="3000" townid="1" size="119"/>
   <house name="Fighter Flat #7" houseid="2049" entryx="977" entryy="979" entryz="7" rent="3000" townid="1" size="78"/>
   <house name="Wooden House " houseid="2050" entryx="1053" entryy="914" entryz="7" rent="500" townid="1" size="27"/>
-  <house name="Wooden House 2" houseid="2051" entryx="0" entryy="0" entryz="0" rent="500" townid="1" size="30"/>
+  <house name="Wooden House 2" houseid="2051" entryx="1066" entryy="896" entryz="7" rent="500" townid="1" size="30"/>
   <house name="Plaza Flat #1" houseid="2052" entryx="1031" entryy="996" entryz="7" rent="300" townid="1" size="17"/>
 </houses>

@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Captain Firethorn" script="firethorn.lua" walkinterval="2000" floorchange="0">
+<npc name="Alistair" script="alistair.lua" walkinterval="0" floorchange="0">
 	<health now="100" max="100"/>
-	<look type="151" head="115" body="124" legs="115" feet="114" addons="3"/>
+	<look type="472" head="115" body="112" legs="127" feet="0" addons="0"/>
 	<parameters>
         <parameter key="module_travel" value="1"/>
 		<parameter key="module_keywords" value="1" />
-		<parameter key="message_farewell" value="Hope you will have more luck than me."/>
-		<parameter key="message_walkaway" value="..." />
-		<parameter key="keywords" value="boat;help;hunt;route;job;conflicts;diplomacy;guide;races;enigma;sail;boat;captain;ship;pirate;alice;lizards;Jeremia" />
-		<parameter key="keyword_reply1" value="All {travelling} {routes} were closed due to {conflicts} with friendly {races}. There is no place I can {sail} you." />
-		<parameter key="keyword_reply2" value="You can't help me directly. We need to rebuild international {diplomacy}." />
-		<parameter key="keyword_reply3" value="Sometimes I use that ship for hunting purpose. I can sail you to {Frohin}." />
-		<parameter key="keyword_reply4" value="To estabilish new routes I need to find areas to trade first." />
-		<parameter key="keyword_reply5" value="I am ship {captain}, but this {ship} won't {sail} anywhere soon." />
-		<parameter key="keyword_reply6" value="Due to some treepassing incidents and {pirates} international trades are stopped now." />
-		<parameter key="keyword_reply7" value="Due to some treepassing incidents and {pirates} international trades are stopped now." />
-		<parameter key="keyword_reply8" value="If you need someone who knows {Enigma} City ask {Alice} for help. She will wait for you in temple." />
-		<parameter key="keyword_reply9" value="Before conflict we had trades with {Lizards}." />
-		<parameter key="keyword_reply10" value="My hometown and harbour in life journey. Where else can I go?" />
-		<parameter key="keyword_reply11" value="You probably didn't noticed yet that I'm not able to sail you anywhere." />
-		<parameter key="keyword_reply12" value="Small boats and their owners are located all around the bay." />
-		<parameter key="keyword_reply13" value="I am owner of that {ship} as long as I wear this hat and water is wet." />
-		<parameter key="keyword_reply14" value="This ship is not going anywhere soon, at least not in this state. I could use Jeremia-9 if you are interested in {hunting}." />
-		<parameter key="keyword_reply15" value="Some bad guys ruined our trades by attacking our {ships} and conquering transactions. All {races} blamed each other for that, but the truth is that they don't belong to any, they're mix of bandits who had to run for their freedom and lives." />
-		<parameter key="keyword_reply16" value="Many years ago she wanted me to become a {pirate} and take her from here, but she decided to help people here instead." />
-		<parameter key="keyword_reply17" value="The race known for good armors and unbeatable war technology and for cheap rice also. We gave them some potions, fruits and gold back." />
-		<parameter key="keyword_reply18" value="Sometimes I use that ship for hunting purpose. I can sail you to {Frohin}." />
-		<parameter key="travel_destinations" value="frohin,38,480,6,500;calassa,361,38,6,500"/>
+		<parameter key="message_farewell" value="Good luck."/>
+		<parameter key="message_walkaway" value="Whatever..." />
+		<parameter key="travel_destinations" value="vengoth,1771,923,7,500"/>
+		<parameter key="keywords" value="enigma;vengoth;quest;home" />
+		<parameter key="keyword_reply1" value="Ahh yes the beautiful city, so pretty isn't it? If you wish to go {back} tell me." />
+		<parameter key="keyword_reply2" value="I hear there is an unclaimed treasure there." />
+		<parameter key="keyword_reply3" value="Adventurers go to {vengoth} all the time, they may be something there" />
+		<parameter key="keyword_reply4" value="My home is here in Enigma." />
 	</parameters>
 	</npc>
