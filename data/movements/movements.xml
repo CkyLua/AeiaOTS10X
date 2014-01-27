@@ -41,7 +41,7 @@
 	<movevent event="Equip" itemid="12431" slot="armor" function="onEquipItem"/>
 	
 	<!-- VIP -->
-	<movevent event="StepIn" itemid="445" script="viptile.lua"/>
+	<movevent event="StepIn" actionid="445" script="viptile.lua"/>
 	
 	<movevent event="DeEquip" itemid="11430" slot="legs" function="onDeEquipItem"/>
 	<movevent event="Equip" itemid="11430" slot="legs" function="onEquipItem"/>
