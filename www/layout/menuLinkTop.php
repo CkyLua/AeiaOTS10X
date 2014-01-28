@@ -24,9 +24,6 @@
     <li>
       <a href="killers.php">Killers</a> 
     </li>
-	<li>
-      <a href="spells.php">Spells</a> 
-    </li>
   </ul>
 </li>
 

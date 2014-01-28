@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="layout/css/style.css">
     <script src="layout/js/jquery.min.js"></script>
     <script src="layout/js/bootstrap.min.js"></script>	
-	<meta name="description" content="Welcome to the #1 Team war OTs">
+	<meta name="description" content="Welcome to AieaOTS">
 	<meta name="keywords" content="tibia,amiroslo,znote,aac,ot">
-	<meta name="author" content="Amiroslo">
+	<meta name="author" content="dominique120">
   <style type="text/css">
   #container, .zmenu {
     max-width: 1400px;
@@ -132,7 +132,7 @@ width:96%;
    
       <div class="alert">
         <button type="button" class="close" data-dismiss="alert">×</button>
-        <b>News!</b> Updated to 10.3               <!--add important news here -->
+        <b>News!</b> Updated to 10.31               <!--add important news here -->
       </div>
       
       <div class="container-fluid">
@@ -140,6 +140,7 @@ width:96%;
 
           <?php include 'layout/menuLeft.php'; ?>
 
+		  
           <!-- center -->
           <div class="span6">
             <br>

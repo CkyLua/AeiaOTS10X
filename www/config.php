@@ -130,13 +130,13 @@
 	// ---------------- \\
 	
 	// Max characters on each account:
-	$config['max_characters'] = 10;
+	$config['max_characters'] = 12;
 	
 	// Available character vocation users can create.
 	$config['available_vocations'] = array(1, 2, 3, 4);
 	
 	// Available towns (specify town ids, etc: (0, 1, 2); to display 3 town options (town id 0, 1 and 2).
-	$config['available_towns'] = array(1,);
+	$config['available_towns'] = array(1);
 	
 	$config['level'] = 8;
 	$config['health'] = 185;
@@ -176,13 +176,13 @@
 		);
 
 	$config['status'] = array(
-		'status_check' => false, //enable or disable status checker
+		'status_check' => true, //enable or disable status checker
 		'status_ip' => '127.0.0.1',
 		'status_port' => "7171",
 		);
 
 	$config['validate_IP'] = true; // Only allow legal IP addresses to register and create character.
-	$config['salt'] = false; // Some noob 0.3.6 servers don't support salt.
+	$config['salt'] = true; // Some noob 0.3.6 servers don't support salt.
 	
 	// Restricted names
 	$config['invalidNameTags'] = array("god", "gm", "cm", "gamemaster", "hoster", "admin", "admim", "adm", "owner", "staff");
@@ -196,7 +196,7 @@
 	// Do you need to have premium account to create a guild?
 	$config['guild_require_premium'] = false;
 	
-	$config['guildwar_enabled'] = false;
+	$config['guildwar_enabled'] = true;
 	
 	// Use htaccess rewrite? (basically this makes website.com/username work instead of website.com/characterprofile.php?name=username
 	// Linux users needs to enable mod_rewrite php extention to make it work properly, so set it to false if your lost and using Linux.
@@ -204,12 +204,12 @@
 	
 	// What client version and server port are you using on this OT?
 	// Used for the Downloads page.
-	$config['client'] = 860; // 954 = tibia 9.54
+	$config['client'] = 1031; // 954 = tibia 9.54
 	
 	 // Download link to client. Recommended:
 	 // Select download link from remere map editor website!
 	 // See list of clients: http://remeresmapeditor.com/marklar.php?clients
-	$config['client_download'] = 'http://remeresmapeditor.com/rmedl.php?file=tibia'. $config['client'] .'.exe';
+	$config['client_download'] = 'http://tibiamulticlient.com/tibiafiles/tibiaclients/windows/tibia1031.exe';
 	
 	$config['port'] = 7171; // Port number to connect to your OT.
 	
@@ -242,7 +242,7 @@
 	// If you don't have any problems with load.
 	$config['require_login'] = array(
 		'guilds' => true,
-		'guildwars' => false,
+		'guildwars' => true,
 	);
 	
 	// IMPORTANT! Write a character name(that exist) that will represent website bans!
@@ -265,14 +265,14 @@
 	);
 	
 	// Enable OS advanced feautures? false = no, true = yes
-	$config['os_enabled'] = false;
+	$config['os_enabled'] = true;
 	
 	// What kind of computer are you hosting this website on?
 	// Available options: LINUX or WINDOWS
 	$config['os'] = 'WINDOWS';
 	
 	// Measure how much players are lagging in-game. (Not completed). 
-	$config['ping'] = false;
+	$config['ping'] = true;
 	
 	// BAN STUFF - Don't touch this unless you know what you are doing.
 	// You can order the lines the way you want, from top to bot, in which order you
@@ -443,7 +443,7 @@
 	/// Let players sell characters.
 	/////////
 	$config['shop_auction'] = array(
-			'characterAuction' => false, // Enable/disable this system
+			'characterAuction' => true, // Enable/disable this system
 			'requiredLevel' => 50, // Minimum level of sold character
 			'leastValue' => 10, // Lowest donation points a char can be sold for.
 			'leastTime' => 24, // In hours. False to disable.
