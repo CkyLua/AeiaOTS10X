@@ -11,8 +11,8 @@
 	<group id="7" name="Admin" flags="3571265282042" customFlags="65011711" access="6" violationReasons="23" nameViolationFlags="170" statementViolationFlags="213" depotLimit="5000" maxVips="500" outfit="302"/>
 -->
 
-	<group id="1" name="player" flags="0" access="0" maxdepotitems="0" maxvipentries="0" />
-	<group id="2" name="gamemaster" flags="137438953471" access="1" maxdepotitems="0" maxvipentries="200" />
-	<group id="3" name="god" flags="127540697997304" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="1" name="player" flags="0" access="0" maxdepotitems="0" maxvipentries="0" maxvipentries="200" />
+	<group id="2" name="gamemaster" flags="267346883455" access="1" maxdepotitems="0" maxvipentries="500" />
+	<group id="3" name="god" flags="266858373112" access="1" maxdepotitems="0" maxvipentries="1000" />
 	
 </groups>
