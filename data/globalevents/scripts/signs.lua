@@ -1,23 +1,15 @@
 local t = {
-    {"Depot", {x = 1005, y = 996, z = 6}, CONST_ME_GREEN_RINGS},
-    {"Trainers", {x = 1005, y = 998, z = 6}, CONST_ME_DRAWBLOOD},
-    {"Hunt TPs", {x = 1005, y = 1000, z = 6}, CONST_ME_BLOCKHIT},
-	{"Hunt TPs", {x = 1035, y = 1001, z = 6}, CONST_ME_BLOCKHIT},
-	{"Trainers", {x = 1030, y = 994, z = 6}, CONST_ME_DRAWBLOOD},
-	{"Temple", {x = 1029, y = 994, z = 6}, CONST_ME_TELEPORT},
-	{"Runes", {x = 1025, y = 994, z = 6}, CONST_ME_HOLYDAMAGE},
-	{"Runes", {x = 1027, y = 994, z = 7}, CONST_ME_HOLYDAMAGE},
-	{"Quests", {x = 1025, y = 995, z = 6}, CONST_ME_YELLOW_RINGS},
-	{"Vengoth", {x = 1000, y = 1000, z = 6}, CONST_ME_MORTAREA},
-	{"Town TPs", {x = 1000, y = 998, z = 6}, CONST_ME_HITAREA},
+	{"Start\nHere", {x = 995, y = 994, z = 7}, CONST_ME_TELEPORT},
+	{"TPs", {x = 1006, y = 994, z = 7}, CONST_ME_TELEPORT},
+	
+	{"Quests", {x = 1024, y = 996, z = 4}, CONST_ME_YELLOW_RINGS},
+	{"Town TPs", {x = 1024, y = 998, z = 4}, CONST_ME_HITAREA},
+	{"VIP", {x = 1024, y = 1000, z = 4}, CONST_ME_MAGIC_GREEN},
+	{"Temple", {x = 1029, y = 996, z = 4}, CONST_ME_TELEPORT},
+	{"Training", {x = 1029, y = 998, z = 4}, CONST_ME_DRAWBLOOD},
+	{"Hunting", {x = 1029, y = 1000, z = 4}, CONST_ME_BLOCKHIT},
+	
 	{"INFO", {x = 1116, y = 1011, z = 8}, CONST_ME_MAGIC_GREEN},
-	{"Quests", {x = 1000, y = 996, z = 6}, CONST_ME_YELLOW_RINGS},
-	{"Rotworms", {x = 1002, y = 1001, z = 6}, CONST_ME_CRAPS},
-	{"Down", {x = 1002, y = 995, z = 6}, CONST_ME_TELEPORT},
-	{"TPs", {x = 1006, y = 995, z = 7}, CONST_ME_TELEPORT},
-	{"TPs", {x = 1006, y = 1001, z = 7}, CONST_ME_TELEPORT},
-	
-	
 }
 
 function onThink(interval)
