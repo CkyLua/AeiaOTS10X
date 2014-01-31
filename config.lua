@@ -65,10 +65,9 @@ freePremium = "yes"
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 noDamageToSameLookfeet = "no"
-
+emoteSpells = "yes"
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-experienceStages = true
 rateExp = 5
 rateSkill = 20
 rateLoot = 2
