@@ -4,6 +4,9 @@
 	<talkaction words="/mounts" separator=" " script="allmounts.lua"/>
 	<talkaction words="/addons" separator=" " script="alladdons.lua"/>
 	<talkaction words="/execute" separator=" " script="execute.lua" />
+	
+	<talkaction words="!exp" script="expmana.lua"/>
+	<talkaction words="!mana" script="expmana.lua"/>
 
 	<!--TFS 1.0 talkactions-->
 
