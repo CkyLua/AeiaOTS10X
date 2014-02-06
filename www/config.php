@@ -1,4 +1,12 @@
 <?php
+	//Cornex ticket system start
+	$config['STS_ENABLE'] = true;
+	$config['SUPPORT_TICKET_VERSION'] = "STS_1.0";
+	$config['ADMIN_SUPPORT_TICKET_NAME'] = "Dominique"; // What name to show when you send comments as admin.
+	$config['TICKET_SYSTEM_CONTENT_LENGTH'] = 300; // Max length of description in a new ticket, should NOT be set higher then 1000.
+	$config['TICKET_SYSTEM_COMMENT_LENGTH'] = 300; // Max length of a comment content, should NOT be set higher then 500.
+	//cornex ticket system stop
+
 	// Available options: TFS_02, TFS_03
 	// TFS 0.2 = TFS_02
 	// TFS 0.3 = TFS_03 (If ur using 0.3.6, set $config['salt'] to false)!

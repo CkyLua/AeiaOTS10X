@@ -1,8 +1,11 @@
-<div class="well">
-	<h4>Administration:</h4>
-	<hr class="bighr">
+<?php
+$getSupportTicketsUnread = mysql_query("SELECT * FROM `supportTickets` WHERE `status`='Waiting'");
+$result = mysql_num_rows($getSupportTicketsUnread);
+?>
+<div class="sidebar">
+	<h2>Administration:</h2>
 	<div class="inner">
-		<ul style="list-style: none;">
+		<ul>
 			<li>
 				<a href='admin.php'>Admin Page</a>
 			</li>
@@ -11,6 +14,11 @@
 			</li>
 			<li>
 				<a href='admin_gallery.php'>Admin Gallery</a>
+			</li>
+			<li>
+				<?php if ($config['STS_ENABLE'] === true) { ?>
+				<a href='admin_tickets.php'>Admin Support Tickets: [<?php echo $result; ?>] new</a>
+				<?php } ?>
 			</li>
 			<?php
 			$new = 0;

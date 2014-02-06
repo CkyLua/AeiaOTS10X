@@ -1,0 +1,45 @@
+	textarea {
+    	resize: none;
+    }
+	.contentBoxSupportTicketNew {
+		width:auto;
+		min-height:auto;
+		background-color:#FFF;
+		margin:10px;
+		padding:10px; 
+	}
+	.contentBoxSupportTicket {
+		width:auto;
+		min-height:auto;
+		background-color:#FFF;
+		margin:10px;
+		padding:10px; 
+	}
+	.supportTicketCases {
+		color:#000;
+		width:auto;
+		height:auto;
+		margin:10px;
+		padding:10px;
+		background: rgb(79,133,187); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(79,133,187,1)), color-stop(100%,rgba(79,133,187,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom, rgba(79,133,187,1) 0%,rgba(79,133,187,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb',GradientType=0 ); /* IE6-9 */
+	}
+	.contentBoxSupportTicketFetch {
+		width:auto;
+		min-height:auto;
+		background-color:#FFF;
+		margin:10px;
+		padding:10px; 
+	}
+	.supportTicketCases a {
+		color:#000;
+	}
+	
+    div.alert-message { display: block; padding: 13px 12px 12px; font-weight: bold; font-size: 14px; color: white; background-color: #2ba6cb; border: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: 12px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); position: relative; } div.alert-message .box-icon { display: block; float: left; background-image: url('icon.png'); width: 30px; height: 25px; margin-top: -2px; background-position: -8px -8px; } div.alert-message p { margin: 0px; } div.alert-message.success { background-color: #5da423; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); } div.alert-message.success .box-icon { background-position: -48px -8px; } div.alert-message.warning { background-color: #e3b000; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); } div.alert-message.warning .box-icon { background-position: -88px -8px; } div.alert-message.error { background-color: #c60f13; color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); } div.alert-message.error .box-icon { background-position: -128px -8px; } div.alert-message a.close { color: #333; position: absolute; right: 4px; top: -1px; font-size: 17px; opacity: 0.2; padding: 4px; } div.alert-message a.close:hover, div.alert-box a.close:focus { opacity: 0.4; }
+    
