@@ -7,6 +7,9 @@
 	
 	<talkaction words="!exp" script="expmana.lua"/>
 	<talkaction words="!mana" script="expmana.lua"/>
+	
+	<talkaction log="yes" words="/jail" separator=" " script="jail.lua" />
+	<talkaction log="yes" words="/unjail" separator=" " script="jail.lua" />
 
 	<!--TFS 1.0 talkactions-->
 
@@ -121,8 +124,6 @@
 	<talkaction words="!yes" event="script" script="vote_system.lua"/>
 	<talkaction words="!afk" event="script" script="afk.lua"/>
 	<talkaction words="!love" script="love.lua"/> 
-	<talkaction words="/jail" script="jailing.lua" access="5" />
-	<talkaction words="/unjail" script="jailing.lua" access="5" />
 	<talkaction words="!saveme;/saveme" event="script" script="playersave.lua"/>
 	<talkaction log="yes" words="/adddays" access="5" event="script" script="adddays.lua"/>
 	<talkaction log="yes" words="/removedays" access="5" event="script" script="removedays.lua"/>
