@@ -1,7 +1,0 @@
-<npc name="Tormir" script="misje.lua" walkinterval="1" floorchange="0" access="5" level="1" maglevel="1">
-<health now="100" max="100"/>
-<look type="132" head="57" body="59" legs="40" feet="76" addons="3"/>
-<parameters>
-<parameter key="message_greet" value="Hi! did you come to help me with my {tasks}?" />
-</parameters>
-</npc>  

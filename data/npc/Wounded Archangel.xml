@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<npc name="Wounded Archangel" script="wounded_archangel.lua" access="5" lookdir="1" walkinterval="0">
-    <health now="1" max="1"/>
-    <look type="134" head="20" body="30" legs="40" feet="50" addons="3" corpse="3128"/>
-        <parameters>
-        <parameter key="message_greet" value="I need holy water from the castle to regain strength, if you bring it you will be rewarded! ({holy water})" />
-        <parameter key="message_farewell" value="Good bye." />
-    </parameters>
-</npc> 
